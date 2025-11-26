@@ -1,0 +1,218 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "rich_text_jA3CFr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DC8PHr": {
+          "type": "heading",
+          "settings": {
+            "title": "Become a Smyle Ambassador",
+            "use_h1": false
+          }
+        },
+        "text_hHw66H": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Smyle Ambassador Program is a community of changemakers who spread smiles, ditch plastic, and make oral care fun again.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_W9DCjc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign up now",
+            "button_link": "https://app.wesmyle.com/apply/smyle",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DC8PHr",
+        "text_hHw66H",
+        "button_W9DCjc"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_Bie3ng": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VH7NHm": {
+          "type": "heading",
+          "settings": {
+            "title": "Get Creative & Earn",
+            "use_h1": false
+          }
+        },
+        "text_gHCgR9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a Smyle Ambassador, you earn <strong>10% commission</strong> on every sale through your link.</p><p>Your followers enjoy <strong>15% off</strong>—and together, you spark a plastic-free smile revolution.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_ATLNNG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign up",
+            "button_link": "https://app.wesmyle.com/apply/smyle",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VH7NHm",
+        "text_gHCgR9",
+        "button_ATLNNG"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/05_c797497e-a382-43f3-b418-c5967ad2f0ce.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_zkNiTU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_A4eYNn": {
+          "type": "heading",
+          "settings": {
+            "title": "Become a Smyle Ambassador.",
+            "use_h1": false
+          }
+        },
+        "text_FVynh3": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>10% commission for you.<br/>15% off for your followers.<br/>Simple. Fun. Sustainable.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_A4eYNn",
+        "text_FVynh3"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "multi_column_fYJrQx": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_cUAU76": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Apply",
+            "text": "<p>Fill in the form. We’ll get back to you within 48 hours.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_f8AdX8": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Get Your Link",
+            "text": "<p>You’ll get a personal discount code + your own Smyle link.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_wH6gVB": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Share & Earn",
+            "text": "<p>Show off Smyle on Insta, TikTok, or wherever you like. Every sale = 10% for you, 15% off for your crew.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_cUAU76",
+        "text_block_f8AdX8",
+        "text_block_wH6gVB"
+      ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "title": "HOW IT WORKS",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_YDTcax": {
+      "type": "rich-text",
+      "blocks": {
+        "button_EAC38J": {
+          "type": "button",
+          "settings": {
+            "button_label": "SIGN UP",
+            "button_link": "https://app.wesmyle.com/apply/smyle",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "button_EAC38J"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_jA3CFr",
+    "image_with_text_Bie3ng",
+    "rich_text_zkNiTU",
+    "multi_column_fYJrQx",
+    "rich_text_YDTcax"
+  ]
+}

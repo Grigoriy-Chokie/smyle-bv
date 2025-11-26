@@ -1,0 +1,174 @@
+{%- comment -%}
+Parameters:
+  - product {Object} - Product object.
+  - no_quick_buy {Boolean} - If true, quick buy buttons are not shown (optional, default is false).
+  - no_quick_buy_markup {Boolean} - If true, quick buy button shows, but quick buy container does not (optional, default is false)
+  - custom_aspect_ratio {Number} - Aspect ratio to use for images (optional).
+  - compact {String} - Show compact version of this block (optional).
+  - card_layout {String} - May be 'landscape' or 'portrait' (optional, default is 'portrait').
+  - manual_loading {Boolean} - Whether to ensure all images need manually loading with JS (optional).
+  - prioritised_loading {Boolean} - Whether to render images immediately, not lazily (optional, default is false).
+  - icon_height {Number} - Custom icon height (optional, default is 24).
+  - grid {Number} - Desktop grid column count, used for image sizing (option, default is section.settings.grid)
+
+  Usage:
+  {% render 'product-block',
+    product: product
+  %}
+{%- endcomment -%}
+{%- liquid
+  if collection and settings.prod_thumb_url_within_coll and product.collections contains collection
+    assign product_url = variant.url | within: collection
+  else
+    assign product_url = variant.url
+  endif
+
+
+  if grid == blank
+    assign size_cols_desktop = section.settings.grid
+  else
+    assign size_cols_desktop = grid
+  endif
+
+  if compact
+    assign no_swiping = true
+    assign no_quick_buy = true
+  else
+    assign compact = false
+  endif
+
+  assign cheapest_variant = product.variants | sort: 'price' | first
+
+  if manual_loading
+    assign loading = 'manual'
+    assign hover_loading = 'manual'
+  elsif prioritised_loading
+    assign loading = 'eager'
+    assign hover_loading = 'lazy'
+  else
+    assign loading = 'lazy'
+    assign hover_loading = 'lazy'
+  endif
+
+  if in_predictive_search
+    assign show_vendor = settings.quick_search_show_vendor
+    assign show_price = settings.quick_search_show_price
+  else
+    assign show_vendor = section.settings.show_vendor
+    assign show_price = true
+  endif
+
+  if custom_aspect_ratio
+    assign custom_aspect_ratio = custom_aspect_ratio | at_least: 0.6
+  endif
+
+  assign feature_image = variant.featured_media | default: product.featured_media
+-%}
+
+<product-block class="product-block{% if compact %} product-block--compact{% endif %}{% if card_layout == 'landscape' %} product-block--landscape{% endif %}" data-product-id="{{ product.id }}">
+  <div class="block-inner"{% if animate %}{%- render 'animation-attrs', attrs: 'data-cc-animate', always: true -%}{% endif %}>
+    <div class="block-inner-inner">
+      {% if feature_image %}
+        {%- liquid
+          assign aspect_ratios_same = true
+          for media in product.media offset: 1
+            if media.preview_image.aspect_ratio != product.media.first.preview_image.aspect_ratio
+              assign aspect_ratios_same = false
+              break
+            endif
+          endfor
+
+          if settings.prod_thumb_crop
+            assign custom_crop = settings.prod_thumb_crop_align
+          else
+            assign custom_crop = 'contain'
+          endif
+        -%}
+        <div class="image-cont">
+          <a class="product-link{% if settings.quickbuy_style == 'whole' %}{% unless no_quick_buy %} quickbuy-toggle{% endunless %}{% endif %}" href="{{ product_url }}" aria-hidden="true" tabindex="-1">
+            <div class="image-label-wrap">
+              <div>
+                <div class="product-block__image product-block__image--primary product-block__image--active" data-media-id="{{ product.featured_media.id }}">
+                  {%- render 'image' with feature_image, loading: loading, size_cols_mobile: 2, size_cols_desktop: size_cols_desktop, custom_aspect_ratio: custom_aspect_ratio, custom_crop: custom_crop -%}
+                </div>
+              </div>
+              {%- unless compact -%}
+                {%- render 'product-label', product: product, cheapest_variant: cheapest_variant -%}
+              {%- endunless -%}
+            </div>
+          </a>
+
+          {%- if settings.quickbuy_style == 'button' -%}
+            {%- unless no_quick_buy -%}
+              <a class="btn btn--secondary quickbuy-toggle" href="{{ product_url }}">{{ 'products.product.quick_buy' | t }}</a>
+            {%- endunless -%}
+          {%- endif -%}
+        </div>
+      {% else %}
+        <div class="image-cont">
+          <div class="placeholder-image">{{ 'product-1' | placeholder_svg_tag }}</div>
+
+          {%- if settings.quickbuy_style == 'button' -%}
+            {%- unless no_quick_buy -%}
+              <a class="btn btn--secondary quickbuy-toggle" href="{{ product_url }}">{{ 'products.product.quick_buy' | t }}</a>
+            {%- endunless -%}
+          {%- endif -%}
+        </div>
+      {% endif %}
+
+      <div class="product-block__detail align-ltr-{{ settings.prod_thumb_text_align }}">
+        <div class="inner">
+          <div class="innerer">
+            <div class="product-content{% if settings.quickbuy_style == 'whole' %}{% unless no_quick_buy %} quickbuy-toggle{% endunless %}{% endif %}">
+              {%- if show_vendor -%}
+                <div class="vendor">{{ product.vendor | escape }}</div>
+              {%- endif -%}
+
+              <div class="product-block__title">
+                {{ product.title }} {% unless product.has_only_default_variant %}- {{ variant.title }} {% endunless %}
+              </div>
+
+              {%- if settings.prod_thumb_show_subtitle and product.metafields.descriptors.subtitle != blank -%}
+                <div class="product-block__subtitle">{{ product.metafields.descriptors.subtitle }}</div>
+              {%- endif -%}
+
+              {%- if show_price -%}
+              <div class="product-price__wrapper">
+                <div class="product-price product-price--block">
+                    {%- render 'price', current_variant: variant, product: product, show_currency_code: settings.product_currency_code_enabled, trailing_zeros: true, show_labels: true, use_default_price_metafield: true -%}
+                </div>
+              </div>
+              {%- endif -%}
+
+              <a class="product-link btn" href="{{ product_url }}">
+                <span class="uppercase h4 heading-font">{{ 'products.product.shop' | t }}</span>
+              </a>
+            </div>
+
+
+            {%- if settings.enable_product_reviews_collection and product.metafields.reviews.rating_count != blank and compact == false -%}
+              {%- assign rating_count = product.metafields.reviews.rating_count | plus: 0 -%}
+              {%- if rating_count > 0 -%}
+                <div class="product-block__rating">
+                  {% render 'rating', rating_value: product.metafields.reviews.rating.value %}
+                  <span class="cc-rating-custom-caption">
+                    {{- 'products.product.reviews_count' | t: count: rating_count }}
+                  </span>
+                </div>
+              {%- endif -%}
+            {%- endif -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {%- if settings.quickbuy_style != 'off' -%}
+    {%- unless no_quick_buy_markup or no_quick_buy -%}
+      <div class="quickbuy-container use-color-scheme use-color-scheme--{{ settings.quickbuy_color_scheme }}">
+        <a href="#" class="close-detail" aria-label="{{ 'accessibility.close' | t }}" tabindex="-1">{% render 'icon-close', stroke_width: 1 %}</a>
+        <div class="inner"></div>
+      </div>
+    {%- endunless -%}
+  {%- endif -%}
+</product-block>

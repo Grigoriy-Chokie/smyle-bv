@@ -1,0 +1,61 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_XhpVK7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_UyRLJj": {
+          "type": "heading",
+          "settings": {
+            "title": "Careers",
+            "use_h1": false
+          }
+        },
+        "text_KKbqMt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please check out our open positions below.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_UyRLJj",
+        "text_KKbqMt"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_page_title": false,
+        "layout": "list",
+        "crop_ratio": "1.78",
+        "show_author": false,
+        "show_date": false,
+        "show_excerpts": true,
+        "show_article_tags": false,
+        "show_rss_icon": false,
+        "show_twitter": false,
+        "show_facebook": false
+      }
+    }
+  },
+  "order": [
+    "rich_text_XhpVK7",
+    "main"
+  ]
+}

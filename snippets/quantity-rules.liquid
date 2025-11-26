@@ -1,0 +1,332 @@
+{%- liquid
+  assign target = product
+
+  if use_variant == true
+    assign target = current_variant
+  endif
+  assign target_variant = product.selected_or_first_available_variant
+  assign step_units = target.metafields.quantity.step | default: 1
+
+  assign target_price = current_variant.price
+
+  assign option_list_onetime = target.metafields.volume_discount.onetime.value | reverse
+  assign option_list_subscription = target.metafields.volume_discount.subscription.value
+
+  assign position = block.settings.position
+  assign heading = block.settings.heading
+  assign prefix_price = block.settings.prefix_price
+
+  assign multiplied_value = block.settings.multiplied_value
+
+  ## Subscription
+  assign badge_text_disable = block.settings.badge_text_disable
+  assign badge_bg_disable = block.settings.badge_bg_disable
+  assign badge_bg_shipping = block.settings.badge_bg_shipping
+
+  ## No Subscription
+  assign best_option = block.settings.best_option | downcase
+  assign best_text = block.settings.best_text
+  assign best_icon = block.settings.best_icon
+
+  assign popular_option = block.settings.popular_option | downcase
+  assign popular_text = block.settings.popular_text
+  assign popular_icon = block.settings.popular_icon
+
+  assign shipping_list = block.settings.shipping_list | downcase
+-%}
+
+{% if option_list_onetime != blank or option_list_subscription != blank %}
+  <div {{ block.shopify_attributes }}>
+    <quantity-rules
+      id="quantity-rules"
+      class="block quantity-rules"
+      data-type="{{default_type | default: "subscribe" }}"
+    >
+      {% if heading != blank %}
+        <div class="flex w-full justify-start items-center quantity-rules__heading">
+          {% if position != blank %}
+            <span class="inline-flex justify-center items-center quantity-rules__heading-position">
+              {{ position }}
+            </span>
+          {% endif %}
+          <p class="quantity-rules__heading-text">{{ heading }}</p>
+        </div>
+      {% endif %}
+      <input
+        type="hidden"
+        class="quantity-rules__quantity product-quantity-input"
+        name="quantity"
+        value="1"
+        form="{{product_form_id}}"
+      >
+      <div class="hidden quantity-rules__subscribe quantity-subscribe">
+        <div class="w-full flex items-center justify-start quantity-subscribe__wrapper">
+          {%- liquid
+            assign first_rule = option_list_subscription[0] | split: '--'
+            assign first_rule_quantity = first_rule[0] | plus: 0
+            assign first_rule_price = first_rule[1]
+            assign first_rule_price_month = first_rule_price | divided_by: multiplied_value
+            assign first_rule_price_month_money = first_rule_price_month | money | strip_html
+            assign first_rule_price_money = 100.0 | minus: first_rule_price | divided_by: 100 | times: target_price
+
+            assign next_rule = option_list_subscription[1] | split: '--'
+            assign next_rule_quantity = next_rule[0]
+            assign next_rule_price = next_rule[1] | times: 100
+
+            assign full_first_price = first_rule_price | times: next_rule_quantity
+            assign full_next_price = next_rule_price | times: next_rule_quantity
+
+            assign saved_amount = full_first_price | minus: full_next_price | times: 100.0 | divided_by: full_first_price | round
+            assign saved_amount_text = first_rule_price | prepend: '<small>' | append: '</small>' | append: '% Off'
+
+            assign max = product.metafields.quantity.max_step | plus: 0
+
+          -%}
+
+          {%- capture subscribe_rules_config -%}
+            {
+              "productPrice": {{ target_price }},
+              "itemPerUnit": {{ step_units | json }},
+              "rules": [
+              {%- for option in option_list_subscription -%}
+                {%- liquid
+                  assign option_rule = option | split: '--'
+                  assign option_rule_quantity = option_rule[0] | remove: '+'
+                  assign option_rule_price = option_rule[1] | times: 100
+                  assign option_rule_price_money = option_rule_price | money | strip_html
+                  assign option_rule_price_month = option_rule_price | divided_by: multiplied_value
+                  assign option_rule_price_month_money = option_rule_price_month | money | strip_html
+                -%}
+                {
+                  "quantity": "{{ option_rule_quantity }}",
+                  "discount": "{{ option_rule[1] | divided_by: 100.0 }}",
+                  "price_month": "{{ option_rule_price_month }}",
+                  "price_money": "{{ option_rule_price_money }}",
+                  "price_month_money": "{{ option_rule_price_month_money }}"
+                }
+              {%- unless forloop.last -%},{%- endunless -%}
+
+              {%- endfor -%}
+              ]
+            }
+          {%- endcapture -%}
+
+          <script type="application/json" id="subscribe-rules">
+            {{ subscribe_rules_config | strip_newlines}}
+          </script>
+          <div class="quantity-subscribe__selector inline-flex items-center justify-center">
+            <button
+              class="inline-flex items-center justify-center quantity-subscribe__selector-button quantity-subscribe__selector-button--minus"
+              type="button"
+              name="minus"
+            >
+              {% render 'icon-minus' %}
+            </button>
+            <input
+              class="quantity-subscribe__selector-input pointer-events-none"
+              type="number"
+              value="{{ first_rule_quantity | divided_by: step_units }}"
+              min="1"
+              step="1"
+              {% if max != blank and max >= first_rule_quantity %}
+                disabled
+              {% endif %}
+              {% if max != blank %}
+                max="{{ max | divided_by: step_units }}"
+              {% endif %}
+            >
+            <span class="quantity-subscribe__selector-text" data-pack-one-text="{{ 'products.rules.onetime.one' | t }}" data-pack-more-text="{{ 'products.rules.onetime.other' | t }}">{{ 'products.rules.onetime.one' | t }}</span>
+            <button
+              class="inline-flex items-center justify-center quantity-subscribe__selector-button quantity-subscribe__selector-button--plus"
+              type="button"
+              name="plus"
+            >
+              {% render 'icon-plus' %}
+            </button>
+          </div>
+          <div class="quantity-subscribe__badges flex flex-wrap justify-end w-full">
+            <span
+              style="--text-disable-color:{{ badge_text_disable }}; --bg-disable-color:{{ badge_bg_disable }};"
+              class="inline-block text-center  quantity-subscribe__badges-save"
+            >
+              {{- saved_amount_text -}}
+            </span>
+            <span
+              style="--bg-color:{{ badge_bg_shipping }};"
+              class="inline-block text-center quantity-subscribe__badges-shipping"
+            >
+              {{- 'cart.general.free_shipping' | t }}
+            </span>
+          </div>
+          <div class="quantity-subscribe__prices flex flex-col items-end">
+            <span class="quantity-subscribe__prices-price bold">
+              {{ first_rule_price_money | times: first_rule_quantity | money }}
+            </span>
+            <p>
+              <span class="quantity-subscribe__prices-month"> {{ first_rule_price_money | money }}</span>
+              {{ prefix_price }}
+            </p>
+          </div>
+        </div>
+        <ul class="flex w-full flex-col justify-center items-center quantity-subscribe__list quantity-onetime__list">
+          {% for option in option_list_subscription %}
+
+            {%- liquid
+              assign option_rule = option | split: '--'
+              assign option_rule_quantity = option_rule[0] | plus: 0 | default: 1
+              assign option_rule_quantity_multiplied = option_rule_quantity | times: multiplied_value
+              assign option_rule_price = option_rule[1] | plus: 0 | times: 100.0
+
+              assign full_price_product = target_price | times: option_rule_quantity
+              assign full_price_option = 100.0 | minus: option_rule[1] | divided_by: 100 | times: target_price | times: option_rule_quantity
+              assign price_per_month = full_price_option | divided_by: option_rule_quantity | money | strip_html
+              assign price_format = full_price_option | money | strip_html
+              assign saved_amount = full_price_product | minus: full_price_option | times: 100.0 | divided_by: full_price_product | round
+              assign saved_amount_text = null
+              if saved_amount != blank and saved_amount > 0
+                assign saved_amount_text = saved_amount | append: '% Off'
+              endif
+              assign option_rule_name = 'products.rules.subscription.one' | t: amount: option_rule_quantity
+              if option_rule_quantity > 1
+                assign option_rule_name = 'products.rules.subscription.other' | t: amount: option_rule_quantity
+              endif
+              assign option_rule_name_downcase = option_rule_name | downcase
+            -%}
+            <li class="block w-full quantity-onetime__list-item quantity-onetime__item">
+              <label class="w-full flex items-center justify-start quantity-subscribe__wrapper">
+                  <span class="block onetime-label__name-circle relative"></span>
+                  <div class="inline-flex items-center justify-center">
+                    <input
+                      class="hidden"
+                      type="radio"
+                      {% if forloop.first %}checked{% endif %}
+                      name="quantity-subscribe-rules"
+                      value="{{ option_rule_quantity }}"
+                    >
+                    <span class="quantity-subscribe__selector-text">
+                      {{ option_rule_quantity | divided_by: step_units }}
+                      {{ 'products.rules.onetime.one' | t }}</span>
+                  </div>
+                  <div class="quantity-subscribe__badges flex flex-wrap justify-end w-full">
+                  <span
+                    style="--text-disable-color:{{ badge_text_disable }}; --bg-disable-color:{{ badge_bg_disable }};"
+                    class="inline-block text-center  quantity-subscribe__badges-save"
+                  >
+                    {{- saved_amount_text -}}
+                  </span>
+                    <span
+                      style="--bg-color:{{ badge_bg_shipping }};"
+                      class="inline-block text-center quantity-subscribe__badges-shipping"
+                    >
+              {{- 'cart.general.free_shipping' | t }}
+            </span>
+                  </div>
+                  <div data-quantity="{{ option_rule_quantity }}" data-discount="{{ option_rule[1] | divided_by: 100.0 }}" class="quantity-subscribe__prices flex flex-col items-end">
+                  <span class="onetime-label__price-money bold">
+                    {{ full_price_option | money }}
+                  </span>
+                    <p>
+                      <span class="quantity-subscribe__prices-month" data-price-monthly> {{ full_price_option | divided_by: option_rule_quantity | money }}</span>
+                      {{ prefix_price }}
+                    </p>
+                  </div>
+                </label>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="hidden quantity-rules__onetime quantity-onetime">
+        <ul class="flex w-full flex-col justify-center items-center quantity-onetime__list">
+          {% for option in option_list_onetime %}
+            {%- liquid
+              assign option_rule = option | split: '--'
+              assign option_rule_quantity = option_rule[0] | plus: 0 | default: 1
+              assign option_rule_quantity_multiplied = option_rule_quantity | times: multiplied_value
+              assign option_rule_price = option_rule[1] | plus: 0 | times: 100.0
+
+              assign full_price_product = target_price | times: option_rule_quantity
+              assign full_price_option = 100.0 | minus: option_rule[1] | divided_by: 100 | times: target_price | times: option_rule_quantity
+              assign price_per_month = full_price_option | divided_by: option_rule_quantity | money | strip_html
+              assign price_format = full_price_option | money | strip_html
+              assign saved_amount = full_price_product | minus: full_price_option | times: 100.0 | divided_by: full_price_product | round
+              assign saved_amount_text = null
+              if saved_amount != blank and saved_amount > 0
+                assign saved_amount_text = saved_amount | append: '% Off'
+              endif
+              assign option_rule_name = 'products.rules.subscription.one' | t: amount: option_rule_quantity
+              if option_rule_quantity > 1
+                assign option_rule_name = 'products.rules.subscription.other' | t: amount: option_rule_quantity
+              endif
+              assign option_rule_name_downcase = option_rule_name | downcase
+            -%}
+            {%- capture option_badge -%}
+                {%- if option_rule_name_downcase == best_option -%}
+                    {% assign badge_text = best_text %}
+                    {% assign badge_icon = best_icon %}
+                {%- elsif option_rule_name_downcase == popular_option -%}   
+                    {% assign badge_text = popular_text %}
+                    {% assign badge_icon = popular_icon %} 
+                {%- else -%}
+                    {% assign badge_text = null %}
+                    {% assign badge_icon = null %}
+                {%- endif -%}
+                {%- if badge_text != blank -%}
+                    <p class="absolute bg-theme-bg inline-flex items-center justify-center onetime-label__badge">
+                        {% if badge_icon != blank %}
+                            {{ badge_icon | image_url: width: 16, height: 16| image_tag: loading: "lazy" }}
+                        {% endif %}
+                        <span>
+                            {{badge_text }}
+                        </span>
+                    </p>
+                {%- endif -%}
+            {%- endcapture -%}
+            <li class="block w-full quantity-onetime__list-item quantity-onetime__item">
+              <input
+                class="visually-hidden"
+                id="{{option_rule_name | handleize }}-{{target.handle}}"
+                type="radio"
+                name="quantity-onetime-rules"
+                {% if forloop.first %}
+                  checked
+                {% endif %}
+                value="{{option_rule_quantity}}"
+              >
+              <label
+                class="flex w-full justify-start items-center  quantity-onetime__item-label onetime-label relative"
+                for="{{option_rule_name | handleize }}-{{target.handle}}"
+              >
+                {{ option_badge }}
+                <p class="m-0 flex items-center justify-start onetime-label__name">
+                  <span class="block onetime-label__name-circle relative"></span>
+                  <span class="onetime-label__name-text"> {{ option_rule_name }} </span>
+                </p>
+                <div class="onetime-label__badges flex flex-wrap justify-end w-full">
+                  {%- if saved_amount_text != blank -%}
+                    <span class="inline-block text-center  onetime-label__badges-save"> {{ saved_amount_text }} </span>
+                  {%- endif -%}
+                  {% if shipping_list contains option_rule_name_downcase %}
+                    <span class="inline-block text-center onetime-label__badges-shipping">
+                      {{- 'cart.general.free_shipping' | t }}
+                    </span>
+                  {% endif %}
+                </div>
+                <div data-quantity="{{ option_rule_quantity }}" data-discount="{{ option_rule[1] | divided_by: 100.0 }}" class="flex flex-col justify-end items-end onetime-label__price">
+                  <span class="onetime-label__price-money">
+                    {{ full_price_option | money }}
+                  </span>
+                  <span>
+                    <span data-price-monthly>
+                      {{ price_per_month }}
+                    </span>
+                    {{ prefix_price }}
+                  </span>
+                </div>
+              </label>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </quantity-rules>
+  </div>
+{% endif %}

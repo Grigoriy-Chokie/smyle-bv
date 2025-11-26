@@ -1,0 +1,148 @@
+{%- liquid
+  assign option_number = block.settings.order_number | default: 0 | times: 1
+  assign title = block.settings.title
+  
+  assign has_guide_page = false
+  assign option_guide_text = block.settings.option_guide_text
+  assign option_guide_page = block.settings.option_guide_page
+
+  if option_guide_text != blank and option_guide_page != blank
+    assign has_guide_page = true 
+  endif
+
+  assign upsell = block.settings.upsell
+  assign purchase_type = block.settings.purchase_type
+  assign selling_plan_name = block.settings.selling_plan_name | default: false
+  assign upsell_title = block.settings.upsell_title
+  assign upsell_info = block.settings.upsell_info
+  assign badge_text = block.settings.badge_text
+
+  if upsell_title == blank
+    assign upsell_title = 'products.product.upsell_light.title' | t
+  endif
+  
+  if purchase_type == 'subscription'
+    assign selling_plan_groups = upsell.selling_plan_groups | first
+    assign selling_plan = selling_plan_groups.selling_plans | first
+    assign selling_plan_id = selling_plan.id
+
+    if selling_plan_name
+        for plan in selling_plan_groups.selling_plans
+            if plan.name contains selling_plan_name
+                assign selling_plan = plan
+                assign selling_plan_id = plan.id
+                break
+            endif
+        endfor
+    endif
+  endif
+-%}
+
+{%- if has_guide_page -%}
+    {%- capture option_guide_link -%}
+      <modal-opener class="no-js-hidden" data-modal="option-guide-upsell-{{ upsell.id }}-{{ section.id }}">
+        <button type="button" class="link block text-sm option-guide-link h5 no-text-transform" aria-haspopup="dialog">
+          <span class="option-guide-link__icon flex">{%- render 'icon', icon: 'tooltip', size: 'small' -%}</span>
+          <span class="option-guide-link__text">{{- option_guide_text -}}</span>
+        </button>
+      </modal-opener>
+      <noscript>
+        <a href="{{ option_guide_page.url }}" class="link">{{ option_guide_text }}</a>
+      </noscript>
+    {%- endcapture -%}
+{%- endif -%}
+
+{% if upsell != blank %}
+    {{ 'component-product-upsell-light.css' | asset_url | stylesheet_tag }}
+
+  <div class="upsell-light upsell-{{ upsell.id }}">
+    <fieldset class="option-selector" data-selector-type="listed">
+      <div class="label-heading flex justify-between items-center flex-wrap">
+        <legend class="label items-center">
+          {% if option_number > 0 %}
+            <span class="label__order-number inline-flex justify-center items-center">
+                {{ option_number }}
+            </span>
+          {% endif %}
+
+          <span class="no-text-transform">{{ title }}</span>
+          {{ option_guide_link }}
+        </legend>
+        <div class="option-selector__btns flex flex-wrap w-full">
+            {% liquid
+                assign variant = upsell.selected_or_first_available_variant
+
+                assign price = variant.price
+                assign compare_at_price = variant.compare_at_price | default: price
+
+                if purchase_type == 'subscription' and selling_plan_id
+                    assign discount_percent = selling_plan.price_adjustments[0].value
+                    if discount_percent > 0
+                        assign percent_from_full = 100 | minus: discount_percent
+                        assign price = price | divided_by: 100.0 | times: percent_from_full
+                    endif
+                endif
+
+                assign price_list = upsell.metafields.volume_discount.onetime.value
+                if purchase_type == 'subscription' and selling_plan_id
+                    assign price_list = upsell.metafields.volume_discount.subscription.value
+                endif
+
+                if price_list
+                    for option in price_list
+                        assign option_rule = option | split: '--'
+                        assign option_rule_quantity = option_rule[0] | replace: '+', '' | plus: 0 | default: 1
+                        assign option_rule_percent = option_rule[1] | plus: 0
+                        assign default_price = price
+
+                        assign discount_multiplier = option_rule_percent | divided_by: 100.0
+                        assign discount_multiplier = 1 | minus: discount_multiplier
+                        assign price = default_price | times: discount_multiplier
+                    endfor
+                endif
+            %}
+
+            <input form="{{ product_form_id }}" id="upsells-{{ upsell.id }}-opt-{{ forloop.index0 }}" type="checkbox" class="opt-btn visually-hidden focus-label js-option" name="items[55][id]" value="{{ variant.id }}" onchange="this.closest('.option-selector__btns')?.querySelector('input[name*=selling_plan]')?.toggleAttribute('disabled', !this.checked)">
+            <label class="opt-label opt-label--preference opt-label--btn btn relative text-center upsell-light__upsell-item"
+                   for="upsells-{{ upsell.id }}-opt-{{ forloop.index0 }}">
+              
+                {% if badge_text != blank %}
+                    <div class="upsell-item__badge price-label price-label--sale">
+                        <span class="upsell-item__badge-text">{{ badge_text }}</span>
+                    </div>
+                {% endif %}
+
+                <div class="upsell-item__heading">
+                    <span class="upsell-item__checkbox">
+                        {{ 'icon-upsell-light-checkmark.svg' | inline_asset_content }}
+                    </span>
+                    <span class="upsell-item__option-title">{{  }}</span>
+                    <div class="upsell-item__prices price__default price--on-sale">
+                        {% if compare_at_price > price %}
+                            <span class="upsell-item__price upsell-item__price--regular option-price--original">{{ compare_at_price | money }}</span>
+                        {% endif %}
+                        <span class="upsell-item__price upsell-item__price--current price__current">{{ price | money }}</span>
+                    </div>
+                </div>
+                {% if upsell_info != blank %}
+                    {% capture list_item_icons %}
+                        <li>
+                        <img src="{{ 'icon-upsell-light-cross.svg' | asset_url }}" alt="{{ 'icon-upsell-light-cross' | escape }}" class="icon--cross" onerror="this.style.display = 'none'">
+                        <img src="{{ 'icon-upsell-light-checkmark.svg' | asset_url }}" alt="{{ 'icon-upsell-light-cross' | escape }}" class="icon--checkmark" onerror="this.style.display = 'none'">
+                    {% endcapture %}
+                    <div class="upsell-item__content">
+                        {{ upsell_info | replace: '<li>', list_item_icons }}
+                    </div>
+                {% endif %}
+                
+            </label>
+
+            {% if purchase_type == 'subscription' and selling_plan_id %}
+                <input form="{{ product_form_id }}" type="hidden" name="items[55][selling_plan]" value="{{ selling_plan_id }}" disabled>
+            {% endif %}
+        </div>
+      </div>
+    </fieldset>
+  </div>
+{% endif %}
+

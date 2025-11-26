@@ -1,0 +1,477 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "height": "small",
+        "color_scheme": "1",
+        "title": "LET'S SMYLE",
+        "description": "<p>Achieve a healthier smile with eco-friendly oral care. Sustainable products, zero waste.</p>"
+      }
+    },
+    "collection_navbar_rKaiR7": {
+      "type": "collection-navbar",
+      "blocks": {
+        "collection_rfAYrh": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-products",
+            "title": ""
+          }
+        },
+        "collection_tYVzgF": {
+          "type": "collection",
+          "settings": {
+            "collection": "black-friday",
+            "title": ""
+          }
+        },
+        "collection_X8QFp6": {
+          "type": "collection",
+          "settings": {
+            "collection": "electric-toothbrush",
+            "title": ""
+          }
+        },
+        "collection_yhg6zw": {
+          "type": "collection",
+          "settings": {
+            "collection": "toothpaste-tubes",
+            "title": ""
+          }
+        },
+        "collection_dyhWL4": {
+          "type": "collection",
+          "settings": {
+            "collection": "toothpaste-tablets",
+            "title": ""
+          }
+        },
+        "collection_B8YaMq": {
+          "type": "collection",
+          "settings": {
+            "collection": "brush-heads",
+            "title": ""
+          }
+        },
+        "collection_cJ83Hp": {
+          "type": "collection",
+          "settings": {
+            "collection": "whitening",
+            "title": ""
+          }
+        },
+        "collection_jKiXU3": {
+          "type": "collection",
+          "settings": {
+            "collection": "sensitive-teeth",
+            "title": ""
+          }
+        },
+        "collection_7rhqMX": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles-packages",
+            "title": ""
+          }
+        },
+        "collection_wBzPxP": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "title": ""
+          }
+        },
+        "collection_Hght8k": {
+          "type": "collection",
+          "settings": {
+            "collection": "mouthwash-tablets",
+            "title": "Mouthwash Tablets"
+          }
+        },
+        "collection_XdWazG": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "title": "Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "collection_rfAYrh",
+        "collection_tYVzgF",
+        "collection_X8QFp6",
+        "collection_yhg6zw",
+        "collection_dyhWL4",
+        "collection_B8YaMq",
+        "collection_cJ83Hp",
+        "collection_jKiXU3",
+        "collection_7rhqMX",
+        "collection_wBzPxP",
+        "collection_Hght8k",
+        "collection_XdWazG"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": true,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 24,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "featured_collection_tRqKng": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Limited Time Offer",
+        "title_alignment": "start",
+        "collection": "limited-time-offer",
+        "has_bottom_splitter": true,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_RNHj4d": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Black friday",
+        "title_alignment": "start",
+        "collection": "black-friday",
+        "has_bottom_splitter": true,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_yP99x3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Smyle Favorites",
+        "title_alignment": "start",
+        "collection": "favorites",
+        "has_bottom_splitter": true,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_MGLdjW": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Electric toothbrush",
+        "title_alignment": "start",
+        "collection": "electric-toothbrush",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_k7Wnfi": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Toothpaste tubes",
+        "title_alignment": "start",
+        "collection": "toothpaste-tubes",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_H4yJfi": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Toothpaste Tablets",
+        "title_alignment": "start",
+        "collection": "toothpaste-tablets",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_CCyUKH": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Whitening",
+        "title_alignment": "start",
+        "collection": "whitening",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_pCtjtk": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Sensitive teeth",
+        "title_alignment": "start",
+        "collection": "sensitive-teeth",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_dMk84q": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Mouthwash",
+        "title_alignment": "start",
+        "collection": "mouthwash-tablets",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_hM4rrM": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Accessories",
+        "title_alignment": "start",
+        "collection": "accessories",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "faq_collapsible_rows_E4TzBm": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_ALzz9V": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Can I also order without a subscription?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        },
+        "faq_item_grrNYM": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>How does the lifetime guarantee work?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        },
+        "faq_item_wGm3Rr": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Also suitable for children?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        },
+        "faq_item_G8LRtm": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Why is electric brushing better than manual brushing?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        },
+        "faq_item_qnTVYA": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>What is sonic brushing?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        },
+        "faq_item_4t7GYH": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>How should I brush with a sonic toothbrush?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        },
+        "faq_item_wQiLRi": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Do you also have rotating toothbrushes?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        },
+        "faq_item_w3LqTr": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>What are the bristles made of?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        },
+        "faq_item_aHk9Bn": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Are the bristles of the brush head hard or soft?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        },
+        "faq_item_LkjzN7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Is the bamboo brush head 100% biodegradable?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        },
+        "faq_item_aMb9XR": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Can the brush heads be recycled?</p>",
+            "answer": "<p>There are numerous scientific studies that have proven electric brushing to be better. In fact, electric brushing leads to 20% less tooth decay. </p><p>In addition, it has been scientifically proven that good oral care also leads to better overall health. So if you want to start brushing with an E-Brush, absolutely do it!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_ALzz9V",
+        "faq_item_grrNYM",
+        "faq_item_wGm3Rr",
+        "faq_item_G8LRtm",
+        "faq_item_qnTVYA",
+        "faq_item_4t7GYH",
+        "faq_item_wQiLRi",
+        "faq_item_w3LqTr",
+        "faq_item_aHk9Bn",
+        "faq_item_LkjzN7",
+        "faq_item_aMb9XR"
+      ],
+      "settings": {
+        "color_scheme": "2",
+        "heading_icon": "shopify://shop_images/Frame_10_2.svg",
+        "heading_text": "<p>We’re happy to answer your questions!</p>",
+        "use_metaobject": true,
+        "metaobjects": [
+          "our-products-eng"
+        ]
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "collection_navbar_rKaiR7",
+    "main",
+    "featured_collection_tRqKng",
+    "featured_collection_RNHj4d",
+    "featured_collection_yP99x3",
+    "featured_collection_MGLdjW",
+    "featured_collection_k7Wnfi",
+    "featured_collection_H4yJfi",
+    "featured_collection_CCyUKH",
+    "featured_collection_pCtjtk",
+    "featured_collection_dMk84q",
+    "featured_collection_hM4rrM",
+    "faq_collapsible_rows_E4TzBm"
+  ]
+}

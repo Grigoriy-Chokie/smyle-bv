@@ -1,0 +1,145 @@
+{%- if localization.available_countries.size > 1 -%}
+  {%- liquid
+    assign id = section.id | append: '-country'
+    if localization.available_countries.size > 9
+      assign popular_countries = localization.available_countries | where: 'popular?' | sort: 'name'
+    endif
+    assign country_codes_array = 'NL,FR,DE,US,GB' | split: ','
+
+    capture country_values
+      if popular_countries
+        for country in popular_countries
+          assign current_country = false
+          
+          for country_code in country_codes_array
+            if country.iso_code == country_code
+              assign current_country = country
+              assign country_iso_code = current_country.iso_code
+              break
+            endif
+          endfor
+
+          unless current_country
+            continue
+          endunless
+
+          echo country_iso_code
+          echo '|'
+        endfor
+      endif
+      for country in localization.available_countries
+        if popular_countries and country.popular?
+          continue
+        endif
+        assign current_country = false
+        
+        for country_code in country_codes_array
+          if country.iso_code == country_code
+            assign current_country = country
+            assign country_iso_code = current_country.iso_code
+            break
+          endif
+        endfor
+
+        unless current_country
+          continue
+        endunless
+        echo country_iso_code
+        echo '|'
+      endfor
+    endcapture
+  -%}
+
+  {%- capture country_names -%}
+    {% if popular_countries -%}
+      {%- for country in popular_countries -%}
+        {%- liquid
+          assign current_country = false
+          
+          for country_code in country_codes_array
+            if country.iso_code == country_code
+              assign current_country = country
+              assign country_name = current_country.name
+              assign country_iso_code = current_country.iso_code
+              
+              if country_iso_code == 'FR'
+                assign country_name = 'countries.EU' | t
+              elsif country_iso_code == 'US'
+                assign country_name = 'countries.INTL' | t
+              endif
+
+              break
+            endif
+          endfor
+
+          unless current_country
+            continue
+          endunless
+        -%}
+
+        <span class="country-option" data-popular>
+          <span class="country-option__name">{{ country_name }}</span> <span class="country-option__currency">({{ country.currency.iso_code }}&nbsp;{{ country.currency.symbol }})</span>
+        </span>|
+      {%- endfor -%}
+    {%- endif -%}
+    {%- for country in localization.available_countries -%}
+      {%- liquid
+        if popular_countries and country.popular?
+          continue
+        endif
+
+        assign current_country = false
+        
+        for country_code in country_codes_array
+          if country.iso_code == country_code
+            assign current_country = country
+            assign country_name = current_country.name
+            assign country_iso_code = current_country.iso_code
+            assign country_flag = current_country | image_url: width: 28, height: 28 | image_tag
+            assign has_custom_flag = false
+            
+            if country_iso_code == 'FR'
+              assign country_iso_code = 'EU'
+              assign country_name = 'countries.EU' | t
+              assign has_custom_flag = true
+              assign country_flag = 'icon-european-union-flag.svg'
+            elsif country_iso_code == 'US'
+              assign country_iso_code = 'INTL'
+              assign country_name = 'countries.INTL' | t
+              assign has_custom_flag = true
+              assign country_flag = 'icon-earth-flag.svg' 
+            endif
+
+            break
+          endif
+        endfor
+
+        unless current_country
+          continue
+        endunless
+      -%}
+      <span class="country-option">
+        <span class="country-option__icon hidden">
+          {%- if has_custom_flag -%}
+            <img src="{{ country_flag | asset_url }}" alt="{{ country_flag }}" width="28px" height="28px">
+          {%- else -%}
+            {{ country | image_url: width: 28 | image_tag  }}
+          {%- endif -%}
+        </span>
+        <span class="country-option__name">{{ country_name }}</span> <span class="country-option__currency">({{ country.currency.iso_code }}&nbsp;{{ country.currency.symbol }})</span>
+      </span>|
+    {%- endfor -%}
+  {%- endcapture -%}
+
+  {%- liquid
+    assign country_values = country_values | remove_last: '|' | split: '|'
+    assign country_names = country_names | remove_last: '|' | split: '|'
+  -%}
+
+  {%- render 'custom-select',
+    id: id,
+    option_values: country_values,
+    option_names: country_names,
+    selected_value: localization.country.iso_code
+  -%}
+{%- endif -%}

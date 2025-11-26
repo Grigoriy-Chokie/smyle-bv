@@ -1,0 +1,117 @@
+.toggle-info {
+    display: block;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #182D4D;
+    background: #FFF;
+}
+
+.toggle-info__header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.toggle-info__header-content {
+    flex: 1;
+}
+
+.toggle-info__badge {
+    border-radius: 999px;
+    background: #F5A179;
+    padding: 4px 8px;
+    width: fit-content;
+
+    color: #FFF;
+    font-family: var(--base-font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: capitalize;
+    margin: 0 0 12px;
+}
+
+.toggle-info__title {
+    color: rgb(var(--text-color));
+    font-family: var(--heading-font-family);
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 32px;
+    letter-spacing: -0.28px;
+    text-transform: uppercase;
+}
+
+.toggle-info__button {
+    width: fit-content;
+    padding: 4px 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: rgb(var(--text-color));
+    font-family: var(--base-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: normal;
+}
+
+.toggle-info__button.btn--secondary:hover svg path {
+    stroke: #FFF;
+}
+
+.toggle-info-button__active-text {
+    display: none;
+}
+
+.toggle-info--active .toggle-info-button__active-text {
+    display: inline;
+}
+
+.toggle-info--active .toggle-info-button__inactive-text {
+    display: none;
+}
+
+.toggle-info__button svg {
+    transition: transform .3s ease;
+}
+
+.toggle-info--active .toggle-info__button svg {
+    transform: rotate(315deg);
+}
+
+.toggle-info__content-wrapper {
+    max-height: 0;
+    transition: .3s ease;
+    overflow: hidden;
+}
+
+.toggle-info--active .toggle-info__content-wrapper {
+    max-height: 600px;
+    transition: .3s ease;
+}
+
+.toggle-info__content {
+    position: relative;
+    max-width: 100%;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #EDEDED;
+}
+
+.toggle-info__content img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .toggle-info__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+}

@@ -1,0 +1,396 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "hero_cbDgp8": {
+      "type": "hero",
+      "name": "Hero",
+      "settings": {
+        "background_color": "#B8E0F8",
+        "image": "shopify://shop_images/2025-03-26-Microplastics-explainer-2.avif",
+        "title": "<h1>The Problem Called <strong>Plastic </strong></h1>",
+        "highlight_color": "#FFFFFF",
+        "text": "(Yes, It’s STILL a Thing)",
+        "cta_text": "",
+        "cta_link": "",
+        "rating_text": "",
+        "reviews_text": "",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "padding_top_mobile": 20,
+        "padding_bottom_mobile": 20,
+        "use_header_height": false
+      }
+    },
+    "rich_text_PQwPtU": {
+      "type": "rich-text",
+      "blocks": {
+        "text_9UeQdU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plastic has become so woven into our daily lives, it’s almost invisible. Grocery run? Too often we reach for a single-use plastic bag. Need a hydrate while strolling? Most of us carry a plastic water bottle. Sitting at a café? That straw is probably plastic, too. The plastic habit remains stubbornly strong—even as we better grasp just how harmful it is.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_9UeQdU"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_LcwRpG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EU4Xaf": {
+          "type": "heading",
+          "settings": {
+            "title": "Not Even Cosmetics Are Safe",
+            "use_h1": false
+          }
+        },
+        "text_Gh8XFh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You’d think cosmetics would be the exception in our plastic-laden world. Sad truth: they're not. Research by the Plastic Soup Foundation found that <strong>87% of leading cosmetics and personal care products contain microplastics</strong>—tiny plastic particles often invisible to the naked eye. These are sometimes also called <em>microbeads</em>, and yes, they're still very present.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_EU4Xaf",
+        "text_Gh8XFh"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/photo-1585945037805-5fd82c2e60b1.avif",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_iGBjFe": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DjJiqR": {
+          "type": "heading",
+          "settings": {
+            "title": "Microplastics: They’re Everywhere",
+            "use_h1": false
+          }
+        },
+        "text_razy6f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From ocean depths to the Arctic tundra, microplastics now reside in food, soil, water—and in <strong>our blood</strong>. These particles don’t degrade—they just hang around, wreaking slow but steady havoc. Unless they’re incinerated (creating a different kind of mess), the plastic you used decades ago may still be swimming around somewhere.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_DjJiqR",
+        "text_razy6f"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/micropalastics-finger.avif",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_iEzYfC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NGKWQ7": {
+          "type": "heading",
+          "settings": {
+            "title": "The Health Fallout (Spoiler: It’s Not Pretty)",
+            "use_h1": false
+          }
+        },
+        "text_knePH4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Emerging science is painting a frightening picture—<strong>microplastics may trigger inflammation, disrupt hormone balance, harm reproductive health, weaken gut barriers, and even accumulate in organs</strong> like lungs, liver, and arteries. </p><p>Microplastics can also act like toxic sponges, ferrying metals and other contaminants deep into our bodies. Some scientists even link airborne microplastics to infertility, colon cancer, and lung issues.</p><p>In short? The science is still evolving, but the red flags are numerous and cannot be ignored.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_NGKWQ7",
+        "text_knePH4"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/dramatic-images-show-high-microplastics-101614681.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_QwzMRc": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n3MhDt": {
+          "type": "heading",
+          "settings": {
+            "title": "Microplastics in Toothpaste: The Least “Minty Fresh” Surprise",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_n3MhDt"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "large",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_7eqhxY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ybcQiJ": {
+          "type": "heading",
+          "settings": {
+            "title": "Why in Toothpaste?",
+            "use_h1": false
+          }
+        },
+        "text_UTfUdc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Microplastics sneak their way into toothpaste—for cheap—it’s that simple. They act as abrasive scrubbers or fillers and are cheaper than safer, natural alternatives. Yet despite industry promises to phase them out, many brands still use them—even now.</p><h2><strong>The Industry Still Slips</strong></h2><p>Global bans like the U.S. <strong>Microbead-Free Waters Act (2015)</strong> prohibit plastic microbeads in rinse-off products—including toothpaste—since mid‑2017. But loopholes and global inconsistencies mean microplastics still appear in many markets, and “rinse-off” standards vary—leaving gaps where microplastics can persist. For example, the Regulation (EU) 2023/2055 under REACH still allows the use of microplastics in rinse-off products like toothpastes until 2027.</p><p>And despite voluntary promises, scans through the Beat the Microbead database confirm microplastics remain widespread in oral care.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_ybcQiJ",
+        "text_UTfUdc"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/whyintoothpaste.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_cGVhbd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_efyaf8": {
+          "type": "heading",
+          "settings": {
+            "title": "The Toothpaste Index (Yes, It’s Ridiculous)",
+            "use_h1": false
+          }
+        },
+        "image_GUjPtU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/down-to-earth_import_library_large_2018-04-30_0.31378000_1525107918_screen-shot-2018-04-30-at-10.avif",
+            "image_width": 700,
+            "url": ""
+          }
+        },
+        "text_L7FTzp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Here are some of the most commonly scanned toothpaste products with the ‘Beat the microbead app’ from the Plastic Soup Foundation that still contain microplastics:</p><p>Aquafresh Fresh Mint</p><p>Prodent Cool Mint</p><p>Zendium Classic</p><p>Prodent Anti‑Tartar</p><p>Aquafresh Tartar Control 3‑in‑1</p><p>Prodent Fresh Gel</p><p>Oral‑B Pro‑Expert Intense Clean</p><p>Prodent Arctic Fresh Whitener</p><p>Aquafresh Intense White</p><p>Sensodyne Gentle Whitening<br/><br/>These are the leading brands worldwide. If the biggest names still slip in microplastics—especially where consumers expect better—what about the rest? </p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_efyaf8",
+        "image_GUjPtU",
+        "text_L7FTzp"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_CTxb8n": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VbkGRJ": {
+          "type": "heading",
+          "settings": {
+            "title": "We Won’t Let This Slide",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VbkGRJ"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "2"
+      }
+    },
+    "image_with_text_aCaXjC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HrU6Jb": {
+          "type": "heading",
+          "settings": {
+            "title": "What You Can Do",
+            "use_h1": false
+          }
+        },
+        "text_CLhXfF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Products may still be caught in a plastic loop—but you don’t have to be:</p><ol><li><strong>Become a savvy shopper.</strong> Use the Beat the Microbead app or read ingredient lists for “polyethylene,” “polypropylene,” or “polymethyl methacrylate” (PMMA)—common plastic markers.<br/><br/></li><li><strong>Choose wisely.</strong> Look for brands that are transparent, use natural scrubbers (like silica, baking soda, or charcoal), and avoid microplastics.<br/><br/></li><li><strong>Make the switch to Smyle.</strong> Our toothpaste tabs and liquid toothpaste are guaranteed <strong>microplastic-free</strong>—so you can brush smarter, not harsher on your health or the planet.</li></ol>",
+            "enlarge_text": true
+          }
+        },
+        "button_eAmFmJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "CHECK ALTERNATIVES",
+            "button_link": "shopify://collections/toothpaste-tablets",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HrU6Jb",
+        "text_CLhXfF",
+        "button_eAmFmJ"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/starterkit_fluoride_01_sp.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_7XRwXn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pdJEiL": {
+          "type": "heading",
+          "settings": {
+            "title": "FINAL WORD",
+            "use_h1": false
+          }
+        },
+        "text_ECVbtn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Microplastics are persistent, pervasive, and quite frankly, absurd—especially in toothpaste. With evidence mounting on how they harm both the planet and us, clinging to convenience at the cost of health is no longer justifiable.</p><p>Smyle is here to change the script: <strong>fun meets facts</strong>, without the plastic fluff. Choose a toothpaste that loves your smile <strong>and</strong> the planet.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_pdJEiL",
+        "text_ECVbtn"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "2"
+      }
+    },
+    "rich_text_EBU7pB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Lne9iN": {
+          "type": "heading",
+          "settings": {
+            "title": "SOURCES",
+            "use_h1": false
+          }
+        },
+        "text_Yr4zPC": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>87 % of leading cosmetics and oral-care products contain microplastics<br/> 🔗 <a href=\"https://www.plasticsoupfoundation.org/en/news/almost-9-in-10-products-from-major-cosmetics-brands-contain-microplastics\"><span style=\"text-decoration:underline\">https://www.plasticsoupfoundation.org/en/news/almost-9-in-10-products-from-major-cosmetics-brands-contain-microplastics</span></a></li><li>Microplastics detected in human blood, organs, and with inflammatory and hormone-disrupting effects<br/> 🔗 <a href=\"https://nypost.com/2024/12/18/health/hidden-danger-can-cause-infertility-colon-cancer-lung-problems\"><span style=\"text-decoration:underline\">https://nypost.com/2024/12/18/health/hidden-danger-can-cause-infertility-colon-cancer-lung-problems</span></a></li><li>Microplastics added to toothpaste as cheap abrasives—still widely used<br/> 🔗 <a href=\"https://oceanblueproject.org/discover-harmful-microplastics-in-toothpaste-and-how-to-avoid-them\"><span style=\"text-decoration:underline\">https://oceanblueproject.org/discover-harmful-microplastics-in-toothpaste-and-how-to-avoid-them</span></a></li></ul><p><br/> 🔗 <a href=\"https://miyoshieurope.com/en/microplastics-in-cosmetics-decoding-challenges-and-impact-on-the-environment\"><span style=\"text-decoration:underline\">https://miyoshieurope.com/en/microplastics-in-cosmetics-decoding-challenges-and-impact-on-the-environment</span></a></p><ul><li>U.S. ban effective since 2017, but industry loopholes persist<br/> 🔗<a href=\"https://www.theguardian.com/environment/article/2024/aug/23/india-should-consider-ban-on-microbeads-in-personal-care-products-researchers-say?utm_source=chatgpt.com\"> <span style=\"text-decoration:underline\">https://www.theguardian.com/environment/article/2024/aug/23/india-should-consider-ban-on-microbeads-in-personal-care-products-researchers-say<br/><br/></span></a></li><li><span style=\"text-decoration:underline\">Most Toothpastes still contain microplastics: </span><a href=\"https://www.beatthemicrobead.org/myth-buster-toothpaste-still-contains-plastic-ingredients/\"><span style=\"text-decoration:underline\">https://www.beatthemicrobead.org/myth-buster-toothpaste-still-contains-plastic-ingredients/</span></a></li><li><strong>Bioaccumulation of microplastics in decedent human brains </strong><a href=\"https://www.nature.com/articles/s41591-024-03453-1\"><span style=\"text-decoration:underline\">https://www.nature.com/articles/s41591-024-03453-1</span></a></li><li>Microplastic particles in human blood and their association with coagulation markers</li></ul><p><a href=\"https://www.nature.com/articles/s41598-024-81931-9\"><span style=\"text-decoration:underline\">https://www.nature.com/articles/s41598-024-81931-9</span></a></p><ul><li>Microplastics found in every human semen sample tested in study</li></ul><p><a href=\"https://www.theguardian.com/environment/article/2024/jun/10/microplastics-found-in-every-human-semen-sample-tested-in-chinese-study\"><span style=\"text-decoration:underline\">https://www.theguardian.com/environment/article/2024/jun/10/microplastics-found-in-every-human-semen-sample-tested-in-chinese-study</span></a></p><ul><li>Detection of microplastics in human tissues and organs</li></ul><p><a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC11342020/\"><span style=\"text-decoration:underline\">https://pmc.ncbi.nlm.nih.gov/articles/PMC11342020/</span></a></p><ul><li>The potential impact of nano- and microplastics on human health: Understanding human health risks.</li></ul><p><a href=\"https://www.sciencedirect.com/science/article/pii/S0013935124004390\"><span style=\"text-decoration:underline\">https://www.sciencedirect.com/science/article/pii/S0013935124004390</span></a></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lne9iN",
+        "text_Yr4zPC"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_cbDgp8",
+    "rich_text_PQwPtU",
+    "image_with_text_LcwRpG",
+    "image_with_text_iGBjFe",
+    "image_with_text_iEzYfC",
+    "rich_text_QwzMRc",
+    "image_with_text_7eqhxY",
+    "rich_text_cGVhbd",
+    "rich_text_CTxb8n",
+    "image_with_text_aCaXjC",
+    "rich_text_7XRwXn",
+    "rich_text_EBU7pB"
+  ]
+}

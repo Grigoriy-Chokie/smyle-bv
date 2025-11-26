@@ -1,0 +1,116 @@
+{%- liquid 
+    assign option_number = block.settings.option_number | default: 0 | times: 1
+    assign title = block.settings.option_title
+
+    assign variants = product.variants
+    assign options = product.options_with_values
+    assign has_swatches = false
+    assign is_color_selector = false
+    
+    for option in product.options_with_values
+        if settings.swatch_option_name contains option.name and settings.swatch_method == 'swatches'
+            assign is_color_selector = true
+            assign has_swatches = true
+        endif
+    endfor
+
+    assign buy_buttons_block = section.blocks | where: 'type', 'buy-buttons' | first
+    assign additional_product = buy_buttons_block.settings.additional_product | default: false
+    assign additional_product_variant = additional_product.selected_or_first_available_variant    
+-%}
+
+{% if has_swatches %}
+    <color-quantity-selector class="swatch-style-with-quantity">
+        <fieldset class="option-selector" data-selector-type="listed">
+            <div class="label-heading">
+                <legend class="label flex--no-wrap items-center">
+                    {% if option_number > 0 %}
+                        <span class="label__order-number inline-flex justify-center items-center">
+                            {{ option_number }}
+                        </span>
+                    {% endif %}
+        
+                    <span class="h4 no-text-transform">{{ title }}</span>
+                </legend>
+            </div>
+        
+            <div class="option-selector__btns flex flex-wrap w-full">
+                {% for option in options %}
+                    {%- liquid
+                        assign option_index0 = forloop.index0
+                        assign option_id = product_form_id | append: '-' | append: forloop.index
+                        assign is_color_selector = false
+                        if settings.swatch_option_name contains option.name and settings.swatch_method == 'swatches'
+                            assign is_color_selector = true
+                        endif
+                        
+                        unless is_color_selector
+                            continue
+                        endunless
+                    -%}
+
+                    {% for value in option.values %}
+                        {%- liquid 
+                            assign value_index0 = forloop.index0
+                            for variant in product.variants
+                                if variant.options[option_index0] == value
+                                    assign variant_id = variant.id
+                                endif
+                            endfor
+
+                            assign is_swatch = false
+                            if is_color_selector and settings.swatch_method == 'swatches'
+                                assign is_swatch = true
+                            endif
+                        -%}
+                        
+                        <input type="hidden" class="opt-btn visually-hidden focus-label js-option" name="items[{{forloop.index}}][id]" id="{{ option_id }}-opt-{{ value_index0 }}" value="{{ variant_id | escape }}" form="{{ product_form_id }}" disabled>
+                        <label class="opt-label opt-label--swatch btn relative"
+                            data-swatch="{{ value | replace: '"', '' | downcase }}"
+                            for="{{ option_id }}-opt-{{ value_index0 }}"
+                            {%- if value.swatch.image %}
+                                style="--swatch-background-image: url({{ value.swatch.image | image_url: width: 60, height: 60, crop: 'center' }})"
+                            {%- else %}
+                                style="--swatch-background-color: rgb({{ value.swatch.color.rgb }})"
+                            {%- endif %}
+                            >
+                            <input type="hidden" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[{{forloop.index}}][properties][_subscription_bundle_id]" id="{{ option_id }}-bundle-{{ value_index0 }}" value="subscription" disabled>
+                            {% if additional_product %}
+                                <input type="hidden" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[{{forloop.index}}][properties][_kit_id]" id="{{ option_id }}-bundle-{{ value_index0 }}" value="{{ additional_product_variant.id }}" disabled>
+                            {% endif %}
+                            
+                            <span class="js-value body-heading-font h4 no-text-transform pointer-events-none">{{ value }}</span>
+                            <quantity-selector class="quantity-subscribe__selector inline-flex items-center justify-center">
+                                <button
+                                    class="inline-flex items-center justify-center quantity-subscribe__selector-button quantity-subscribe__selector-button--minus"
+                                    type="button"
+                                    name="minus"
+                                >
+                                {% render 'icon-minus' %}
+                                </button>
+                                <input
+                                    class="quantity-subscribe__selector-input pointer-events-none"
+                                    type="number"
+                                    value="0"
+                                    min="0"
+                                    step="1"
+                                    form="{{ product_form_id }}"
+                                    name="items[{{forloop.index}}][quantity]"
+                                    disabled
+                                    max="{{ max }}"
+                                >
+                                <button
+                                    class="inline-flex items-center justify-center quantity-subscribe__selector-button quantity-subscribe__selector-button--plus"
+                                    type="button"
+                                    name="plus"
+                                >
+                                    {% render 'icon-plus' %}
+                                </button>
+                            </quantity-selector>
+                        </label>
+                    {% endfor %}
+                {% endfor %}
+            </div>
+        </fieldset>
+    </color-quantity-selector>
+{% endif %}

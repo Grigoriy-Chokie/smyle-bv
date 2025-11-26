@@ -1,0 +1,37 @@
+{%- liquid
+  assign all_amounts = settings.free_shipping_amounts | newline_to_br | strip_newlines | split: '<br />'
+  assign current_amount = false
+  for amount in all_amounts
+    assign split_amount = amount | split: ':'
+    if split_amount.size == 2 and split_amount[0] == localization.country.currency.iso_code
+      assign current_amount = split_amount
+      break
+    elsif split_amount.size == 3 and split_amount[0] == localization.country.iso_code and split_amount[1] == localization.country.currency.iso_code
+      assign current_amount = split_amount
+      break
+    endif
+  endfor
+  if current_amount
+    assign free_shipping_progress = 1.0 | times: cart.total_price | divided_by: current_amount.last | at_least: 0 | at_most: 1
+    assign shipping_cost = current_amount.last | times: 100
+  endif
+  for item in cart.items
+    if item.selling_plan_allocation.selling_plan.id
+      assign free_shipping_progress = 1
+      break
+    endif  
+  endfor
+-%}
+
+{%- if current_amount -%}
+  <div class="shipping bold body-font opposing-items">
+    {{ 'cart.general.delivery_costs' | t }}
+    <span class="theme-money">
+      {%- if free_shipping_progress >= 1 -%}
+        {{ 'cart.general.free_shipping' | t }}
+      {%- else -%}
+        € 3,99
+      {%- endif -%}
+    </span>
+  </div>
+{%- endif -%}

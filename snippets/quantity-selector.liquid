@@ -1,0 +1,51 @@
+{% doc %}
+  Renders a quantity selector.
+
+  @param {object} product - Product object.
+  @param {string} [product_form_id] - ID of form that selector belongs to.
+  @param {number} [option_number] - Order number of selector in PDP markup.
+  @param {string} option_title - Title of selector in PDP markup.
+
+  @example
+  {% render 'quanity-selector', product: product %}
+{% enddoc %}
+
+{%- liquid
+  assign quantity_step = product.metafields.quantity.step | default: 1
+  assign min_quantity = product.metafields.quantity.min_step | default: quantity_step | default: 1
+  assign max_quantity = product.metafields.quantity.max_step | default: 0
+  assign current_quantity = 1
+
+  if min_quantity > 1
+    assign current_quantity = min_quantity
+  elsif quantity_step > 1
+    assign current_quantity = quantity_step
+  endif
+-%}
+
+<label class="label items-center" for="quantity">
+  {% if option_number != blank %}
+    <span class="label__order-number inline-flex justify-center items-center">{{ option_number }}</span>
+  {% endif %}
+  {{ option_title }}
+</label>
+
+<quantity-wrapper class="quantity-wrapper">
+  <a href="#" data-quantity="down" aria-label="{{ 'cart.items.decrease_quantity' | t }}" disabled>{% render 'icon-minus' %}</a>
+  <input 
+    aria-label="{{ 'products.product.quantity' | t }}" 
+    id="quantity" 
+    type="number" 
+    name="quantity" 
+    value="{{ current_quantity }}"
+    step="{{ quantity_step }}"
+    min="{{ min_quantity }}"
+    {% if max_quantity > 0 %}
+      max="{{ max_quantity }}"
+    {% endif %}
+    {% if product_form_id %}
+      form="{{ product_form_id }}"
+    {% endif %}
+    />
+  <a href="#" data-quantity="up" aria-label="{{ 'cart.items.increase_quantity' | t }}">{% render 'icon-plus' %}</a>
+</quantity-wrapper>

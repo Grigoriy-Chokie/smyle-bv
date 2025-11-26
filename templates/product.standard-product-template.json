@@ -1,0 +1,364 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_f43Bdw": {
+          "type": "text",
+          "settings": {
+            "text": "Available in 3500+ stores",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/Frame123123.svg",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#00a676",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true,
+            "save_pattern": "Save [amount] + FREE Whitening Kit"
+          }
+        },
+        "text_tCx6Lf": {
+          "type": "text",
+          "settings": {
+            "text": "🦷  <strong>Sonic power</strong> for healthier & stronger teeth",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_yxP7MU": {
+          "type": "text",
+          "settings": {
+            "text": "🌿  <strong>Lifetime warranty</strong> “Never buy a replacement again”",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_kJTXNt": {
+          "type": "text",
+          "settings": {
+            "text": "♻️  <strong>Sustainable</strong> Bamboo brush heads, only charge once every 16 weeks",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_AgE6Xi": {
+          "type": "text",
+          "settings": {
+            "text": "💚  <strong>Free whitening</strong> kit worth €59.99 for a limited time",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "benefits_F8fVjx": {
+          "type": "benefits",
+          "settings": {
+            "text_1": "4 months battery",
+            "icon_1": "shopify://shop_images/Frame.svg",
+            "text_2": "Try for 60 days",
+            "icon_2": "shopify://shop_images/Frame-clock.svg",
+            "text_3": "Lifetime Warranty",
+            "icon_3": "shopify://shop_images/Frame-ss.svg"
+          }
+        },
+        "variant_picker_9QqWX8": {
+          "type": "variant-picker",
+          "settings": {
+            "order_number": "",
+            "custom_title": "",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "shipping_notice_cDmyLN": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Free CO2-neutral shipping  by [next_working_day]"
+          }
+        },
+        "shipping_notice_JmJtD3": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Free CO2-neutral shipping  by [next_working_day]"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_f43Bdw",
+        "price",
+        "text_tCx6Lf",
+        "text_yxP7MU",
+        "text_kJTXNt",
+        "text_AgE6Xi",
+        "benefits_F8fVjx",
+        "variant_picker_9QqWX8",
+        "buy-buttons",
+        "shipping_notice_cDmyLN",
+        "shipping_notice_JmJtD3",
+        "description"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "multi_column_7JVG4B": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_qGVxp9": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🦷",
+            "text": "<p><strong>Effective.<br/></strong>Clinically tested and loved by thousands of customers for a healthier, brighter smile.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_qeDUTe": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🌿",
+            "text": "<p><strong>Sexy Sustainable<br/></strong>Eco-friendly, plastic-free products made with natural ingredients, designed to care for you and the planet.<strong><br/></strong></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_UaqAQk": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "❌",
+            "text": "<p><strong>No BS.<br/></strong>No harsh chemicals, microplastics, or unnecessary additives. Just clean, effective ingredients.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_wfddMV": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "📦",
+            "text": "<p><strong>Simple.<br/></strong>Delivered straight to your door, or find us in your favorite stores. Easy to use, easy to love.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_qGVxp9",
+        "text_block_qeDUTe",
+        "text_block_UaqAQk",
+        "text_block_wfddMV"
+      ],
+      "settings": {
+        "title": "WHY SMYLE?",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "certifications_fzdd4e": {
+      "type": "certifications",
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    },
+    "comparison_table_QqarQb": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_FEF9L6": {
+          "type": "row",
+          "settings": {
+            "title": "BAMBOE OPZETBORSTELS",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_QADdjj": {
+          "type": "row",
+          "settings": {
+            "title": "3 KEER PER JAAR LADEN",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_rLq9N8": {
+          "type": "row",
+          "settings": {
+            "title": "5 POETSMODI",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_rnb6jb": {
+          "type": "row",
+          "settings": {
+            "title": "NIET TEVREDEN? GELD TERUG",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_mc3DKd": {
+          "type": "row",
+          "settings": {
+            "title": "BETAALBAAR",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_GK8Dt8": {
+          "type": "row",
+          "settings": {
+            "title": "PLASTICVRIJE VERPAKKING",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_XfR87C": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>PRIJS</strong>",
+            "icon_1": "true",
+            "text_1": "€76.50",
+            "icon_2": "true",
+            "text_2": "<strong>€99</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "row_FEF9L6",
+        "row_QADdjj",
+        "row_rLq9N8",
+        "row_rnb6jb",
+        "row_mc3DKd",
+        "row_GK8Dt8",
+        "row_XfR87C"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SMYLE VS. DE REST",
+        "subtitle": "DÉ TOEKOMST VAN MONDVERZORGING IS BETER VOOR JE GEZONDHEID ÉN DE PLANEET",
+        "logo": "shopify://shop_images/unnamed_5_de35292c-aa0c-4bf7-96d7-de05fe3e10451.png",
+        "icon_true": "shopify://shop_images/right_round1.png",
+        "icon_false": "shopify://shop_images/close1.png",
+        "button_text": "NU BESTELLEN",
+        "button_url": "#main",
+        "button_background": "#f46365"
+      }
+    },
+    "logos_BF6Kze": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "multi_column_7JVG4B",
+    "certifications_fzdd4e",
+    "comparison_table_QqarQb",
+    "logos_BF6Kze"
+  ]
+}

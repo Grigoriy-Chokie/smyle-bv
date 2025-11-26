@@ -1,0 +1,202 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_dCEGzT": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xWhtej": {
+          "type": "heading",
+          "settings": {
+            "title": "SMYLE DENTAL PROFESSIONALS PROGRAM",
+            "use_h1": false
+          }
+        },
+        "text_3Jyy7z": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle is building a wide range of high-quality top products in oral care that are also sustainable. Our tabs contain, among other things, 1450 ppm fluoride and hydroxyapatite. We are already available at more than 3500 sales points, for example, at AH, Jumbo, ETOS, and H&B.<br/><br/>We also like to partner with dentists, dental hygienists, prevention assistants, and other professionals. We are already working with more than 1300 practices throughout the Netherlands.<br/><br/>Do you also want to partner? That's possible!</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_qATQLh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us",
+            "button_link": "mailto:hello@wesmyledental.com?body=I'm%20interested%20in%20Dentist%20Professionals%20Program.%20Can%20you%20let%20me%20know%20more%20about%20this%3F",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xWhtej",
+        "text_3Jyy7z",
+        "button_qATQLh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1623327146remmonded-2-2_400x_1_1.webp",
+        "image_width": 450,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_atrEtV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JAhpyG": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT WE OFFER",
+            "use_h1": false
+          }
+        },
+        "text_N3UYkm": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Special discounts and promotions tailored to your practice</li><li>Sample packs for clients </li><li>involved in education about sustainability of oral care products</li><li>Smyle products to sell for practice (if desired)</li><li>You can also become a co-owner. Interested? Then read on!</li></ul>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_JAhpyG",
+        "text_N3UYkm"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/27_2.jpg",
+        "image_width": 450,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "key_features_4iECGR": {
+      "type": "key-features",
+      "blocks": {
+        "feature_CVFqTa": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/dentist.jpg",
+            "bg_color": "#b8e0f8",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "OPTIMAL PROTECTION",
+            "text": "<p>Our eBrush is tested by CTI in 2024 using international standards (CTI LD-SHPHCD-1440) for how to test the removal of plaque causing bacteria. They  concluded that over 99.98% of plaque-causing bacteria are removed by brushing with the Smyle eBrush with the bamboo brush heads. <br/><br/>Want to see receive this test report? Send your request to hello@wesmyle.com and we'll send it to you.<br/><br/>The Smyle eBrush received a score of 1.5 from the German consumer testing institute Testsieger.</p><p>That means EXCELLENT (DE: SEHR GUT)!</p><p>This is the highest score an eBrush can achieve. Want to know more? Check it out <a href=\"https://wesmyle.com/blogs/blog/smyles-e-brush-scores-excellent-in-testsieger\" title=\"https://wesmyle.com/blogs/blog/smyles-e-brush-scores-excellent-in-testsieger\">HERE!</a></p><p>Our tablets are tested by the Academic Center for Dentistry Amsterdam (ACTA). They found that the amount of fluoride released is equal to or more than the ammount in 'normal' toothpaste. We use the optimal 1450 parts fluoride per million. Check the report <a href=\"https://docs.google.com/document/d/1sj9LxvRdQcQT9UfkyifABBsT59bE9hI8/edit\"><strong>here</strong></a></p><p>A free fluoride level – say, the extent to which the fluoride is actually released in your mouth – of above 1000-1200 ppm is considered adequate and significant. This can also be found in the literature. See also <a href=\"https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007868.pub2/abstract\"><strong>here</strong></a></p><p>The effect of fluoride is further enhanced by innovative hydroxyapatite. This protects just like fluoride, but it is a natural material of the teeth. In addition, it closes the 'dental tubules' (small channels) to your nerves, so that there is less chance of sensitive teeth. It also has a whitening effect. Read more about it <a href=\"https://docs.google.com/document/d/10uTlbxVjyuI9oen5JYlocPRJRpptG-KoofZ7ZeTeUns/edit\"><strong>here.</strong></a></p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_yUTMgQ": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/ffebd242-7d49-4170-a0fa-4e190a338b5c.jpg",
+            "bg_color": "#c3c3c3",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "OPTIMAL RDA VALUE",
+            "text": "<p>Abrasives are used in toothpastes to remove plaque and stains. Smyle has an RDA (relative dentin abrasivity) of 100 – 115. An RDA value of 100-115 is very safe.</p><p></p><p>All values ​​below 250 are considered safe for lifelong use, according to the internationally accepted standard of the American Dental Association (ADA).</p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "feature_CVFqTa",
+        "feature_yUTMgQ"
+      ],
+      "settings": {
+        "heading": "PROVEN EFFECT!",
+        "image_max_width": 580,
+        "media_aspect_ratio": "1",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
+    "image_with_text_edDD7j": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NWfYA9": {
+          "type": "heading",
+          "settings": {
+            "title": "BECOME A CO-OWNER AS A PROFESSIONAL?",
+            "use_h1": false
+          }
+        },
+        "text_bjxtXa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We are proud to say our company is property of our community. Over 2900 crowd- and sharefunders joined us with a sustainable investment in Smyle. Also many professionals have become part of our mission in this way. People that are active in the dental sector can become co-owners of Smyle in multiple ways.<br/><br/>Just send an email to invest@wesmyle.com or do so by clicking the button below, we will contact you to discuss the possibilities.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_XywD7C": {
+          "type": "button",
+          "settings": {
+            "button_label": "CONTACT US",
+            "button_link": "mailto:invest@wesmyle.com?body=I'm%20interested%20in%20becoming%20co-owner%20of%20Smyle.%20Can%20you%20let%20me%20know%20more%20about%20this%3F",
+            "button_width": "medium",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NWfYA9",
+        "text_bjxtXa",
+        "button_XywD7C"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_0971.jpg",
+        "image_width": 450,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_dCEGzT",
+    "image_with_text_atrEtV",
+    "key_features_4iECGR",
+    "image_with_text_edDD7j"
+  ]
+}

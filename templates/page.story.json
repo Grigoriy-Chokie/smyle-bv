@@ -1,0 +1,216 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "cdffcd03-a94b-4d6e-a504-1fe0b70347d6": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/40.jpg",
+        "height": "fixed",
+        "height_desktop": 720,
+        "height_mobile": 400,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow"
+      }
+    },
+    "ffca7f3f-a70e-4737-9485-80d1f269e72b": {
+      "type": "rich-text",
+      "blocks": {
+        "941bc462-0551-4914-bb50-fb1d366d7cf6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "template--15213462618185__ffca7f3f-a70e-4737-9485-80d1f269e72b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR STORY",
+            "use_h1": false
+          }
+        },
+        "template--15213462618185__ffca7f3f-a70e-4737-9485-80d1f269e72b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Smyle, we’re on a mission to make oral care better, healthier, and more fun. Founded by Almar, Dennis, and Roger, we started with a simple yet powerful goal: to challenge the way the world thinks about oral care and create innovative products that make brushing a pleasure, not a chore. From our toothpaste tabs to the Smyle E-Brush, we’re reshaping dental wellness, one product at a time.</p><p>We’ve already saved over 10 million plastic tubes, and our goal is to hit <strong>20 million</strong> by 2025. Our products are designed with you in mind—high-quality, effective, and free from unnecessary ingredients. While sustainability is at our core, we’re driven by more than that; we’re committed to you—our community. Your feedback shapes everything we do, and together, we’re building a future where oral care is easier, healthier, and more enjoyable.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "941bc462-0551-4914-bb50-fb1d366d7cf6",
+        "template--15213462618185__ffca7f3f-a70e-4737-9485-80d1f269e72b-heading-1",
+        "template--15213462618185__ffca7f3f-a70e-4737-9485-80d1f269e72b-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    },
+    "e349fe82-4ed8-48b7-b15a-84eb3a247d25": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15213462618185__e349fe82-4ed8-48b7-b15a-84eb3a247d25-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "BE PART OF SMYLE",
+            "use_h1": false
+          }
+        },
+        "template--15213462618185__e349fe82-4ed8-48b7-b15a-84eb3a247d25-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When you join Smyle, you’re not just a customer—you’re part of a community. We value your input and actively listen to your feedback to help shape our products. Whether it’s suggesting new ideas, sharing your experiences, or tagging us in your posts, you play a key role in what we do. Together, we’re making Smyle more than just a brand; we’re creating a movement.</p><p><strong>Join us in making Smyle the new standard for dental wellness.</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15213462618185__e349fe82-4ed8-48b7-b15a-84eb3a247d25-heading-1",
+        "template--15213462618185__e349fe82-4ed8-48b7-b15a-84eb3a247d25-text-1"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle-community.png",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_eApKBm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6nMwLW": {
+          "type": "heading",
+          "settings": {
+            "title": "BIGGEST AND MOST SUSTAINABLE BILLBOARDS",
+            "use_h1": false
+          }
+        },
+        "text_pnT4iQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From our products to our advertising, Smyle is all about <strong>creative innovation, positive impact </strong>and <strong>minimum waste</strong></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_6nMwLW",
+        "text_pnT4iQ"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "bec376ed-2df2-4df6-8adb-77f80556831d": {
+      "type": "video-with-text",
+      "blocks": {
+        "181ce0ab-cbe9-4acf-a758-267f49d2eccb": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Smyle x Simon Beck"
+          }
+        },
+        "cef28f7b-581d-48fa-86e1-47948a6f62e9": {
+          "type": "heading",
+          "settings": {
+            "title": "THE WORLD'S BIGGEST & CLEANEST BILLBOARD",
+            "use_h1": false
+          }
+        },
+        "8c9219fb-feb4-461f-b84f-6593c390d4f9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In collaboration with snow artist Simon Beck, Smyle has created the world’s largest sustainable snow artwork, spanning 13,625 m² in the French Alps. This masterpiece is a bold statement against plastic pollution. Join us in our mission for a plastic-free future. Watch now!</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "181ce0ab-cbe9-4acf-a758-267f49d2eccb",
+        "cef28f7b-581d-48fa-86e1-47948a6f62e9",
+        "8c9219fb-feb4-461f-b84f-6593c390d4f9"
+      ],
+      "settings": {
+        "video_external": "https://youtu.be/8JBnl5eOmDs",
+        "video_description": "",
+        "autoplay": true,
+        "video_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "video_with_text_iybr8K": {
+      "type": "video-with-text",
+      "blocks": {
+        "subheading_xXKfFh": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Smyle x Tim Hoekstra"
+          }
+        },
+        "heading_mwriTg": {
+          "type": "heading",
+          "settings": {
+            "title": "THE WASH AWAY BILLBOARD",
+            "use_h1": false
+          }
+        },
+        "text_adYV4G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We teamed up with Tim Hoekstra, one of the Netherlands’ most renowned beach sand artists, to create a plastic-free ad for Smyle’s toothpaste tablets. Known for his environmental activism and dedication to raising awareness about pollution, Tim’s art perfectly aligns with our mission to protect the planet.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_xXKfFh",
+        "heading_mwriTg",
+        "text_adYV4G"
+      ],
+      "settings": {
+        "video_external": "https://youtu.be/Vn_dVPWbwj4",
+        "video_description": "",
+        "autoplay": true,
+        "video_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cdffcd03-a94b-4d6e-a504-1fe0b70347d6",
+    "ffca7f3f-a70e-4737-9485-80d1f269e72b",
+    "e349fe82-4ed8-48b7-b15a-84eb3a247d25",
+    "rich_text_eApKBm",
+    "bec376ed-2df2-4df6-8adb-77f80556831d",
+    "video_with_text_iybr8K"
+  ]
+}

@@ -1,0 +1,627 @@
+
+{% if section.blocks.size > 0 or section.settings.enable_country_selector or section.settings.menu != blank %}
+  {%- liquid
+    assign message_font_size = section.settings.message_font_size
+    assign announcement_bar_col = section.settings.announcement_bar_col
+    assign announcement_bar_gradient = section.settings.announcement_bar_gradient
+    assign announcement_text_col = section.settings.announcement_text_col
+    assign show_social_icons = section.settings.show_social_icons
+    assign menu = section.settings.menu
+    assign enable_country_selector = section.settings.enable_country_selector
+
+    assign enable_bar_alt = section.settings.enable_bar_alt
+    assign show_on_templates_alt = section.settings.show_on_templates_alt | split: ','
+    assign is_alternative_bar = false
+
+    if enable_bar_alt and show_on_templates_alt contains template
+      assign is_alternative_bar = true
+      assign message_font_size = section.settings.message_font_size_alt
+      assign announcement_bar_col = section.settings.announcement_bar_col_alt
+      assign announcement_bar_gradient = section.settings.announcement_bar_gradient_alt
+      assign announcement_text_col = section.settings.announcement_text_col_alt
+      assign show_social_icons = section.settings.show_social_icons_alt
+      assign menu = section.settings.menu_alt
+      assign enable_country_selector = section.settings.enable_country_selector_alt
+    endif
+
+    assign longest_announcement = 0
+    assign number_of_blocks = 0
+    for block in section.blocks
+      assign number_of_blocks = number_of_blocks | plus: 1
+      assign text = block.settings.text | strip_html
+      if is_alternative_bar
+        assign text = block.settings.text_alt | strip_html
+      endif
+
+      assign metafield_text = [request.page_type].metafields[block.settings.metafield_namespace][block.settings.metafield_key]
+
+      if metafield_text != blank
+        assign text = metafield_text
+      endif
+
+      if text.size > longest_announcement
+        assign longest_announcement = text.size
+      endif
+    endfor
+  -%}
+  <announcement-bar id="section-id-{{ section.id }}" class="announcement-bar
+      {%- if section.blocks.size > 0 %} announcement-bar--with-announcement{% endif -%}
+      {%- if longest_announcement > 45 and menu != blank %} announcement-bar--tablet-wrap{% endif -%}
+      " {%- render 'animation-attrs', attrs: 'data-cc-animate' -%}>
+    {% style %}
+      {%- liquid
+        assign bg_color = announcement_bar_col
+        assign bg_gradient = announcement_bar_gradient
+        assign text_color = announcement_text_col
+        if section.blocks.size > 0 
+          if is_alternative_bar and section.blocks.first.settings.use_custom_colors_alt
+            assign bg_color = section.blocks.first.settings.bg_color_alt
+            assign bg_gradient = section.blocks.first.settings.bg_gradient_alt
+            assign text_color = section.blocks.first.settings.text_color_alt
+          elsif section.blocks.first.settings.use_custom_colors
+            assign bg_color = section.blocks.first.settings.bg_color
+            assign bg_gradient = section.blocks.first.settings.bg_gradient
+            assign text_color = section.blocks.first.settings.text_color
+          endif
+        endif
+      -%}
+      #section-id-{{ section.id }} {
+        --bg-color: {{ bg_color }};
+        --bg-gradient: {{ bg_gradient }};
+        --heading-color: {{ text_color.rgb }};
+        --text-color: {{ text_color.rgb }};
+        --link-color: {{ text_color.rgb }};
+        --announcement-font-size: {{ message_font_size }}px;
+      }
+    {% endstyle %}
+
+    {%- for block in section.blocks offset: 1 -%}
+      {%- liquid 
+        assign use_custom_colors = block.settings.use_custom_colors
+        assign bg_color = block.settings.bg_color
+        assign bg_gradient = block.settings.bg_gradient
+
+        if is_alternative_bar
+          assign use_custom_colors = block.settings.use_custom_colors_alt
+          assign bg_color = block.settings.bg_color_alt
+          assign bg_gradient = block.settings.bg_gradient_alt
+        endif
+      -%}
+
+      <div class="announcement-bg announcement-bg--inactive absolute inset-0"
+          data-index="{{ forloop.index }}"
+          style="
+            background:
+              {%- if use_custom_colors %}
+                {{- bg_gradient | default: bg_color }}
+              {%- else %}
+                {{- announcement_bar_gradient | default: announcement_bar_col }}
+              {%- endif -%}
+          "></div>
+    {%- endfor -%}
+
+    <div class="container container--no-max relative">
+      <div class="announcement-bar__left desktop-only">
+        {% if show_social_icons %}
+          {%- render 'social-media', icon: settings.social_custom_icon, icon_height: 20 -%}
+        {% endif %}
+      </div>
+
+      <div class="announcement-bar__middle">
+        {%- if section.blocks.size > 0 -%}
+          <div class="announcement-bar__announcements">
+            {%- for block in section.blocks -%}
+              {%- liquid
+                assign text = block.settings.text
+                assign show_countdown = block.settings.show_countdown
+                assign hide_on_end = block.settings.hide_on_end
+                assign end_date = block.settings.end_date
+                assign end_time = block.settings.end_time
+                assign number_font = block.settings.number_font
+                assign countdown_separator = block.settings.countdown_separator
+                assign use_custom_colors = block.settings.use_custom_colors
+                assign bg_color = block.settings.bg_color
+                assign bg_gradient = block.settings.bg_gradient
+                assign text_color = block.settings.text_color
+        
+                if is_alternative_bar
+                  assign text = block.settings.text_alt
+                  assign show_countdown = block.settings.show_countdown_alt
+                  assign hide_on_end = block.settings.hide_on_end_alt
+                  assign end_date = block.settings.end_date_alt
+                  assign end_time = block.settings.end_time_alt
+                  assign number_font = block.settings.number_font_alt
+                  assign countdown_separator = block.settings.countdown_separator_alt
+                  assign use_custom_colors = block.settings.use_custom_colors_alt
+                  assign bg_color = block.settings.bg_color_alt
+                  assign bg_gradient = block.settings.bg_gradient_alt
+                  assign text_color = block.settings.text_color_alt
+                endif
+
+                assign metafield_text = blank
+
+                if block.settings.metafield_namespace != blank and block.settings.metafield_key != blank
+                  case request.page_type
+                    when 'page'
+                      assign metafield_text = page.metafields[block.settings.metafield_namespace][block.settings.metafield_key]
+                    when 'product'
+                      assign metafield_text = product.metafields[block.settings.metafield_namespace][block.settings.metafield_key]
+                    when 'collection'
+                      assign metafield_text = collection.metafields[block.settings.metafield_namespace][block.settings.metafield_key]
+                    when 'article'
+                      assign metafield_text = article.metafields[block.settings.metafield_namespace][block.settings.metafield_key]
+                    when 'blog'
+                      assign metafield_text = blog.metafields[block.settings.metafield_namespace][block.settings.metafield_key]
+                  endcase
+                endif
+
+                if metafield_text == blank
+                  case request.page_type
+                    when 'page'
+                      assign metafield_text = page.metafields.announcement.text
+                    when 'product'
+                      assign metafield_text = product.metafields.announcement.text
+                    when 'collection'
+                      assign metafield_text = collection.metafields.announcement.text
+                    when 'article'
+                      assign metafield_text = article.metafields.announcement.text
+                    when 'blog'
+                      assign metafield_text = blog.metafields.announcement.text
+                  endcase
+                endif
+
+                if metafield_text != blank
+                  assign text = metafield_text
+                endif
+
+                if show_countdown
+                  assign now = "now" | date: '%Y-%m-%dT%H:%M'
+                  if end_date != blank
+                    assign end_date = end_date
+                    if end_time != blank
+                      assign end_date = end_date | append: 'T' | append: end_time
+                    endif
+                    assign end_date = end_date | date: '%Y-%m-%dT%H:%M'
+                  else
+                    assign now_split = now | split: "T"
+                    assign end_date = now_split.first | append: "T23:59" | date: '%Y-%m-%dT%H:%M'
+                  endif
+
+                  if hide_on_end and end_date < now
+                    continue
+                  endif
+                endif
+              -%}
+              <div
+                class="announcement{% if first_announcement_found %} announcement--inactive{% endif %}"
+                style="
+                  {%- if use_custom_colors %}
+                    --heading-color: {{ text_color.rgb }};
+                    --text-color: {{ text_color.rgb }};
+                    --link-color: {{ text_color.rgb }};
+                  {%- else -%}
+                    --heading-color: {{ announcement_text_col.rgb }};
+                    --text-color: {{ announcement_text_col.rgb }};
+                    --link-color: {{ announcement_text_col.rgb }};
+                  {%- endif %}
+                " {{ block.shopify_attributes }}
+              >
+                {%- assign first_announcement_found = true -%}
+                <div class="announcement__text">
+                  {{ text }}
+
+                  {% if show_countdown and end_date > now %}
+                    <script src="{{ 'countdown-timer.js' | asset_url }}" defer></script>
+                    <span class="countdown-font-{{ number_font }} announcement-text-separation-{{ countdown_separator }}">
+                      {% render 'countdown-timer',
+                        end_date: end_date,
+                        end_time: end_time,
+                        end_midnight: true,
+                        hide_on_end: true,
+                        show_labels: true
+                      %}
+                    </span>
+                  {% endif %}
+                </div>
+              </div>
+            {%- endfor -%}
+          </div>
+          <div class="announcement-bar__announcement-controller">
+            <button class="announcement-button announcement-button--previous" aria-label="{{ 'general.slider.previous' | t | escape }}">{% render 'icon-chevron-left' %}</button><button class="announcement-button announcement-button--next" aria-label="{{ 'general.slider.next' | t | escape }}">{% render 'icon-chevron-right' %}</button>
+          </div>
+        {%- endif -%}
+      </div>
+
+      <div class="announcement-bar__right desktop-only">
+        {% if menu != blank %}
+          <span class="inline-menu">
+            {% for link in linklists[menu].links %}
+              <a class="inline-menu__link announcement-bar__link" href="{{ link.url }}">{{ link.title }}</a>
+            {% endfor %}
+          </span>
+        {% endif %}
+        {% if enable_country_selector %}
+          <div class="header-localization">
+            {% comment %}Should be removed in future
+              {% render 'localization-form', id: 'annbar-localization', hide_labels: true, promote_popular: true %}
+            {% endcomment %}
+            {% render 'localization-selector', id: 'annbar-localization', hide_labels: true %}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </announcement-bar>
+{%- endif -%}
+
+
+{% schema %}
+{
+  "name": "Announcement bar",
+  "class": "section-announcement-bar",
+  "settings": [
+    {
+      "type": "range",
+      "id": "message_font_size",
+      "min": 11,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Announcement font size",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "announcement_bar_col",
+      "label": "Background color",
+      "default": "#4a4a4a"
+    },
+    {
+      "type": "color_background",
+      "id": "announcement_bar_gradient",
+      "label": "Background gradient (optional)"
+    },
+    {
+      "type": "color",
+      "id": "announcement_text_col",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Links"
+    },
+    {
+      "type": "paragraph",
+      "content": "Links, social media icons, and localization options will show in the menu on mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_social_icons",
+      "label": "Show social media links",
+      "default": true
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Menu",
+      "info": "This menu won't show dropdown items"
+    },
+    {
+      "type": "header",
+      "content": "Country/Language Selector",
+      "info": "To add a country/language, go to your [payment settings.](/admin/settings/payments)"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_country_selector",
+      "label": "Enable country/language selector",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Alternative announcement bar",
+      "info": "This announcement bar will show on templates from next setting using content of settings below."
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_bar_alt",
+      "label": "Enable alternative announcement bar",
+      "default": false
+    },
+    {
+      "type": "textarea",
+      "id": "show_on_templates_alt",
+      "label": "Templates (show on)",
+      "info": "Format: templates, splitted by comma, eg. page.landing,blog.news,..."
+    },
+    {
+      "type": "range",
+      "id": "message_font_size_alt",
+      "min": 11,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Announcement font size",
+      "default": 14
+    },
+    {
+      "type": "color",
+      "id": "announcement_bar_col_alt",
+      "label": "Background color",
+      "default": "#4a4a4a"
+    },
+    {
+      "type": "color_background",
+      "id": "announcement_bar_gradient_alt",
+      "label": "Background gradient (optional)"
+    },
+    {
+      "type": "color",
+      "id": "announcement_text_col_alt",
+      "label": "Text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "header",
+      "content": "Links"
+    },
+    {
+      "type": "paragraph",
+      "content": "Links, social media icons, and localization options will show in the menu on mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_social_icons_alt",
+      "label": "Show social media links",
+      "default": true
+    },
+    {
+      "type": "link_list",
+      "id": "menu_alt",
+      "label": "Menu",
+      "info": "This menu won't show dropdown items"
+    },
+    {
+      "type": "header",
+      "content": "Country/Language Selector",
+      "info": "To add a country/language, go to your [payment settings.](/admin/settings/payments)"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_country_selector_alt",
+      "label": "Enable country/language selector",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "Announcement",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "Announce <a href=\"#\">something</a> here"
+        },
+        {
+          "type": "header",
+          "content": "Countdown timer"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_countdown",
+          "label": "Show countdown timer",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_on_end",
+          "label": "Hide the announcement when the date and time elapses",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "end_date",
+          "label": "End date",
+          "info": "Required. Format: YYYY-MM-DD."
+        },
+        {
+          "type": "text",
+          "id": "end_time",
+          "label": "End time (optional)",
+          "info": "Format: 17:00 (24 hour clock). Uses the store's timezone."
+        },
+        {
+          "type": "select",
+          "id": "number_font",
+          "label": "Number font",
+          "options": [
+            {
+              "label": "Text font",
+              "value": "base"
+            },
+            {
+              "label": "Heading font",
+              "value": "heading"
+            }
+          ],
+          "default": "base"
+        },
+        {
+          "type": "select",
+          "id": "countdown_separator",
+          "label": "Separation style",
+          "options": [
+            {
+              "label": "Box",
+              "value": "box"
+            },
+            {
+              "label": "Dash",
+              "value": "dash"
+            },
+            {
+              "label": "Dot",
+              "value": "dot"
+            },
+            {
+              "label": "Space",
+              "value": "space"
+            }
+          ],
+          "default": "box"
+        },
+        {
+          "type": "header",
+          "content": "Style"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_custom_colors",
+          "label": "Use custom colors",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "Background color",
+          "default": "#4a4a4a"
+        },
+        {
+          "type": "color_background",
+          "id": "bg_gradient",
+          "label": "Background gradient (optional)"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "header",
+          "content": "Alternative announcement bar",
+          "info": "Next settings will show on templates using alternative announcement bar."
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text_alt",
+          "label": "Text",
+          "default": "Announce <a href=\"#\">something</a> here"
+        },
+        {
+          "type": "header",
+          "content": "Countdown timer"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_countdown_alt",
+          "label": "Show countdown timer",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "hide_on_end_alt",
+          "label": "Hide the announcement when the date and time elapses",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "end_date_alt",
+          "label": "End date",
+          "info": "Required. Format: YYYY-MM-DD."
+        },
+        {
+          "type": "text",
+          "id": "end_time_alt",
+          "label": "End time (optional)",
+          "info": "Format: 17:00 (24 hour clock). Uses the store's timezone."
+        },
+        {
+          "type": "select",
+          "id": "number_font_alt",
+          "label": "Number font",
+          "options": [
+            {
+              "label": "Text font",
+              "value": "base"
+            },
+            {
+              "label": "Heading font",
+              "value": "heading"
+            }
+          ],
+          "default": "base"
+        },
+        {
+          "type": "select",
+          "id": "countdown_separator_alt",
+          "label": "Separation style",
+          "options": [
+            {
+              "label": "Box",
+              "value": "box"
+            },
+            {
+              "label": "Dash",
+              "value": "dash"
+            },
+            {
+              "label": "Dot",
+              "value": "dot"
+            },
+            {
+              "label": "Space",
+              "value": "space"
+            }
+          ],
+          "default": "box"
+        },
+        {
+          "type": "header",
+          "content": "Style"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_custom_colors_alt",
+          "label": "Use custom colors",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "bg_color_alt",
+          "label": "Background color",
+          "default": "#4a4a4a"
+        },
+        {
+          "type": "color_background",
+          "id": "bg_gradient_alt",
+          "label": "Background gradient (optional)"
+        },
+        {
+          "type": "color",
+          "id": "text_color_alt",
+          "label": "Text color",
+          "default": "#ffffff"
+        },
+        {
+          "type": "header",
+          "content": "Dynamic",
+          "info": "use content from metafield"
+        },
+        {
+          "type": "text",
+          "id": "metafield_namespace",
+          "label": "Metafield namespace"
+        },
+        {
+          "type": "text",
+          "id": "metafield_key",
+          "label": "Metafield key"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

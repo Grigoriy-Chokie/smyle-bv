@@ -1,0 +1,619 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_f43Bdw": {
+          "type": "text",
+          "settings": {
+            "text": "Available in 3500+ stores",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/Frame123123.svg",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#00a676",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true,
+            "save_pattern": "Save [amount] + FREE Whitening Kit"
+          }
+        },
+        "text_wdrbMn": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>€ 5.99 </strong>per bottle",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_Hdn4En": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
+            "icon": "star",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#000000",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_tCx6Lf": {
+          "type": "text",
+          "settings": {
+            "text": "☘️ <strong>Plastic-free </strong>and contains <strong>no microplastics</strong>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_yxP7MU": {
+          "type": "text",
+          "settings": {
+            "text": "🌿 Only <strong>natural ingredients</strong>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_kJTXNt": {
+          "type": "text",
+          "settings": {
+            "text": "💚<strong> No alcohol </strong>and <strong>no additional water </strong>needed",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_AgE6Xi": {
+          "type": "text",
+          "settings": {
+            "text": "💚  Minimum quantity is 4 bottles",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "benefits_F8fVjx": {
+          "type": "benefits",
+          "disabled": true,
+          "settings": {
+            "text_1": "4 months battery",
+            "icon_1": "shopify://shop_images/Frame.svg",
+            "text_2": "Try for 60 days",
+            "icon_2": "shopify://shop_images/Frame-clock.svg",
+            "text_3": "Lifetime Warranty",
+            "icon_3": "shopify://shop_images/Frame-ss.svg"
+          }
+        },
+        "variant_picker_9QqWX8": {
+          "type": "variant-picker",
+          "settings": {
+            "order_number": "",
+            "custom_title": "",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "subscription_form_nbQ6RN": {
+          "type": "subscription-form",
+          "settings": {
+            "product": "",
+            "selling_plan": "",
+            "enable_prices": false,
+            "discounted_price": "",
+            "option_title": "Select a subscription",
+            "option_guide_text": "How does it work?",
+            "option_guide_page": "",
+            "enable_sale_badge": false,
+            "enable_shipping_badge": false,
+            "sale_badge_text": "",
+            "shipping_badge_text": "",
+            "subscription_text": "Every 4 months, [quantity] replacement brushes"
+          }
+        },
+        "quantity_rules_w4GpDB": {
+          "type": "quantity_rules",
+          "settings": {
+            "position": "3",
+            "heading": "Select how many persons",
+            "first_preselected": "subscribe",
+            "prefix_price": "per month",
+            "badge_text_disable": "#c0c0c0",
+            "badge_bg_disable": "#fcfcfc",
+            "badge_bg_shipping": "#00a676",
+            "multiplied_value": 4,
+            "best_option": "12 months",
+            "best_text": "Best Deal",
+            "popular_option": "8 months",
+            "popular_text": "Most Popular",
+            "shipping_list": "12 months,8 months"
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false,
+            "show_quantity_selector": false,
+            "quantity_selector_type": "selector",
+            "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
+            "additional_product": ""
+          }
+        },
+        "shipping_notice_JmJtD3": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €29.99"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_f43Bdw",
+        "price",
+        "text_wdrbMn",
+        "text_Hdn4En",
+        "text_tCx6Lf",
+        "text_yxP7MU",
+        "text_kJTXNt",
+        "text_AgE6Xi",
+        "benefits_F8fVjx",
+        "variant_picker_9QqWX8",
+        "subscription_form_nbQ6RN",
+        "quantity_rules_w4GpDB",
+        "buy-buttons",
+        "shipping_notice_JmJtD3",
+        "description"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "set_variant_media": false,
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "faq_collapsible_rows_bNfUwe": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_QPpeK6": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>KEY FEATURES</p>",
+            "answer": "<p><strong>Plastic-Free & Eco-Friendly:</strong>Smyle’s mouthwash tabs come in plastic-free packaging, making them a sustainable choice for your oral care routine.<br/><strong>No Alcohol:</strong>Smyle mouthwash tabs are alcohol-free, offering a gentler option for fresh breath without any harsh chemicals.<br/><strong>No Water Needed:</strong>Simply crush the tab with your teeth and start swishing—no need for extra water or bottles.<br/><strong>Convenient & Portable:</strong>Easy to carry and use—just pop a tab into water and swish for a fresh, minty mouthwash experience anytime, anywhere.<br/><strong>Effective Formula:</strong>Smyle mouthwash tabs are designed to fight bad breath, reduce plaque, and promote healthy gums, delivering all the benefits of traditional mouthwash.<br/><strong>Natural Ingredients:</strong>Made with natural ingredients, Smyle's tabs are gentle on your mouth and teeth, while still providing a powerful clean.<br/><strong>Compact & Space-Saving:</strong>Say goodbye to bulky plastic bottles—these tabs take up little space in your bag, pocket, or bathroom.</p>"
+          }
+        },
+        "faq_item_BraWRB": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>PRODUCT BENEFITS</p>",
+            "answer": "<ol><li><strong>Sustainable:</strong> By using mouthwash tabs, you’re reducing plastic waste and supporting a greener planet.</li><li><strong>No Mess or Spill:</strong> No risk of leaking bottles or waste, just pop a tab into water and you're good to go.</li><li><strong>Fresh Breath All Day:</strong> Smyle mouthwash tabs keep your breath fresh throughout the day, fighting bad breath at the source.</li><li><strong>Gentle on Teeth & Gums:</strong> With their gentle, yet effective formula, they’re suitable for daily use without irritating sensitive gums.</li><li><strong>Space-Saving:</strong> Perfect for on-the-go and great for travel—easy to take without the hassle of carrying large liquid bottles.</li><li><strong>No Harsh Chemicals:</strong> Our mouthwash tabs are free from harmful chemicals, giving you peace of mind with every use.</li></ol>"
+          }
+        },
+        "faq_item_xXhVMY": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>HOW TO USE</p>",
+            "answer": "<p>You can use the tablets very easily. Chew on them, let them circulate in your mouth for 30 seconds and let the magic happen. No water is needed! Swallowing is not harmful, it is better to spit them out, that is what it is made for.</p>"
+          }
+        },
+        "faq_item_mKwFqe": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>SHIPPING</p>",
+            "answer": "<p>To minimize our environmental impact, we have recently adjusted our shipping times. We now offer fast shipping via bulk mail, allowing you to expect your order within 5-10 days.<br/><br/>Products will be daily shipped from our warehouse in The Netherlands. </p><p>For any questions regarding your current or upcoming shipment, do not hesitate to reach out to <a href=\"mailto:hello@wesmyle.com\" target=\"_blank\">hello@wesmyle.com</a> </p>"
+          }
+        },
+        "faq_item_fjetBN": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>INGREDIENTS</p>",
+            "answer": "<p>Our mouthwash tabs contain sorbitol, sodium bicarbonate, xylitol, yeast, acacia senegal gum, citric acid, cocamidopropyl betaine, mentha arvensis leaf oil, magnesium stearate, menthol, stevioside, mentha piperita oil, camellia sinensis leaf extract, silica, limonene.<br/><br/>We only use natural ingredients, no sulphates, alcohol, parabens, allergens, dyes or any other harmful substances.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_QPpeK6",
+        "faq_item_BraWRB",
+        "faq_item_xXhVMY",
+        "faq_item_mKwFqe",
+        "faq_item_fjetBN"
+      ],
+      "name": "FAQ Collapsible Rows",
+      "settings": {
+        "color_scheme": "1",
+        "heading_text": "",
+        "use_metaobject": false,
+        "metaobjects": []
+      }
+    },
+    "collapsible_tabs_q9jyAW": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_EpJVRw": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "KEY FEATURES",
+            "answer": "<p><strong>Plastic-Free & Eco-Friendly:</strong>Smyle’s mouthwash tabs come in plastic-free packaging, making them a sustainable choice for your oral care routine.<br/><strong>No Alcohol:</strong>Smyle mouthwash tabs are alcohol-free, offering a gentler option for fresh breath without any harsh chemicals.<br/><strong>No Water Needed:</strong>Simply crush the tab with your teeth and start swishing—no need for extra water or bottles.<br/><strong>Convenient & Portable:</strong>Easy to carry and use—just pop a tab into water and swish for a fresh, minty mouthwash experience anytime, anywhere.<br/><strong>Effective Formula:</strong>Smyle mouthwash tabs are designed to fight bad breath, reduce plaque, and promote healthy gums, delivering all the benefits of traditional mouthwash.<br/><strong>Natural Ingredients:</strong>Made with natural ingredients, Smyle's tabs are gentle on your mouth and teeth, while still providing a powerful clean.<br/><strong>Compact & Space-Saving:</strong>Say goodbye to bulky plastic bottles—these tabs take up little space in your bag, pocket, or bathroom.</p>"
+          }
+        },
+        "question_EyJiKL": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "PRODUCT BENEFITS",
+            "answer": "<ol><li><strong>Sustainable:</strong> By using mouthwash tabs, you’re reducing plastic waste and supporting a greener planet.</li><li><strong>No Mess or Spill:</strong> No risk of leaking bottles or waste, just pop a tab into water and you're good to go.</li><li><strong>Fresh Breath All Day:</strong> Smyle mouthwash tabs keep your breath fresh throughout the day, fighting bad breath at the source.</li><li><strong>Gentle on Teeth & Gums:</strong> With their gentle, yet effective formula, they’re suitable for daily use without irritating sensitive gums.</li><li><strong>Space-Saving:</strong> Perfect for on-the-go and great for travel—easy to take without the hassle of carrying large liquid bottles.</li><li><strong>No Harsh Chemicals:</strong> Our mouthwash tabs are free from harmful chemicals, giving you peace of mind with every use.</li></ol>"
+          }
+        },
+        "question_RPKJe8": {
+          "type": "question",
+          "settings": {
+            "title": "HOW TO USE",
+            "answer": "<p>You can use the tablets very easily. Chew on them, let them circulate in your mouth for 30 seconds and let the magic happen. No water is needed! Swallowing is not harmful, it is better to spit them out, that is what it is made for.</p>"
+          }
+        },
+        "question_r4L6Xm": {
+          "type": "question",
+          "settings": {
+            "title": "SHIPPING",
+            "answer": "<p>To minimize our environmental impact, we have recently adjusted our shipping times. We now offer fast shipping via bulk mail, allowing you to expect your order within 5-10 days.<br/><br/>Products will be daily shipped from our warehouse in The Netherlands. </p><p>For any questions regarding your current or upcoming shipment, do not hesitate to reach out to <a href=\"mailto:hello@wesmyle.com\" target=\"_blank\">hello@wesmyle.com</a> </p>"
+          }
+        },
+        "question_E7L4KE": {
+          "type": "question",
+          "settings": {
+            "title": "INGREDIENTS",
+            "answer": "<p>Our mouthwash tabs contain sorbitol, sodium bicarbonate, xylitol, yeast, acacia senegal gum, citric acid, cocamidopropyl betaine, mentha arvensis leaf oil, magnesium stearate, menthol, stevioside, mentha piperita oil, camellia sinensis leaf extract, silica, limonene.<br/><br/>We only use natural ingredients, no sulphates, parabens, allergens, dyes or any other harmful substances.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_EpJVRw",
+        "question_EyJiKL",
+        "question_RPKJe8",
+        "question_r4L6Xm",
+        "question_E7L4KE"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": ""
+      }
+    },
+    "image_with_text_frC4Ht": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_efHpUL": {
+          "type": "heading",
+          "settings": {
+            "title": "DENTISTS LOVE SMYLE",
+            "use_h1": false
+          }
+        },
+        "text_NLzir8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Smyle has developed innovative products that are environmentally friendly and effective, aligning with targeted preventive care.\"</p><p><strong>Hero Abdullah, Five25 Dental Hygienists</strong></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_efHpUL",
+        "text_NLzir8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DSC_2121_JPG-1_1_e93d1eb1-7377-4521-bc78-cdfcb7b90713.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "logos_BF6Kze": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    },
+    "image_with_text_8WwrFV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3CtW8f": {
+          "type": "heading",
+          "settings": {
+            "title": "HOW TO USE",
+            "use_h1": false
+          }
+        },
+        "text_axDDAX": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>CHEW</strong> a tablet<br/><br/><strong>RINSE</strong> without extra water in your mouth<br/><br/>Spit out and <strong>SMYLE</strong>!</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_3CtW8f",
+        "text_axDDAX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/25_2.jpg",
+        "image_width": 540,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "center",
+        "title_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "comparison_table_QqarQb": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_FEF9L6": {
+          "type": "row",
+          "settings": {
+            "title": "PLASTIC FREE",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_QADdjj": {
+          "type": "row",
+          "settings": {
+            "title": "PREMIUM INGREDIENTS",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_rLq9N8": {
+          "type": "row",
+          "settings": {
+            "title": "ADDED WATER",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_rnb6jb": {
+          "type": "row",
+          "settings": {
+            "title": "ACADEMICALLY TESTED",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_mc3DKd": {
+          "type": "row",
+          "settings": {
+            "title": "VEGAN & CRUELTY FREE",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_GK8Dt8": {
+          "type": "row",
+          "settings": {
+            "title": "PLASTIC PACKAGING",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_XfR87C": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "title": "<strong>PRI</strong>",
+            "icon_1": "true",
+            "text_1": "€76.50",
+            "icon_2": "true",
+            "text_2": "<strong>€99</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "row_FEF9L6",
+        "row_QADdjj",
+        "row_rLq9N8",
+        "row_rnb6jb",
+        "row_mc3DKd",
+        "row_GK8Dt8",
+        "row_XfR87C"
+      ],
+      "settings": {
+        "title": "SMYLE VS THE REST",
+        "subtitle": "THE FUTURE OF ORAL CARE IS BETTER FOR YOUR HEALTH AND THE PLANET",
+        "logo": "shopify://shop_images/unnamed_5_de35292c-aa0c-4bf7-96d7-de05fe3e10451.png",
+        "icon_true": "shopify://shop_images/right_round1.png",
+        "icon_false": "shopify://shop_images/close1.png",
+        "button_text": "SHOP NOW",
+        "button_url": "#main",
+        "button_background": "#f46365"
+      }
+    },
+    "certifications_fzdd4e": {
+      "type": "certifications",
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    },
+    "faq_collapsible_rows_yUrcnV": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_zrM9tk": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>WHAT INGREDIENTS ARE IN THE MOUTHWASH TABS?</p>",
+            "answer": "<p>Our mouthwash tabs contain sorbitol, sodium bicarbonate, xylitol, yeast, acacia senegal gum, citric acid, cocamidopropyl betaine, mentha arvensis leaf oil, magnesium stearate, menthol, stevioside, mentha piperita oil, camellia sinensis leaf extract, silica, limonene.<br/></p><p>We only use natural ingredients, no sulphates, parabens, allergens, dyes or any other harmful substances.</p>"
+          }
+        },
+        "faq_item_VxXG6g": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>HOW DO YOU USE THE MOUTHWASH TABS?</p>",
+            "answer": "<p>You can use the tablets very easily. Chew on them, let them circulate in your mouth for 30 seconds and let the magic happen. No water is needed! Swallowing is not harmful, it is better to spit them out, that is what it is made for.</p>"
+          }
+        },
+        "faq_item_K8zify": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>ARE YOUR PRODUCTS TESTED ON ANIMALS?</p>",
+            "answer": "<p>No, we are completely against animal testing.</p>"
+          }
+        },
+        "faq_item_VqydbT": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>HOW SHOULD THE TABS BE STORED?</p>",
+            "answer": "<p>It is best to store the tabs airtight in our glass storage bottle or in another airtight bottle or box.<br/><br/>If not all tabs fit in the glass storage bottle, it is important that the remaining tablets in the refill pack are stored in a cool and dry place.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_zrM9tk",
+        "faq_item_VxXG6g",
+        "faq_item_K8zify",
+        "faq_item_VqydbT"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "2",
+        "heading_text": "<p>We’re happy to answer your questions!</p>",
+        "use_metaobject": false,
+        "metaobjects": []
+      }
+    },
+    "faq_collapsible_rows_6EidQM": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_8WiQtd": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_MfMeCV": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_8WiQtd",
+        "faq_item_MfMeCV"
+      ],
+      "name": "FAQ Collapsible Rows",
+      "settings": {
+        "color_scheme": "2",
+        "heading_text": "<p>We’re happy to answer your questions!</p>",
+        "use_metaobject": false,
+        "metaobjects": [
+          "mouthwash-tabs-freshmint-pdp-eng"
+        ]
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "faq_collapsible_rows_bNfUwe",
+    "collapsible_tabs_q9jyAW",
+    "image_with_text_frC4Ht",
+    "logos_BF6Kze",
+    "image_with_text_8WwrFV",
+    "comparison_table_QqarQb",
+    "certifications_fzdd4e",
+    "faq_collapsible_rows_yUrcnV",
+    "faq_collapsible_rows_6EidQM"
+  ]
+}

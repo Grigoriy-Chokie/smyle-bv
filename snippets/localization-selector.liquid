@@ -1,0 +1,146 @@
+{%- comment %}theme-check-disable LiquidTag{% endcomment -%}
+
+{% comment %}
+  Parameters:
+  - id {String} - Unique id for the form.
+  - hide_labels {Boolean} - Visually hide the selector labels (optional, default is false).
+  - include_native {Boolean} - Include a hidden native select element (optional, default is false).
+
+  Usage:
+  {% render 'localization-selector',
+    id: 'header-localization',
+    hide_labels: true
+  %}
+{% endcomment %}
+
+{%- liquid
+  assign form_class = 'form localization'
+  if extra_classes != blank
+    assign form_class = form_class | append: ' ' | append: extra_classes
+  endif
+
+  unless include_native
+    assign form_class = form_class | append: ' no-js-hidden'
+  endunless
+
+  assign hide_on_templates = section.settings.hide_on_templates | split: ','
+  if hide_on_templates contains template
+    assign hide_country_selector = section.settings.hide_country_selector
+  endif
+
+
+  assign has_localisation_items = false
+  assign country_selector_items = settings.country_selector_items | default: false
+  if country_selector_items and country_selector_items.count > 0
+    assign has_localisation_items = true
+  endif
+
+  unless has_localisation_items
+    continue
+  endunless
+-%}
+
+{%- form 'localization', id: id, class: form_class, data-static-id: "" -%}
+    {%- if section.settings.enable_country_selector and has_localisation_items and hide_country_selector != true -%}
+        {% assign selected_value = localization.country.iso_code | append: '-' | append: localization.language.iso_code %}
+        {%- capture country_values -%}
+            {%- for locale in country_selector_items -%}
+                {%- liquid 
+                    assign country_iso_code = locale.country_iso_code | upcase
+                    assign language_iso_code = locale.language_iso_code | downcase
+                    assign value = country_iso_code | append: '-' | append: language_iso_code | strip
+                -%}
+                {{- value -}}
+                {%- unless forloop.last -%}|{%- endunless -%}
+            {%- endfor -%}
+        {%- endcapture -%}
+        
+        {%- capture country_names -%}
+            {%- for locale in country_selector_items -%}
+                {%- liquid
+                    assign label = locale.label
+                    assign flag = locale.flag_icon | image_url: width: 28, height: 28 | image_tag
+                    assign country_iso_code = locale.country_iso_code | upcase
+                    assign language_iso_code = locale.language_iso_code | downcase
+
+                    assign has_flag = false
+                    if flag != blank
+                        assign has_flag = true
+                    endif
+                -%}
+                {%- if show_flags == true and has_flag -%}
+                    <span class="country-option">
+                        <span class="country-option__icon">{{ flag }}</span>
+                        <span class="country-option__name">{{ label }}</span>
+                    </span>|
+                {%- else -%}
+                    {{ label }}|
+                {%- endif -%}
+            {%- endfor -%}
+        {%- endcapture -%}
+  
+        {%- liquid
+          assign country_label = 'general.localization.country_label' | t
+          assign country_values = country_values | split: '|'
+          assign country_names = country_names | split: '|'
+          assign country_id = selected_value | append: '-country'
+
+          unless country_values contains selected_value
+            assign selected_value = country_values | first
+          endunless
+        -%}
+        <localization-selector class="localization__selector">
+          <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+          <input type="hidden" name="locale_code" value="{{ localization.language.iso_code }}">
+          {%- render 'custom-select',
+            id: country_id,
+            label: country_label,
+            hide_label: hide_labels,
+            option_values: country_values,
+            option_names: country_names,
+            selected_value: selected_value,
+            new_type_arrow: true
+          -%}
+  
+          {%- if include_native -%}
+            {%- capture country_values -%}
+              {%- for country in localization.available_countries -%}
+                {{- country.iso_code -}}
+                {%- unless forloop.last -%}|{%- endunless -%}
+              {%- endfor -%}
+            {%- endcapture -%}
+  
+            {%- capture country_names -%}
+              {%- for country in localization.available_countries -%}
+                {%- if show_flags == true -%}
+                  {{ country.name }} {{ localization.country | image_url: width: 28, height: 28  | image_tag }}
+                {%- else -%}
+                  {{ country.name }} ({{ country.currency.iso_code }}&nbsp;{{ country.currency.symbol }})
+                {%- endif -%}
+                {%- unless forloop.last -%}|{%- endunless -%}
+              {%- endfor -%}
+            {%- endcapture -%}
+  
+            {%- liquid
+              assign country_values = country_values | split: '|'
+              assign country_names = country_names | split: '|'
+            -%}
+  
+            <noscript>
+              <label for="{{ country_id }}-native" class="label{% if hide_labels %} visually-hidden{% endif %}">
+                {{- country_label -}}
+              </label>
+              <div class="select inline-block relative">
+                <select class="custom-select__native" id="{{ country_id }}-native" name="country_code">
+                  {%- for value in country_values -%}
+                    <option value="{{ value | escape }}"{% if value == localization.country.iso_code %} selected{% endif %}>
+                      {{- country_names[forloop.index0] -}}
+                    </option>
+                  {%- endfor -%}
+                </select>
+              </div>
+            </noscript>
+          {%- endif -%}
+        </localization-selector>
+      {%- endif -%}
+{%- endform-%}

@@ -1,0 +1,62 @@
+{% doc %}
+  Renders a quantity buttons.
+
+  @param {object} product - Product object.
+  @param {string} [quantity_buttons_default] - Optional default buttons.
+  @param {string} [product_form_id] - ID of form that selector belongs to.
+  @param {number} [option_number] - Order number of selector in PDP markup.
+  @param {string} option_title - Title of selector in PDP markup.
+
+  @example
+  {% render 'quanity-buttons', product: product, quantity_buttons_default: '1--1 Pack;...' %}
+{% enddoc %}
+
+{%- liquid
+  assign quantity_buttons_default = quantity_buttons_default | split: ';'
+  assign quantity_buttons = quantity_buttons_default
+  assign quantity_buttons_size = quantity_buttons.size
+
+  if product.metafields.quantity.buttons != blank
+    assign quantity_buttons = product.metafields.quantity.buttons.value
+    assign quantity_buttons_size = quantity_buttons.size
+  endif
+-%}
+
+{% if quantity_buttons_size %}
+  <fieldset>
+    <legend class="label items-center" for="quantity">
+      {% if option_number != blank %}
+        <span class="label__order-number inline-flex justify-center items-center">{{ option_number }}</span>
+      {% endif %}
+      {{ option_title }}
+    </legend>
+    
+    <div class="quanity-buttons option-selector__btns flex flex-wrap w-full">
+      {% for quantity_button in quantity_buttons %}
+        {%- liquid
+          assign quantity_options = quantity_button | split: '--'
+          assign quantity = quantity_options | first
+          assign label_text = quantity_options | last
+        -%}
+  
+        <input 
+          type="radio" 
+          name="quantity" 
+          id="quantity-{{ quantity }}" 
+          class="opt-btn visually-hidden focus-label" 
+          value="{{ quantity }}" 
+          required 
+          {% if forloop.first %} 
+            checked
+          {% endif %}
+          {% if product_form_id %}
+            form="{{ product_form_id }}"
+          {% endif %}
+        />
+        <label for="quantity-{{ quantity }}" class="opt-label opt-label--btn btn relative text-center">
+          <span>{{ label_text }}</span>
+        </label>
+      {% endfor %}
+    </div>
+  </fieldset>
+{% endif %}

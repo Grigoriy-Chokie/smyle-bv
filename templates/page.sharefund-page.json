@@ -1,0 +1,925 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": false,
+        "full_width": false
+      }
+    },
+    "image_with_text_dgiQww": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pQAqBw": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR SHAREFUNDING HAS BEEN CLOSED",
+            "use_h1": false
+          }
+        },
+        "text_YrEtf6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle creates innovative and beautifully designed products for oral care and dental beauty—all proven effective and more healthy and sustainable. We have a proven product-market fit and strong traction in supermarkets, partnerships (such as with KLM), and online sales. More than 60% of our revenue comes from returning customers. Now, as planned, we are continuing our growth journey. Because this stagnant, polluting market deserves to be disrupted! That’s why we are launching our final public sharefunding campaign, being the crowd based scaleup we are. We execute this campaign via the certified Broccoli sharefund Platform. <br/><br/>Want to join us and become a co-owner too? 🚀</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_NzgnP7": {
+          "type": "button",
+          "settings": {
+            "button_label": "YES, I WANT TO BECOME A CO-OWNER",
+            "button_link": "https://platform.broccoli.eu/en/all-campaigns/C2WybSFk7QDBPaXFzPXw",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pQAqBw",
+        "text_YrEtf6",
+        "button_NzgnP7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Screenshot-2025-02-21-at-13.27.51.png",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "video_4cFD6X": {
+      "type": "video",
+      "blocks": {
+        "heading_BCG84A": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Video",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_cjDdRC": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use a video to get a customer's attention</p>",
+            "enlarge_text": true
+          }
+        },
+        "play_button_cf8UAh": {
+          "type": "play-button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_BCG84A",
+        "text_cjDdRC",
+        "play_button_cf8UAh"
+      ],
+      "settings": {
+        "video_external": "https://youtu.be/dSTIzy9qqK8",
+        "video_description": "",
+        "placeholder_image": "shopify://shop_images/Screenshot_2025-04-04_at_22.11.49.png",
+        "text_alignment": "center center",
+        "full_width": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "image_with_text_i9bTi6": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MGLw3b": {
+          "type": "heading",
+          "settings": {
+            "title": "THE PROBLEM",
+            "use_h1": false
+          }
+        },
+        "text_yV9Hyw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Or in fact we’re solving two problems<br/><br/>Ingrediënts<br/>60% of the most sold toothpastes contains microplastics. Almost all contain also aggressive chemicals like SLS and titanium dioxide.<br/><br/>Packaging<br/>Plastic tubes, plastic brushes and other plastic packaging cannot economically and/or technologically be recycled. Did you know that plastic waste often gets shipped to third world countries. Take one more guess where it often ends up in.<br/><br/>In short: bad for your health and the environment</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_qBaxVN": {
+          "type": "button",
+          "settings": {
+            "button_label": "YES, I WANT TO BECOME A CO-OWNER",
+            "button_link": "https://platform.broccoli.eu/en/all-campaigns/C2WybSFk7QDBPaXFzPXw",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MGLw3b",
+        "text_yV9Hyw",
+        "button_qBaxVN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle-2problems.png",
+        "image_width": 470,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_eKhUiY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8jGV7a": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR MISSION",
+            "use_h1": false
+          }
+        },
+        "text_MGHrRk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle will save 1 billion plastic tubes, plastic brushes and plastic packaging in the coming 10 years!<br/><br/>We saved until now 9.3 million plastic tubes. With every day of brushing, flossing and swishing we’ll save more.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_rPd6xT": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8jGV7a",
+        "text_MGHrRk",
+        "button_rPd6xT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/NY_whitening_bundle_pdp_1.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_zif4Vy": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_M9TGJK": {
+          "type": "heading",
+          "settings": {
+            "title": "DOWNLOAD OUR PITCHDECK HERE",
+            "use_h1": false
+          }
+        },
+        "text_akjYJc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Do you want to know more on Smyle and our plans, check our pitchdeck!<br/>We aim for a sharefunding of <strong>€300.000</strong>.<br/>Be quick to participate!</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_eMn6B9": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOW ME THE PITCHDECK",
+            "button_link": "https://form.typeform.com/to/U90AGTUZ#name=xxxxx&email=xxxxx",
+            "button_width": "medium",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_M9TGJK",
+        "text_akjYJc",
+        "button_eMn6B9"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_w4K8fG": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_nki8DY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Innovative and beautifully designed products for oral care and dental beauty. Free from microplastics, harsh chemicals, plastic packaging, and plastic tubes.<br/><br/>From toothpaste tabs to mouthwash tabs. From sustainable e-brushes to interdental brushes. From whitening kits without the mess to the world’s first candy that’s actually good for your teeth!<br/><br/>Products that are truly good. For your smile and for the planet!<br/><br/>We are available<br/>✔ online via our NL and .com websites<br/>✔ in all major retailers in the Netherlands<br/>✔ on marketplaces like Amazon and bol.com<br/>✔ through our partnerships with airlines like KLM.<br/><br/>So if you’re going to smile, make it a bright one. A Brighter Smile. For a Cleaner Planet.<br/><br/>Doesn’t that feel so much better? 😁🌱</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_nki8DY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/6ebrushes.jpg",
+        "image_width": 440,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_48XCXB": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_DFzgjz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our tablets are independently tested by the <strong>Academic Centre for Dentistry Amsterdam (ACTA)</strong> for fluoride release.<br/><br/>They have confirmed that the amount of fluoride released is <strong>equal to or greater than</strong> that in ‘regular’ toothpaste. We use the optimal <strong>1450 parts per million of fluoride</strong>. Check the report <a href=\"https://docs.google.com/document/d/1sj9LxvRdQcQT9UfkyifABBsT59bE9hI8/edit\" target=\"_blank\"><strong>here</strong></a>.<br/><br/>Additionally, our <strong>e-brushes are tested by CTI</strong> for the removal of plaque-causing bacteria. An impressive<strong> 99.98% is removed</strong>.<br/><br/>Smyle also partners with <strong>health insurer FBTO </strong>to promote good oral care for FBTO clients—because a <strong>healthy mouth is key to overall health</strong>.<br/><br/>Smyle has also partnered with <strong>Five25</strong>, with whom we have opened our own dental hygienist practice.<br/><br/><strong>Did you know that more than 1,500 dental practices are now sampling our products with their clients? That’s about  20% of all practices in the Netherlands. Dozens of dentists have also invested and are co-owners of Smyle.</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_DFzgjz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle-dentists.jpg",
+        "image_width": 500,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "image_with_text_nGmatk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cFQcMk": {
+          "type": "heading",
+          "settings": {
+            "title": "WHERE SMYLE STANDS NOW",
+            "use_h1": false
+          }
+        },
+        "text_xxpxUU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>– In 2024, we grew by more than 50%, reaching nearly €3 million in revenue.<br/><br/>– We were named Coolest Dutch Brand and won awards in marketing and branding (including the International Branding Campaign award in Cannes).<br/><br/>– 70% of our revenue comes from online sales, and 60% of that online revenue comes from returning customers.<br/><br/>– In retail, we grew by 25%, and we are now selling in 3,500 stores across all major Dutch retailers.<br/><br/>– We partnered with KLM Business Class and are already participating in 7+ new international airline tenders.<br/><br/>– We continue to innovate with new products (“check the pitch deck”) and new flavors and designs (launching a new one every two months).<br/><br/>– We have over 100,000 online customers and hold a 4.6/5 rating on Trustpilot.<br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "heading_LHjMJ3": {
+          "type": "heading",
+          "settings": {
+            "title": "THE NEXT STEPS FOR SMYLE",
+            "use_h1": false
+          }
+        },
+        "text_Qn6jQT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle will continue to grow by at least 50-60% in the coming years. In the Fast Moving Consumer Goods market, scale is key—so Smyle keeps growing while making an impact.<br/><br/>This growth requires investments in marketing, inventory, and continuous product development.<br/><br/>As a crowdfunded brand, we prefer to finance this growth together with you!</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cFQcMk",
+        "text_xxpxUU",
+        "heading_LHjMJ3",
+        "text_Qn6jQT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/03-e1740145441782.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_XMKrx8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mW9XYQ": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT DO YOU GET AS A CO-OWNER?",
+            "use_h1": false
+          }
+        },
+        "text_QWLXQi": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The minimum investment amount is <strong>€375.</strong> There is no maximum amount.<br/><br/>These are the rewards:<br/><strong>A. FROM €750 OUR SMYLE WELCOME PACKAGE WORTH €75</strong>(Smyle special flavor pack toothpaste tabs gin-tonic / ginger & lime / cherry chili mint + Smyle water bottle + Travel Bag)<br/><br/><strong>B. FROM €2,500 OUR SMYLE WELCOME PACKAGE WORTH €150 </strong>(Smyle special flavor pack toothpaste tabs gin-tonic / ginger & lime / cherry chili mint + Smyle water bottle + Travel Bag + e-brush)<br/><br/><strong>C. FROM €5,000 OUR SMYLE WELCOME PACKAGE WORTH €300</strong>(Smyle special flavor pack toothpaste tabs gin-tonic / ginger & lime / cherry chili mint + Smyle water bottle + Travel Bag + 2 e-brushes + whitening kit)<br/><br/><strong>D. FROM €10,000 OUR SMYLE WELCOME PACKAGE WORTH €500</strong>(Smyle special flavor pack toothpaste tabs gin-tonic / ginger & lime / cherry chili mint + Smyle water bottle + Travel Bag + 5 giveaway discount vouchers of 75%)<br/><br/><strong>E. FROM €25,000 OUR SMYLE WELCOME PACKAGE WORTH €500, A TEST & STRATEGY SESSION, AND A DINNER WITH THE FOUNDERS</strong></p><p></p><p>When you invest, you receive <strong>share certificates </strong>in our <strong>Smyle Administration Foundation (Stichting Administratiekantoor Smyle)</strong>. Share certificates do not grant voting rights. What you do get:</p><p><br/>– Help the world switch to <strong>plastic-free brushing</strong><br/>– The <strong>value of your shares</strong> grows as our company grows<br/>– <strong>Share in the profits</strong>: receive dividends when we make a profit<br/>– Become part of <strong>the disruptor in oral care and dental beauty</strong></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_TaeRe6": {
+          "type": "button",
+          "settings": {
+            "button_label": "YES, I WANT TO BECOME A CO-OWNER",
+            "button_link": "https://platform.broccoli.eu/en/all-campaigns/C2WybSFk7QDBPaXFzPXw",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mW9XYQ",
+        "text_QWLXQi",
+        "button_TaeRe6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ebrushes.jpg",
+        "image_width": 410,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_FPaV7G": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mKdgmP": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR GOALS FOR 2025",
+            "use_h1": false
+          }
+        },
+        "text_riHYjq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>rowth: Expanding to €5 million in revenue<br/><br/>Product Development: Launching new products such as toothpaste in aluminum tubes (targeting the larger “light-green” and health-focused audience), new toothpaste flavors, e-brush designs, and retail e-brushes<br/><br/>Geographical Expansion: Expanding online into Germany and in Retail into the UK and France.<br/><br/>Channel Expansion: Experimenting with TikTok and further growing on Meta<br/><br/>Quality: Becoming Halal certified and audited by Ecovadis</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_mKdgmP",
+        "text_riHYjq"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fluoride_lifestyle_02.jpg",
+        "image_width": 440,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "testimonials_mRUhVx": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_jqnPVL": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "“Fast shipment and the tabs are practical, foam very well and taste very good. It’s great to contribute in this way to the environment",
+            "author": "Michelle (Customer from the Netherlands, February 6, 2025)",
+            "image": "shopify://shop_images/smyle-dentist-recommended.jpg",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_EzXexw": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "“Smyle is a good example of a product that not only saves unnecessary plastics, but is also healthier for your mouth and the planet. Chapeau!“",
+            "author": "Maria Westerbos (Director of Plastic Soup Foundation)",
+            "image": "shopify://shop_images/image-57.png",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_bKCBTz": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "“Throw away the plastic tube and the plastic manual toothbrush and start brushing with Smyle. A lot more companies should follow this example. It is a great solution!",
+            "author": "Marjan Minnesma (Director of Urgenda)",
+            "image": "shopify://shop_images/smyle-kannietkiezen.jpg",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_jqnPVL",
+        "testimonial_EzXexw",
+        "testimonial_bKCBTz"
+      ],
+      "settings": {
+        "title": "‘DON’T JUST TAKE OUR WORD FOR IT’, CHECK OUT THE REVIEWS. OUR FAST-GROWING COMMUNITY IS SUPER EXCITED!",
+        "layout": "image-right",
+        "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
+        "image_shape": "square",
+        "color_scheme": "default",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "image_with_text_KQLUC7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GWkLFj": {
+          "type": "heading",
+          "settings": {
+            "title": "HOW SMYLE STARTED",
+            "use_h1": false
+          }
+        },
+        "text_Cg94UP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Everyone loves a bright smile! But no one smiles when they hear that toothpaste is full of harmful microplastics and harsh chemicals.<br/><br/>Harsh substances like SLS (= detergent foam), which dries out your mouth and can cause mouth ulcers. Or titanium dioxide, a substance that can cause genetic damage—already banned in food in the EU, but still allowed in toothpaste.<br/><br/>And microplastics? They’ve already been found in placentas, bloodstreams, reproductive organs, and even the human brain.<br/><br/>Every year, we throw away over 40 billion plastic toothpaste tubes and toothbrushes. Almost none of them are economically or technically recyclable, and they mostly end up in landfills or our oceans.<br/><br/>In the Netherlands, do we recycle them in the plastic bin? We throw them in the plastic bin. But what they don’t tell you is that this waste is often mixed with regular trash, incinerated, or exported to Third World countries.<br/><br/>Roger went on vacation to an uninhabited island and saw beaches covered in plastic tubes, toothbrushes, and packaging. Almar lives by the sea and is seeing the same thing happen.<br/><br/>What the f#%ck!</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_yyJRaT": {
+          "type": "button",
+          "settings": {
+            "button_label": "YES, I WANT TO BECOME CO-OWNER",
+            "button_link": "https://platform.broccoli.eu/en/all-campaigns/C2WybSFk7QDBPaXFzPXw",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GWkLFj",
+        "text_Cg94UP",
+        "button_yyJRaT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/bali-indonesia-july-toothpaste-tubes-plastic-waste-beach-193259819.webp",
+        "image_width": 460,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "rich_text_xpcqKq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wk7XAA": {
+          "type": "heading",
+          "settings": {
+            "title": "READY TO BECOME PART OF THE MISSION?",
+            "use_h1": false
+          }
+        },
+        "text_apLGmr": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_XitUgz": {
+          "type": "button",
+          "settings": {
+            "button_label": "YES, I WANT TO BECOME A CO-OWNER",
+            "button_link": "https://platform.broccoli.eu/en/all-campaigns/C2WybSFk7QDBPaXFzPXw",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        },
+        "subheading_fV89Jw": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "button_hwWcij": {
+          "type": "button",
+          "settings": {
+            "button_label": "I STILL HAVE SOME QUESTIONS",
+            "button_link": "https://form.typeform.com/to/VF9eYqln?utm_source=xxxxx&utm_medium=xxxxx&utm_campaign=xxxxx&utm_term=xxxxx&utm_content=xxxxx#email=xxxxx",
+            "button_width": "full",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wk7XAA",
+        "text_apLGmr",
+        "button_XitUgz",
+        "subheading_fV89Jw",
+        "button_hwWcij"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "video_with_text_9wMdNK": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_8PWXKj": {
+          "type": "heading",
+          "settings": {
+            "title": "THE AWARD WINNING CAMPAIGN ‘BIGGEST AND CLEANEST BILLBOARD IN THE WORLD’",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8PWXKj"
+      ],
+      "settings": {
+        "video_external": "https://youtu.be/d4d0QQaw19Q",
+        "video_description": "",
+        "autoplay": false,
+        "placeholder_image": "shopify://shop_images/BU_4k_stills_01_01_07_14.jpg",
+        "video_position": "right",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_yfRa34": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wmyJB3": {
+          "type": "heading",
+          "settings": {
+            "title": "BRUSHING TEETH YOU’LL DO TOGETHER",
+            "use_h1": false
+          }
+        },
+        "text_HrL8gd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle is not just changing the way you brush your teeth.</p><p>Smyle is also <strong>socially sustainable</strong>. That’s why we collaborate with <strong>Pantar, a social workplace</strong>. We also support <strong>food banks</strong>, as toothpaste is usually not included in the food boxes they distribute.</p><p>We are also happy to donate <strong>toothpaste tablets</strong>, such as for a <strong>dental project in Tanzania</strong>. So far, we have donated <strong>over 280,000 Smyle brushing sessions!</strong></p><p></p>",
+            "enlarge_text": false
+          }
+        },
+        "heading_JWmyqW": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT WE ALREADY SAVED",
+            "use_h1": false
+          }
+        },
+        "text_w4NNWh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle has already been used <strong>120 million times</strong> for brushing.</p><p>And we have saved more than <strong>9.3 million plastic tubes, plastic brushes, and plastic packaging</strong>.</p><p>Given our mission to <strong>save 1 billion plastic items</strong> in the next ten years, we still have <strong>990,700,000 to go</strong>.</p><p>And we will reach that goal as we <strong>execute our plans</strong>.</p><p><strong>Amazing, right?</strong> 🚀🌍</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_pcG3kX": {
+          "type": "button",
+          "settings": {
+            "button_label": "I WANT TO JOIN",
+            "button_link": "https://platform.broccoli.eu/en/all-campaigns/C2WybSFk7QDBPaXFzPXw",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wmyJB3",
+        "text_HrL8gd",
+        "heading_JWmyqW",
+        "text_w4NNWh",
+        "button_pcG3kX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/IMG_13531.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_EVVBAf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wb7PFa": {
+          "type": "heading",
+          "settings": {
+            "title": "SMYLE AND CERTIFICATIONS",
+            "use_h1": false
+          }
+        },
+        "text_9gL44K": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle has been a <strong>B Corp</strong> since <strong>March 2023!</strong></p><p>The <strong>B Corp certification</strong> is an international certification for profit-driven companies that make a <strong>significant positive impact on people and the environment</strong>. We’re incredibly proud of this achievement!</p><p>In addition, we are <strong>PETA-certified</strong>, hold the <strong>Zero Plastics Inside</strong> certificate, will be <strong>Halal certified in Q1 2025</strong>, and will soon undergo a <strong>sustainability audit by Ecovadis</strong>.</p><p>We are a <strong>community-based brand</strong>. Our community helps us brainstorm <strong>ways to improve</strong> and decide <strong>which new flavors and products</strong> to develop next. 🚀🌍</p>",
+            "enlarge_text": false
+          }
+        },
+        "heading_Q4Fegz": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR COMMITMENT TO YOU",
+            "use_h1": false
+          }
+        },
+        "text_rpgmyX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We strive for <strong>proven effective, innovative, and beautifully designed</strong> oral care and dental beauty products.</p><p><strong>Our core values:</strong></p><p>✔ <strong>Customer-first approach</strong></p><p>✔ <strong>Joy and positivity</strong></p><p>✔ <strong>Proactive mindset</strong></p><p>✔ <strong>A balance of commercial and sustainable thinking</strong></p><p>✔ <strong>Innovation at our core</strong></p><p>And we offer <strong>total commitment!</strong></p><p></p><p><a href=\"https://platform.broccoli.eu/en/all-campaigns/C2WybSFk7QDBPaXFzPXw\" target=\"_blank\"><strong>YES, I WANT TO BECOME A CO-OWNER TOO!</strong></a>🚀</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_3YU7nF": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wb7PFa",
+        "text_9gL44K",
+        "heading_Q4Fegz",
+        "text_rpgmyX",
+        "button_3YU7nF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/crush_brush_smyle_21.gif",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "faq_collapsible_rows_tDQa8x": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_dJrgKr": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>WHAT DOES SMYLE DO THAT MAKES IT SO SUSTAINABLE?</strong></p>",
+            "answer": "<p>Do you want to learn more about Smyle’s sustainability? Check out <a href=\"https://wesmyle.com/pages/sustainability\" target=\"_blank\">https://wesmyle.com/pages/sustainability</a></p><p>There, you can also find our <strong>Climate Impact Forecast</strong>.</p>"
+          }
+        },
+        "faq_item_FGtDPt": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>HOW MUCH TRACTION DOES SMYLE HAVE?</strong></p>",
+            "answer": "<p><strong>Our Impact Numbers</strong></p><p>✔ <strong>More than 9.3 million</strong> plastic toothpaste tubes, plastic brushes, and plastic packaging saved</p><p>✔ <strong>Over 120 million</strong> sustainable Smyle tabs sold</p><p>✔ <strong>More than 100,000 customers</strong> with an average rating of <strong>4.6 out of 5</strong></p>"
+          }
+        },
+        "faq_item_UwbbqD": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>HOW CAN I BECOME A CO-OWNER?</strong></p>",
+            "answer": "<p>If you participate in this <strong>sharefunding</strong>, you are purchasing <strong>share certificates</strong>. A <strong>share certificate</strong> makes you a <strong>co-owner</strong> of the company as an investor.</p><p>Want to learn more? Click <a href=\"https://sharecouncil.co/en/knowledge/certificates-on-shares-1\" target=\"_blank\"><strong>HERE</strong></a>.</p><p>The <strong>share certificates</strong> grant you <strong>economic rights</strong> within the company. This means that as a <strong>co-owner</strong>, you benefit from the <strong>increase in value</strong>, and you may also <strong>receive dividends</strong> in the future or <strong>profit from a potential company sale</strong>.</p><p><strong>Important to know:</strong></p><p>•<strong>No voting rights</strong> are attached to the certificates.</p><p>•The certificates are <a href=\"https://broccoli.eu/en/\" target=\"_blank\"><strong>digitized on the Broccoli platform</strong>,</a> making investing and trading <strong>accessible</strong> without the need for a notary.</p><p>•<strong>Investing carries risks</strong>. Only invest if you have the <strong>financial flexibility</strong> to bear potential losses. Of course, we don’t expect this to happen, but we are required to mention it.</p><p>• As an investor, <strong>there are no future obligations or guarantees required</strong>.</p>"
+          }
+        },
+        "faq_item_FDgq6g": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>WHAT IS THE SMYLE VALUATION?</strong></p>",
+            "answer": "<p>Smyle is valued at €8.7 miljoen with a share price of €9.47. We have a valuation report that substantiates this. In case you interested in this, just let us know via this<a href=\"https://form.typeform.com/to/jhAh6fuR#name=xxxxx&email=xxxxx\" target=\"_blank\">LINK</a>and we’ll send it to you</p>"
+          }
+        },
+        "faq_item_brek8U": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>AS OF WHEN CAN I INVEST IN SMYLE AND WHAT IS THE MINIMAL AMOUNT?</p>",
+            "answer": "<p>You can invest in Smyle as of Wednessday 26th of February. The minimum investment amount is €375.</p>"
+          }
+        },
+        "faq_item_rQ4zc7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>WHY IS SMYLE SELLING SHARES?</strong></p>",
+            "answer": "<p>Smyle is growing to <strong>maximize its impact as quickly as possible</strong>. As a <strong>crowdfunded brand</strong>, we want to give our <strong>community the first opportunity to invest</strong>.</p><p>We also aim to make <strong>co-ownership accessible</strong> to as many people as possible. The more people who are excited about Smyle, the more people we can reach—<strong>and that is our biggest goal!</strong> 🚀🌍</p>"
+          }
+        },
+        "faq_item_Yy6UMy": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>WHAT HAPPENS ONCE I BOUGHT CERTIFICATES OF SHARES?</strong></p>",
+            "answer": "<p>You can make your planned <strong>investment directly</strong> through the <strong>Broccoli platform</strong> as soon as the campaign goes live. If you signed up in advance to participate, we will notify you beforehand and <strong>reserve your spot for 48 hours</strong>.</p><p><strong>Broccoli</strong> is a <strong>cutting-edge platform</strong> that focuses on <strong>sustainable companies with a strong mission</strong>, allowing them to <strong>issue, digitize, and trade their equity</strong>. We feel at home with their vision, which is why we chose to partner with them.</p><p>On your personal page on the <strong>Broccoli platform</strong>, you can track in your <strong>dashboard</strong> how many <strong>share certificates</strong> you own in Smyle. For each transaction, you will receive an <strong>email confirmation</strong> and a <strong>transaction certificate</strong>, which serves as proof of purchase. In your <strong>account</strong>, you can view all your transactions and transaction details.</p><p>On <strong>Broccoli</strong>, the <strong>digital share certificates in Smyle</strong> are referred to as <strong>“Certificaten”</strong>.</p>"
+          }
+        },
+        "faq_item_Fb8jGw": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>WHAT HAPPENS IN CASE SMYLE IS TAKEN OVER BY ANOTHER COMPANY?</strong></p>",
+            "answer": "<p>We are <strong>not thinking about selling</strong> at all; our goal is to <strong>continue growing the company</strong>.</p><p>However, if a <strong>sale</strong> ever becomes a possibility in the future, <strong>you as an investor will be included in this process</strong>.</p><p>If <strong>Smyle is sold, you will share in the profits</strong>.</p><p>In the event of a sale as described above, the <strong>certificates will be repurchased</strong> by either <strong>Smyle or the investor</strong>, at the <strong>acquisition value</strong>, and the <strong>sale price will be paid to you in cash</strong>.</p><p>The <strong>difference in value</strong> will determine the <strong>final return</strong>. This can be either <strong>negative or positive</strong>, but Smyle is focused on <strong>creating impact</strong>, which means <strong>growth and therefore an increase in value</strong>. 🚀</p>"
+          }
+        },
+        "faq_item_6eKbxP": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>DO YOU HAVE A PITCHDECK?</strong></p>",
+            "answer": "<p>Yes, see <a href=\"https://www.wesmyle.nl/investeer-pitchdeck-smyle-2025/\">HERE</a>!</p>"
+          }
+        },
+        "faq_item_EafTRK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>CAN I SELL MY CERTIFICATES OF SHARES?</strong></p>",
+            "answer": "<p>You can <strong>sell your share certificates</strong> through the <strong>Broccoli platform</strong>. This means you can offer your certificates for sale to other co-owners.</p><p>You <strong>set the minimum price</strong> you want to receive, and this is done <strong>anonymously</strong>. Buyers can then place <strong>anonymous bids</strong>. If you receive a price that you’re happy with, you can <strong>accept the buyer’s offer</strong>.</p><p>For every bid you receive, you will get an <strong>email notification</strong>. Once you accept a bid, the buyer has <strong>24 hours</strong> to complete the payment. The <strong>payment is processed through Broccoli</strong> and is transferred directly to your <strong>bank account</strong> (minus Broccoli’s <strong>transaction fee of 2.5%, with a maximum of €1,250</strong>), as registered in your user profile on the platform.</p><p>⚠ <strong>Important:</strong> <strong>During a sharefunding round, trading between investors is not allowed.</strong></p>"
+          }
+        },
+        "faq_item_apVUrf": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>WHAT RETURN CAN I EXPECT?</strong></p>",
+            "answer": "<p><strong>HOW CAN I GENERATE RETURNS?</strong></p><p>By becoming a <strong>co-owner</strong> of a company, there are <strong>two ways</strong> to generate returns:</p><p>1. <strong>Dividend payouts (profit distribution)</strong></p><p>2.<strong>The value of your share certificate</strong>, which is determined by the difference between the <strong>purchase price</strong> and the <strong>selling price</strong> of your certificates.</p><p>The exact <strong>return on investment</strong> cannot be predicted with certainty. You are investing in Smyle at a <strong>relatively early stage</strong>—the foundation is strong, but real growth is now accelerating. If value is added to the company, it will directly impact <strong>revenue and results</strong>, which in turn affects the value of the <strong>current share certificates</strong>.</p><p>The <strong>forecast</strong> suggests that revenue will <strong>almost double</strong> within the coming years. This <strong>could mean</strong> that the value of your investment also <strong>doubles</strong>. However, this is a <strong>projection, not a guarantee</strong> for the future. Returns could be <strong>realized</strong> by selling your certificates on the marketplace or if <strong>Smyle (partially) sells to a third party</strong>.</p><p>The <strong>dividend amount</strong> is determined <strong>annually</strong> after the financial statements are finalized. The <strong>board</strong> decides whether the profit will be <strong>distributed as dividends</strong> or <strong>reinvested</strong>. Because Smyle is still in a <strong>growth phase</strong> together with you as co-owners, <strong>estimating the expected dividend return for the next three years is difficult</strong>.</p>"
+          }
+        },
+        "faq_item_mVidHR": {
+          "type": "faq_item",
+          "settings": {
+            "question": "",
+            "answer": ""
+          }
+        },
+        "faq_item_8tPbcm": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>DO I HAVE TO PAY FEES AS A BUYER TO PURCHASE A CERTIFICATE?</strong></p>",
+            "answer": "<p><strong>NO, YOU DON’T HAVE TO PAY ANY FEES.</strong></p><p>The <strong>Broccoli platform</strong> charges a <strong>2.5% transaction fee</strong>, which is covered by the <strong>seller</strong>—in this case, <strong>Smyle</strong>.</p><p>If you decide to <strong>sell your certificates</strong> in the future, you as the <strong>seller</strong> will be responsible for the transaction fee. In that case, you would pay <strong>2.5% per transaction</strong>, with a <strong>maximum of €1,250 per sale</strong>. The buyer <strong>does not pay any fees</strong>.</p><p>Apart from this, <strong>Broccoli does not charge any additional fees</strong> for users or account holders.</p>"
+          }
+        },
+        "faq_item_YQCGB9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>HOW DO I HANDLE MY ADMINISTRATION IF I INVEST AS AN INDIVIDUAL OR THROUGH A BUSINESS?</strong></p>",
+            "answer": "<p>The <strong>Broccoli platform</strong> allows you to <strong>export</strong> your transaction(s) (investment) <strong>at any time of the day</strong>.</p><p>On <strong>January 1st of the new year</strong>, you can also <strong>export an annual overview</strong> from Broccoli. This provides a summary of <strong>how many share certificates</strong> you own in each company and their respective <strong>values</strong>. You can use this information for your <strong>own administration or tax filing</strong>.</p><p>For any <strong>administrative questions</strong>, you can contact <strong>support@broccoli.eu</strong>.</p>"
+          }
+        },
+        "faq_item_wtrV6i": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>WHAT AMOUNTS CAN I INVEST?</strong></p>",
+            "answer": "<p>You can participate <strong>starting from €375</strong>. There is <strong>no maximum investment amount</strong>, as we use these funds to fuel our growth.</p><p>For investments <strong>above €10,000</strong>, we will reach out to <strong>connect personally</strong> and discuss the investment together. 🚀</p>"
+          }
+        },
+        "faq_item_ExJmrD": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>WHAT ABOUT TAXES?</strong></p>",
+            "answer": "<p>The value of your <strong>share certificates</strong> falls under <strong>Box 3 (savings & investments)</strong>. In <strong>2025</strong>, the <strong>tax-free threshold</strong> in Box 3 is <strong>€57,684</strong> (or <strong>€115,368</strong> if you have a fiscal partner).</p><p>For more details, see this <strong>link</strong>.</p><p>If the value of your share certificates <strong>exceeds the tax-free threshold</strong>, you will have to <strong>pay taxes</strong> on the <strong>average return</strong>, taxed at <strong>30%</strong>. The <strong>exact tax rate</strong> depends on which <strong>bracket</strong> your <strong>excess assets</strong> fall into.</p><p>You can find more details on the <strong>Dutch Tax Authority website</strong>.</p><p></p>"
+          }
+        },
+        "faq_item_A3k4MW": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>IF I INVEST IN SMYLE, DO I HAVE ANY OBLIGATIONS OR POTENTIAL LIABILITY?</strong></p>",
+            "answer": "<p>No, as an investor, <strong>you do not take on any obligations</strong> and <strong>you are not personally liable</strong> for anything.</p><p>By investing in Smyle, you <strong>purchase share certificates</strong>, which grant you <strong>economic rights</strong> but do not come with any <strong>legal liabilities or future obligations</strong>. Your <strong>risk is limited to your investment amount</strong>—you cannot be held accountable for any debts or liabilities of the company.</p>"
+          }
+        },
+        "faq_item_iEGfiK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>CAN I ALSO INVEST THROUGH MY BUSINESS?</strong></p>",
+            "answer": "<p>You sure can.</p>"
+          }
+        },
+        "faq_item_PxA3D4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>IS THE INVESTMENT ROUND SUBJECT TO DUTCH LAW?</strong></p>",
+            "answer": "<p><strong>IS THE INVESTMENT ROUND SUBJECT TO DUTCH LAW?</strong></p><p>Yes. The <strong>STAK (Stichting Administratiekantoor Smyle)</strong> is a <strong>Dutch entity</strong>, established and registered with <strong>Notariaat Schut van de Ven in Amsterdam</strong>, and operates under <strong>Dutch law</strong>.</p>"
+          }
+        },
+        "faq_item_wtd9DN": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>I PREVIOUSLY INVESTED IN SMYLE THROUGH A CONVERTIBLE LOAN WITH CROWDABOUTNOW. CAN I CONVERT IT INTO SHARE CERTIFICATES?</strong></p>",
+            "answer": "<p>No, the <strong>convertible loan</strong> you invested in via <strong>CrowdAboutNow</strong> <strong>cannot be converted</strong> into <strong>share certificates</strong> in this investment round.</p><p>The terms of the <strong>convertible loan agreement</strong> remain unchanged, and the conversion process follows the original agreement set with <strong>CrowdAboutNow</strong>. If you have any questions regarding your loan or its potential conversion, we recommend reaching out directly to <strong>Smyle or CrowdAboutNow</strong> for further clarification.</p>"
+          }
+        },
+        "faq_item_DzEWHj": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>I AM ABROAD AND DO NOT HAVE A DUTCH BANK ACCOUNT. CAN I STILL INVEST?</strong></p>",
+            "answer": "<p>Yes, absolutely! That’s not a problem.</p><p>Please <strong>email us at</strong> <a href=\"mailto:invest@wesmyle.com\">invest@wesmyle.com</a>, and we will look into the best way to arrange this for you.</p>"
+          }
+        },
+        "faq_item_BxtkEW": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>I DO NOT HAVE DUTCH NATIONALITY. CAN I STILL INVEST?</strong></p>",
+            "answer": "<p>Yes, you <strong>can still invest</strong>, regardless of your nationality.</p><p>There are <strong>no restrictions</strong> based on nationality, as long as you can complete the investment process through the <strong>Broccoli platform</strong>.</p><p>If you have any questions, feel free to <strong>contact us at</strong> <a href=\"mailto:invest@wesmyle.com\">invest@wesmyle.com</a>, and we’ll be happy to assist you! 😊</p>"
+          }
+        },
+        "faq_item_rPzNXP": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>HOW MANY NEW SHARES WILL SMYLE ISSUE?</strong></p>",
+            "answer": "<p>We plan to raise at least €300.000 with this sharefund round and we are talking to investors about the rest.</p>"
+          }
+        },
+        "faq_item_Yc4Fi4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>I HAVE MORE QUESTIONS. HOW CAN I GET ANSWERS?</strong></p>",
+            "answer": "<p>We’re happy to help! Just click<a href=\"https://form.typeform.com/to/VF9eYqln?utm_source=xxxxx&utm_medium=xxxxx&utm_campaign=xxxxx&utm_term=xxxxx&utm_content=xxxxx#email=xxxxx\" target=\"_blank\">HERE</a>and ask your questions and we’ll contact you.</p>"
+          }
+        },
+        "faq_item_F4Qt4r": {
+          "type": "faq_item",
+          "settings": {
+            "question": "",
+            "answer": ""
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_dJrgKr",
+        "faq_item_FGtDPt",
+        "faq_item_UwbbqD",
+        "faq_item_FDgq6g",
+        "faq_item_brek8U",
+        "faq_item_rQ4zc7",
+        "faq_item_Yy6UMy",
+        "faq_item_Fb8jGw",
+        "faq_item_6eKbxP",
+        "faq_item_EafTRK",
+        "faq_item_apVUrf",
+        "faq_item_mVidHR",
+        "faq_item_8tPbcm",
+        "faq_item_YQCGB9",
+        "faq_item_wtrV6i",
+        "faq_item_ExJmrD",
+        "faq_item_A3k4MW",
+        "faq_item_iEGfiK",
+        "faq_item_PxA3D4",
+        "faq_item_wtd9DN",
+        "faq_item_DzEWHj",
+        "faq_item_BxtkEW",
+        "faq_item_rPzNXP",
+        "faq_item_Yc4Fi4",
+        "faq_item_F4Qt4r"
+      ],
+      "settings": {
+        "color_scheme": "1",
+        "heading_text": "<p>We’re happy to answer your questions!</p>",
+        "use_metaobject": false,
+        "metaobjects": []
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_dgiQww",
+    "video_4cFD6X",
+    "image_with_text_i9bTi6",
+    "image_with_text_eKhUiY",
+    "rich_text_zif4Vy",
+    "image_with_text_w4K8fG",
+    "image_with_text_48XCXB",
+    "image_with_text_nGmatk",
+    "image_with_text_XMKrx8",
+    "image_with_text_FPaV7G",
+    "testimonials_mRUhVx",
+    "image_with_text_KQLUC7",
+    "rich_text_xpcqKq",
+    "video_with_text_9wMdNK",
+    "image_with_text_yfRa34",
+    "image_with_text_EVVBAf",
+    "faq_collapsible_rows_tDQa8x"
+  ]
+}

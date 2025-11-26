@@ -1,0 +1,94 @@
+{%- liquid
+  assign upsells = block.settings.upsells | where: 'available', true
+  assign first_upsell_id = upsells.first.id
+  assign option_number = block.settings.order_number | default: 0 | times: 1
+  assign title = block.settings.title
+  assign description = block.settings.description
+
+  assign has_guide_page = false
+  assign option_guide_text = block.settings.option_guide_text
+  assign option_guide_page = block.settings.option_guide_page
+
+  if option_guide_text != blank and option_guide_page != blank
+    assign has_guide_page = true 
+  endif
+-%}
+
+{%- if has_guide_page -%}
+    {%- capture option_guide_link -%}
+      <modal-opener class="no-js-hidden" data-modal="option-guide-upsell-{{ first_upsell_id }}-{{ section.id }}">
+        <button type="button" class="link block text-sm option-guide-link h5 no-text-transform" aria-haspopup="dialog">
+          <span class="option-guide-link__icon flex">{%- render 'icon', icon: 'tooltip', size: 'small' -%}</span>
+          <span class="option-guide-link__text">{{- option_guide_text -}}</span>
+        </button>
+      </modal-opener>
+      <noscript>
+        <a href="{{ option_guide_page.url }}" class="link">{{ option_guide_text }}</a>
+      </noscript>
+    {%- endcapture -%}
+{%- endif -%}
+
+{% if upsells.size > 0 %}
+  <div class="upsells-multiselect upsell-{{ first_upsell_id }}">
+    <fieldset class="option-selector" data-selector-type="listed">
+      <div class="label-heading flex justify-between items-center flex-wrap">
+        <legend class="label items-center">
+          {% if option_number > 0 %}
+            <span class="label__order-number inline-flex justify-center items-center">
+                {{ option_number }}
+            </span>
+          {% endif %}
+
+          <span class="no-text-transform">{{ title }}</span>
+          {{ option_guide_link }}
+        </legend>
+        <div class="option-selector__btns flex flex-wrap w-full">
+          {%- for upsell in upsells -%}
+            {% liquid
+              assign upsell_form_index = option_index | times: 100 | plus: forloop.index
+              assign variant = upsell.selected_or_first_available_variant
+
+              if upsell.available != true
+                continue
+              endif
+            %}
+            <input form="{{ product_form_id }}" id="upsells-{{ upsell.id }}-opt-{{ forloop.index0 }}" type="checkbox" class="opt-btn visually-hidden focus-label js-option" name="items[{{ upsell_form_index }}][id]" value="{{ variant.id }}" onchange="this.closest('.option-selector__btns')?.querySelector('input[name*=selling_plan]')?.toggleAttribute('disabled', !this.checked)">
+            <label class="opt-label opt-label--preference opt-label--btn btn relative text-center"
+                   for="upsells-{{ upsell.id }}-opt-{{ forloop.index0 }}">
+              <div class="media">
+                {%- render 'image',
+                  image: upsell.featured_image
+                -%}
+              </div>
+              <div class="opt-label__content">
+                <div class="heading-font font-semibold mb-4">{{ upsell.title }}</div>
+                {% if description %}
+                <div class="product-description-upsell text-md">{{ description }}</div>
+                {% endif %}
+                {% render 'price',
+                  product: upsells,
+                  for_variant_picker: true,
+                  current_variant: variant,
+                  independent_price: true
+                %}
+              </div>
+            </label>
+
+            {% if variant.requires_selling_plan == true %}
+              {% liquid
+                for selling_plan_allocation in variant.selling_plan_allocations
+                  if selling_plan_allocation.selling_plan.id
+                    assign selling_plan_id = selling_plan_allocation.selling_plan.id
+                    break
+                  endif
+                endfor
+              %}
+              <input form="{{ product_form_id }}" type="hidden" name="items[{{ upsell_form_index }}][selling_plan]" value="{{ selling_plan_id }}" disabled>
+            {% endif %}
+          {%- endfor -%}
+        </div>
+      </div>
+    </fieldset>
+  </div>
+{% endif %}
+

@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "menu_promotion_large_jMD6F3": {
+          "type": "menu-promotion-large",
+          "disabled": true,
+          "settings": {
+            "dropdown_link_title": "",
+            "enable_fade": false,
+            "image_position": "right",
+            "subheading": "Tell your story",
+            "title": "Wide menu promotion",
+            "text": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "button_1_label": "Shop this",
+            "button_1_link": "",
+            "button_1_style": "secondary",
+            "button_2_label": "Shop all",
+            "button_2_link": "",
+            "button_2_style": "primary",
+            "text_alignment": "center",
+            "show_countdown": false,
+            "countdown_position": "under-heading",
+            "end_date": "",
+            "end_time": "",
+            "end_text": "",
+            "hide_on_end": false,
+            "number_size": 40,
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true
+          }
+        }
+      },
+      "block_order": [
+        "menu_promotion_large_jMD6F3"
+      ],
+      "settings": {
+        "logo": "{{ shop.brand.logo }}",
+        "logo_img_width_int": 60,
+        "mobile_logo_img_width_int": 60,
+        "logo_h1": true,
+        "enable_sticky": true,
+        "enable_transparent": false,
+        "transparent_color": "#182d4d",
+        "menu_linklist": "main-menu",
+        "menu_layout": "inline-menu-left",
+        "nav_featured_link": "Sale",
+        "menu_linklist_mobile": "",
+        "menu_linklist_mobile_bottom": "mobile-menu-bottom",
+        "mobile_expand_with_entire_link": true,
+        "enable_mobile_promo_carousel": true,
+        "enable_nav_mob_products": false,
+        "nav_mob_products_title": "",
+        "nav_mob_products_collection": "frontpage",
+        "enable_search": false,
+        "search_recommendations_title": "",
+        "search_recommendations_menu": "",
+        "icon_strategy": "icons_cart_search",
+        "cart_icon": "bag",
+        "enable_country_selector": true,
+        "hide_on_templates": "page.starter-kit-ebrush-sub,page.ebrush-whitening-kit,page.01-start-eb-de-01,page.starter-kit-premium,page.starter-kit-whitening,page.page.01-single-ebrush-page,page.starter-kit-single,page.01-start-eb-reo-single-01,page.01-start-eb-de-01-cross,page.starter-kit-ebrush-5year,page.starter-kit-whitening-tab,page.5-reasons-page,page.starter-kit-eb-back-routi,page.de-back-to-routine,page.bfcm25-starter-kit,page.start-k-eb-back-rout-test,page.single-pdp-page-01,page.starter-kit-ebrush-sub-bk,page.02-start-eb-reo-single-02,page.starterkit-e-brush-reo-single",
+        "remove_logo_link": true,
+        "hide_menu": true,
+        "hide_account": true,
+        "hide_country_selector": true,
+        "hide_search": true,
+        "hide_cart": false,
+        "name_link": "SHOP NOW",
+        "url_link": "#product-info",
+        "background_link": "#e8412c",
+        "color_link": "#ffffff"
+      }
+    },
+    "store-messages": {
+      "type": "store-messages",
+      "disabled": true,
+      "settings": {
+        "head_not_home_only": false,
+        "head_not_col_bg": "#f4f6f8",
+        "head_not_col_txt1": "#171717",
+        "head_not_col_txt2": "#4c4c4b",
+        "head_not_mob_show": true,
+        "head_not_mob_text": "Free shipping on orders over $100",
+        "head_not_mob_url": ""
+      }
+    }
+  },
+  "order": [
+    "header",
+    "store-messages"
+  ]
+}

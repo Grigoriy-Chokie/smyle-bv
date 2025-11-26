@@ -1,0 +1,618 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_DFn7EV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_G4inFP": {
+          "type": "heading",
+          "settings": {
+            "title": "All Our Products",
+            "use_h1": true
+          }
+        },
+        "text_8EUpN7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_G4inFP",
+        "text_8EUpN7"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "featured_main_product_NmEhdz": {
+      "type": "featured-main-product",
+      "blocks": {
+        "title_CrKmKA": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_yQbPgY": {
+          "type": "text",
+          "settings": {
+            "text": "Recommended by 1500+ dentists",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/Frame123123.svg",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#00a676",
+            "show_in_quickbuy": false
+          }
+        },
+        "price_xeQnEb": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true,
+            "save_pattern": "Save [amount] + FREE Whitening Kit"
+          }
+        },
+        "text_DCCQJd": {
+          "type": "text",
+          "settings": {
+            "text": "🦷  <strong>Sonic power</strong> for healthier & stronger teeth",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_y9EcpH": {
+          "type": "text",
+          "settings": {
+            "text": "🌿  <strong>Lifetime warranty</strong> “Never buy a replacement again”",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "divider_EXnBmT": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "benefits_Bh9dVK": {
+          "type": "benefits",
+          "settings": {
+            "text_1": "4 months battery",
+            "icon_1": "shopify://shop_images/Frame.svg",
+            "text_2": "Try for 60 days",
+            "icon_2": "shopify://shop_images/Frame-clock.svg",
+            "text_3": "Lifetime Warranty",
+            "icon_3": "shopify://shop_images/Frame-ss.svg"
+          }
+        },
+        "variant_picker_batYeX": {
+          "type": "variant-picker",
+          "settings": {
+            "order_number": "",
+            "custom_title": "",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "subscription_form_DHmErn": {
+          "type": "subscription-form",
+          "settings": {
+            "product": "sonic-electric-toothbrush",
+            "selling_plan": "4 months",
+            "enable_prices": true,
+            "discounted_price": "76.5",
+            "option_number": 2,
+            "option_title": "Select a subscription",
+            "option_guide_text": "How does it work?",
+            "option_guide_page": "",
+            "enable_sale_badge": false,
+            "enable_shipping_badge": false,
+            "sale_badge_text": "",
+            "shipping_badge_text": "",
+            "subscription_text": "Every 4 months, [quantity] replacement brushes"
+          }
+        },
+        "duo_pack_Dcjm76": {
+          "type": "duo_pack",
+          "settings": {
+            "step_number": "3",
+            "step_name": "Select amount",
+            "discount": 32.5,
+            "discount_label": "Limited Offer! - Save 50% on 2nd brush",
+            "index": "3"
+          }
+        },
+        "buy_buttons_MKfdwM": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false,
+            "additional_product": ""
+          }
+        },
+        "payment_icons_cikX4A": {
+          "type": "payment_icons",
+          "settings": {
+            "show_payment_icons": true,
+            "payment_icons_style": "default"
+          }
+        },
+        "shipping_notice_cN7qYb": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Free CO2-neutral shipping  by [next_working_day]"
+          }
+        }
+      },
+      "block_order": [
+        "title_CrKmKA",
+        "text_yQbPgY",
+        "price_xeQnEb",
+        "text_DCCQJd",
+        "text_y9EcpH",
+        "divider_EXnBmT",
+        "benefits_Bh9dVK",
+        "variant_picker_batYeX",
+        "subscription_form_DHmErn",
+        "duo_pack_Dcjm76",
+        "buy_buttons_MKfdwM",
+        "payment_icons_cikX4A",
+        "shipping_notice_cN7qYb"
+      ],
+      "disabled": true,
+      "settings": {
+        "product": "sonic-electric-toothbrush",
+        "show_breadcrumbs": true,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "featured_main_product_LFfiBV": {
+      "type": "featured-main-product",
+      "blocks": {
+        "title_UKAwXe": {
+          "type": "title",
+          "settings": {}
+        },
+        "subscription_form_mG8zjP": {
+          "type": "subscription-form",
+          "settings": {
+            "product": "toothpaste-tabs-whitening",
+            "selling_plan": "4 months",
+            "enable_prices": false,
+            "discounted_price": "",
+            "option_number": 1,
+            "option_title": "Select a subscription",
+            "option_guide_text": "How does it work?",
+            "option_guide_page": "sharefund-investment-pitchdeck-smyle",
+            "enable_sale_badge": false,
+            "enable_shipping_badge": true,
+            "sale_badge_text": "",
+            "shipping_badge_text": "+ Free Shipping",
+            "subscription_text": "Every 4 months, [quantity] replacement brushes"
+          }
+        },
+        "quantity_rules_fhfDxz": {
+          "type": "quantity_rules",
+          "settings": {
+            "position": "2",
+            "heading": "Select amount",
+            "first_preselected": "subscribe",
+            "prefix_price": "per month",
+            "badge_text_disable": "#c0c0c0",
+            "badge_bg_disable": "#fcfcfc",
+            "badge_bg_shipping": "#00a676",
+            "multiplied_value": 4,
+            "best_option": "12 months",
+            "best_text": "Best Deal",
+            "popular_option": "8 months",
+            "popular_text": "Most Popular",
+            "shipping_list": "12 months,8 months"
+          }
+        },
+        "divider_CkUA3H": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "upsells_c9nwEJ": {
+          "type": "upsells",
+          "settings": {
+            "title": "Mix & save",
+            "products": [
+              "bamboo-toothbrush"
+            ]
+          }
+        },
+        "buy_buttons_4hhcHX": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false,
+            "additional_product": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_UKAwXe",
+        "subscription_form_mG8zjP",
+        "quantity_rules_fhfDxz",
+        "divider_CkUA3H",
+        "upsells_c9nwEJ",
+        "buy_buttons_4hhcHX"
+      ],
+      "disabled": true,
+      "name": "Featured main product",
+      "settings": {
+        "product": "toothpaste-tabs-whitening",
+        "show_breadcrumbs": true,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "gallery_MDeCy4": {
+      "type": "gallery",
+      "blocks": {
+        "media_JWdRdW": {
+          "type": "media",
+          "settings": {
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "Collection 1",
+            "button_label": "Shop Collection",
+            "link": "shopify://collections/all",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_hUJzfL": {
+          "type": "media",
+          "settings": {
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "Collection 2",
+            "button_label": "Shop Collection",
+            "link": "shopify://collections/all",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_mk8fgW": {
+          "type": "media",
+          "settings": {
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "Collection 3",
+            "button_label": "Shop collection",
+            "link": "shopify://collections/all",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_6XHxwK": {
+          "type": "media",
+          "settings": {
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "Collection 4",
+            "button_label": "Shop Collection",
+            "link": "shopify://collections/all",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_JWdRdW",
+        "media_hUJzfL",
+        "media_mk8fgW",
+        "media_6XHxwK"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 400,
+        "mobile_image_height": 400,
+        "title_size": 48,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": false,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "secondary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": false,
+        "show_image_behind_heading": false,
+        "heading_image_height": "huge",
+        "overlay_style": "no_background",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 24,
+        "grid": 3,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "none",
+        "show_filter_counts": true,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "gallery",
+        "rel_coll_gall_aspect_ratio": "2",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": true,
+        "rel_coll_gall_overlay_style": "full image-overlay--bg-shadow",
+        "rel_coll_gall_text_alignment": "bottom left",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "scrolling_banner_GAMDCY": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_CqJ8gC": {
+          "type": "image",
+          "settings": {
+            "image_width": 130,
+            "link": ""
+          }
+        },
+        "image_FWmyPb": {
+          "type": "image",
+          "settings": {
+            "image_width": 130,
+            "link": ""
+          }
+        },
+        "image_aBccxR": {
+          "type": "image",
+          "settings": {
+            "image_width": 130,
+            "link": ""
+          }
+        },
+        "image_kfgH6G": {
+          "type": "image",
+          "settings": {
+            "image_width": 130,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CqJ8gC",
+        "image_FWmyPb",
+        "image_aBccxR",
+        "image_kfgH6G"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 64,
+        "speed": 20,
+        "direction": "left",
+        "font": "heading",
+        "space": 140
+      }
+    },
+    "image_with_text_overlay_KaDxfM": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_9hbrtY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tell your story"
+          }
+        },
+        "heading_bcDpbD": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text overlay",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_TTBRFg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Promote your brand or products with this feature section</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_q7kjEM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_width": "full",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9hbrtY",
+        "heading_bcDpbD",
+        "text_TTBRFg",
+        "button_q7kjEM"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "collection_list_8PPgT6": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_9yg96G": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_Ew4WQG": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_HiHMUW": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_RKLYz9": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_W67MwX": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_UetyWw": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_9yg96G",
+        "collection_Ew4WQG",
+        "collection_HiHMUW",
+        "collection_RKLYz9",
+        "collection_W67MwX",
+        "collection_UetyWw"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "portrait-23",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "over-full image-overlay--bg-shadow",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "rich_text_DFn7EV",
+    "featured_main_product_NmEhdz",
+    "featured_main_product_LFfiBV",
+    "gallery_MDeCy4",
+    "main",
+    "scrolling_banner_GAMDCY",
+    "image_with_text_overlay_KaDxfM",
+    "collection_list_8PPgT6"
+  ]
+}

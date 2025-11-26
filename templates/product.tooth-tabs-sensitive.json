@@ -1,0 +1,547 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_f43Bdw": {
+          "type": "text",
+          "settings": {
+            "text": "Available in 3500+ stores",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/Frame123123.svg",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#00a676",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_tCx6Lf": {
+          "type": "text",
+          "settings": {
+            "text": "€5.99 PER MONTH",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true,
+            "save_pattern": "Save [amount] + FREE Whitening Kit"
+          }
+        },
+        "text_PXDMT4": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
+            "icon": "star",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#000000",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_Ka9fEk": {
+          "type": "text",
+          "settings": {
+            "text": "🦷  Trusted by <strong>1500+ dentists</strong>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_yxP7MU": {
+          "type": "text",
+          "settings": {
+            "text": "🌿  No microplastics",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_kJTXNt": {
+          "type": "text",
+          "settings": {
+            "text": "♻️  Plastic-free packaging",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_AgE6Xi": {
+          "type": "text",
+          "settings": {
+            "text": "💚  Easy to use",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_VCiT3X": {
+          "type": "text",
+          "settings": {
+            "text": "✨No more sensitive teeth",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "variant_picker_9QqWX8": {
+          "type": "variant-picker",
+          "settings": {
+            "order_number": "",
+            "custom_title": "Select a preference",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "subscription_form_9PBPBF": {
+          "type": "subscription-form",
+          "settings": {
+            "product": "{{ product }}",
+            "selling_plan": "4 months",
+            "enable_prices": true,
+            "discounted_price": "",
+            "option_number": 1,
+            "option_title": "Select WITH / WITHOUT subscription",
+            "option_guide_text": "How does it work?",
+            "option_guide_page": "sharefund-investment-pitchdeck-smyle",
+            "enable_sale_badge": false,
+            "enable_shipping_badge": true,
+            "sale_badge_text": "",
+            "shipping_badge_text": "+ Free Shipping",
+            "subscription_text": "Delivered to your home every 4 months"
+          }
+        },
+        "divider_nRVBGx": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "quantity_rules_RxqEmB": {
+          "type": "quantity_rules",
+          "settings": {
+            "position": "2",
+            "heading": "Select how many persons",
+            "first_preselected": "subscribe",
+            "prefix_price": "per month",
+            "badge_text_disable": "#c0c0c0",
+            "badge_bg_disable": "#fcfcfc",
+            "badge_bg_shipping": "#00a676",
+            "multiplied_value": 4,
+            "best_option": "12 months",
+            "best_text": "Best Deal",
+            "best_icon": "shopify://shop_images/Frame_4.svg",
+            "popular_option": "8 months",
+            "popular_text": "Most Popular",
+            "popular_icon": "shopify://shop_images/Frame_5.svg",
+            "shipping_list": "12 months,8 months"
+          }
+        },
+        "divider_nCGmGt": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "upsells_hMf4TV": {
+          "type": "upsells",
+          "disabled": true,
+          "settings": {
+            "title": "Mix & save",
+            "products": [
+              "develop-main-cdp-template-test",
+              "sonic-electric-toothbrush"
+            ]
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false,
+            "show_quantity_selector": false,
+            "quantity_selector_type": "selector",
+            "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
+            "additional_product": ""
+          }
+        },
+        "shipping_notice_3JzFgC": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €29.99"
+          }
+        },
+        "payment_icons_VFwNqi": {
+          "type": "payment_icons",
+          "settings": {
+            "show_payment_icons": true,
+            "payment_icons_style": "default"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_f43Bdw",
+        "text_tCx6Lf",
+        "price",
+        "text_PXDMT4",
+        "text_Ka9fEk",
+        "text_yxP7MU",
+        "text_kJTXNt",
+        "text_AgE6Xi",
+        "text_VCiT3X",
+        "variant_picker_9QqWX8",
+        "subscription_form_9PBPBF",
+        "divider_nRVBGx",
+        "quantity_rules_RxqEmB",
+        "divider_nCGmGt",
+        "upsells_hMf4TV",
+        "buy-buttons",
+        "shipping_notice_3JzFgC",
+        "payment_icons_VFwNqi"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "set_variant_media": false,
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "faq_collapsible_rows_pehcqN": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_EKhyyR": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>KEY FEATURES</p>",
+            "answer": "<p>✔<strong>Best natural ingredients -</strong>Made from the finest ingredients from nature.<br/><br/>✔<strong>No nasty chemicals -</strong>No SLS, no microplastics, no nonsense like with other brands. Because it's not necessary!<br/><br/>✔<strong>Plastic-free packaging -</strong>Paper refill sachets and shipping boxes, plus a glass storage bottle. Say no to plastic!<br/><br/>✔<strong>Recommended by dentists -</strong>1300+ dentists support Smyle and recommend us to their patients.<br/><br/>✔<strong>Scientifically tested and approved -</strong>Our tabs are independently tested, quality-approved, and proven effective.<br/><br/>✔<strong>Environmentally friendly -</strong>Smyle is the best for and of the world. From production to packaging and shipping, we do everything environmentally friendly!<br/><br/>✔<strong>Social -</strong>We're a B-Corp and act consciously. The whole world deserves premium sustainable oral care!</p>"
+          }
+        },
+        "faq_item_BLd6Bx": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>INGREDIENTS</p>",
+            "answer": "<p><strong>Isomalt</strong> – A tooth-friendly sweetener that makes brushing a treat (without the sugar crash)<br/><br/><strong>Calcium Carbonate</strong> – Kind to your teeth, but unrelenting for plaque, food remains and stains<br/><br/><strong>Microcrystalline Cellulose</strong> – Helps the tablet hold together and gives it that perfect crunch<br/><br/><strong>Sodium Coco-Sulfate</strong> – Provides just enough foam to clean your teeth perfectly<br/><br/><strong>Aroma</strong> – Natural flavour that makes brushing way more fun (and minty!)<br/><br/><strong>Potassium Nitrate</strong> – Helps soothe sensitive teeth and keep your smile comfy<br/><br/><strong>Yeast</strong> – One of the ingredients that give the tablets their unique Smyle flavor<br/><br/><strong>Sodium Bicarbonate</strong> – A natural cleanser that helps balance acidity and freshen breath<br/><br/><strong>Hydrated Silica</strong> – Do you like white teeth without stains? Then this is really something for you!<br/><br/><strong>Acacia Senegal Gum</strong> – Helps to remineralize, super important for keeping your teeth healthy and strong<br/><br/><strong>Sodium Monofluorophosphate</strong> – Remineralizes, helps against cavities and weak spots, counteracts receding gums and prevents the first stages of tooth decay: a real all-rounder!<br/><br/><strong>Magnesium Stearate</strong> – This plant-based ingredient makes our tablets just firm enough for the perfect crush, brush, Smyle moment.<br/><br/><strong>Stevioside</strong> – All-natural sweetener<br/><br/><strong>Mentha Arvensis Leaf Oil</strong> – All-natural mint flavor<br/><br/><strong>Hydroxyapatite</strong> – A natural enamel booster to help keep your teeth strong and bright<br/><br/><strong>Menthol</strong> – For that wonderful aftertaste and fresh breath that we all love<br/><br/><strong>Mentha Piperita Oil</strong> – Who doesn't love extra fresh peppermint flavor?<br/><br/><strong>Silica</strong> – Gently polishes teeth to keep your smile stain-free and shiny<br/><br/><strong>Limonene</strong> – One of the (now no longer so) secret ingredients that provide the Smyle taste experience.<br/><br/><strong>Linalool</strong> – A floral-fresh note that keeps things subtly sweet and soothing<br/><br/><strong>Beta-Caryophyllene</strong> – A natural plant extract with a warm, peppery kick (yes, your toothpaste is fancy!)<br/><br/><strong>Pinene</strong> – Fresh piney goodness straight from nature’s foresty side<br/><br/><strong>Terpineol</strong> – Adds a fresh, slightly floral twist to your brushing routine</p>"
+          }
+        },
+        "faq_item_Jtt8Px": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>BENEFITS</p>",
+            "answer": "<ul><li>Brighter, Whiter Smyle<br/><br/></li><li>Strengthens Teeth for Longevity<br/><br/></li><li>Enhances Natural Tooth Radiance<br/><br/></li><li>Guards Against Cavities<br/><br/></li><li>Breathes Freshness into Every Breath<br/><br/></li><li>Combats Plaque Build-up</li></ul>"
+          }
+        },
+        "faq_item_wVWhxn": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>FAST SHIPPING</p>",
+            "answer": "<p>Your ultimate cleaning experience is coming! And who likes shipping costs? No one! We deliver your package within 3-5 business days anywhere in Europe. <br/><br/>Free shipping for all subscription orders and above €29.99</p>"
+          }
+        },
+        "faq_item_9reNcE": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>HOW DOES THE SUBSCRIPTION WORK?</p>",
+            "answer": "<p>Got questions about our subscription? Here’s what you need to know:<br/><br/>\t<strong>• How does it work? </strong>Simply sign up and receive your toothpaste tabs at regular intervals. No more last-minute store trips!<br/><br/>\t<strong>• How often will I receive my order? </strong>You’ll get your toothpaste tabs every 4 months, but you can change this to what you prefer.<br/><br/>\t• <strong>Can I change or cancel my subscription?</strong> Absolutely! You can pause, skip, or cancel your subscription anytime through your account.<br/><br/>Have more questions? Feel free to reach out – we’re here to help!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_EKhyyR",
+        "faq_item_BLd6Bx",
+        "faq_item_Jtt8Px",
+        "faq_item_wVWhxn",
+        "faq_item_9reNcE"
+      ],
+      "settings": {
+        "color_scheme": "1",
+        "heading_text": "",
+        "use_metaobject": false,
+        "metaobjects": []
+      }
+    },
+    "logos_YFHqyc": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    },
+    "image_with_text_TNdRkd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zEiwkC": {
+          "type": "heading",
+          "settings": {
+            "title": "HOW TO USE SMYLE TOOTHPASTE TABS",
+            "use_h1": false
+          }
+        },
+        "text_6bGBRF": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li><strong>CRUSH:</strong> Take one Smyle toothpaste tab and place it in your mouth. Crush gently he tab until it starts to foam.<br/><br/></li><li><strong>BRUSH: </strong>Start brushing like you normally do<br/><br/></li><li><strong>SMYLE: </strong>After 2 min of brushing you ready and smyle. </li></ol>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zEiwkC",
+        "text_6bGBRF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/how-itworks.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "comparison_table_EeGzt9": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_6Eb9R7": {
+          "type": "row",
+          "settings": {
+            "title": "PLASTIC-FREE",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_yBYpGp": {
+          "type": "row",
+          "settings": {
+            "title": "SATISFYING FOAM",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_j6wHLC": {
+          "type": "row",
+          "settings": {
+            "title": "HYDROXYAPETITE",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_T9n34d": {
+          "type": "row",
+          "settings": {
+            "title": "PREMIUM INGREDIENTS",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_bGCFLz": {
+          "type": "row",
+          "settings": {
+            "title": "3RD PARTY TESTED",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_q9Xf4f": {
+          "type": "row",
+          "settings": {
+            "title": "VEGAN & CRUELTY-FREE",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_EVnpma": {
+          "type": "row",
+          "settings": {
+            "title": "WITH & WITHOUT FLUORIDE",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_Cg9UVh": {
+          "type": "row",
+          "settings": {
+            "title": "PRICE",
+            "icon_1": "true",
+            "text_1": "FROM €4.99",
+            "icon_2": "true",
+            "text_2": "€5- €9"
+          }
+        }
+      },
+      "block_order": [
+        "row_6Eb9R7",
+        "row_yBYpGp",
+        "row_j6wHLC",
+        "row_T9n34d",
+        "row_bGCFLz",
+        "row_q9Xf4f",
+        "row_EVnpma",
+        "row_Cg9UVh"
+      ],
+      "settings": {
+        "title": "HOW WE COMPARE",
+        "subtitle": "",
+        "logo": "shopify://shop_images/unnamed_5_de35292c-aa0c-4bf7-96d7-de05fe3e1045.webp",
+        "icon_true": "shopify://shop_images/right_round1.png",
+        "icon_false": "shopify://shop_images/close1.png",
+        "button_text": "",
+        "button_url": "",
+        "button_background": "#f46365"
+      }
+    },
+    "multi_column_AhwLAU": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_yzgR4R": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/DSC_2121_JPG-1_1.webp",
+            "title": "",
+            "text": "<p>\"Smyle has developed innovative products that are environmentally friendly and effective, aligning with targeted preventive care.\"</p><p><strong>Hero Abdullah, Five25 Dental Hygienists</strong></p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_yzgR4R"
+      ],
+      "settings": {
+        "title": "DENTISTS LOVE SMYLE",
+        "media_aspect_ratio": "s",
+        "media_width": 350,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "certifications_iGztqj": {
+      "type": "certifications",
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    },
+    "faq_collapsible_rows_eJY94A": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_cjBFwg": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_R8jw9C": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_cjBFwg",
+        "faq_item_R8jw9C"
+      ],
+      "name": "FAQ Collapsible Rows",
+      "settings": {
+        "color_scheme": "2",
+        "heading_text": "<p>We’re happy to answer your questions!</p>",
+        "use_metaobject": false,
+        "metaobjects": [
+          "toothpaste-tabs-sensitive-pro-pdp-eng"
+        ]
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "faq_collapsible_rows_pehcqN",
+    "logos_YFHqyc",
+    "image_with_text_TNdRkd",
+    "comparison_table_EeGzt9",
+    "multi_column_AhwLAU",
+    "certifications_iGztqj",
+    "faq_collapsible_rows_eJY94A"
+  ]
+}

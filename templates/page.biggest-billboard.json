@@ -1,0 +1,485 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_overlay_yfLdL8": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_dCy8Yg": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_MFEJxR": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>SMYLE & SIMON BECK CREATE THE WORLD'S LARGEST AND MOST SUSTAINABLE BILLBOARD</h1>",
+            "enlarge_text": true
+          }
+        },
+        "button_nYG378": {
+          "type": "button",
+          "settings": {
+            "button_label": "WATCH THE VIDEO",
+            "button_link": "",
+            "button_width": "medium",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dCy8Yg",
+        "text_MFEJxR",
+        "button_nYG378"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MG_9831.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "image_with_text_zmjJnn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XdEghn": {
+          "type": "heading",
+          "settings": {
+            "title": "Image with text",
+            "use_h1": false
+          }
+        },
+        "text_NDztkm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_3yzPLJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XdEghn",
+        "text_NDztkm",
+        "button_3yzPLJ"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "video_with_text_fk4ghA": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_tQnyze": {
+          "type": "heading",
+          "settings": {
+            "title": "Video",
+            "use_h1": false
+          }
+        },
+        "text_TnP94f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Smyle, we work every day on innovative, sustainable oral care products. Our mission is to create (micro)plastic-free oral care for the entire world. That thought is always central; from production to advertising. <br/><br/>That is why we are super proud of our collaboration with Simon Beck, the most famous snow artist in the world! High in the French mountains where he lives, we created the largest and most sustainable billboard in the world. Watch the video now!</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_Bbmwjf": {
+          "type": "button",
+          "settings": {
+            "button_label": "PRESS KIT",
+            "button_link": "https://drive.google.com/drive/folders/1cDb0qujPE43paXukBTkQk2pmGxlGfVkb?usp=drive_link",
+            "button_width": "medium",
+            "button_style": "secondary"
+          }
+        },
+        "button_VVexBg": {
+          "type": "button",
+          "settings": {
+            "button_label": "YOUTUBE VIDEO",
+            "button_link": "https://www.youtube.com/watch?v=8JBnl5eOmDs",
+            "button_width": "medium",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tQnyze",
+        "text_TnP94f",
+        "button_Bbmwjf",
+        "button_VVexBg"
+      ],
+      "settings": {
+        "video_shopify": "shopify://files/videos/Simon-Beck-creates-biggest-and-cleanest-billboard-in-the-world.mp4",
+        "video_external": "https://www.wesmyle.nl/wp-content/uploads/2024/04/Simon-Beck-creates-biggest-and-cleanest-billboard-in-the-world.mp4",
+        "video_description": "",
+        "autoplay": false,
+        "video_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_dz8V3P": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9MxjwR": {
+          "type": "heading",
+          "settings": {
+            "title": "“These are the only footprints we want to leave behind. No plastic, no pollution. CRUSH, BRUSH, SMYLE!”",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9MxjwR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/BU_4k_stills_01_01_21_15.jpg",
+        "image_width": 580,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_t7HgAr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GPccC4": {
+          "type": "heading",
+          "settings": {
+            "title": "SIMON BECK",
+            "use_h1": false
+          }
+        },
+        "text_VYYWa7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The record was set by:<br/><strong>Simon Beck</strong><br/>It had to be big, clean, and striking.<br/>So we called snow artist Simon Beck in the<br/>French Vallée de L’arc. He thought for a moment, grabbed his<br/>snowshoes and compass, and headed out. After a<br/>few orienteering runs and drawing the design,<br/>Simon started on his artwork. The result?</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_GPccC4",
+        "text_VYYWa7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/8.png",
+        "image_width": 500,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "2"
+      }
+    },
+    "gallery_TRDGMw": {
+      "type": "gallery",
+      "blocks": {
+        "media_pXadAt": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/6_1.png",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_yaHFcx": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/7.png",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_pXadAt",
+        "media_yaHFcx"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "adapt",
+        "desktop_image_height": 650,
+        "mobile_image_height": 600,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "2",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "image_with_text_CQXVcT": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_zxYVDe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After a day and a half of walking, calculating, thinking, and paying close attention, the billboard was finished. Over 13,625 m² featuring Simon’s beautiful handwriting (or rather, “footwriting”) and a clear message! Fun fact: Simon took 135,000 steps in just 1.5 days.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_zxYVDe"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/fssf.png",
+        "image_width": 500,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_ARyQwp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7Pk3dg": {
+          "type": "heading",
+          "settings": {
+            "title": "LOCATION",
+            "use_h1": false
+          }
+        },
+        "text_CbhnVg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lac du Vallée de l’Arc,<br/><br/>Les Arcs, France<br/><br/>– Home base of Simon Beck –</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_7Pk3dg",
+        "text_CbhnVg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1-2.png",
+        "image_width": 500,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_BqMbrR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xJigfK": {
+          "type": "heading",
+          "settings": {
+            "title": "IDEA",
+            "use_h1": false
+          }
+        },
+        "text_pPjWxE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Behind the scenes</p><p>This past summer, together with the creative minds at Fitzroy Agency, we created the now-famous ‘wash-away billboard’ on the beach. A 100% waste-free message that reached millions of people. And we wanted more! So Mischa Schreuder from Fitzroy headed to the French Alps with just one cameraman/drone operator to see Simon Beck, the Banksy of the snow, in action. A great example of minimal environmental impact while still achieving maximum visibility for this important message. Just like how a small and completely natural tablet can deliver the best oral care results.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_xJigfK",
+        "text_pPjWxE"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MG_9749-scaled.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "2"
+      }
+    },
+    "image_with_text_XJyL9T": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Hy8MBc": {
+          "type": "heading",
+          "settings": {
+            "title": "ABOUT SMYLE",
+            "use_h1": false
+          }
+        },
+        "text_k4kDLf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Want to keep your footprint as small as possible? Start with the things you do every day—like brushing your teeth or other personal care habits. At Smyle, we make sustainable oral care products that: Are kind to the planet. Contain no microplastics. Keep your teeth and mouth brilliantly healthy. Are easy and enjoyable to use. Outperform traditional products in every way<br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_nCAKJC": {
+          "type": "button",
+          "settings": {
+            "button_label": "START BRUSHING WITHOUT PLASTIC",
+            "button_link": "https://wesmyle.com/collections/shop",
+            "button_width": "medium",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Hy8MBc",
+        "text_k4kDLf",
+        "button_nCAKJC"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/LP_Snowbillboard_eng_-v2-copy.png",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    },
+    "custom_content_NaLYGe": {
+      "type": "custom-content",
+      "blocks": {
+        "image_cU7A93": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/dentist.jpg",
+            "height": "fixed",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "More than 1,500 dentists sample Smyle",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_width": "full",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_WJQDkE": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "subheading": "",
+            "title": "",
+            "text": "<p>In our range, you'll find:</p><p>-All-natural toothpaste tabs</p><p>-Mouthwash tabs</p><p>-Electric toothbrushes with bamboo brush heads</p><p>-Sensitivity Kit</p><p>-Whitening Kit</p><p>-Dental floss</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_width": "full",
+            "button_style": "primary",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_cU7A93",
+        "text_WJQDkE"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "image_with_text_9YCfaU": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mreiiG": {
+          "type": "heading",
+          "settings": {
+            "title": "CRUSH, BRUSH AND SMYLE",
+            "use_h1": false
+          }
+        },
+        "button_VzEUej": {
+          "type": "button",
+          "settings": {
+            "button_label": "START BRUSHING WITHOUT PLASTIC",
+            "button_link": "https://wesmyle.com/collections/shop",
+            "button_width": "medium",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mreiiG",
+        "button_VzEUej"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle_products.png",
+        "image_width": 600,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_yfLdL8",
+    "image_with_text_zmjJnn",
+    "video_with_text_fk4ghA",
+    "image_with_text_dz8V3P",
+    "image_with_text_t7HgAr",
+    "gallery_TRDGMw",
+    "image_with_text_CQXVcT",
+    "image_with_text_ARyQwp",
+    "image_with_text_BqMbrR",
+    "image_with_text_XJyL9T",
+    "custom_content_NaLYGe",
+    "image_with_text_9YCfaU"
+  ]
+}

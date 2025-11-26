@@ -1,0 +1,79 @@
+{%- liquid
+    assign blocks = section.blocks
+    if blocks.size > 0
+        assign has_blocks = true
+    endif
+-%}
+
+{% if has_blocks %}    
+    <div class="collection-navbar">
+        <ul class="collection-navbar__collection-list container container--no-max">
+            {% for block in blocks %}
+                {%- liquid
+                    assign collection = block.settings.collection
+                    assign title = block.settings.title | default: collection.title
+                    assign url = collection.url
+
+                    assign is_active = false
+                    if collection.url == request.path
+                        assign is_active = true
+                    endif
+                -%}
+
+                {% if collection != blank %}
+                    <li class="collection-list__item {% if is_active %}collection-list__item--active{% endif %}">
+                        <a href="{{ url }}" class="collection-list__item-link">
+                            <span class="collection-list__item-title">{{ title }}</span>
+                        </a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+{% endif %}
+
+{% schema %}
+{
+    "name": "Collection Navbar",
+    "tag": "section",
+    "blocks": [
+        {
+            "name": "Collection",
+            "type": "collection",
+            "settings": [
+                {
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "Collection"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title (Custom)"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Collection Navbar",
+            "blocks": [
+                {
+                    "type": "collection",
+                    "settings": {
+                        "collection": "",
+                        "title": ""
+                    }
+                },
+                {
+                    "type": "collection",
+                    "settings": {
+                        "collection": "",
+                        "title": ""
+                    }
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

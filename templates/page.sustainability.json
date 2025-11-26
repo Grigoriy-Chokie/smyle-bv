@@ -1,0 +1,360 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_overlay_8CtDBV": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_9GBcXU": {
+          "type": "heading",
+          "settings": {
+            "title": "SUSTAINABILITY",
+            "heading_max_width": 8,
+            "title_size": 64,
+            "title_size_mobile": 30,
+            "use_h1": false
+          }
+        },
+        "subheading_8JPtfF": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Sustain our planet"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9GBcXU",
+        "subheading_8JPtfF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/01_5.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "top center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "image_with_text_y79Tmj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3K89m3": {
+          "type": "heading",
+          "settings": {
+            "title": "Toothpaste Tabs without harsh chemicals and micro-plastics",
+            "use_h1": false
+          }
+        },
+        "text_wdwwHA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our all-natural Toothpaste Tabs keep your teeth healthy, strong, and minty fresh. 'All-natural' means Toothpaste Tabs without bad chemicals or micro-plastics, because those unnecessary and unsustainable ingredients hurt the planet.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_6R6Bka": {
+          "type": "button",
+          "settings": {
+            "button_label": "GO NATURAL",
+            "button_link": "https://wesmyle.com/collections/best-sellers",
+            "button_width": "medium",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3K89m3",
+        "text_wdwwHA",
+        "button_6R6Bka"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/27_7de92186-9366-4fb8-8c98-291a6eb8c097.jpg",
+        "image_width": 300,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_YJ7RHG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_6hbQBe": {
+          "type": "heading",
+          "settings": {
+            "title": "Cute reusable bottles",
+            "use_h1": false
+          }
+        },
+        "text_JeMPQU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The glass storage bottles for our Toothpaste Tabs are cute and sustainable at the same time. They last forever but can also easily be recycled. Plastic tubes are just no match for their positive properties! Running low on Toothpaste Tabs? Simply fill up your storage bottle with our special compostable paper refill packs.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_Nef3iD": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET YOURS!",
+            "button_link": "https://wesmyle.com/products/storage-bottle",
+            "button_width": "medium",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6hbQBe",
+        "text_JeMPQU",
+        "button_Nef3iD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/33_2.jpg",
+        "image_width": 300,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_rdf7N4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_t8hCnz": {
+          "type": "heading",
+          "settings": {
+            "title": "Compostable refill sachets",
+            "use_h1": false
+          }
+        },
+        "text_9CjBfR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your new Toothpaste Tabs need a travel outfit, just as you don't ride the bus butt-naked. Our refill packs contain ±63 Toothpaste Tabs. They're made of paper that is compostable and can be recycled up to 5 times. Take that, plastic tubes! In addition, paper is super light so transporting it requires less CO2 emissions than plastic.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_ENmmfp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Check out our refills",
+            "button_link": "",
+            "button_width": "medium",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_t8hCnz",
+        "text_9CjBfR",
+        "button_ENmmfp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/23_2.jpg",
+        "image_width": 300,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "image_with_text_9EpcHx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QktHRd": {
+          "type": "heading",
+          "settings": {
+            "title": "All through your mailbox",
+            "use_h1": false
+          }
+        },
+        "text_ghHGDb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Due to being super light and compact, our Toothpaste Tabs don't need to be delivered via parcel service. They love your mailbox and snuggle up nice and tight with the other envelopes and magazines in the postman's mailbag . No extra van ride, no extra emissions.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_GeTBTR": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QktHRd",
+        "text_ghHGDb",
+        "button_GeTBTR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle-plastic-free-shipping_600x_1.webp",
+        "image_width": 300,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_7EzhHq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Phrwwa": {
+          "type": "heading",
+          "settings": {
+            "title": "CO2, we’re over you!",
+            "use_h1": false
+          }
+        },
+        "text_Lmqgyr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our transportation partner Nic. Oud complies with PostNL's 'CO2 neutral post- and package delivery certificate'. All the CO2 emissions from our distribution activities are offset. This means that your Smyle delivery is 100% CO2 neutral, something we’re quite proud of!</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_67fibn": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Phrwwa",
+        "text_Lmqgyr",
+        "button_67fibn"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Nicoud_CO2-certificering-Post-NL-721x1024_600x_1.webp",
+        "image_width": 300,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_kerzVb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pdx8TR": {
+          "type": "heading",
+          "settings": {
+            "title": "Validated expected impact",
+            "use_h1": false
+          }
+        },
+        "text_ThKje9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We ran the expected numbers for the plastic-free packaging of our Brush Mints in Europe. Then we had those projections validated by the Climate Impact Forecast Agency, which is affiliated with the Delft Technical University. It turns out that reducing the amount of plastic tubes being used by 1 million, can create the same CO2 reduction as planting 25,000 trees. This projection doesn’t even include: - Not using harsh chemicals or micro-plastics - Not using paper boxes for plastic tubes - Reduced CO2 emissions due to Brush Mints being lighter than plastic tubes - CO2 neutral delivery vs local retail Due to this, we expect our total environmental impact in Europe to turn out exponentially higher than projected in our Climate Impact Forecast (a lighter form of Life Cycle Analysis). Outside Europe that impact is MUCH HIGHER STILL. Plastic waste is collected (and incinerated) much less there and disappears into our environment on a larger scale.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_yx7z4g": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pdx8TR",
+        "text_ThKje9",
+        "button_yx7z4g"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ezgif.com-gif-maker-57_1_1.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "image_with_text_PcQBqC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EJkxTP": {
+          "type": "heading",
+          "settings": {
+            "title": "Sustainable habits enhance each other",
+            "use_h1": false
+          }
+        },
+        "text_tdt3wC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Several scientific studies - including one from the Royal Swedish Academy of Sciences - show that if you have built a sustainable habit, it helps to reinforce other sustainable habits. So by starting and ending the day in a sustainable matter by brushing your teeth with Smyle helps you live more sustainable in other areas too. Study: Pro-environmental habits: An underexplored research agenda in sustainability science<br/><br/>- <a href=\"https://link.springer.com/content/pdf/10.1007/s13280-021-01619-6.pdf\" title=\"https://link.springer.com/content/pdf/10.1007/s13280-021-01619-6.pdf\">https://link.springer.com/content/pdf/10.1007/s13280-021-01619-6.pdf</a><br/>- <a href=\"https://pubmed.ncbi.nlm.nih.gov/19916644/\" title=\"https://pubmed.ncbi.nlm.nih.gov/19916644/\">https://pubmed.ncbi.nlm.nih.gov/19916644/</a></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_KmQi4L": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EJkxTP",
+        "text_tdt3wC",
+        "button_KmQi4L"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/The-Royal-Swedish-Academy-of-Sciences-1024x511_600x_1.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_8CtDBV",
+    "image_with_text_y79Tmj",
+    "image_with_text_YJ7RHG",
+    "image_with_text_rdf7N4",
+    "image_with_text_9EpcHx",
+    "image_with_text_7EzhHq",
+    "image_with_text_kerzVb",
+    "image_with_text_PcQBqC"
+  ]
+}

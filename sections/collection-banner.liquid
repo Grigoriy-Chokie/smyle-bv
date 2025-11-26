@@ -1,0 +1,89 @@
+{% liquid
+    assign color_scheme = section.settings.color_scheme
+    assign height = section.settings.height
+    assign title = section.settings.title | default: collection.title
+    assign description = section.settings.description | default: collection.description
+%}
+
+<div class="collection-banner__wrapper fully-padded-row--{{ height }} {% if color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ color_scheme }}{% endif %}">
+    <div class="collection-banner__content container text-center">
+        <h1 class="collection-banner__title super-large-text uppercase">{{ title }}</h1>
+        {% if description != blank %}
+            <div class="collection-banner__description">{{ description }}</div>
+        {% endif %}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Collection Banner",
+    "settings": [
+        {
+            "type": "select",
+            "id": "height",
+            "label": "Section Height",
+            "options": [
+                {
+                    "value": "small",
+                    "label": "Small"
+                },
+                {
+                    "value": "medium",
+                    "label": "Medium"
+                },
+                {
+                    "value": "large",
+                    "label": "Large"
+                }
+            ],
+            "default": "small"
+        },
+        {
+            "type": "select",
+            "id": "color_scheme",
+            "label": "Color scheme",
+            "default": "default",
+            "options": [
+                {
+                    "value": "default",
+                    "label": "Default"
+                },
+                {
+                    "value": "1",
+                    "label": "1"
+                },
+                {
+                    "value": "2",
+                    "label": "2"
+                },
+                {
+                    "value": "3",
+                    "label": "3"
+                },
+                {
+                    "value": "4",
+                    "label": "4"
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Default content"
+        },
+        {
+            "type": "paragraph",
+            "content": "These settings would show default value if some part of collection data is blank."
+        },
+        {
+            "type": "textarea",
+            "id": "title",
+            "label": "Title"
+        },
+        {
+            "type": "richtext",
+            "id": "description",
+            "label": "Description"
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,42 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.starter-kit-ebrush-single.json",
+  "context": {
+    "market": "nl"
+  },
+  "sections": {
+    "featured_main_product_RNnmUG": {
+      "settings": {},
+      "blocks": {},
+      "block_order": [
+        "title_BRKnH9",
+        "custom_liquid_K6rNnc",
+        "text_LAfW8A",
+        "price_YfF9r4",
+        "text_WY7tB3",
+        "text_wTDMQw",
+        "text_q4WKBq",
+        "text_QGMCeE",
+        "text_a8EqUw",
+        "toggle_info_Ypcjfx",
+        "text_wXrha8",
+        "divider_4bcEQH",
+        "divider_qLDDhB",
+        "buy_buttons_kLgqMG",
+        "text_6AbwdL",
+        "payment_icons_qjy9BM",
+        "inventory_level_C4aqE8",
+        "shipping_notice_JBxKpG",
+        "benefits_fTg6xm"
+      ]
+    }
+  }
+}

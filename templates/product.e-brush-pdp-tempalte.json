@@ -1,0 +1,339 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_f43Bdw": {
+          "type": "text",
+          "settings": {
+            "text": "Available in 3500+ stores",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/Frame123123.svg",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#00a676",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true,
+            "save_pattern": "Save [amount] + FREE Whitening Kit"
+          }
+        },
+        "text_tCx6Lf": {
+          "type": "text",
+          "settings": {
+            "text": "🦷  <strong>Sonic power</strong> for healthier & stronger teeth",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_yxP7MU": {
+          "type": "text",
+          "settings": {
+            "text": "🌿  <strong>Lifetime warranty</strong> “Never buy a replacement again”",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_kJTXNt": {
+          "type": "text",
+          "settings": {
+            "text": "♻️  <strong>Sustainable</strong> Bamboo brush heads, only charge once every 16 weeks",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_AgE6Xi": {
+          "type": "text",
+          "settings": {
+            "text": "💚  <strong>Free whitening</strong> kit worth €59.99 for a limited time",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "benefits_F8fVjx": {
+          "type": "benefits",
+          "settings": {
+            "text_1": "4 months battery",
+            "icon_1": "shopify://shop_images/Frame.svg",
+            "text_2": "Try for 60 days",
+            "icon_2": "shopify://shop_images/Frame-clock.svg",
+            "text_3": "Lifetime Warranty",
+            "icon_3": "shopify://shop_images/Frame-ss.svg"
+          }
+        },
+        "variant_picker_9QqWX8": {
+          "type": "variant-picker",
+          "disabled": true,
+          "settings": {
+            "order_number": "",
+            "custom_title": "",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "color_quantity_selector_M3MK8i": {
+          "type": "color-quantity-selector",
+          "settings": {
+            "option_number": 1,
+            "option_title": "Choose Your E-brush color and Quantity"
+          }
+        },
+        "divider_BWtycq": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "subscription_form_JRbbEP": {
+          "type": "subscription-form",
+          "settings": {
+            "product": "toothpaste-tablets-freshmint",
+            "selling_plan": "4 months",
+            "enable_prices": true,
+            "discounted_price": "76.5",
+            "option_number": 2,
+            "option_title": "Select a subscription",
+            "option_guide_text": "How does it work?",
+            "option_guide_page": "copy-of-sharefund-investment-pitchdeck-smyle",
+            "enable_sale_badge": true,
+            "enable_shipping_badge": false,
+            "sale_badge_text": "Lifetime warranty + 15% Discount",
+            "shipping_badge_text": "",
+            "subscription_text": "Every 4 months, [quantity] replacement brushes"
+          }
+        },
+        "divider_NX4VaN": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "upsells_hMf4TV": {
+          "type": "upsells",
+          "settings": {
+            "title": "Mix & save",
+            "products": [
+              "toothpaste-tablets-freshmint",
+              "mouthwash-tablets-freshmint"
+            ]
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_f43Bdw",
+        "price",
+        "text_tCx6Lf",
+        "text_yxP7MU",
+        "text_kJTXNt",
+        "text_AgE6Xi",
+        "benefits_F8fVjx",
+        "variant_picker_9QqWX8",
+        "color_quantity_selector_M3MK8i",
+        "divider_BWtycq",
+        "subscription_form_JRbbEP",
+        "divider_NX4VaN",
+        "upsells_hMf4TV",
+        "buy-buttons",
+        "description"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "scrolling_banner_4YfKmV": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_VgN8Nx": {
+          "type": "text",
+          "settings": {
+            "text": "Your scrolling text here",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_VgN8Nx"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "collapsible_tabs_a7ckyx": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_LFrkX8": {
+          "type": "question",
+          "settings": {
+            "title": "KEY FEATURES",
+            "answer": "<p>38,000 sonic vibrations/min<br/>Waterproof (usable in the shower)<br/>3 months battery life<br/>Bamboo brush heads<br/>2 minute brushing coach</p>"
+          }
+        },
+        "question_jBpeff": {
+          "type": "question",
+          "settings": {
+            "title": "PRODUCT BENEFITS",
+            "answer": "<p><strong>Clean, smooth teeth</strong>— Highly effective cleaning, so you always have clean, smooth teeth.<br/><strong>Whiter teeth</strong>— Because you deserve a radiant smile!<br/><strong>More confidence</strong>— Feel good because you shine.<br/><strong>Perfect brushing</strong>— The built-in brushing coach ensures you brush long enough and effectively.<br/><strong>Less tartar</strong>— Brushing twice a day helps prevent tartar buildup.<br/><strong>Healthier mouth</strong>— Can help reduce gum bleeding.<br/><strong>Stylish appearance—</strong>Sleek design, a piece of art in your bathroom<br/><strong>Smart features—</strong>Five different modes; perfect for for every brushing session!<br/><strong>Lifetime warranty—</strong>Never worry about your favourite brush again, always brush with ease</p>"
+          }
+        },
+        "question_pFmynA": {
+          "type": "question",
+          "settings": {
+            "title": "SHIPPING",
+            "answer": "<p>To minimize our environmental impact, we have recently adjusted our shipping times. We now offer fast shipping via bulk mail, allowing you to expect your order within 5-10 days.<br/><br/>Products will be daily shipped from our warehouse in The Netherlands. </p><p>For any questions regarding your current or upcoming shipment, do not hesitate to reach out to <a href=\"mailto:hello@wesmyle.com\" target=\"_blank\">hello@wesmyle.com</a> </p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_LFrkX8",
+        "question_jBpeff",
+        "question_pFmynA"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "multi_column_VXayEJ": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_KE4rN9": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/DSC_2121_JPG-1_1.webp",
+            "title": "",
+            "text": "<p><em>\"Smyle has developed innovative products that are environmentally friendly and effective, aligning with targeted preventive care.\"</em></p><p><strong>Hero Abdullah, Five25 Dental Hygienists</strong></p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_KE4rN9"
+      ],
+      "settings": {
+        "title": "DENTISTS LOVE SMYLE",
+        "media_aspect_ratio": "s",
+        "media_width": 360,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "logos_GNEckH": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    },
+    "certifications_4ArkPn": {
+      "type": "certifications",
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "scrolling_banner_4YfKmV",
+    "collapsible_tabs_a7ckyx",
+    "multi_column_VXayEJ",
+    "logos_GNEckH",
+    "certifications_4ArkPn"
+  ]
+}

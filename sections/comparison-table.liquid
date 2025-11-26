@@ -1,0 +1,211 @@
+{{ 'section-comparison-table.css' | asset_url | stylesheet_tag }}
+{% liquid
+  assign logo = section.settings.logo
+  assign icon_true = section.settings.icon_true
+  assign icon_false = section.settings.icon_false
+  assign title = section.settings.title
+  assign subtitle = section.settings.subtitle
+  assign button_text = section.settings.button_text
+  assign button_link = section.settings.button_url
+  assign button_background = section.settings.button_background
+%}
+<div class="comparison-table container fully-spaced-row">
+  <div class="comparison-table__wrapper">
+    {% if button_link != blank and button_text != blank %}
+      <div class="text-center">
+        <a style="--btn-bg-color:{{ button_background.rgb }}" class="btn" href="{{ button_link }}">
+          {{ button_text }}
+        </a>
+      </div>
+    {% endif %}
+    {% if title != blank %}
+      <h2 class="h3 text-center">
+        {{ title }}
+      </h2>
+    {% endif %}
+    {% if subtitle != blank %}
+      <h3 class="h4 text-center font-semibold">
+        {{ subtitle }}
+      </h3>
+    {% endif %}
+    <div class="comparison-table__table">
+      <div class="table-row table-row--heading">
+        <div class="table-cell table-cell--background">
+          {{ logo | image_url: width: 200 | image_tag }}
+        </div>
+        <div class="table-cell h3 heading-font">
+          {{ 'sections.comparison-table.other' | t }}
+        </div>
+      </div>
+      {% for block in section.blocks %}
+        {% liquid
+          assign title = block.settings.title
+        %}
+        <div class="table-row table-row--body">
+          {% if title != blank %}
+            <div class="table-cell table-cell--title">
+              {{ title }}
+            </div>
+          {% endif %}
+
+          {% for i in (1..2) %}
+            {% liquid
+              assign icon_key = 'icon_' | append: i
+              assign icon = block.settings[icon_key]
+              assign text_key = 'text_' | append: i
+              assign text = block.settings[text_key]
+            %}
+            <div class="table-cell table-cell--value {% if forloop.first %}table-cell--background{% endif %}">
+              {% if text != blank %}
+                {{ text }}
+              {% elsif icon == 'true' %}
+                {{ icon_true | image_url: width: 100 | image_tag }}
+              {% else %}
+                {{ icon_false | image_url: width: 100 | image_tag }}
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+
+
+{% schema %}
+{
+  "name": "Comparison table",
+  "disabled_on": {
+    "groups": [
+      "aside"
+    ]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Default title"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Default subtitle"
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": "Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_true",
+      "label": "Icon 'True'"
+    },
+    {
+      "type": "image_picker",
+      "id": "icon_false",
+      "label": "Icon 'False'"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "NU BESTELLEN"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button url"
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button Background",
+      "default": "#F46365"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Row",
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "Title",
+          "default": "Default title"
+        },
+        {
+          "type": "header",
+          "content": "Column 1"
+        },
+        {
+          "type": "select",
+          "id": "icon_1",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "true",
+              "label": "True"
+            },
+            {
+              "value": "false",
+              "label": "False"
+            }
+          ],
+          "default": "true"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text_1",
+          "label": "Text"
+        },
+        {
+          "type": "header",
+          "content": "Column 2"
+        },
+        {
+          "type": "select",
+          "id": "icon_2",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "true",
+              "label": "True"
+            },
+            {
+              "value": "false",
+              "label": "False"
+            }
+          ],
+          "default": "true"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "text_2",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Comparison table",
+      "settings": {
+      }
+    }
+  ]
+}
+{% endschema %}

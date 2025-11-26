@@ -1,0 +1,708 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_QwGRgL": {
+      "type": "hero",
+      "blocks": {
+        "advantage_H7xUBd": {
+          "type": "advantage",
+          "settings": {
+            "image": "shopify://shop_images/advantage-1.png",
+            "text": "100% sustainable"
+          }
+        },
+        "advantage_C7PX6M": {
+          "type": "advantage",
+          "settings": {
+            "image": "shopify://shop_images/advantage-2.png",
+            "text": "Fresh without bad chemicals"
+          }
+        },
+        "advantage_eqxzeN": {
+          "type": "advantage",
+          "settings": {
+            "image": "shopify://shop_images/advantage-3.png",
+            "text": "Tested by experts"
+          }
+        }
+      },
+      "block_order": [
+        "advantage_H7xUBd",
+        "advantage_C7PX6M",
+        "advantage_eqxzeN"
+      ],
+      "disabled": true,
+      "settings": {
+        "background_color": "#b8e0f8",
+        "image": "shopify://shop_images/26_7a6d7dfc-0d56-4368-a716-f85d85b46643.jpg",
+        "title": "<h1><strong>brighter smile.</strong><br/>cleaner planet.</h1>",
+        "highlight_color": "#ffffff",
+        "text": "Achieve a healthier smile with eco-friendly oral care. Sustainable products, zero waste.",
+        "cta_text": "try it now !",
+        "cta_link": "shopify://collections/all-products",
+        "rating_image": "shopify://shop_images/Frame_64.svg",
+        "rating_text": "4.6/5.0",
+        "reviews_text": "100,000+ happy customers",
+        "padding_top": 100,
+        "padding_bottom": 20,
+        "padding_top_mobile": 100,
+        "padding_bottom_mobile": 20,
+        "use_header_height": true
+      }
+    },
+    "image_with_text_overlay_rBLJaM": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/Banner_BF_25_no_code-01.jpg",
+        "mobile_image": "shopify://shop_images/Banner_BF_Mobile_25_EN.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 400,
+        "image_link": "/collections/all-products",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "16359276425da8ce46": {
+      "type": "slideshow",
+      "blocks": {
+        "16359276425da8ce46-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/banner_10millionTubesCampaign_desktopwebp_1.webp",
+            "mobile_image": "shopify://shop_images/banner_10millionTubesCampaign_mobile.webp",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "16359276425da8ce46-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full image-overlay--bg-shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "compact_messages_h7qH7M": {
+      "type": "compact-messages",
+      "blocks": {
+        "message_wxPhAJ": {
+          "type": "message",
+          "settings": {
+            "heading": "100.000+",
+            "subheading": "STRONG SMYLE COMMUNITY",
+            "link_url": ""
+          }
+        },
+        "message_Lh98LC": {
+          "type": "message",
+          "settings": {
+            "heading": "60 DAYS RISK-FREE",
+            "subheading": "100% SMILE GUARANTEE",
+            "link_url": ""
+          }
+        },
+        "message_A4tjHc": {
+          "type": "message",
+          "settings": {
+            "heading": "FAST & FREE SHIPPING",
+            "subheading": "FROM €29.99",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "message_wxPhAJ",
+        "message_Lh98LC",
+        "message_A4tjHc"
+      ],
+      "settings": {
+        "head_not_col_bg": "#f4f6f8",
+        "head_not_col_txt1": "#171717",
+        "head_not_col_txt2": "#4c4c4b",
+        "head_not_mob_show": true,
+        "head_not_mob_text": "Add important information here",
+        "head_not_mob_url": ""
+      }
+    },
+    "featured_collection_eMAQQY": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "BLACK FRIDAY favorites",
+        "title_alignment": "start",
+        "collection": "black-friday",
+        "has_bottom_splitter": true,
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": true,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_GP9GHh": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "holiday gifting",
+        "title_alignment": "start",
+        "collection": "holiday-gifting",
+        "has_bottom_splitter": true,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "1",
+        "show_view_all": false,
+        "full_width": true,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "image_with_text_GzBrMp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7dfHme": {
+          "type": "heading",
+          "settings": {
+            "title": "BRIGHTER SMILE, CLEANER PLANET!",
+            "use_h1": false
+          }
+        },
+        "text_VN9emh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Good, effective oral care does not include plastic tubes, microplastics and other unhealthy ingredients!<br/>We help you transition to today's oral care.</p>",
+            "enlarge_text": true
+          }
+        },
+        "button_4WF6CR": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET STARTED",
+            "button_link": "shopify://collections",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7dfHme",
+        "text_VN9emh",
+        "button_4WF6CR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle-full-collection.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "title_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "logos_7A3KmA": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    },
+    "multi_column_QR88my": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_DP6pwJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🦷",
+            "text": "<p><strong>Effective.<br/></strong>Clinically tested and loved by thousands of customers for a healthier, brighter smile.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_qTbwxJ": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🌿",
+            "text": "<p><strong>Sexy Sustainable<br/></strong>Eco-friendly, plastic-free products made with natural ingredients, designed to care for you and the planet.<strong><br/></strong></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_dDgnpq": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "❌",
+            "text": "<p><strong>No BS.<br/></strong>No harsh chemicals, microplastics, or unnecessary additives. Just clean, effective ingredients.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_YAaXCX": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "📦",
+            "text": "<p><strong>Simple.<br/></strong>Delivered straight to your door, or find us in your favorite stores. Easy to use, easy to love.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_DP6pwJ",
+        "text_block_qTbwxJ",
+        "text_block_dDgnpq",
+        "text_block_YAaXCX"
+      ],
+      "settings": {
+        "title": "WHY SMYLE?",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "16359278676808bea5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "title_alignment": "start",
+        "collection": "all-products",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "video_with_text_yCNaUp": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_zpFwyw": {
+          "type": "heading",
+          "settings": {
+            "title": "THE WASH AWAY BILLBOARD",
+            "use_h1": false
+          }
+        },
+        "text_8jBtqz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From our products to our advertising, Smyle is all about <strong>creative innovation, positive impact </strong>and <strong>minimum waste</strong></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_zpFwyw",
+        "text_8jBtqz"
+      ],
+      "settings": {
+        "video_external": "https://youtu.be/Vn_dVPWbwj4",
+        "video_description": "From our products to our advertising, Smyle is all about creative innovation, positive impact and minimum waste",
+        "autoplay": false,
+        "placeholder_image": "shopify://shop_images/smyle-washawaybillboard.jpg",
+        "video_position": "right",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "16359278867b92de38": {
+      "type": "image-with-text",
+      "blocks": {
+        "64bcaa60-a78b-4408-9413-93788f2dd8b6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "8963d659-f502-4f87-9a3f-d5c8c7f4bda5": {
+          "type": "heading",
+          "settings": {
+            "title": "4 REASONS TO SWITCH TO SMYLE",
+            "use_h1": false
+          }
+        },
+        "ae36be52-0e56-4829-ac5d-f47fd671d46b": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>1. Eco-Friendly, Plastic-Free Products</strong></p><p>We’re serious about reducing waste. Our products are designed with the planet in mind — from our toothpaste tabs to the Smyle E-Brush, we’re cutting out plastic and using sustainable materials.</p><p><strong>2. No Compromises on Quality</strong></p><p>Say goodbye to harsh chemicals and fillers. Our products are made with natural ingredients that work effectively, leaving your teeth and gums healthier without any of the unnecessary stuff.</p><p><strong>3. Fun, Fresh, and Easy to Use</strong></p><p>Brushing doesn’t have to be boring. With our sleek designs, fresh flavors, and easy-to-use products, brushing becomes something you actually look forward to. Who knew dental care could be fun?</p><p><strong>4. Join a Community of Smilers</strong></p><p>When you switch to Smyle, you’re not just changing your routine — you’re joining a movement. We’re driven by feedback from our amazing community, and together, we’re making oral care better for everyone.</p>",
+            "enlarge_text": false
+          }
+        },
+        "2e5b8e45-d07b-473e-9562-15a4d3d196d5": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get started",
+            "button_link": "shopify://collections",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "64bcaa60-a78b-4408-9413-93788f2dd8b6",
+        "8963d659-f502-4f87-9a3f-d5c8c7f4bda5",
+        "ae36be52-0e56-4829-ac5d-f47fd671d46b",
+        "2e5b8e45-d07b-473e-9562-15a4d3d196d5"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/08_06d8a496-d13b-46f4-82da-492339188f7e.jpg",
+        "image_width": 500,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "title_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_jgDFhm": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HRQzag": {
+          "type": "heading",
+          "settings": {
+            "title": "SMYLE IS LOVED BY MORE THAN 100,000 CUSTOMERS",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_HRQzag"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "16359279164ff7d3f3": {
+      "type": "gallery",
+      "blocks": {
+        "16359279164ff7d3f3-0": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8432.heic",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "16359279164ff7d3f3-1": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/smyle-dentist-recommended.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "16359279164ff7d3f3-2": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/smyle-kannietkiezen.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "474c4491-283d-4680-a37b-7b5a444e7e62": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8195.heic",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "16359279164ff7d3f3-0",
+        "16359279164ff7d3f3-1",
+        "16359279164ff7d3f3-2",
+        "474c4491-283d-4680-a37b-7b5a444e7e62"
+      ],
+      "settings": {
+        "grid_desktop": 4,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "16359281184fd0d618": {
+      "type": "testimonials",
+      "blocks": {
+        "16359281184fd0d618-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "\"I’ve switched to Smyle for good. Clean ingredients, no plastic, and my smile’s never been brighter!\"",
+            "author": "Matt",
+            "image": "shopify://shop_images/09_004b44df-f25a-4ddf-9db0-4505383b2963.webp",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16359281184fd0d618-0"
+      ],
+      "settings": {
+        "title": "SMYLE COMMUNITY",
+        "layout": "image-right",
+        "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
+        "image_shape": "square",
+        "color_scheme": "default",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "163592857728b8bdc2": {
+      "type": "multi-column",
+      "blocks": {
+        "163592857728b8bdc2-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/dentist-smyle-collab-new.jpg",
+            "title": "1500+ DENTISTS SAMPLE SMYLE",
+            "text": "<p>Smyle works with over 1500 dental practices, and our toothpaste tabs have been tested by ACTA, proving they release as much or more fluoride than regular toothpaste.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "163592857728b8bdc2-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/DSC_9279.jpg",
+            "title": "THE BEST SUSTAINABLE MATERIALS",
+            "text": "<p>We use sustainable materials like bamboo, recyclable packaging, and recycled cardboard, ensuring a perfect, eco-friendly brushing experience.</p><p></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_eGU69e": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/10_0354b569-6be6-4778-a5e7-9c09941bc4b5.webp",
+            "title": "100.000+ CUSTOMERS LOVE SMYLE",
+            "text": "<p>When you join Smyle, you’re part of a community, helping shape our products and driving us toward a more sustainable future.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "163592857728b8bdc2-0",
+        "163592857728b8bdc2-1",
+        "text_block_eGU69e"
+      ],
+      "settings": {
+        "title": "",
+        "media_aspect_ratio": "s",
+        "media_width": 400,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "certifications_hJgy4K": {
+      "type": "certifications",
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    },
+    "featured_collection_hrhJJL": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "title_alignment": "start",
+        "collection": "all-products",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": true,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "gallery_FfAfnw": {
+      "type": "gallery",
+      "blocks": {
+        "media_RR8FAb": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/smyle-social.jpg",
+            "enlarge_media": true,
+            "subheading": "FOLLOW US",
+            "title": "@WESMYLE",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_AVaFUD": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/smyle-washawaybillboard.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_VEDRPz": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/G_T_Feed_01.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_a8Wzbh": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/26.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_RR8FAb",
+        "media_AVaFUD",
+        "media_VEDRPz",
+        "media_a8Wzbh"
+      ],
+      "settings": {
+        "grid_desktop": 4,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": false,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "hero_QwGRgL",
+    "image_with_text_overlay_rBLJaM",
+    "16359276425da8ce46",
+    "compact_messages_h7qH7M",
+    "featured_collection_eMAQQY",
+    "featured_collection_GP9GHh",
+    "image_with_text_GzBrMp",
+    "logos_7A3KmA",
+    "multi_column_QR88my",
+    "16359278676808bea5",
+    "video_with_text_yCNaUp",
+    "16359278867b92de38",
+    "rich_text_jgDFhm",
+    "16359279164ff7d3f3",
+    "16359281184fd0d618",
+    "163592857728b8bdc2",
+    "certifications_hJgy4K",
+    "featured_collection_hrhJJL",
+    "gallery_FfAfnw"
+  ]
+}

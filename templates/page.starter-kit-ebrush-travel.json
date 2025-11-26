@@ -1,0 +1,1639 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_3fGWgw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Y89TBP": {
+          "type": "heading",
+          "settings": {
+            "title": "THE PERFECT TOOTHBRUSH FOR TRAVEL!",
+            "use_h1": false
+          }
+        },
+        "text_jWfXeH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get whiter, cleaner teeth with the Smyle E-Brush. Only needs to be charged 3x per year and comes with bamboo brush heads.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_8kAJrB": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "https://wesmyle.com/pages/starter-kit-ebrush-travel-sub#product-sec",
+            "button_width": "fit",
+            "button_style": "primary"
+          }
+        },
+        "text_txTXFQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>RECOMMENDED BY 1500+ DENTISTS</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Y89TBP",
+        "text_jWfXeH",
+        "button_8kAJrB",
+        "text_txTXFQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/lp_travelangle__mobile.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "1"
+      }
+    },
+    "scrolling_banner_wHdkJK": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_eRya9q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/moneyback_icon_white_d6bb1aa2-3a84-4c67-903d-90998b314944.webp",
+            "image_width": 90,
+            "link": ""
+          }
+        },
+        "text_eNypDV": {
+          "type": "text",
+          "settings": {
+            "text": "60 DAYS RISK-FREE TRIAL",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_tW9Ye7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sds.webp",
+            "image_width": 90,
+            "link": ""
+          }
+        },
+        "text_FrpdXP": {
+          "type": "text",
+          "settings": {
+            "text": "FREE FAST SHIPPING",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_URVyim": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sdsd.webp",
+            "image_width": 90,
+            "link": ""
+          }
+        },
+        "text_U6pFnb": {
+          "type": "text",
+          "settings": {
+            "text": "LIFETIME WARRANTY",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eRya9q",
+        "text_eNypDV",
+        "image_tW9Ye7",
+        "text_FrpdXP",
+        "image_URVyim",
+        "text_U6pFnb"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "2",
+        "text_size": 30,
+        "vertical_padding": 20,
+        "speed": 27,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "rich_text_tMJWzt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9wyCn3": {
+          "type": "heading",
+          "settings": {
+            "title": "BEST ALL-IN ONE E-BRUSH TO UNLOCK YOUR BEST SMYLE",
+            "use_h1": false
+          }
+        },
+        "text_UxCyM9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"I received compliments from my dentist during my last visit because I finally brushed my teeth so well.\" - Anna G.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_9wyCn3",
+        "text_UxCyM9"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_nciN8q": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GetQQV": {
+          "type": "heading",
+          "settings": {
+            "title": "IMPROVED ORAL HYGIENE",
+            "use_h1": false
+          }
+        },
+        "text_pbGynQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With 38,000 vibrations per minute, this sonic toothbrush ensures deep cleaning for brighter, healthier teeth and prevents plaque from forming. Independently tested.</p>",
+            "enlarge_text": false
+          }
+        },
+        "heading_MjTiMC": {
+          "type": "heading",
+          "settings": {
+            "title": "NEVER BUY A NEW TOOTHBRUSH AGAIN",
+            "use_h1": false
+          }
+        },
+        "text_FJAC8A": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get a lifetime warranty: we'll recycle your old one and send you a new one.</p>",
+            "enlarge_text": false
+          }
+        },
+        "heading_iwFRc9": {
+          "type": "heading",
+          "settings": {
+            "title": "CONVENIENCE - IT’S SUPER EASY TO USE",
+            "use_h1": false
+          }
+        },
+        "text_Q6At9b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Requires just 3-4 charges a year and includes a 2-Minute Brush Coach to encourage effective brushing habits.</p>",
+            "enlarge_text": false
+          }
+        },
+        "heading_3rhw7D": {
+          "type": "heading",
+          "settings": {
+            "title": "ECO-FRIENDLY",
+            "use_h1": false
+          }
+        },
+        "text_t3mw3b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The use of bamboo brush heads and an energy-efficient battery contribute to a reduced environmental footprint.</p>",
+            "enlarge_text": false
+          }
+        },
+        "heading_NwmgjK": {
+          "type": "heading",
+          "settings": {
+            "title": "IMPROVES DENTAL HEALTH",
+            "use_h1": false
+          }
+        },
+        "text_EqABNk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Proven to reduce gum problems and tooth decay, electric brushing is 10x more effective than manual brushing.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_c7WHAj": {
+          "type": "button",
+          "settings": {
+            "button_label": "CLAIM YOUR OFFER NOW",
+            "button_link": "https://wesmyle.com/pages/starter-kit-ebrush-travel-sub#LP-stater-kit-ebrush",
+            "button_width": "medium",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GetQQV",
+        "text_pbGynQ",
+        "heading_MjTiMC",
+        "text_FJAC8A",
+        "heading_iwFRc9",
+        "text_Q6At9b",
+        "heading_3rhw7D",
+        "text_t3mw3b",
+        "heading_NwmgjK",
+        "text_EqABNk",
+        "button_c7WHAj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/02_e750e702-801f-4435-88b9-fd76685748c1.webp",
+        "image_width": 440,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "center",
+        "color_scheme": "default"
+      }
+    },
+    "testimonials_rGENip": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_4Uqmkg": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "DENTIST NOTICED MY CLEANER TEETH. <br> I was blown away by how much cleaner my teeth felt after using the Smyle eBrush. Even my dentist noticed the difference!",
+            "author": "Alexia T. - Antwerp, Belgium",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_Ta6V4R": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "LOVE THAT I'M USING LESS PLASTIC! <br> Since switching to the Smyle eBrush, my gums are healthier and my dentist is impressed. The gentle, effective clean makes all the difference!",
+            "author": "Francisco C. - Porto, Portugal ",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_BTgnHX": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "FROM ORAL-B TO SMYLE <br>Switched from Oral-B to Smyle eBrush and it’s a total upgrade. Cleaner teeth, eco-friendly bamboo, lifetime guarantee, five modes, and a pressure sensor. My dentist even noticed.",
+            "author": "Preben M. - Geneva, Switzerland ",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_L9LKif": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "TEETH FEEL AS CLEAN AS AFTER A DENTIST APPOINTMENT! <br>My teeth have never felt cleaner! My dentist even commented on how much better they look since I started using the Smyle eBrush.",
+            "author": "Sarah S. - Brighton, UK",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_JUV6r4": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "HEALTHIER GUMS WITH SMYLE EBRUSH! <br> Since switching to the Smyle eBrush, my gums are healthier and my dentist is impressed. The gentle, effective clean makes all the difference!",
+            "author": "Francisco C. - Porto, Portugal",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_aW6gT9": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "DENTIST-APPROVED CLEAN<br>My dentist noticed a real difference! The Smyle eBrush leaves my teeth feeling incredibly fresh and clean.",
+            "author": "Jan E - Stuttgart, Germany",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_t7VbPm": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "CUSTOMIZABLE BRUSHING MODESHaving 5 brushing modes is fantastic. I can customize my brushing routine to fit my needs perfectly.",
+            "author": "Nicholas C. - London, UK",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_tbtncg": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "NEVER BUY A NEW E-BRUSH AGAIN<br>The lifetime guarantee is a huge plus. I’m set for life with this eBrush—no more endless replacements!",
+            "author": "Yvonne U. - Munich, Germany",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_4Uqmkg",
+        "testimonial_Ta6V4R",
+        "testimonial_BTgnHX",
+        "testimonial_L9LKif",
+        "testimonial_JUV6r4",
+        "testimonial_aW6gT9",
+        "testimonial_t7VbPm",
+        "testimonial_tbtncg"
+      ],
+      "settings": {
+        "title": "OUR CUSTOMERS ARE OUR BEST AMBASSADORS!",
+        "layout": "no-image",
+        "text_caps": false,
+        "quote_text_size": 36,
+        "quote_text_size_mobile": 22,
+        "image_shape": "square",
+        "color_scheme": "2",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "gallery_dwMjMJ": {
+      "type": "gallery",
+      "blocks": {
+        "media_Gy4fpJ": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/5.webp",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_PaUnCg": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/6.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_W6VjHF": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/08_68009d12-b29a-401a-9bd0-df680ee7e475.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_RLGByK": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/06_0120a5f9-d3fd-4cdd-9c63-6c3b86e8a174.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_EMrDPG": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/03_db767d9d-1d1e-4cae-82a6-b03d66a80238.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_CdbcBk": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/07_1c7eeaef-bb65-4d0e-b221-b4a383888b5b.webp",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_wtj8N7": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/09_004b44df-f25a-4ddf-9db0-4505383b2963.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_T8dR6N": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/04_528f6d66-880f-4d3d-ab4e-528b43c7236d.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_jkxiEP": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/smyle-klant-ariana_1.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_xGtVFD": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/10_0354b569-6be6-4778-a5e7-9c09941bc4b5.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_MHQr8F": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/smyle-dentist-recommended.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_wNnW4w": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/smyle-kannietkiezen.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_6zpaGW": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/01_a3be5a07-cc31-446e-8088-9ad73233edcf.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_kVYBpi": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/smyle-briana-elektrische-tandenborstel_85255e4d-f37f-4347-977e-c0d294a017c1.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_JeBXrx": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/smyle-klant-4.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_Gy4fpJ",
+        "media_PaUnCg",
+        "media_W6VjHF",
+        "media_RLGByK",
+        "media_EMrDPG",
+        "media_CdbcBk",
+        "media_wtj8N7",
+        "media_T8dR6N",
+        "media_jkxiEP",
+        "media_xGtVFD",
+        "media_MHQr8F",
+        "media_wNnW4w",
+        "media_6zpaGW",
+        "media_kVYBpi",
+        "media_JeBXrx"
+      ],
+      "settings": {
+        "grid_desktop": 4,
+        "grid_mobile": "2",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "1",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "logo_list_Gzx6D4": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_hVFQxB": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/elle-2-logo-png-transparent_62607f75-0804-435a-8a78-f1bcc04eb596.webp",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_weHgzH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Marie_Claire_Magazine_logo_svg_9cf21e07-f8ab-4c95-bc98-f2f68316b261.webp",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_HrM8p3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/esquire-logo-png-transparent_cc048be2-335e-4913-a236-a46b42643234.webp",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_e9zemT": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Womens-Health-logo-768x432_89fe42ad-715b-4afd-9965-0a98e2263710.webp",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_87KUEw": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Cosmopolitan.webp",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_4CYrHj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Grazia_white1_1_86c09436-63a5-450c-b259-7e82995f5b04.webp",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_hVFQxB",
+        "logo_weHgzH",
+        "logo_HrM8p3",
+        "logo_e9zemT",
+        "logo_87KUEw",
+        "logo_4CYrHj"
+      ],
+      "settings": {
+        "title": "AS SEEN IN",
+        "image_opacity": 100,
+        "color_scheme": "2"
+      }
+    },
+    "featured_product_XwXbw7": {
+      "type": "featured-product",
+      "blocks": {
+        "title_yfJYJR": {
+          "type": "title",
+          "settings": {}
+        },
+        "price_rMAXmM": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "vendor_676pYi": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "divider_KhWT7B": {
+          "type": "divider",
+          "settings": {}
+        },
+        "variant_picker_TGDaew": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_Adc6wf": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description_bqNg7T": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "title_yfJYJR",
+        "price_rMAXmM",
+        "vendor_676pYi",
+        "divider_KhWT7B",
+        "variant_picker_TGDaew",
+        "buy_buttons_Adc6wf",
+        "description_bqNg7T"
+      ],
+      "settings": {
+        "product": "sonic-electric-toothbrush",
+        "select_first_variant": true,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "faq_collapsible_rows_MXGq9b": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_rR4nMe": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>WHAT'S INCLUDED IN THE BOX ?</strong></p>",
+            "answer": "<p>1x E-Brush (Sonic Electric Brush)<br/>1x Brush head Soft bristles (When to soft you can always order medium for future orders)<br/>1x USB charging cable</p>"
+          }
+        },
+        "faq_item_HiHji8": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>FAST & FREE SHIPPING</p>",
+            "answer": "<p>Your ultimate cleaning experience is coming! And who likes shipping costs? No one! We deliver your package within 3-5 business days anywhere in Europe.</p>"
+          }
+        },
+        "faq_item_iqXmVw": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>60 DAYS FREE RETURNS, NO QUESTIONS ASKED</p>",
+            "answer": "<p>You can use Smyle E-Brush for two months and return it without questions asked and you will get your money back! We promise, you’ll be hooked and keep it instead.</p>"
+          }
+        },
+        "faq_item_XkfMYW": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>LIFETIME WARRANTY</p>",
+            "answer": "<p>On your subscription purchase, you will receive a lifetime warranty with Smyle. If the E-Brush breaks on normal use, you will receive a new one. You can return the broken one to us for recycling. Unfortunately, we do not cover damages caused by falling or careless use.</p>"
+          }
+        },
+        "faq_item_azfMee": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>HOW DOES THE SUBSCRIPTION WORK</p>",
+            "answer": "<p>Join thousands of satisfied customers with our Brush Head Subscription and save up to 60% compared to other major brands. Our bamboo brush heads are affordable, sustainable and environmentally-friendly. Automatically receive 2 brush heads every 16 weeks for only €6 per brush, without any hassle! In total €12 incl free shipping every 4 months.<br/><br/>With our subscription, you will automatically receive 2 brush heads every 4 months. Pause, stop or skip a delivery when it suits you, just e-mail us. This way it fits your needs perfectly. In addition, our subscription ensures that you always have the brush which is essential for optimal oral hygiene.</p>"
+          }
+        },
+        "faq_item_jrUKXc": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>DO THE BAMBOO HEADSETS FEEL ROUGH?</p>",
+            "answer": "<p>No, our bamboo brush heads are treated with water wax, giving them a smooth finish and absolutely no rough feel. Even if you’re sensitive to wooden surfaces, you’ll find that our bamboo brush heads feel smooth and comfortable, providing a pleasant brushing experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_rR4nMe",
+        "faq_item_HiHji8",
+        "faq_item_iqXmVw",
+        "faq_item_XkfMYW",
+        "faq_item_azfMee",
+        "faq_item_jrUKXc"
+      ],
+      "settings": {
+        "color_scheme": "1",
+        "heading_text": "",
+        "use_metaobject": false
+      }
+    },
+    "scrolling_banner_ybHmTL": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_cwDFnE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/moneyback_icon_white_d6bb1aa2-3a84-4c67-903d-90998b314944.webp",
+            "image_width": 90,
+            "link": ""
+          }
+        },
+        "text_ygwXcc": {
+          "type": "text",
+          "settings": {
+            "text": "60 DAYS RISK-FREE TRIAL",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_fVAmcz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sds.webp",
+            "image_width": 90,
+            "link": ""
+          }
+        },
+        "text_4cE7Bk": {
+          "type": "text",
+          "settings": {
+            "text": "FAST FREE SHIPPING",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_aNCx47": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/sdsd.webp",
+            "image_width": 90,
+            "link": ""
+          }
+        },
+        "text_qqbJjx": {
+          "type": "text",
+          "settings": {
+            "text": "LIFETIME WARRANTY",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cwDFnE",
+        "text_ygwXcc",
+        "image_fVAmcz",
+        "text_4cE7Bk",
+        "image_aNCx47",
+        "text_qqbJjx"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "2",
+        "text_size": 30,
+        "vertical_padding": 20,
+        "speed": 27,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "logo_list_c6Y9eJ": {
+      "type": "logo-list",
+      "blocks": {
+        "logo_yM6nLf": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Dentist_logo_Eng.png",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_dzx8gL": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/smyle-bcorp.webp",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_AbXp43": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/smyle-bunny-cruelty-free.webp",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_WbwHQx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/smylefcs.webp",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        },
+        "logo_TVeKcx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/smyle-microplastic-free.webp",
+            "image_width": 160,
+            "link": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_yM6nLf",
+        "logo_dzx8gL",
+        "logo_AbXp43",
+        "logo_WbwHQx",
+        "logo_TVeKcx"
+      ],
+      "settings": {
+        "title": "SMYLE LOVES CERTIFICATION AND THEY LOVE US TOO",
+        "image_opacity": 100,
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_overlay_mMMfwH": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_XPLebr": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell your story"
+          }
+        },
+        "heading_itEQUe": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text overlay",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_yXB8yh": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Promote your brand or products with this feature section</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XPLebr",
+        "heading_itEQUe",
+        "text_yXB8yh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/features_eng_600x600_78a572e4-a114-4c5b-97f1-6ee709ae79c2.webp",
+        "height": "adapt",
+        "height_desktop": 640,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "comparison_table_DNyRA6": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_3b8iVT": {
+          "type": "row",
+          "settings": {
+            "title": "BAMBOO BRUSH HEAD",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_XdLT4K": {
+          "type": "row",
+          "settings": {
+            "title": "LIFETIME WARRANTY",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_4jWtm8": {
+          "type": "row",
+          "settings": {
+            "title": "CHARGE ONLY 3 TIMES A YEAR",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_pgweHF": {
+          "type": "row",
+          "settings": {
+            "title": "5 BRUSHING MODES",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_m8F47A": {
+          "type": "row",
+          "settings": {
+            "title": "100% MONEY BACK GUARANTEED",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_TxDbgx": {
+          "type": "row",
+          "settings": {
+            "title": "PLASTIC FREE PACKAGING",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_N4UBwT": {
+          "type": "row",
+          "settings": {
+            "title": "PRESSURE SENSOR",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_pbidaq": {
+          "type": "row",
+          "settings": {
+            "title": "PRICE",
+            "icon_1": "true",
+            "text_1": "<strong>€62.40</strong>",
+            "icon_2": "false",
+            "text_2": "€99"
+          }
+        }
+      },
+      "block_order": [
+        "row_3b8iVT",
+        "row_XdLT4K",
+        "row_4jWtm8",
+        "row_pgweHF",
+        "row_m8F47A",
+        "row_TxDbgx",
+        "row_N4UBwT",
+        "row_pbidaq"
+      ],
+      "settings": {
+        "title": "SMYLE VS THE REST",
+        "subtitle": "",
+        "logo": "shopify://shop_images/unnamed_5_de35292c-aa0c-4bf7-96d7-de05fe3e10451.png",
+        "icon_true": "shopify://shop_images/right_round1.png",
+        "icon_false": "shopify://shop_images/close1.png",
+        "button_text": "NU BESTELLEN",
+        "button_url": "",
+        "button_background": "#f46365"
+      }
+    },
+    "multi_column_DHDGHh": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_HbzxKN": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🦷 96%",
+            "text": "<p>Noticed that their teeth feel cleaner and smoother after brushing with the E-Brush compared to their previous one</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_4Fbpgm": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🪥 95%",
+            "text": "<p>recommends the Smyle toothbrush to friends</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_M8WkEq": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "😀 94%",
+            "text": "<p>Indicates that they now brush more effectively, avoiding brushing too briefly or too vigorously</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_YTEWfG": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "✨ 92%",
+            "text": "<p>experience that the bleeding from their gums decreases or disappears within 2 to 3 weeks</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_HbzxKN",
+        "text_block_4Fbpgm",
+        "text_block_M8WkEq",
+        "text_block_YTEWfG"
+      ],
+      "settings": {
+        "title": "WHAT IS OUR COMMUNITY SAYING",
+        "media_aspect_ratio": "s",
+        "media_width": 60,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_9Cr9hR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_JpmKyL": {
+          "type": "heading",
+          "settings": {
+            "title": "60 DAYS FREE RETURNS - NO QUESTIONS ASKED",
+            "use_h1": false
+          }
+        },
+        "text_itFG6f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Brushing is testing! ...<br/><br/>“Do test our E-brush! Try it for up to 60 days to find out if there’s a click between you and our E-Brush. 99.98% of our customers develop a long-lasting love affair with our E-Brush, there’s good chance you’ll find a brushing-buddy for life!<br/><br/>If not, we won't ask any difficult questions, you'll get your money back.<br/><br/><strong>FREE SHIPPING</strong></p><p>“Of course, your brand-new E-brush will travel to you free of charge and CO2 neutral.<br/>Your fresh new E-Brush will be delivered in 2-5 business days to you anywhere in Europe.”<br/><br/>Discover the Future of Brushing with the Smyle E-Brush</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_yiXPFY": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "https://wesmyle.com/pages/starter-kit-ebrush-travel-sub#LP-stater-kit-ebrush",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_JpmKyL",
+        "text_itFG6f",
+        "button_yiXPFY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/10_1.webp",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_gEQF8a": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TjM3Qq": {
+          "type": "heading",
+          "settings": {
+            "title": "THE INNOVATIONS OF THE SMYLE E-BRUSH",
+            "use_h1": false
+          }
+        },
+        "text_mdXCrr": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Unmatched Clean and Shine:</strong>Experience the ultimate in oral care with the SMYLE E-Brush. Our advanced technology leaves your teeth feeling as polished and smooth as a sparkling diamond, setting a new standard in the premium brush market.<br/><br/><strong>Your Personal Brushing Coach:</strong>Perfect timing, every time! Imagine a tiny coach living in your e-brush, ensuring you brush for just the right amount of time—never too long, never too short.<br/><br/><strong>Five Versatile Modes:</strong>More versatile than a Rubik’s Cube, the SMYLE E-Brush offers five unique brushing modes, allowing you to tailor your brushing experience exactly to your needs.<br/><br/><strong>Eco-Friendly and Sustainable:</strong>Embrace a greener future with our bamboo brush heads and ultra-efficient battery. The SMYLE E-Brush is a major leap forward in sustainable oral care.<br/><br/><strong>Lifetime Warranty:</strong>Say goodbye to worries! With our lifetime warranty, if your brush ever stops working, we’ll replace it—keeping your smile bright for years to come.<br/><br/>Upgrade to the SMYLE E-Brush—where innovation meets sustainability.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TjM3Qq",
+        "text_mdXCrr"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/07_3.webp",
+        "image_width": 450,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_nGNpyN": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EqTqpb": {
+          "type": "heading",
+          "settings": {
+            "title": "SPECIAL OFFER FOR EVERYONE: PREMIUM BRUSHING AT AN UNBEATABLE PRICE!",
+            "use_h1": false
+          }
+        },
+        "text_yqzfar": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Your dentist knows it, and so do we—electric brushing is the best choice for your teeth. But with most e-brushes, it’s a compromise: either you pay a premium for marketing hype, or you settle for a low-cost, low-quality option.<br/><br/>That's why we created the Smyle E-Brush—a brush that combines top-tier components, advanced techniques, and high-quality materials. The result? A durable brush that lasts for years, needs only a few charges annually, and is the most sustainable electric brush on the market.<br/><br/>Sustainable Oral Care for Everyone: Our mission is to bring sustainable oral care to 8 billion smiles, starting with yours!</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EqTqpb",
+        "text_yqzfar"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/dsd_43daddf0-7914-45bd-9bfe-99ac87f858e5.webp",
+        "image_width": 450,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "image_with_text_3HUbmD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Vr4pHP": {
+          "type": "heading",
+          "settings": {
+            "title": "JOIN THOUSANDS WHO SUBSCRIBE TO SMYLE BRUSH HEADS TODAY!",
+            "use_h1": false
+          }
+        },
+        "text_DBkx46": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We all know how important it is to replace toothbrushes regularly—dentists insist on it for hygiene and performance. But let’s be honest, life gets in the way. \"This brush will last a bit longer,\" \"I’ll go to the store later,\" or the classic, \"I remembered the ice cream but forgot the brush heads!\"<br/><br/>Say goodbye to those moments! With the Smyle Brush Head Subscription, you’ll receive fresh, eco-friendly bamboo brush heads delivered right on time—two every four months. And the best part? You can pause or cancel whenever you like. All this for just €6 per brush head!<br/><br/><strong>Affordable, sustainable, and hassle-free:</strong>That's the Smyle Brush Head Subscription.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vr4pHP",
+        "text_DBkx46"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle-schoonste-tanden-2_bc09d1bc-2e4e-4a4a-aabf-a79b169f7b56.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "multi_column_LqPbpG": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_yY4yDN": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/IMG_0982-1-scaled.webp",
+            "title": "",
+            "text": "<p>In the heart of Amsterdam Smyle has launched its very own dental clinic together with partner Five25</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_e4EdMt": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/DSC_2121_JPG-1_1_e93d1eb1-7377-4521-bc78-cdfcb7b90713.webp",
+            "title": "",
+            "text": "<p>“We specifically chose Smyle because of its innovative approach and the shared and common values ​​and goals. Smyle places a strong emphasis on sustainability in oral care, which is closely aligned with our vision regarding the importance of sustainability in oral care. Smyle has developed innovative products that are environmentally friendly and effective and this is in line with our commitment to prevent oral problems through targeted preventive care.”</p><h4>Hero Abdulla</h4><p>Owner: Five25 Dental Hygienists</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_yY4yDN",
+        "text_block_e4EdMt"
+      ],
+      "settings": {
+        "title": "SMLYE X FIVE25",
+        "media_aspect_ratio": "0.8",
+        "media_width": 310,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "1"
+      }
+    },
+    "key_features_Ctnktt": {
+      "type": "key-features",
+      "blocks": {
+        "feature_kpniFJ": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/model-black-battery.webp",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#182d4d",
+            "heading": "AMAZING BATTERY LIFE!",
+            "text": "<p>ONE CHARGE = UP TO 4 MONTHS BATTERY LIFE!</p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_Eyz7pN": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/ezgif.com-gif-maker-2-2.webp",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#182d4d",
+            "heading": "DENTISTS AND ACTIVISTS APPROVE THE BRISTLES",
+            "text": "<p>By choosing these bamboo brush attachments, you use <strong>90% less plastic</strong> than with a regular brush attachment. </p><p>The soft bristles remove stains from the tooth surface and are safe for gums and teeth.</p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "feature_kpniFJ",
+        "feature_Eyz7pN"
+      ],
+      "settings": {
+        "heading": "",
+        "image_max_width": 350,
+        "media_aspect_ratio": "1",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
+    "faq_collapsible_rows_hBXUcA": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_gBzWAK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Smyle Sonic E-Brush:  How does an electric toothbrush improve oralcare?</p>",
+            "answer": "<p>The Smyle Sonic E-Brush, tested by a third-party*, removes 99.98% of plaque-causing bacteria, making it highly effective in maintaining your oral health.<br/><br/>With sonic technology delivering up to 38,000 brush strokes per minute, it provides a deep clean that leaves your teeth smooth and free from plaque. The pressure sensor ensures gentle brushing, while the built-in timer helps you brush for the optimal duration.<br/><br/>* Tested by CTI, 23-09-2024, report nr. A2240527048101001.</p>"
+          }
+        },
+        "faq_item_nX7tCH": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>How does the Smyle subscription work?</strong></p>",
+            "answer": "<p>We all know how important it is to replace toothbrushes regularly—dentists insist on it for hygiene and performance. But let’s be honest, life gets in the way. \"This brush will last a bit longer,\" \"I’ll go to the store later,\" or the classic, \"I remembered the ice cream but forgot the brush heads!\"<br/><br/>Say goodbye to those moments! With the Smyle Brush Head Subscription, you’ll receive fresh, eco-friendly bamboo brush heads delivered right on time—two every four months. And the best part? You can pause or cancel whenever you like. All this for just €6 per brush head!<br/><br/>Affordable, sustainable, and hassle-free:<br/><br/>That's the Smyle Brush Head Subscription.</p>"
+          }
+        },
+        "faq_item_jNwJJw": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>Advantages of the electric toothbrush</strong></p>",
+            "answer": "<p>An electric toothbrush cleans your teeth more effectively than a manual one. The Smyle Sonic Electric Toothbrush delivers 38,000 vibrations per minute, removing plaque and dirt from even hard-to-reach places. It requires less pressure, protecting your gums, and cleans in just two minutes—equivalent to a month of manual brushing!<br/><br/>With features like multiple brushing modes and built-in timers, the Smyle electric toothbrush offers a personalized, efficient, and thorough cleaning experience. It’s the perfect choice for a healthy, radiant smile.</p>"
+          }
+        },
+        "faq_item_ELAh68": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>5 Different brushing modes</p>",
+            "answer": "<p>Taking care of your teeth and maintaining healthy teeth may not be the most enjoyable task, but we try to make it a little more pleasant with these five different brushing modes of the Smyle sonic electric toothbrush!</p><p><strong>Clean</strong></p><p>The first setting is the “Clean” setting, perfect for general use. You only need to use this mode once per evening. It is an excellent way to keep your teeth healthy and clean.</p><p><strong>Whitening</strong></p><p>If you want to take extra care of your front teeth, you can try our “Whitening” mode. This mode has been specially developed to clean your front teeth and is ideal for people who want to maintain radiantly white front teeth. For best results, use this setting once in the morning and once in the evening.</p><p><strong>Polishing</strong></p><p>Do you suffer from stains on your teeth? Then the “Polishing” mode is perfect for you. This setting is designed to reduce tooth stains and is particularly suitable for people with tea or coffee stains on their teeth. For best results, use this mode 3-4 times a week, once in the morning and once in the evening. In serious cases, this position offers a solution.</p><p><strong>Mild</strong></p><p>If you're switching from an analogue or old-fashioned electric brush, the “Mild” setting is ideal for gently massaging your gums while still providing an excellent clean.</p><p><strong>Sensitive</strong></p><p>For those new to using a sonic model, there is the “Sensitive” mode. This mode is designed to be gentle and easy to use, so you can get used to the vibration frequency of the electric brush. Use this mode until you are comfortable with the vibrations.</p><p>Tip: it is not recommended to change the setting too often. Let your teeth get used to the vibration frequency of each setting so you can achieve the best results.</p><p><strong>Change brushing mode</strong></p><p>To change brushing modes, all you have to do is press and hold the on/off button for a little longer and then press the on button once. At that point, the toothbrush will seamlessly transition to another mode, such as a special mode for gum care or sensitive teeth. The ease with which you can switch modes provides a personalized brushing experience that suits your specific needs. And when you're done brushing, all you have to do is press and hold the on/off button again to switch it off. This simple operation makes using an electric toothbrush both convenient and intuitive, making it easy for you to enjoy effective oral care.</p><p><strong>Maintaining an electric toothbrush</strong></p><p>To ensure that your electric toothbrush performs optimally and has a longer lifespan, it is important to perform regular maintenance. First of all, it is essential to follow the manufacturer's cleaning instructions. This usually includes rinsing the brush head after each use and thoroughly cleaning the brush holder regularly. By following these simple steps you will prevent toothpaste, bacteria and dirt buildup.</p><p>In addition, it is very important to replace the brush head regularly, ideally every three months or according to the manufacturer's recommendation. Over time, the bristles can wear out and reduce their effectiveness. Replacing the brush head in time ensures that you always get optimal cleaning.</p>"
+          }
+        },
+        "faq_item_3aPVEK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>How do I know when the battery is low?</p>",
+            "answer": "<p>You can monitor this by checking the battery light on the front of the toothbrush.</p>"
+          }
+        },
+        "faq_item_pWh9T6": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>How long can I brush on a single charge?</p>",
+            "answer": "<p>You can monitor this by checking the battery light on the front of the toothbrush. You can use the brush up to 4 months in regular mode brushing 2 times a day.</p>"
+          }
+        },
+        "faq_item_gFn6mc": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Can I use my phone's charging plug for charging?</p>",
+            "answer": "<p>Yes, you can use your phone's charging plug, or even the USB port of your laptop, to charge the toothbrush. As long as the USB plug from the Smyle charging base fits, it will work perfectly.</p>"
+          }
+        },
+        "faq_item_pkt9ht": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>Did you know?</strong></p>",
+            "answer": "<p><strong>Common Misconceptions About Electric Toothbrushes</strong></p><p>Many misconceptions about electric toothbrushes can prevent people from realizing their full benefits. Here are some common misunderstandings: &gt;/font&gt;</p><p><strong>1. Not Just for Dental Problems -</strong></p><p>Many believe electric toothbrushes are only for those with dental issues. In reality, they are beneficial for everyone, regardless of their oral health condition. Electric toothbrushes offer superior cleaning for teeth and gums, helping prevent problems like cavities and gum disease. Their ability to reach difficult spots, like the back molars, makes them excellent for overall oral health.</p><p><strong>2. More Effective Than Manual Brushing</strong></p><p>Another myth is that manual brushing is just as effective as electric brushing. While manual brushing can remove food particles, it doesn’t offer the same level of thoroughness. Electric toothbrushes use advanced technologies, such as rotating, sonic, or oscillating movements, to better remove plaque and clean hard-to-reach areas. Plus, built-in timers in many electric toothbrushes ensure users brush for the dentist-recommended two minutes, boosting oral care effectiveness.</p><p><strong>3. Not All Electric Toothbrushes Are the Same -</strong></p><p>A final misconception is that all electric toothbrushes are identical. In fact, there are many models with different features, such as modes for gum care or sensitive teeth, making them suitable for specific needs. Brush heads also vary in size, shape, and softness, allowing for customization based on individual preferences. Therefore, it’s important to research and select the right electric toothbrush to match your oral care requirements.</p><p><strong>Conclusion: The Benefits of Electric Toothbrushes</strong></p><p>Understanding these misconceptions can help more people realize the advantages of electric toothbrushes. These tools provide deeper cleaning, better plaque removal, and a more convenient brushing experience. While they offer numerous benefits, they are not a replacement for regular dental visits, which remain essential for maintaining long-term oral health. Switching to electric brushing, alongside professional care, can help achieve the bright, healthy smile we all deserve. Ready to make the switch? Click here to get your Smyle Sonic Electric Toothbrush! Click here to get your own Smyle sonic electric toothbrush.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_gBzWAK",
+        "faq_item_nX7tCH",
+        "faq_item_jNwJJw",
+        "faq_item_ELAh68",
+        "faq_item_3aPVEK",
+        "faq_item_pWh9T6",
+        "faq_item_gFn6mc",
+        "faq_item_pkt9ht"
+      ],
+      "settings": {
+        "color_scheme": "2",
+        "heading_text": "<p>SMYLE SONIC ELECTRIC TOOTHBRUSH</p>",
+        "use_metaobject": false
+      }
+    },
+    "faq_collapsible_rows_QtNQqr": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_D8KehD": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>What are the brush heads made of?</strong></p>",
+            "answer": "<p>The bamboo parts of the brush heads are specially designed in a combination of bamboo and corn starch and are 100% biodegradable. Our bristles – bristles – are made from fibers from the castor tree and nylon and they are free of BPA and fossil oil. Unfortunately, due to the nylon, the bristles are not 100% compostable. However, at the moment this is the best available option on the market. The only alternative is to use pig bristles, but we love animals, so we don't think that is a good alternative. There is also a very small piece of plastic inside the brush head to properly absorb and guide the vibrations of the brush. No alternative has yet been found for this. Every type of bamboo brush head has this. Our bamboo brush heads currently contain 88% less plastic than regular brush heads. Of course, we will always continue to look for even better alternatives. If you have any suggestions regarding this, we would appreciate if you could drop us an e-mail: hello@wesmyle.com .</p>"
+          }
+        },
+        "faq_item_9qWYjH": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>Do brush heads from other brands also fit the Smyle Sonic Electric Toothbrush?</strong></p>",
+            "answer": "<p>No, brush heads from other brands do not fit the Smyle Sonic Electric Toothbrush. To minimize plastic usage, Smyle has designed a unique brush head specifically for their toothbrush. As a result, only Smyle’s custom brush heads are compatible with the device.</p>"
+          }
+        },
+        "faq_item_KxNhLg": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>What do I do with my worn bamboo brush heads after use?</strong></p>",
+            "answer": "<p>Even though you’ve already saved 88% of plastic by using bamboo brush heads, the small plastic part in the brush means it cannot be fully recycled at this time. For now, please dispose of the worn brush heads in the residual waste. We are actively working on finding a more sustainable solution and will keep you updated on any new developments.</p>"
+          }
+        },
+        "faq_item_9eKkqK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>Will there also be bamboo brush heads in different colors, just like hand toothbrushes?</strong></p>",
+            "answer": "<p>Yes, this is coming. We'll let you know when the time comes.</p>"
+          }
+        },
+        "faq_item_WRJV6k": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>How many brush heads are in a package?</p>",
+            "answer": "<p>With a Smyle membership, you’ll receive 2 brush heads every 16 weeks—enough for twice-daily brushing. If you don’t have a membership, you can purchase Smyle brush heads separately in packs of 4. Check out our shop for more details.</p>"
+          }
+        },
+        "faq_item_adq7UV": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>I just got a Smyle Membership. When will I receive my first two brush heads?</p>",
+            "answer": "<p>8 weeks after you become a member of Smyle, you will automatically receive 2 brush heads at home for the first time. After that recurring orders come every 16 weeks.</p>"
+          }
+        },
+        "faq_item_abLMmR": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>Does a Smyle Brush Head also fit a Philips Sonicare or an Oral B toothbrush?</strong></p>",
+            "answer": "<p>No, it doesn't fit.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_D8KehD",
+        "faq_item_9qWYjH",
+        "faq_item_KxNhLg",
+        "faq_item_9eKkqK",
+        "faq_item_WRJV6k",
+        "faq_item_adq7UV",
+        "faq_item_abLMmR"
+      ],
+      "settings": {
+        "color_scheme": "2",
+        "heading_text": "<p>BRUSH HEADS</p>",
+        "use_metaobject": false
+      }
+    },
+    "faq_collapsible_rows_R4HQiJ": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_mcEqx9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>How does the Smyle subscription work?</p>",
+            "answer": "<p>For maximum convenience, choose a Smyle Sonic Electric Toothbrush with our membership. You’ll receive 2 new bamboo brush heads every 4 months and 1 new brush head every 2 months—all for just €12 every 4 months, which breaks down to €6 per brush. It’s almost as convenient as our Toothpaste Tab subscription! With the membership, you also get a lifetime warranty against wear and tear and manufacturing defects. If your toothbrush stops working properly, email us a video of the issue at hello@wesmyle.com. Please note that damage from careless use, such as dropping the toothbrush, is not covered by the warranty.</p>"
+          }
+        },
+        "faq_item_jzqeXF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Can I also try it first?</p>",
+            "answer": "<p>When you brush with the Smyle Sonic Electric Toothbrush for the first time, it may take some getting used to. Just like brushing with Toothpaste Tabs. That's why Smyle offers you a 60-day trial. If you are not satisfied, please send us an email to hello@wesmyle.com .</p>"
+          }
+        },
+        "faq_item_hUFNmL": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>What is covered by warranty and what is not? When is my toothbrush not reimbursed?</p>",
+            "answer": "<p>The warranty only covers problems with the battery or motor. We do not reimburse toothbrushes that have been damaged, for example because they have been dropped.</p>"
+          }
+        },
+        "faq_item_xaGAaC": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Can I also purchase the Smyle Sonic Electric Toothbrush without taking out a subscription?</p>",
+            "answer": "<p>Yes, this is also possible. On this page you can choose with or without subscription</p>"
+          }
+        },
+        "faq_item_bpDMLc": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Can I also order the brush heads separately?</p>",
+            "answer": "<p>Of course! This can be done via our webshop www.wesmyle.com/shop.</p>"
+          }
+        },
+        "faq_item_irPtzm": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Can I cancel and return my order?</p>",
+            "answer": "<p>That is certainly possible, you are guaranteed to get your money back within 60 days. Please return it in the original packaging.</p>"
+          }
+        },
+        "faq_item_JVdFq3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Do you also have a warranty if you buy separately without a subscription?</p>",
+            "answer": "<p>You can return the Smyle Sonic Electric Toothbrush within two years if there are any defects. Please return it in the original packaging.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_mcEqx9",
+        "faq_item_jzqeXF",
+        "faq_item_hUFNmL",
+        "faq_item_xaGAaC",
+        "faq_item_bpDMLc",
+        "faq_item_irPtzm",
+        "faq_item_JVdFq3"
+      ],
+      "settings": {
+        "color_scheme": "2",
+        "heading_text": "<p>SMYLE SUBSCRIPTION</p>",
+        "use_metaobject": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_3fGWgw",
+    "scrolling_banner_wHdkJK",
+    "rich_text_tMJWzt",
+    "image_with_text_nciN8q",
+    "testimonials_rGENip",
+    "gallery_dwMjMJ",
+    "logo_list_Gzx6D4",
+    "featured_product_XwXbw7",
+    "faq_collapsible_rows_MXGq9b",
+    "scrolling_banner_ybHmTL",
+    "logo_list_c6Y9eJ",
+    "image_with_text_overlay_mMMfwH",
+    "comparison_table_DNyRA6",
+    "multi_column_DHDGHh",
+    "image_with_text_9Cr9hR",
+    "image_with_text_gEQF8a",
+    "image_with_text_nGNpyN",
+    "image_with_text_3HUbmD",
+    "multi_column_LqPbpG",
+    "key_features_Ctnktt",
+    "faq_collapsible_rows_hBXUcA",
+    "faq_collapsible_rows_QtNQqr",
+    "faq_collapsible_rows_R4HQiJ"
+  ]
+}

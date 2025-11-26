@@ -1,0 +1,267 @@
+{{ 'section-hero.css' | asset_url | stylesheet_tag }}
+
+{% liquid
+  assign image = section.settings.image
+  assign title = section.settings.title
+  assign highlight_color = section.settings.highlight_color
+  assign text = section.settings.text
+  assign cta_text = section.settings.cta_text
+  assign cta_link = section.settings.cta_link
+  assign rating_image = section.settings.rating_image
+  assign rating_text = section.settings.rating_text
+  assign reviews_text = section.settings.reviews_text
+  assign use_header_height = section.settings.use_header_height
+%}
+
+{% style %}
+  #shopify-section-{{ section.id }} {
+    background-color: {{ section.settings.background_color }};
+  }
+
+  .section-{{ section.id }}--padding {
+    {% unless use_header_height %}
+    padding-top: {{ section.settings.padding_top }}px;
+    {% endunless %}
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  @media(max-width: 749px) {
+    .section-{{ section.id }}--padding {
+      {% unless use_header_height %}
+      padding-top: {{ section.settings.padding_top_mobile }}px;
+      {% endunless %}
+      padding-bottom: {{ section.settings.padding_bottom_mobile }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="hero__container container container--no-max section-{{ section.id }}--padding">
+  <div class="hero__content">
+    {%- if title != blank -%}
+      <div
+        class="hero__title"
+        style="--highlight-color: {{ highlight_color }};"
+      >
+        {{ title }}
+      </div>
+    {%- endif -%}
+    {%- if text != blank -%}
+      <p class="hero__text text-lg">{{ text }}</p>
+    {%- endif -%}
+    {%- if cta_text != blank -%}
+      <a href="{{ cta_link }}" class="hero__button btn btn--primary">{{ cta_text }}</a>
+    {%- endif -%}
+  </div>
+  <div class="hero__media-container">
+    <div class="hero__image-container">
+      {%- if image != blank -%}
+        {{ image | image_url: width: 1080 | image_tag }}
+      {%- else -%}
+        {{ 'image' | placeholder_svg_tag }}
+      {%- endif -%}
+      <div class="hero__reviews-container">
+        <div class="hero-reviews__rating">
+          {%- if rating_image != blank -%}
+            <div class="hero-reviews-rating__image-container">
+              {{ rating_image | image_url: width: 212 | image_tag }}
+            </div>
+          {%- endif -%}
+          {%- if rating_text != blank -%}
+            <div class="hero-reviews-rating__text">{{ rating_text }}</div>
+          {%- endif -%}
+        </div>
+        {%- if reviews_text != blank -%}
+          <p class="hero-reviews__text">{{ reviews_text }}</p>
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="hero__advantages">
+      {%- for block in section.blocks -%}
+        <div class="hero-advantage">
+          <div class="hero-advantage__image">
+            {% if block.settings.image != blank %}
+              {{ block.settings.image | image_url: width: 100 | image_tag }}
+            {% else %}
+              {{ 'image' | placeholder_svg_tag }}
+            {% endif %}
+          </div>
+          {%- if block.settings.text != blank -%}
+            <p class="hero-advantage__text">
+              {{ block.settings.text | newline_to_br }}
+            </p>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Hero",
+  "class": "hero",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Main content"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#B8E0F8"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "Title",
+      "default": "<h1><strong>brighter smile.</strong><br />cleaner planet.</h1>",
+      "info": "Use <strong> tags to make text highlight."
+    },
+    {
+      "type": "color",
+      "id": "highlight_color",
+      "label": "highlight_color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Achieve a healthier smile with eco-friendly oral care. Sustainable products, zero waste."
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "CTA text",
+      "default": "try it now !"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "CTA link"
+    },
+    {
+      "type": "header",
+      "content": "Reviews"
+    },
+    {
+      "type": "image_picker",
+      "id": "rating_image",
+      "label": "Rating image"
+    },
+    {
+      "type": "text",
+      "id": "rating_text",
+      "label": "Rating text",
+      "default": "4.7/5.0"
+    },
+    {
+      "type": "text",
+      "id": "reviews_text",
+      "label": "Reviews text",
+      "default": "100,000+ happy customers"
+    },
+    {
+      "type": "header",
+      "content": "Section paddings"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "Section padding top",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "Section padding bottom",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_top_mobile",
+      "label": "Section padding top (mobile)",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom_mobile",
+      "label": "Section padding bottom (mobile)",
+      "unit": "px",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "default": 20
+    },
+    {
+      "type": "checkbox",
+      "id": "use_header_height",
+      "label": "Use header height",
+      "info": "Use header height instead of top padding"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "advantage",
+      "name": "Advantage",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero",
+      "category": "Custom",
+      "blocks": [
+        {
+          "type": "advantage",
+          "settings": {
+            "text": "Tested by experts"
+          }
+        },
+        {
+          "type": "advantage",
+          "settings": {
+            "text": "Fresh without bad chemicals"
+          }
+        },
+        {
+          "type": "advantage",
+          "settings": {
+            "text": "100% sustainable - 0% Plastic"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

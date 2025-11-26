@@ -1,0 +1,412 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_BGQFf4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Qtw7jA": {
+          "type": "heading",
+          "settings": {
+            "title": "Ingredients",
+            "use_h1": false
+          }
+        },
+        "text_UTa4Kk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>CLEAN TEETH, CLEAN PLANET</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Qtw7jA",
+        "text_UTa4Kk"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ezgif.com-gif-maker-36_1.webp",
+        "image_width": 340,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "scrolling_banner_GfKmMV": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_pTmhqi": {
+          "type": "text",
+          "settings": {
+            "text": "ALL NATURAL",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_fp4N8D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Group-34_1.svg",
+            "image_width": 25,
+            "link": ""
+          }
+        },
+        "text_g66aCL": {
+          "type": "text",
+          "settings": {
+            "text": "NO MICROPLASTICS",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_DLmMMn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Group-1_1.svg",
+            "image_width": 20,
+            "link": ""
+          }
+        },
+        "text_b6kajT": {
+          "type": "text",
+          "settings": {
+            "text": "PLASTIC-FREE",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_pTmhqi",
+        "image_fp4N8D",
+        "text_g66aCL",
+        "image_DLmMMn",
+        "text_b6kajT"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "2",
+        "text_size": 20,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "faq_collapsible_rows_cQJDLD": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_x86Y3K": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Hydroxyaptatite</p>",
+            "answer": "<p>This mineral guards and strengthens your enamel</p>"
+          }
+        },
+        "faq_item_J8mzMm": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Hydrated silica</p>",
+            "answer": "<p>Do you love white teeth without stains? Then this is really something for you!</p>"
+          }
+        },
+        "faq_item_HF3RjA": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Yeast</p>",
+            "answer": "<p>One of the ingredients that give our tabs their unique taste</p>"
+          }
+        },
+        "faq_item_fL6PJB": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Calcium carbonate</p>",
+            "answer": "<p>Good for your teeth, but ruthless to stains, food rests and plaque!</p>"
+          }
+        },
+        "faq_item_HRUFdU": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Acacia senegal gum extract</p>",
+            "answer": "<p>Helps with remineralization, which is very important for keeping your teeth healthy and strong</p>"
+          }
+        },
+        "faq_item_NKHVVh": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Sorbitol</p>",
+            "answer": "<p>Makes sweet brushing healthy</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_x86Y3K",
+        "faq_item_J8mzMm",
+        "faq_item_HF3RjA",
+        "faq_item_fL6PJB",
+        "faq_item_HRUFdU",
+        "faq_item_NKHVVh"
+      ],
+      "settings": {
+        "color_scheme": "1",
+        "heading_text": "<p>OUR INGREDIENTS</p>"
+      }
+    },
+    "multi_column_8UPPfJ": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_DzpHh7": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Hydroxyaptatite",
+            "text": "<p>This mineral guards and strengthens your enamel</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_NQB7hq": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Hydrated silica",
+            "text": "<p>Do you love white teeth without stains? Then this is really something for you!</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_3MqFAr": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Yeast",
+            "text": "<p>One of the ingredients that give our tabs their unique taste</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_KDzK47": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Calcium carbonate",
+            "text": "<p>Good for your teeth, but ruthless to stains, food rests and plaque!</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_j3KGng": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Acacia senegal gum extract",
+            "text": "<p>Helps with remineralization, which is very important for keeping your teeth healthy and strong</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_mzeBDH": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Sorbitol",
+            "text": "<p>Makes sweet brushing healthy</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_DzpHh7",
+        "text_block_NQB7hq",
+        "text_block_3MqFAr",
+        "text_block_KDzK47",
+        "text_block_j3KGng",
+        "text_block_mzeBDH"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Our ingredients",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "multi_column_bdMFG4": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_miANze": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Microplastics",
+            "text": "<p>Unfortunately, the majority of most popular toothpastes still contain microplastics. They make the toothpaste shine and are a cheap (but unhealthy) way to scrub your teeth. Luckily, ours doesn't!</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_JmVVWn": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Harmful chemicals",
+            "text": "<p>The foam in 'regular' toothpastes comes from the same sulphates used in industrial cleaners, detergents, soaps and other harmful products. Parabens are used as a preservative. These ingredients have been linked to cancer, mouth ulcers, reproductive problems, stomach complaints and skin irritation. Why take that risk when there are natural alternatives?</p><p></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_MLfEBp": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "Cruel testing on animals",
+            "text": "<p>Animal testing for cosmetics (toothpaste falls under cosmetics) is prohibited in the EU, but still not outside of it! In China it is even mandatory to test products on animals before they appear on the market. A company that adheres to the rules here may therefore still be able to test on animals elsewhere.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_miANze",
+        "text_block_JmVVWn",
+        "text_block_MLfEBp"
+      ],
+      "settings": {
+        "title": "What did we leave out?",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "2"
+      }
+    },
+    "multi_column_QdiDTr": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_LDN8DK": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/smyle_icons-30_dbd28f1a-01fc-40c6-9f1e-9a43c4612a8e.png",
+            "title": "Optimal Protection",
+            "text": "<p>Our tablets are tested by the Academic Center for Dentistry Amsterdam (ACTA). They have determined that the amount of fluoride released is equal to or more than the amount in 'normal' toothpaste.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_7VDRdD": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/smyle_icons-22_370f51ee-20a3-4afb-8f7f-24de12a23506.png",
+            "title": "Optimal RDA value",
+            "text": "<p>Abrasives are used in toothpastes to remove plaque and stains. Smyle has an RDA (relative dentin abrasivity) of 115. </p><p> All values ​​below 250 are considered safe for lifelong use, according to the internationally accepted standard of the American Dental Association (ADA). </p><p><br/>An RDA value of 115 is very safe and offers the friction of a medium toothpaste / whitening toothpaste.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_LDN8DK",
+        "text_block_7VDRdD"
+      ],
+      "settings": {
+        "title": "Proven effective",
+        "media_aspect_ratio": "s",
+        "media_width": 100,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "1"
+      }
+    },
+    "multi_column_6c3bcB": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_xH7Jzc": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/ezgif.com-gif-maker-39_1.jpg",
+            "title": "Double protection",
+            "text": "<p>Smyle offers your teeth double protection with fluoride and hydroxyapatite! The substrate of the enamel of your teeth consists of 90% hydroxyapatite. When a tooth decays, small cracks and holes appear in the surface.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_whAW6K": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/ezgif.com-gif-maker-40_1.webp",
+            "title": "Anti-sensitivity",
+            "text": "<p>In addition to all other natural dental protectants in our tablets, hydroxyapatite ensures that gaps in the dentinal tubules are filled, which closes the path to dental nerves. No more super sensitive teeth!</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_WdUNnD": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/ezgif.com-gif-maker-41_1.webp",
+            "title": "Whiter teeth",
+            "text": "<p>When we are young and just getting our adult teeth, they are bright white. This is due to the undamaged hydroxyapatite. In toothpaste, this ingredient ensures that your teeth regain their white color.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_xH7Jzc",
+        "text_block_whAW6K",
+        "text_block_WdUNnD"
+      ],
+      "settings": {
+        "title": "Why choose Smyle?",
+        "media_aspect_ratio": "s",
+        "media_width": 60,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_BGQFf4",
+    "scrolling_banner_GfKmMV",
+    "faq_collapsible_rows_cQJDLD",
+    "multi_column_8UPPfJ",
+    "multi_column_bdMFG4",
+    "multi_column_QdiDTr",
+    "multi_column_6c3bcB"
+  ]
+}

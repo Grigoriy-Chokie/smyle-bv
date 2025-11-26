@@ -1,0 +1,49 @@
+{% liquid
+  assign title = settings.certifications_title
+  assign images = settings.certifications_metaobjects
+%}
+
+{{ 'section-certifications.css' | asset_url | stylesheet_tag }}
+
+<div style="--color: {{ section.settings.color }}" class="certifications container fully-spaced-row">
+  {% if title != blank %}
+    <h2 class="text-center">
+      {{ title }}
+    </h2>
+  {% endif %}
+    <ul class="certifications__list flex">
+      {% for image in images %}
+        <li>
+          {{ image.certification_image | image_url: width: 200 | image_tag }}
+        </li>
+      {% endfor %}
+    </ul>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Certifications",
+  "disabled_on": {
+    "groups": [
+      "aside"
+    ]
+  },
+  "settings": [
+    {
+      "type": "color",
+      "id": "color",
+      "label": "Color",
+      "default": "#a6d3eb"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Certifications",
+      "settings": {
+      }
+    }
+  ]
+}
+{% endschema %}

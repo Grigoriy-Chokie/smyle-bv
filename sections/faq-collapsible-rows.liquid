@@ -1,0 +1,230 @@
+{%- liquid
+    assign color_scheme = section.settings.color_scheme
+    assign heading_icon = section.settings.heading_icon
+    assign heading_text = section.settings.heading_text
+    assign blocks = section.blocks
+
+
+    if section.settings.use_metaobject == true or section.settings.metaobjects != blank
+        assign global_metaobjects = metaobjects.faqs.values
+        assign array_faq_items = '' | split | sort
+
+        assign faq_categories = product.metafields.smyle.faqs.value
+        assign faq_categories_ids = ''
+
+        if section.settings.metaobjects != blank
+            assign faq_categories = section.settings.metaobjects
+        endif
+
+        for metaobject in faq_categories
+            assign faq_categories_ids = faq_categories_ids | append: metaobject.system.id | append: ','
+        endfor
+
+        assign faq_categories_ids = faq_categories_ids | split: ','
+
+
+        paginate global_metaobjects by metaobjects.faqs.values_count
+            for faq_item in global_metaobjects
+                assign metaobject_id = faq_item.category.value.system.id | append: ''
+                if faq_categories_ids contains metaobject_id
+                    assign array_item = faq_item | sort
+                    assign array_faq_items = array_faq_items | concat: array_item
+                endif
+            endfor
+        endpaginate
+
+        assign blocks = array_faq_items
+    endif
+-%}
+
+
+<div class="faq-collapsible-rows {% if color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ color_scheme }}{% endif %}">
+    <div class="faq-collapsible-rows__wrapper container flex justify-between align-start">
+        <h2 class="faq-collapsible-rows__heading sticky">
+            {% if heading_icon != blank %}
+                <div class="heading__icon flex">
+                    {{ heading_icon | image_url: width: 160 | image_tag }}
+                </div>
+            {% endif %}
+            
+            {% if heading_text != blank %}
+                <div class="heading__text h1 super-large-text uppercase">
+                    {{ heading_text }}
+                </div>
+            {% endif %}
+        </h2>
+
+        <div class="faq-collapsible-rows__content w-full">
+            {% for block in blocks %}
+                {%- liquid 
+                    assign id = block.id
+                    assign question = block.settings.question
+                    assign answer = block.settings.answer
+
+                    if block.system != blank
+                        assign id = block.system.id
+                        assign question = block.question
+                        assign answer = block.answers
+                    endif
+                -%}
+
+                {% if question != blank and answer != blank %}
+                    <div class="collapsible-row">
+                        <label for="row_{{ id }}" class="collapsible-row__question flex justify-between items-center">
+                            <input type="checkbox" style="display: none;" id="row_{{ id }}">
+                            <div class="question__text">
+                                {{ question }}
+                            </div>
+                            <div class="question__icon">
+                                <span class="icon icon-plus">{% render 'icon-plus' %}</span>
+                                <span class="icon icon-minus">{% render 'icon-minus' %}</span>
+                            </div>
+                        </label>
+                        <div class="collapsible-row__answer">
+                            <div>{{ answer }}</div>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {% for block in blocks %}
+                {%- liquid
+                    assign question = block.settings.question
+                    assign answer = block.settings.answer
+
+                    if block.system != blank
+                        assign id = block.system.id
+                        assign question = block.question
+                        assign answer = block.answers
+                    endif
+                %}
+              {
+                "@type": "Question",
+                "name": {{ question | escape | json }},
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": {{ answer | escape |  json }}
+                }
+              }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        ]
+    }
+</script>
+
+{% schema %}
+{
+    "name": "FAQ Collapsible rows",
+    "tag": "section",
+    "blocks": [
+        {
+            "name": "FAQ Item",
+            "type": "faq_item",
+            "settings": [
+                {
+                    "type": "richtext",
+                    "id": "question",
+                    "label": "Question"
+                },
+                {
+                    "type": "richtext",
+                    "id": "answer",
+                    "label": "Answer"
+                }
+            ] 
+        }
+    ],
+    "settings": [
+        {
+            "type": "select",
+            "id": "color_scheme",
+            "label": "Color scheme",
+            "default": "default",
+            "options": [
+                {
+                    "value": "default",
+                    "label": "Default"
+                },
+                {
+                    "value": "1",
+                    "label": "1"
+                },
+                {
+                    "value": "2",
+                    "label": "2"
+                },
+                {
+                "value": "3",
+                "label": "3"
+                },
+                {
+                "value": "4",
+                "label": "4"
+                }
+            ]
+        },
+        {
+            "type": "header",
+            "content": "Heading"
+        },
+        {
+            "type": "image_picker",
+            "id": "heading_icon",
+            "label": "Icon"
+        },
+        {
+            "type": "richtext",
+            "id": "heading_text",
+            "label": "Title"
+        },
+        {
+            "type": "header",
+            "content": "Content"
+        },
+        {
+            "type": "checkbox",
+            "id": "use_metaobject",
+            "label": "Use product metaobjects",
+            "info": "This setting works only on pdp"
+        },
+        {
+            "type": "metaobject_list",
+            "id": "metaobjects",
+            "metaobject_type": "faq_category",
+            "label": "Metaobjects"
+        }
+    ],
+    "presets": [
+        {
+            "name": "FAQ Collapsible Rows",
+            "settings": {
+                "heading_icon": "",
+                "heading_text": "<p>We’re happy to answer your questions!</p>"
+            },
+            "blocks": [
+                {
+                    "type": "faq_item",
+                    "settings": {
+                        "question": "<p>Question</p>",
+                        "answer": "<p>Answer</p>"
+                    }
+                },
+                {
+                    "type": "faq_item",
+                    "settings": {
+                        "question": "<p>Question</p>",
+                        "answer": "<p>Answer</p>"
+                    }
+                }
+            ]
+        }
+    ]
+}
+{% endschema %}

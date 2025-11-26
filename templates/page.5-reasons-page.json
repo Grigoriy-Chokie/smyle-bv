@@ -1,0 +1,1045 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "rich_text_VebX6C": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qk8YcN": {
+          "type": "heading",
+          "settings": {
+            "title": "10 REASONS WHY THE SMYLE EBRUSH IS TAKING OVER IN 2025",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_qk8YcN"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_liquid_UF3hLe": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": false,
+        "show_space": true,
+        "code": "<div style=\"display: flex; justify-content: center; margin-top: 20px;\">\n  <div style=\"display: flex; align-items: center; font-family: Rodger, sans-serif;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0921/4341/9727/files/293036009_1324705094722730_981856196329548098_n.jpg?v=1757429220\" alt=\"Nelly N.\" style=\"width: 60px; height: 60px; border-radius: 50%; object-fit: cover; margin-right: 15px;\">\n    <div style=\"font-size: 16px; color: #000;\">\n\n      {% case localization.language.iso_code %}\n        {% when 'nl' %}\n          <div>Door <strong>Nelly N.</strong></div>\n          <div style=\"font-size: 14px; color: #555;\">Laatst bijgewerkt op 6 sep. 2025</div>\n        {% when 'de' %}\n          <div>Von <strong>Nelly N.</strong></div>\n          <div style=\"font-size: 14px; color: #555;\">Zuletzt aktualisiert am 6. Sept. 2025</div>\n        {% else %}\n          <div>By <strong>Nelly N.</strong></div>\n          <div style=\"font-size: 14px; color: #555;\">Last Updated Sep 6, 2025</div>\n      {% endcase %}\n\n    </div>\n  </div>\n</div>"
+      }
+    },
+    "rich_text_UecPWG": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_yQ7qjF": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Smyle styles your smile – with the best eBrush out there, that looks like a gem in your bathroom and loves the planet. "
+          }
+        },
+        "button_YRbHzP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get your starter kit",
+            "button_link": "shopify://pages/smyle-electric-toothbrush-limited-offer",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        },
+        "text_rtiJYc": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Smyle e-brush makes brushing healthier, more stylish, and more sustainable. Discover why over 100,000 people have already made the switch.</p>",
+            "enlarge_text": true
+          }
+        },
+        "image_VXKnJe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Headline.jpg",
+            "image_width": 350,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yQ7qjF",
+        "button_YRbHzP",
+        "text_rtiJYc",
+        "image_VXKnJe"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_bHmbQq": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_z6T7RP": {
+          "type": "heading",
+          "settings": {
+            "title": "1. PROVEN HEALTHIER TEETH & GUMS ",
+            "use_h1": false
+          }
+        },
+        "subheading_HpP83M": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "99,98% REMOVAL OF PLAQUE-CAUSING BACTERIA"
+          }
+        },
+        "text_7gDA3j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>40,000 sonic vibes per minute? Yes please. Our powerful tech goes deep between teeth and along your gums – for healthier gums, fresher breath, and a smile that <em>really</em> shines. Tested and proven: 99.98% plaque removal (CTI, 2024).</p><p></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_z6T7RP",
+        "subheading_HpP83M",
+        "text_7gDA3j"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/01_9b47b250-1381-4f66-a953-8779b2314c51.jpg",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_iQe7Rk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QkRKbH": {
+          "type": "heading",
+          "settings": {
+            "title": "2. 1500+ Dentists Can’t Be Wrong",
+            "use_h1": false
+          }
+        },
+        "text_KBVJ6U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle is trusted by over dental professionals across Europe for effective, sustainable daily oral care.</p><p><strong>Are you a dentist or health expert?</strong></p><p>Join our ambassador community and help shape the future of oral care.</p><p>👉 [Check out our Dental Pro page]</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_QkRKbH",
+        "text_KBVJ6U"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Dentist_Malou_1x1_e060a174-e234-4abe-a4f3-2aabb2195eb8.jpg",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_TzigK9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dfY96d": {
+          "type": "heading",
+          "settings": {
+            "title": "3. A Design You’ll Actually Love",
+            "use_h1": false
+          }
+        },
+        "subheading_VLU7GY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Fashion for your bathroom."
+          }
+        },
+        "text_8XXzwz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle brings bold colours and limited edition prints that <em>elevate</em> your bathroom, not just sit in it.</p><p>Stylish, sustainable, and made to be seen.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_dfY96d",
+        "subheading_VLU7GY",
+        "text_8XXzwz"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/model-panter.jpg",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_wjHRDA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YWw8RL": {
+          "type": "heading",
+          "settings": {
+            "title": "4: The Most Sustainable eBrush Out There",
+            "use_h1": false
+          }
+        },
+        "subheading_VKWMir": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "SAY GOODBYE TO PLASTIC BRUSH HEADS – AND DAILY CHARGING."
+          }
+        },
+        "text_YVakyE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle uses bamboo brush heads (no weird wood taste, promise) and an ultra-efficient battery that goes the distance.</p><p>Less waste, more wow.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_YWw8RL",
+        "subheading_VKWMir",
+        "text_YVakyE"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/4.jpg",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_WiqLDc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fAWy4f": {
+          "type": "heading",
+          "settings": {
+            "title": "5. A Battery That Lasts 120 Days",
+            "use_h1": false
+          }
+        },
+        "subheading_X8xrEE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Charge less, smile more."
+          }
+        },
+        "text_TXwzHE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With up to 4 months of brushing on a single charge, Smyle keeps up with your life – whether you’re on the go or just hate charging cables.</p><p>Perfect for travel. Effortless for everyday.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_fAWy4f",
+        "subheading_X8xrEE",
+        "text_TXwzHE"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Screenshot_2025-10-23_at_15.50.45.png",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_xHDLcr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_RaYPej": {
+          "type": "heading",
+          "settings": {
+            "title": "UP TO 50% OFF FOR A LIMITED TIME ONLY!",
+            "use_h1": false
+          }
+        },
+        "subheading_xNBnNU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "This limited-time deal is in high demand and stock keeps selling out."
+          }
+        },
+        "button_pk9pdL": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET UP TO 50% OFF ⮕",
+            "button_link": "shopify://pages/smyle-electric-toothbrush-limited-offer",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        },
+        "text_ag9b7z": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Deal Ending in: </p>",
+            "enlarge_text": true
+          }
+        },
+        "countdown_VqbHzD": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "",
+            "end_time": "",
+            "end_text": "",
+            "hide_on_end": false,
+            "number_size": 40,
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true
+          }
+        },
+        "text_pwjGww": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sell-Out Risk: <strong>High </strong>|  <strong>FREE </strong>shipping</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_RaYPej",
+        "subheading_xNBnNU",
+        "button_pk9pdL",
+        "text_ag9b7z",
+        "countdown_VqbHzD",
+        "text_pwjGww"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/3_9_ebrushes.jpg",
+        "image_width": 350,
+        "image_link": "shopify://pages/smyle-electric-toothbrush-limited-offer",
+        "image_position": "left",
+        "text_alignment": "center",
+        "title_alignment": "center",
+        "color_scheme": "2"
+      }
+    },
+    "image_with_text_FThqAj": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_L4qg8X": {
+          "type": "heading",
+          "settings": {
+            "title": "6. Pressure Control That’s Got Your Back (and Gums)",
+            "use_h1": false
+          }
+        },
+        "subheading_xBPCEn": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Powerful on plaque, gentle on you."
+          }
+        },
+        "text_GzwENa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Brushing too hard? Smyle’s smart sensor steps in to protect your gums and enamel – guiding you to brush with just the right pressure.</p><p>Your mouth stays happy, your smile stays safe.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_L4qg8X",
+        "subheading_xBPCEn",
+        "text_GzwENa"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/pressure_sensor_eng.gif",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_EfWGwf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_PVNfi3": {
+          "type": "heading",
+          "settings": {
+            "title": " 7. For Every Smile 5 Brushing Modes",
+            "use_h1": false
+          }
+        },
+        "subheading_bm9cjt": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Your brushing, your rules."
+          }
+        },
+        "text_jx6Bhy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From Clean to Sensitive, Gum Care to Polish – switch it up to match your mood (or your mouth). One brush, endless ways to smile.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_PVNfi3",
+        "subheading_bm9cjt",
+        "text_jx6Bhy"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/7.jpg",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_7KR4ig": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_gDiEaH": {
+          "type": "heading",
+          "settings": {
+            "title": "8. Your 2-Minute Smile Coach",
+            "use_h1": false
+          }
+        },
+        "subheading_kyf9Ad": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "The dentist’s rule, made easy."
+          }
+        },
+        "text_cxzmeb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Smyle keeps you on track with a <strong>built-in timer</strong> that guides you through the perfect 2-minute clean, every time.</p><p>No guesswork, just good habits.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_gDiEaH",
+        "subheading_kyf9Ad",
+        "text_cxzmeb"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/33_c52cc55d-45ed-4a40-8b29-aac7c9f3aeb8.jpg",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_y4zt9w": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_k9wGAM": {
+          "type": "heading",
+          "settings": {
+            "title": "9. Affordable luxury",
+            "use_h1": false
+          }
+        },
+        "subheading_3VbMCB": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Premium brushing, fair price."
+          }
+        },
+        "text_dxTMkR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With our current summer deal 15% off your first and 50% off your second you can't go wrong. </p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_k9wGAM",
+        "subheading_3VbMCB",
+        "text_dxTMkR"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/02_54dcb16a-d4f9-4474-a7c6-167f24d14cc7.jpg",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_NRJmML": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_wD9TLx": {
+          "type": "heading",
+          "settings": {
+            "title": "10.  Love It in 60 Days – Or It’s On Us",
+            "use_h1": false
+          }
+        },
+        "subheading_D8eK4m": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "TRY US RISK-FREE FOR 60 DAYS"
+          }
+        },
+        "text_LcN7nx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Try Smyle for 2 whole months. Not feeling it? Just return it, hassle-free.</p><p>Zero risk, all smile.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_wD9TLx",
+        "subheading_D8eK4m",
+        "text_LcN7nx"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/10_9_ebrushes.jpg",
+        "image_width": 350,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_JfWHgD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8RHBhn": {
+          "type": "heading",
+          "settings": {
+            "title": "UP TO 50% OFF FOR A LIMITED TIME ONLY!",
+            "use_h1": false
+          }
+        },
+        "subheading_qxYgXm": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "This limited-time deal is in high demand and stock keeps selling out."
+          }
+        },
+        "button_JDQfMt": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET UP TO 50% OFF ⮕",
+            "button_link": "shopify://pages/smyle-electric-toothbrush-limited-offer",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        },
+        "text_kG87zc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Deal Ending in: </p>",
+            "enlarge_text": true
+          }
+        },
+        "countdown_jjb4HL": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "",
+            "end_time": "",
+            "end_text": "",
+            "hide_on_end": false,
+            "number_size": 40,
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true
+          }
+        },
+        "text_cmRPhR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sell-Out Risk: <strong>High </strong>|  <strong>FREE </strong>shipping</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_8RHBhn",
+        "subheading_qxYgXm",
+        "button_JDQfMt",
+        "text_kG87zc",
+        "countdown_jjb4HL",
+        "text_cmRPhR"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/3_9_ebrushes.jpg",
+        "image_width": 350,
+        "image_link": "shopify://pages/smyle-electric-toothbrush-limited-offer",
+        "image_position": "left",
+        "text_alignment": "center",
+        "title_alignment": "center",
+        "color_scheme": "2"
+      }
+    },
+    "rich_text_NGGtB9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iWi9bV": {
+          "type": "heading",
+          "settings": {
+            "title": "UP TO 58% OFF FOR A LIMITED TIME ONLY!",
+            "use_h1": false
+          }
+        },
+        "subheading_TpEj9m": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "This limited-time deal is in high demand and stock keeps selling out."
+          }
+        },
+        "button_iYNbJJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET UP TO 50% OFF ⮕",
+            "button_link": "shopify://pages/starterkit-e-brush-single",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        },
+        "text_xUPXXb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Deal ending in:</p>",
+            "enlarge_text": true
+          }
+        },
+        "countdown_zHX6YX": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "",
+            "end_time": "",
+            "end_text": "",
+            "hide_on_end": false,
+            "number_size": 40,
+            "number_font": "base",
+            "divider_type": "colon",
+            "show_timer_labels": true
+          }
+        },
+        "text_bFaNhw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sell-Out Risk: <strong>High</strong><strong>     </strong>|          <strong>FREE </strong>shipping </p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_iWi9bV",
+        "subheading_TpEj9m",
+        "button_iYNbJJ",
+        "text_xUPXXb",
+        "countdown_zHX6YX",
+        "text_bFaNhw"
+      ],
+      "disabled": true,
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    },
+    "featured_main_product_GnRLpA": {
+      "type": "featured-main-product",
+      "blocks": {
+        "title_DfRhwE": {
+          "type": "title",
+          "settings": {}
+        },
+        "custom_liquid_7fGrKT": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display: flex; align-items: center; gap: 10px; margin: 10px 0;\">\n  <img src=\"https://cdn.shopify.com/s/files/1/0921/4341/9727/files/star_1122db7b-d7a4-4c32-829a-8323ea03ef1a.png?v=1747652872\" alt=\"Star rating\" style=\"height: 24px; width: auto;\" />\n\n  {% case localization.language.iso_code %}\n    {% when 'nl' %}\n      <span style=\"font-size: 14px;\">4.6/5.0 van 1050+ geverifieerde reviews</span>\n    {% when 'de' %}\n      <span style=\"font-size: 14px;\">4,6/5,0 aus über 1050 verifizierten Bewertungen</span>\n    {% else %}\n      <span style=\"font-size: 14px;\">4.6/5.0 from 1050+ verified reviews</span>\n  {% endcase %}\n</div>",
+            "show_in_quickbuy": false
+          }
+        },
+        "price_WaiXGQ": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": false,
+            "save_pattern": "Save [amount] + 2nd brush 50% off"
+          }
+        },
+        "toggle_info_B6nrHP": {
+          "type": "toggle_info",
+          "settings": {
+            "title": "50% OFF every additional e-brush",
+            "badge_text": "BUNDLE OFFER",
+            "image": "shopify://shop_images/ExtraBrush_Offer_ENG.jpg"
+          }
+        },
+        "divider_4VHE4N": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant_picker_pFcBqT": {
+          "type": "variant-picker",
+          "settings": {
+            "order_number": "",
+            "custom_title": "",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "upsells_multiselect_KAWbjw": {
+          "type": "upsells_multiselect",
+          "settings": {
+            "order_number": "2",
+            "title": "Popular add-ons",
+            "description": "",
+            "upsells": [
+              "4-pack-of-smyle-bush-heads-save-30"
+            ],
+            "option_guide_text": "",
+            "option_guide_page": ""
+          }
+        },
+        "buy_buttons_qXAnAr": {
+          "type": "buy-buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false,
+            "show_quantity_selector": false,
+            "quantity_selector_type": "selector",
+            "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
+            "additional_product": ""
+          }
+        },
+        "text_gVdDkY": {
+          "type": "text",
+          "settings": {
+            "text": "Add a second eBrush now and get 50% OFF",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "shipping_notice_MqQ34i": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Fast & Free CO2-neutral shipping"
+          }
+        },
+        "payment_icons_y3G38E": {
+          "type": "payment_icons",
+          "settings": {
+            "show_payment_icons": true,
+            "payment_icons_style": "default"
+          }
+        }
+      },
+      "block_order": [
+        "title_DfRhwE",
+        "custom_liquid_7fGrKT",
+        "price_WaiXGQ",
+        "toggle_info_B6nrHP",
+        "divider_4VHE4N",
+        "variant_picker_pFcBqT",
+        "upsells_multiselect_KAWbjw",
+        "buy_buttons_qXAnAr",
+        "text_gVdDkY",
+        "shipping_notice_MqQ34i",
+        "payment_icons_y3G38E"
+      ],
+      "disabled": true,
+      "name": "Featured main product",
+      "settings": {
+        "product": "sonic-electric-toothbrush",
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "set_variant_media": false,
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "scrolling_banner_wRNjzw": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_QTCTBX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-08.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "text_FFWPQU": {
+          "type": "text",
+          "settings": {
+            "text": "FREE DELIVERY",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_8648wi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-25.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "text_t4U3ej": {
+          "type": "text",
+          "settings": {
+            "text": "FREE LIFETIME GUARANTEE",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_HXQPXc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-24.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "text_GQmrdG": {
+          "type": "text",
+          "settings": {
+            "text": "60-DAYS RISK-FREE TRIAL",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_MfJqzm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-28.svg",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "text_w9PGgz": {
+          "type": "text",
+          "settings": {
+            "text": "120 DAYS BATTERY LIFE",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QTCTBX",
+        "text_FFWPQU",
+        "image_8648wi",
+        "text_t4U3ej",
+        "image_HXQPXc",
+        "text_GQmrdG",
+        "image_MfJqzm",
+        "text_w9PGgz"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "color_scheme": "3",
+        "text_size": 20,
+        "vertical_padding": 7,
+        "speed": 30,
+        "direction": "left",
+        "font": "heading",
+        "space": 10
+      }
+    },
+    "faq_collapsible_rows_6TRgbK": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_PPTgVe": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>WHAT'S INCLUDED IN THE BOX?</p>",
+            "answer": "<ul><li>E-Brush (Sonic Electric Brush)</li><li>Brush head Soft bristles (When to soft you can always order medium for future orders)</li><li>USB charging cable</li><li>Instruction manual</li></ul>"
+          }
+        },
+        "faq_item_zLtk6r": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>FAST & FREE SHIPPING</p>",
+            "answer": "<p>Your ultimate cleaning experience is coming! And who likes shipping costs? No one! We deliver your package within 3-5 business days anywhere in Europe.<br/><br/><strong>NOTE:</strong> Panther & Delft Blue are currently sold out. Due to extreme demand, we are working with pre-orders. Order now to secure your spot for the next delivery — only 500 pieces per batch.</p><p>Delivery date: 12–20 August – Sold out</p><p>Delivery date: 12–20 September – 147 of 500 available</p><p>Delivery date: 29 September – 8 October – 500 available</p><p>All other colors: Fast & Free Shipping</p>"
+          }
+        },
+        "faq_item_XPpd7R": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>60 DAYS FREE RETURNS, NO QUESTIONS ASKED</p>",
+            "answer": "<p>You can use Smyle E-Brush for two months and return it without questions asked and you will get your money back! We promise, you’ll be hooked and keep it instead.</p>"
+          }
+        },
+        "faq_item_pVQAVg": {
+          "type": "faq_item",
+          "settings": {
+            "question": "",
+            "answer": ""
+          }
+        },
+        "faq_item_fgB9DW": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>LIFETIME WARRANTY</p>",
+            "answer": "<p>On your subscription purchase, you will receive a lifetime warranty with Smyle. If the E-Brush breaks on normal use, you will receive a new one. You can return the broken one to us for recycling. Unfortunately, we do not cover damages caused by falling or careless use.</p>"
+          }
+        },
+        "faq_item_qYBUHC": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "<p>HOW DOES THE SUBSCRIPTION WORK?</p>",
+            "answer": "<p>Replacing toothbrush heads is essential, but it’s easy to forget.  With the Smyle Brush Head Subscription, get fresh, eco-friendly bamboo heads delivered every 4 months for just €6 per head.<br/><br/>Enjoy lifetime guarantee, and pause or cancel anytime. Save money, stay sustainable, and never worry about running out!</p>"
+          }
+        },
+        "faq_item_zmPeXq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>REMOVAL OF 99.9% OF PLAQUE BACTERIA?</p>",
+            "answer": "<p>We had our eBrush with the Bamboo brush heads tested by CTI. They concluded this. See also the Dental Professional page in the Discovery section.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_PPTgVe",
+        "faq_item_zLtk6r",
+        "faq_item_XPpd7R",
+        "faq_item_pVQAVg",
+        "faq_item_fgB9DW",
+        "faq_item_qYBUHC",
+        "faq_item_zmPeXq"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "1",
+        "heading_text": "",
+        "use_metaobject": false,
+        "metaobjects": []
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_VebX6C",
+    "custom_liquid_UF3hLe",
+    "rich_text_UecPWG",
+    "image_with_text_bHmbQq",
+    "image_with_text_iQe7Rk",
+    "image_with_text_TzigK9",
+    "image_with_text_wjHRDA",
+    "image_with_text_WiqLDc",
+    "image_with_text_xHDLcr",
+    "image_with_text_FThqAj",
+    "image_with_text_EfWGwf",
+    "image_with_text_7KR4ig",
+    "image_with_text_y4zt9w",
+    "image_with_text_NRJmML",
+    "image_with_text_JfWHgD",
+    "rich_text_NGGtB9",
+    "featured_main_product_GnRLpA",
+    "scrolling_banner_wRNjzw",
+    "faq_collapsible_rows_6TRgbK"
+  ]
+}

@@ -1,0 +1,589 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_f43Bdw": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Available in 3500+ stores",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/Frame123123.svg",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#00a676",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true,
+            "save_pattern": "Save [amount] + FREE Whitening Kit"
+          }
+        },
+        "text_wzTFgG": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
+            "icon": "star",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#000000",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_tCx6Lf": {
+          "type": "text",
+          "settings": {
+            "text": "🦷  Up to <strong>7 shades</strong> whiter teeth in 10 days",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_yxP7MU": {
+          "type": "text",
+          "settings": {
+            "text": "🔬 <strong>Clinically tested</strong> and proven effective",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_kJTXNt": {
+          "type": "text",
+          "settings": {
+            "text": "✨ PAP+ Technology",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_AgE6Xi": {
+          "type": "text",
+          "settings": {
+            "text": "😊 No sensitivity",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "benefits_F8fVjx": {
+          "type": "benefits",
+          "disabled": true,
+          "settings": {
+            "text_1": "4 months battery",
+            "icon_1": "shopify://shop_images/Frame.svg",
+            "text_2": "Try for 60 days",
+            "icon_2": "shopify://shop_images/Frame-clock.svg",
+            "text_3": "Lifetime Warranty",
+            "icon_3": "shopify://shop_images/Frame-ss.svg"
+          }
+        },
+        "variant_picker_9QqWX8": {
+          "type": "variant-picker",
+          "settings": {
+            "order_number": "",
+            "custom_title": "",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "subscription_form_6cnma9": {
+          "type": "subscription-form",
+          "settings": {
+            "product": "teeth-whitening-refill",
+            "selling_plan": "3 months",
+            "enable_prices": true,
+            "discounted_price": "39.99",
+            "option_title": "Select WITH / WITHOUT subscription",
+            "option_guide_text": "How does it work?",
+            "option_guide_page": "",
+            "enable_sale_badge": false,
+            "enable_shipping_badge": false,
+            "sale_badge_text": "",
+            "shipping_badge_text": "",
+            "subscription_text": "Every 3 months, [quantity] teeth whitening refill"
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false,
+            "show_quantity_selector": false,
+            "quantity_selector_type": "selector",
+            "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
+            "additional_product": ""
+          }
+        },
+        "shipping_notice_cDmyLN": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Fast & Free CO2-neutral shipping"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_f43Bdw",
+        "price",
+        "text_wzTFgG",
+        "text_tCx6Lf",
+        "text_yxP7MU",
+        "text_kJTXNt",
+        "text_AgE6Xi",
+        "benefits_F8fVjx",
+        "variant_picker_9QqWX8",
+        "subscription_form_6cnma9",
+        "buy-buttons",
+        "shipping_notice_cDmyLN"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "set_variant_media": false,
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "comparison_table_QqarQb": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_FEF9L6": {
+          "type": "row",
+          "settings": {
+            "title": "BAMBOE OPZETBORSTELS",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_QADdjj": {
+          "type": "row",
+          "settings": {
+            "title": "3 KEER PER JAAR LADEN",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_rLq9N8": {
+          "type": "row",
+          "settings": {
+            "title": "5 POETSMODI",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_rnb6jb": {
+          "type": "row",
+          "settings": {
+            "title": "NIET TEVREDEN? GELD TERUG",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_mc3DKd": {
+          "type": "row",
+          "settings": {
+            "title": "BETAALBAAR",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_GK8Dt8": {
+          "type": "row",
+          "settings": {
+            "title": "PLASTICVRIJE VERPAKKING",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_XfR87C": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>PRIJS</strong>",
+            "icon_1": "true",
+            "text_1": "€76.50",
+            "icon_2": "true",
+            "text_2": "<strong>€99</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "row_FEF9L6",
+        "row_QADdjj",
+        "row_rLq9N8",
+        "row_rnb6jb",
+        "row_mc3DKd",
+        "row_GK8Dt8",
+        "row_XfR87C"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SMYLE VS. DE REST",
+        "subtitle": "DÉ TOEKOMST VAN MONDVERZORGING IS BETER VOOR JE GEZONDHEID ÉN DE PLANEET",
+        "logo": "shopify://shop_images/unnamed_5_de35292c-aa0c-4bf7-96d7-de05fe3e10451.png",
+        "icon_true": "shopify://shop_images/right_round1.png",
+        "icon_false": "shopify://shop_images/close1.png",
+        "button_text": "",
+        "button_url": "#main",
+        "button_background": "#f46365"
+      }
+    },
+    "collapsible_tabs_9pMQhq": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_cV7TzB": {
+          "type": "question",
+          "settings": {
+            "title": "KEY FEATURES",
+            "answer": "<ul><li>No sensitive teeth Pap+ technology </li><li>7 shades of whiter teeth in 10 days </li><li>No plastic packaging</li><li>Clinically tested and proven effective</li></ul>"
+          }
+        },
+        "question_BFpgTh": {
+          "type": "question",
+          "settings": {
+            "title": "BENEFITS",
+            "answer": "<p>✔ <strong>Latest whitening technique -</strong>\"PAP\" is the latest and safest way to whiten your teeth. In combination with other active ingredients, your teeth can become up to 7 shades whiter in just 10 days.<br/><br/><br/>✔ <strong>Sustainable -</strong>Plastic-free packaging, a reusable mouthpiece (up to 100 times), no microplastics, clean ingredients.<br/><br/><br/>✔ <strong>No sensitivity -</strong>Also suitable for sensitive teeth, thanks to smart use of natural ingredients.<br/><br/><br/>✔ <strong>More confidence -</strong>Knowing you have a radiant smile makes you feel better and more self-assured<br/><br/><br/>✔<strong>Saves time and money -</strong>Compared to other brands, Smyle is the affordable alternative. Professional-quality results, but in the comfort of your home. This way, you save time and money!</p>"
+          }
+        },
+        "question_3JBwFV": {
+          "type": "question",
+          "settings": {
+            "title": "INGREDIENTS",
+            "answer": "<p>Glycerin, Aqua, Sodium Bicarbonate, Sodium Coco-Sulfate, Xylitol, Phthalimidoperoxycaproic acid, Carbomer, Mentha Piperita Oil, Mentha Spicata Herb Oil, Sorbitol, Sodium Benzoate, Aloe Barbadensis Leaf Juice, Monosodium Citrate, Xanthan Gum, Punica Granatum Seed Oil, Glucose, Anthemis Nobilis Flower Oil, Triethanolamine, Citric Acid, C12-15 Pareth-5, Bromelain, Papain, Potassium sorbate, Menthol, Limonene, Carvone, Beta-Caryophyllene, Pinene, Terpinol.</p>"
+          }
+        },
+        "question_THMq4r": {
+          "type": "question",
+          "settings": {
+            "title": "FAST & FREE SHIPPING",
+            "answer": "<p>Your ultimate Whitening experience is coming! And who likes shipping costs? No one! We deliver your package within 3-5 business days anywhere in Europe.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_cV7TzB",
+        "question_BFpgTh",
+        "question_3JBwFV",
+        "question_THMq4r"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "logos_BF6Kze": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    },
+    "multi_column_qV8BAp": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_BifFrw": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/DSC_2121_JPG-1_1.webp",
+            "title": "=",
+            "text": "<p>\"Smyle has developed innovative products that are environmentally friendly and effective, aligning with targeted preventive care.\"<br/><br/><strong>Hero Abdullah, Five25 Dental Hygienists</strong></p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_BifFrw"
+      ],
+      "settings": {
+        "title": "DENTISTS LOVE SMYLE",
+        "media_aspect_ratio": "s",
+        "media_width": 350,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_WkM9dH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_w9eLEg": {
+          "type": "heading",
+          "settings": {
+            "title": "IS THE SMYLE WHITENING KIT EFFECTIVE?",
+            "use_h1": false
+          }
+        },
+        "text_FgND3T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our confidence in our products is backed by science. Of course, we don’t expect you to just take our word for it!<br/></p><p>The Smyle Whitening Kit is clinically tested and proven effective. It’s also safe for your teeth. In just 10 days, you can achieve up to 7 shades whiter teeth. Experience the difference for yourself and see why we’re so excited about it!</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_EYWLyW": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW THE CLINICAL REPORT HERE",
+            "button_link": "https://cdn.shopify.com/s/files/1/0921/4341/9727/files/Smyle-teeth-Whitening-Gel-v1_Study-9-13_compressed.pdf?v=1744135433",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_w9eLEg",
+        "text_FgND3T",
+        "button_EYWLyW"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/08_795e77d8-3f63-460d-94d8-f5b59a10ce18.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "multi_column_ArtLfq": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_LXeJRw": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/beforeandafter-21_1.webp",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_RdbCQn": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/beforeandafter1_1.webp",
+            "title": "",
+            "text": "",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_LXeJRw",
+        "text_block_RdbCQn"
+      ],
+      "settings": {
+        "title": "",
+        "media_aspect_ratio": "s",
+        "media_width": 450,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "certifications_fzdd4e": {
+      "type": "certifications",
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    },
+    "image_with_text_LhtiPW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yAPeTz": {
+          "type": "heading",
+          "settings": {
+            "title": "OUR PROMISE",
+            "use_h1": false
+          }
+        },
+        "text_hycJzg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>UP TO 7 SHADES WHITER TEETH</strong></p><p>Our Whitening Kit is clinically tested and proven to effectively achieve up to 7 shades whiter teeth.</p><p><strong>ECO-FRIENDLY AND PLASTIC-FREE PACKAGING</strong></p><p>We prioritize sustainability with plastic-free packaging and a mouthpiece that can be reused up to 100 times.<br/></p><p><strong>PREMIUM NATURAL INGREDIENTS</strong></p><p>Our formula contains no microplastics, harmful chemicals, or artificial flavorings—only high-quality natural ingredients.<br/></p><p><strong>WITHOUT HARMFUL HYDROGEN PEROXIDE</strong></p><p>Unlike many other brands, we avoid hydrogen peroxide, an ingredient often used to whiten teeth but associated with potential drawbacks like sensitivity, irritation, and enamel damage.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yAPeTz",
+        "text_hycJzg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Slider-311.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_X9Lhhx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7P7eYk": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT'S IN THE KIT",
+            "use_h1": false
+          }
+        },
+        "text_RUp87M": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✔ Glass bottle with whitening gel<br/>✔ Wooden applicator stick<br/>✔ Reusable mouthpiece</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7P7eYk",
+        "text_RUp87M"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/06_93b5a9f2-7a07-4ef0-8ba0-dde798fa8940.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_Wx9wLp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EHi3ge": {
+          "type": "heading",
+          "settings": {
+            "title": "PAP+, THE LATEST WHITENING INNOVATION",
+            "use_h1": false
+          }
+        },
+        "text_9FgfA8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our advanced Whitening Kit and PAP+ formula guarantee a comfortable whitening experience with no sensitivity.</p><p><br/></p><p>The key whitening ingredient in our formula is PAP+ (Phthalimidoperoxycaproic acid), a safe and effective alternative to peroxide.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EHi3ge",
+        "text_9FgfA8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/05_21757822-f82d-46c9-9d20-e7afe6f7da10.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "faq_collapsible_rows_qUVK3f": {
+      "type": "faq-collapsible-rows",
+      "name": "FAQ Collapsible Rows",
+      "settings": {
+        "color_scheme": "2",
+        "heading_text": "<p>We’re happy to answer your questions!</p>",
+        "use_metaobject": false,
+        "metaobjects": [
+          "teeth-whitening-kit-pdp-eng"
+        ]
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "comparison_table_QqarQb",
+    "collapsible_tabs_9pMQhq",
+    "logos_BF6Kze",
+    "multi_column_qV8BAp",
+    "image_with_text_WkM9dH",
+    "multi_column_ArtLfq",
+    "certifications_fzdd4e",
+    "image_with_text_LhtiPW",
+    "image_with_text_X9Lhhx",
+    "image_with_text_Wx9wLp",
+    "faq_collapsible_rows_qUVK3f"
+  ]
+}

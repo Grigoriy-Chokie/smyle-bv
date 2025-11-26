@@ -1,0 +1,196 @@
+{%- liquid
+    assign product = block.settings.product
+    assign variant = product.selected_or_first_available_variant
+    assign original_variant = original_product.selected_or_first_available_variant
+    assign selling_plan_name = block.settings.selling_plan | default: false
+    assign selling_plan_groups = product.selling_plan_groups | first
+    assign selling_plan = selling_plan_groups.selling_plans | where: 'recurring_deliveries', true | first
+    assign selling_plan_id = selling_plan.id
+    assign is_current_product = false
+
+    assign is_prices_enabled = block.settings.enable_prices
+    assign variant_price = variant.price
+    assign original_variant_price = original_variant.price
+    assign original_discounted_price = block.settings.discounted_price | default: 0 | times: 100 | default: original_variant_price
+    assign original_compare_at_price = original_variant.compare_at_price | default: original_variant_price
+
+    assign option_number = block.settings.option_number | default: 0 | times: 1
+    assign title = block.settings.option_title
+    assign subscription_text = block.settings.subscription_text | replace: '[quantity]', '<span class="js-quantity">1</span>'
+
+    assign has_sale_badge = block.settings.enable_sale_badge
+    assign has_shipping_badge = block.settings.enable_shipping_badge
+    assign sale_badge_text = block.settings.sale_badge_text
+    assign shipping_badge_text = block.settings.shipping_badge_text
+
+    assign has_guide_page = false
+    assign option_guide_text = block.settings.option_guide_text
+    assign option_guide_page = block.settings.option_guide_page
+
+    if option_guide_text != blank and option_guide_page != blank
+        assign has_guide_page = true 
+    endif
+
+    if product.id == original_product.id
+        assign is_current_product = true
+    endif
+
+    
+    if product != blank and selling_plan_name
+        for selling_plan in selling_plan_groups.selling_plans
+            if selling_plan.name contains selling_plan_name and selling_plan.recurring_deliveries
+                assign selling_plan_id = selling_plan.id
+            endif
+        endfor
+    endif
+-%}
+
+{%- if has_guide_page -%}
+    {%- capture option_guide_link -%}
+      <modal-opener class="no-js-hidden" data-modal="option-guide-{{ original_product.id }}-{{ section.id }}">
+        <button type="button" class="link block text-sm option-guide-link h5 no-text-transform" aria-haspopup="dialog">
+          <span class="option-guide-link__icon flex">{%- render 'icon', icon: 'tooltip', size: 'small' -%}</span>
+          <span class="option-guide-link__text">{{- option_guide_text -}}</span>
+        </button>
+      </modal-opener>
+      <noscript>
+        <a href="{{ option_guide_page.url }}" class="link">{{ option_guide_text }}</a>
+      </noscript>
+    {%- endcapture -%}
+  {%- endif -%}
+
+<subscription-form class="product__subscription-form">
+    <fieldset class="option-selector" data-selector-type="listed">
+        <div class="label-heading flex justify-between items-center flex-wrap">
+            <legend class="label justify-center items-center">
+                {% if option_number > 0 %}
+                    <span class="label__order-number inline-flex justify-center items-center">
+                        {{ option_number }}
+                    </span>
+                {% endif %}
+    
+                <span class="h4 no-text-transform">{{ title }}</span>
+            </legend>
+            {{ option_guide_link }}
+        </div>
+    
+        <div class="option-selector__btns flex flex-wrap w-full">
+            <div class="option__wrapper w-full" data-option>
+                {% if is_current_product %}
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="selling_plan" id="subscription-true-id-{{ variant.id }}" value="{{ selling_plan_id }}" required checked>
+                {% else %}
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[0][id]" id="subscription-true-id-{{ variant.id }}" value="{{ variant.id }}" required checked>
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[0][selling_plan]" id="subscription-true-selling_plan-{{ variant.id }}" value="{{ selling_plan_id }}" required checked>
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[0][quantity]" id="subscription-true-quantity-{{ variant.id }}" value="1" required checked>
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[0][properties][_subscription_bundle_id]" id="subscription-true-bundle-add-{{ variant.id }}" value="subscription" required checked>
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="properties[_subscription_bundle_id]" id="subscription-true-bundle-main-{{ variant.id }}" value="subscription" required checked>
+                {% endif %}
+                
+                <label class="opt-label opt-label--subscription opt-label--btn flex-col btn relative text-center body-font" for="subscription-true-id-{{ variant.id }}">
+                    <div class="opt-label__heading flex justify-between w-full">
+                        <div class="option-name h5 no-text-transform relative body-heading-font">
+                            <span>{{ 'products.product.subscription_form.subscription' | t }}</span>
+                        </div>
+                        {% if has_sale_badge or has_shipping_badge %}
+                            <div class="option-badges flex">
+                                {% if has_sale_badge %}
+                                    <div class="option-badge option-badge--sale price-label price-label--sale align-center">
+                                        <span>{{ sale_badge_text }}</span>
+                                    </div>
+                                {% endif %}
+                                
+                                {% if has_shipping_badge %}
+                                    <div class="option-badge price-label price-label--shipping option-badge--shipping align-center">
+                                        <span>{{ shipping_badge_text }}</span>
+                                    </div>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+                        {% if is_prices_enabled %}
+                            <div class="option-prices flex font-semibold">
+                                {% if original_compare_at_price > original_discounted_price %}
+                                    <span class="option-price option-price--original" data-original-price data-subscription>
+                                        {{ original_compare_at_price | money_without_trailing_zeros }}
+                                    </span>
+                                {% endif %}
+                                <span class="option-price option-price--current" data-discounted-price data-subscription>
+                                    {{ original_discounted_price | money }}
+                                </span>
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="opt-label__info w-full">
+                        {% if subscription_text != blank %}
+                            <div class="opt-info__item info-item--recycle flex justify-between w-full">
+                                <div class="info-item__content flex items-center">
+                                    {% render 'icon', icon: 'recycle', size: 'small' %}
+                                    <span class="body-font">{{ subscription_text }}</span>
+                                </div>
+                                {% if is_prices_enabled %}
+                                        <span class="info-item__price font-semibold text-end">
+                                            <span {% if is_current_product %}data-discounted-price data-subscription data-per-beg-price {% else  %}data-discounted-price data-price={{ variant_price }}{% endif %}>{{ variant_price |  money_without_trailing_zeros }}</span> / {{ selling_plan_name | downcase }}
+                                        </span>
+                                {% endif %}
+                            </div>
+                        {% endif %}
+
+                        <div class="opt-info__item info-item--cancel flex justify-between">
+                            <div class="info-item__content">
+                                {% render 'icon', icon: 'cancel', size: 'small' %}
+                                <span class="body-font">{{ 'products.product.subscription_form.cancel_info' | t }}</span>
+                            </div>
+                            {% if is_prices_enabled and subscription_text == blank %}
+                                <span class="info-item__price text-end">
+                                    <span {% if is_current_product %}data-discounted-price data-subscription data-per-beg-price {% else  %}data-discounted-price data-price={{ variant_price }}{% endif %}>{{ variant_price |  money_without_trailing_zeros }}</span> / {{ selling_plan_name | downcase }}
+                                </span>
+                            {% endif %}
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="option__wrapper w-full" data-option>
+                {% if is_current_product %}
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="selling_plan" id="subscription-false-id-{{ variant.id }}" value="" required>
+                {% else  %}
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[0][id]" id="subscription-false-id-{{ variant.id }}" value="" required>
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[0][selling_plan]" id="subscription-false-selling_plan-{{ variant.id }}" value="" required>
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[0][quantity]" id="subscription-false-quantity-{{ variant.id }}" value="" required>
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[0][properties][_subscription_bundle_id]" id="subscription-true-bundle-add-{{ variant.id }}" value="subscription" required>
+                    <input type="radio" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="properties[_subscription_bundle_id]" id="subscription-true-bundle-main-{{ variant.id }}" value="subscription" required>
+                {% endif %}
+                
+                
+                <label class="opt-label opt-label--subscription opt-label--onetime-purchase opt-label--btn flex-col btn relative text-center body-font" for="subscription-false-id-{{ variant.id }}">
+                    <div class="opt-label__heading flex justify-between w-full">
+                        <div class="option-name h5 no-text-transform relative body-heading-font">
+                            <span>{{ 'products.product.subscription_form.no_subscription' | t }}</span>
+                        </div>
+
+                        <div class="option-badges">
+                            <div class="option-prices font-semibold">
+                                <span class="option-price option-price--original" 
+                                    data-original-price 
+                                    data-onetime
+                                    {% if original_variant_price >= original_compare_at_price  %}
+                                        style="display: none;"
+                                    {% endif %}
+                                >
+                                    {{ original_compare_at_price | money }}
+                                </span>
+                                <span class="option-price option-price--current" data-discounted-price data-onetime>
+                                    {{ original_variant_price | money }}
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                </label>
+            </div>
+            
+        </div>
+    </fieldset>
+</subscription-form>
+
+

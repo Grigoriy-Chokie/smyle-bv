@@ -1,0 +1,70 @@
+{%- liquid
+  if product.template_suffix contains 'preorder'
+    assign add_to_cart_text = 'products.product.preorder' | t
+  else
+    assign add_to_cart_text = 'products.product.add_to_cart' | t
+  endif
+
+  if section.settings.sticky_atc_behavior == 'scroll' or current_variant == false
+    assign button_text = 'products.product.view_details' | t
+  elsif current_variant.available
+    assign button_text = add_to_cart_text
+  else
+    assign button_text = 'products.variant.no_stock' | t
+  endif
+
+  assign anchor = '#product-info'
+-%}
+
+<link rel="stylesheet" href="{{ 'sticky-atc.css' | asset_url }}" media="print" onload="this.media='all'">
+<script src="{{ 'sticky-atc.js' | asset_url }}" defer="defer"></script>
+
+<sticky-atc class="sticky-atc sticky-atc--out sticky-atc--{{ section.settings.sticky_atc_position }}{% if section.settings.sticky_atc_mobile == false %} sticky-atc--hide-on-mobile{% endif %} invisible" data-current-variant="{{ current_variant.id }}">
+  <div class="container sticky-atc__wrapper">
+    <div class="sticky-atc__image img-ar img-ar--cover"></div>
+    <div class="sticky-atc__details">
+      <div class="sticky-atc__details__title">
+        {{- product.title | escape -}}
+      </div>
+      <div class="sticky-atc__details__variant small-text"{% unless current_variant %} hidden{% endunless %}>
+        {%- unless product.has_only_default_variant -%}
+          <span class="sticky-atc__details__variant__title">
+            {{- current_variant.title | escape -}}
+          </span>
+          {%- if section.settings.sticky_atc_behavior == 'add_to_cart' -%}
+            <span class="sticky-atc__details__variant__sep">
+              &ndash;
+            </span>
+            <a class="sticky-atc__details__variant__change underline" href="{{ anchor }}">
+              {{- 'products.variant.change' | t -}}
+            </a>
+          {%- endif -%}
+        {%- endunless -%}
+      </div>
+    </div>
+    <div class="sticky-atc__buttons">
+      {%- if section.settings.sticky_atc_behavior == 'add_to_cart' -%}
+          <button
+              class="btn  btn--compact add-to-cart"
+              type="submit"
+              form="{{ product_form_id }}"
+              name="add"
+              data-unavailable-text="{{ 'products.product.view_details' | t }}"
+              data-add-to-cart-text="{{ add_to_cart_text | escape }}"
+              data-no-color-error-text="{{ 'products.product.no_color_error' | t }}">
+            {{- button_text -}}
+          </button>
+      {%- else -%}
+        <a class="btn  btn--compact add-to-cart" href="{{ anchor }}">
+          {{- button_text -}}
+        </a>
+      {%- endif -%}
+    </div>
+    <div class="sticky-atc__error js-form-error" role="alert" hidden></div>
+  </div>
+
+
+  <script type="application/json" data-product-data>
+    {{- product | json -}}
+  </script>
+</sticky-atc>

@@ -1,0 +1,26 @@
+.certifications h2{
+    color: var(--color);
+    margin-bottom: 20px;
+}
+
+.certifications__list{
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.certifications__list li{
+    flex: 0 0 calc(14.66% - 62px * 5 / 6);
+}
+
+@media screen and (max-width: 725px) {
+    .certifications__list li {
+        flex: 0 0 calc(25% - 30px* 4 / 3);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .certifications__list li {
+        flex: 0 0 calc(100% / 3 - 30px * 2 / 3);
+    }
+}

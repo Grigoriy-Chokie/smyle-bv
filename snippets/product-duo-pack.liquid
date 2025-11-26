@@ -1,0 +1,121 @@
+{% liquid
+  assign step_number = block.settings.step_number
+  assign step_name = block.settings.step_name
+  assign default_selector = block.settings.default_selector | default: 'subscription'
+  assign discount_label = block.settings.discount_label
+  assign product_form_id_duo = 'product-form-' | append: section.id | append: '-' | append: product.id | append: 'duo'
+  assign variant = product.selected_or_first_available_variant
+  assign index = block.settings.index | times: 10
+
+  assign compare_price = variant.compare_at_price | default: variant.price
+  assign compare_price = compare_price | times: 2
+
+  assign option_list_onetime = product.metafields.volume_discount.onetime.value
+  assign option_list_subscription = product.metafields.volume_discount.subscription.value
+
+  for option in option_list_onetime
+    assign option_rule = option | split: '--'
+    assign option_rule_quantity = option_rule[0] | replace: '+', '' | plus: 0 | default: 1
+    assign option_rule_percent = option_rule[1] | plus: 0
+    assign default_price = variant.price 
+
+    assign discount_multiplier = option_rule_percent | divided_by: 100.0
+    assign discount_multiplier = 1 | minus: discount_multiplier
+    assign discounted_price = default_price | times: discount_multiplier
+
+    if option_rule_quantity == 1
+      assign onetime_one_pack_price = discounted_price
+    endif
+
+    if option_rule_quantity >= 2
+      assign onetime_duo_pack_price = onetime_one_pack_price | plus: discounted_price
+    endif
+  endfor
+
+  for option in option_list_subscription
+    assign option_rule = option | split: '--'
+    assign option_rule_quantity = option_rule[0] | replace: '+', '' | plus: 0 | default: 1
+    assign option_rule_percent = option_rule[1] | plus: 0
+    assign default_price = variant.price 
+
+    assign discount_multiplier = option_rule_percent | divided_by: 100.0
+    assign discount_multiplier = 1 | minus: discount_multiplier
+    assign discounted_price = default_price | times: discount_multiplier
+
+    if option_rule_quantity == 1
+      assign subs_one_pack_price = discounted_price
+    endif
+
+    if option_rule_quantity >= 2
+      assign subs_duo_pack_price = subs_one_pack_price | plus: discounted_price
+    endif
+  endfor
+%}
+
+{{ 'component-duo-pack.css' | asset_url | stylesheet_tag }}
+
+<product-duo data-form-id="{{ product_form_id }}" class="product-step product-step--{{ default_selector }}-first">
+  <input form="{{ product_form_id }}" type="hidden" name="items[{{ index }}][id]" value="{{ product.first_available_variant.id }}">
+  {% if default_selector == 'subscription' %}
+  <input type="hidden" class="opt-btn visually-hidden focus-label js-option" form="{{ product_form_id }}" name="items[{{ index }}][properties][_subscription_bundle_id]" id="{{ option_id }}-bundle-{{ index }}" value="subscription">
+{% endif %}
+
+  {% unless step_name == blank %}
+    <div class="product-step__heading bold body-font opposing-items label justify-start">
+      {% unless step_number == blank %}
+        <span class="label__order-number inline-flex justify-center items-center">{{ step_number }}</span>
+      {% endunless %}
+      {{ step_name }}
+    </div>
+  {% endunless %}
+
+  <div class="product-step__box product-box product-box--duo">
+    <label class="step-box__heading opposing-items">
+      <span class="bold flex items-center step-box__title">
+      <input class="js-option-tab" form="{{ product_form_id }}" type="radio" {% if default_selector == 'subscription' %}checked{% endif %} name="items[{{ index }}][quantity]" value="1">
+        {{ 'products.product.duo-pack.titles.duo' | t }}
+      </span>
+      <span class="flex step-box__price js-price" data-subscription-price="{{ subs_duo_pack_price }}" data-onetime-price="{{ onetime_duo_pack_price }}" data-compare-at-price="{{ compare_price }}">
+        {% if discount_label != blank %}
+          <span class="price-label price-label--sale">
+            {{ discount_label }}
+          </span>
+        {% endif %}
+        {%- render 'price', product: product,
+          show_currency_code: settings.product_currency_code_enabled,
+          current_variant: variant,
+          price: subs_duo_pack_price,
+          compare_price: compare_price
+        -%}        
+      </span>
+    </label>
+    <div class="step-box">
+      {% render 'variant-picker',
+        product: product,
+        product_form_id: product_form_id_duo,
+        media_ratio: 1,
+        swatch_crop: settings.swatch_crop_align,
+        simple_mode: true,
+        option_pattern: 'products.product.duo-pack.option_pattern'
+      %}
+    </div>
+  </div>
+  <div class="product-step__box product-box product-box--one">
+    <label class="step-box__heading opposing-items">
+      <span class="bold flex items-center">
+        <input class="js-option-tab" type="radio" name="items[{{ index }}][quantity]" {% if default_selector == 'onetime' %}checked{% endif %} form="{{ product_form_id }}" value="0">
+        {{ 'products.product.duo-pack.titles.one' | t }}
+      </span>
+      <span class="flex js-price step-box__price" data-subscription-price="{{ subs_one_pack_price }}" data-onetime-price="{{ onetime_one_pack_price }}" data-compare-at-price="{{ variant.price }}">
+        {%- render 'price', product: product,
+          show_currency_code: settings.product_currency_code_enabled,
+          current_variant: variant,
+          price: subs_one_pack_price,
+          compare_price: variant.price
+        -%}
+      </span>
+    </label>
+  </div>
+</product-duo>
+
+<script src="{{ 'component-duo-pack.js' | asset_url }}" defer></script> 

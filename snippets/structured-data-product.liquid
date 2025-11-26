@@ -1,0 +1,30 @@
+{%- comment -%}
+  Parameters:
+  - product {Object} - Product object.
+
+  Usage:
+  {% render 'structured-data-product', product: product %}
+{%- endcomment -%}
+{% capture product_schema %}
+  {{ product | structured_data }}
+{% endcapture %}
+
+{% for variant in product.variants %}
+  {% assign raw = variant.metafields.kdsmyel.sale_price_for_google_feed.value %}
+  {% if raw and raw != 0 %}
+    {% assign cents = raw | times: 1 %}
+    {% assign sale_price_str = cents | money_without_currency | replace: ',', '.' %}
+
+    {% assign offers_id_path = '/products/' | append: product.handle | append: '?variant=' | append: variant.id %}
+    {% assign offers_id_escaped = offers_id_path | replace: '/', '\/' %}
+
+    {% assign pattern = '"offers":{"@id":"' | append: offers_id_escaped | append: '#offer","@type"' %}
+    {% assign replacement = '"offers":{"sale_price":"' | append: sale_price_str | append: '","@id":"' | append: offers_id_escaped | append: '#offer","@type"' %}
+
+    {% assign product_schema = product_schema | replace: pattern, replacement %}
+  {% endif %}
+{% endfor %}
+
+<script type="application/ld+json">
+  {{ product_schema }}
+</script>

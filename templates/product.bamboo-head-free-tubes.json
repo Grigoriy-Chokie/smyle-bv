@@ -1,0 +1,531 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_f43Bdw": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Available in 3500+ stores",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/Frame123123.svg",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#00a676",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true,
+            "save_pattern": "Save [amount] + FREE Whitening Kit"
+          }
+        },
+        "text_EjDjEq": {
+          "type": "text",
+          "settings": {
+            "text": "BLACK FRIDAY SECRET DEAL: 25% OFF",
+            "icon": "star",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#000000",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_dEzFFw": {
+          "type": "text",
+          "settings": {
+            "text": "+ FREE TOOTHPASTE TUBES",
+            "icon": "star",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#3b366c",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_tCx6Lf": {
+          "type": "text",
+          "settings": {
+            "text": "🌿  <strong>6x Bamboo Brush Heads</strong>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_YXfNkD": {
+          "type": "text",
+          "settings": {
+            "text": "🦷 1 x Free Toothpaste Tube",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_yxP7MU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "🌿  Bamboo brushhead",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_jaMD8r": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Minimum order quantity = 2",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "benefits_F8fVjx": {
+          "type": "benefits",
+          "disabled": true,
+          "settings": {
+            "text_1": "4 months battery",
+            "icon_1": "shopify://shop_images/Frame.svg",
+            "text_2": "Try for 60 days",
+            "icon_2": "shopify://shop_images/Frame-clock.svg",
+            "text_3": "Lifetime Warranty",
+            "icon_3": "shopify://shop_images/Frame-ss.svg"
+          }
+        },
+        "variant_picker_9QqWX8": {
+          "type": "variant-picker",
+          "settings": {
+            "order_number": "1",
+            "custom_title": "Choose hardness brush heads",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "delivery_dates_RthtXx": {
+          "type": "delivery_dates",
+          "settings": {
+            "show_on_variants": "Medium",
+            "heading_text": "<p><strong>NOTE: </strong>Medium brush heads currently out of stock.<br/><br/>Delivery date: 16 - 20 September</p>",
+            "heading_highlighted_text": "",
+            "heading_badge": "",
+            "delivery_title": "",
+            "delivery_info_1": "",
+            "delivery_info_2": "",
+            "delivery_info_3": "",
+            "additional_info": ""
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false,
+            "show_quantity_selector": true,
+            "quantity_selector_type": "selector",
+            "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
+            "additional_product": "toothpaste-tube"
+          }
+        },
+        "shipping_notice_cDmyLN": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €29.99"
+          }
+        },
+        "shipping_notice_JmJtD3": {
+          "type": "shipping_notice",
+          "disabled": true,
+          "settings": {
+            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €29.99"
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_f43Bdw",
+        "price",
+        "text_EjDjEq",
+        "text_dEzFFw",
+        "text_tCx6Lf",
+        "text_YXfNkD",
+        "text_yxP7MU",
+        "text_jaMD8r",
+        "benefits_F8fVjx",
+        "variant_picker_9QqWX8",
+        "delivery_dates_RthtXx",
+        "buy-buttons",
+        "shipping_notice_cDmyLN",
+        "shipping_notice_JmJtD3",
+        "description"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "set_variant_media": false,
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "certifications_fzdd4e": {
+      "type": "certifications",
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    },
+    "key_features_dwN9F6": {
+      "type": "key-features",
+      "blocks": {
+        "feature_KcNY6A": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/dentist.jpg",
+            "bg_color": "#b8e0f8",
+            "bg_gradient": "",
+            "text_color": "#182d4d",
+            "heading": "DENTISTS AND ACTIVISTS HAVE APPROVED THE BRISTLES",
+            "text": "<p>The soft bristles remove stains from the tooth surface and are safe for gums and teeth.</p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_7wt8mi": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/ezgif.com-gif-maker-2-2.webp",
+            "bg_color": "#b8e0f8",
+            "bg_gradient": "",
+            "text_color": "#182d4d",
+            "heading": "BIODEGRADABLE",
+            "text": "<p>By choosing these bamboo brush heads, you use 88% less plastic than with a regular brush head.</p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "feature_KcNY6A",
+        "feature_7wt8mi"
+      ],
+      "settings": {
+        "heading": "",
+        "image_max_width": 490,
+        "media_aspect_ratio": "1",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
+    "gallery_HYCM9B": {
+      "type": "gallery",
+      "blocks": {
+        "media_MLaRz7": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/smyle-kannietkiezen.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_9QCrwY": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/06_0120a5f9-d3fd-4cdd-9c63-6c3b86e8a174.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_69AXL7": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3410.heic",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_HTLFDM": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Ebrush_1yeartabs_08_PDP.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_MLaRz7",
+        "media_9QCrwY",
+        "media_69AXL7",
+        "media_HTLFDM"
+      ],
+      "settings": {
+        "grid_desktop": 4,
+        "grid_mobile": "2",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "image_with_text_RkUyYM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8kcEkL": {
+          "type": "heading",
+          "settings": {
+            "title": "DENTISTS LOVE SMYLE",
+            "use_h1": false
+          }
+        },
+        "text_ALFkB7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Smyle has developed innovative products that are environmentally friendly and effective, aligning with targeted preventive care.\"</p><p><strong>Hero Abdullah, Five25 Dental Hygienists</strong></p>",
+            "enlarge_text": true
+          }
+        },
+        "button_bbb3LQ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8kcEkL",
+        "text_ALFkB7",
+        "button_bbb3LQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Dentist_1.png",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "comparison_table_QqarQb": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_FEF9L6": {
+          "type": "row",
+          "settings": {
+            "title": "BAMBOE OPZETBORSTELS",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_QADdjj": {
+          "type": "row",
+          "settings": {
+            "title": "3 KEER PER JAAR LADEN",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_rLq9N8": {
+          "type": "row",
+          "settings": {
+            "title": "5 POETSMODI",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_rnb6jb": {
+          "type": "row",
+          "settings": {
+            "title": "NIET TEVREDEN? GELD TERUG",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_mc3DKd": {
+          "type": "row",
+          "settings": {
+            "title": "BETAALBAAR",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_GK8Dt8": {
+          "type": "row",
+          "settings": {
+            "title": "PLASTICVRIJE VERPAKKING",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_XfR87C": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>PRIJS</strong>",
+            "icon_1": "true",
+            "text_1": "€76.50",
+            "icon_2": "true",
+            "text_2": "<strong>€99</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "row_FEF9L6",
+        "row_QADdjj",
+        "row_rLq9N8",
+        "row_rnb6jb",
+        "row_mc3DKd",
+        "row_GK8Dt8",
+        "row_XfR87C"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SMYLE VS. DE REST",
+        "subtitle": "DÉ TOEKOMST VAN MONDVERZORGING IS BETER VOOR JE GEZONDHEID ÉN DE PLANEET",
+        "logo": "shopify://shop_images/unnamed_5_de35292c-aa0c-4bf7-96d7-de05fe3e10451.png",
+        "icon_true": "shopify://shop_images/right_round1.png",
+        "icon_false": "shopify://shop_images/close1.png",
+        "button_text": "NU BESTELLEN",
+        "button_url": "#main",
+        "button_background": "#f46365"
+      }
+    },
+    "logos_BF6Kze": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "certifications_fzdd4e",
+    "key_features_dwN9F6",
+    "gallery_HYCM9B",
+    "image_with_text_RkUyYM",
+    "comparison_table_QqarQb",
+    "logos_BF6Kze"
+  ]
+}

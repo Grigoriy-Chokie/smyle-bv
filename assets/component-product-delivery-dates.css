@@ -1,0 +1,107 @@
+.product__delivery-dates {
+    margin: 0 0 25px;
+}
+
+.delivery-dates__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.delivery-dates__heading-highlighted-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.delivery-dates__heading-badge {
+    background-color: var(--product-label-sale-background);
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+
+.delivery-dates__heading-badge .heading-badge__text {
+    color: var(--product-label-sale-text);
+    font-size: var(--smaller-text-size-2);
+    font-weight: var(--base-heading-font-weight);
+}
+
+.delivery-dates__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    border: 1px solid rgb(var(--body-text-color));
+    border-radius: 12px;
+
+    margin: 30px 0;
+
+    overflow: hidden;
+}
+
+.delivery-dates__info-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 5px 15px;
+    width: min-content;
+    height: auto;
+
+    border-right: 1px solid rgb(var(--body-text-color));
+}
+
+.info-title__image {
+    width: 36px;
+    height: auto;
+    object-fit: contain;
+}
+
+.info-title__text {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.delivery-dates__delivery-strings {
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+}
+
+.delivery-string {
+    flex: 1;
+    padding: 10px 24px;
+}
+
+.delivery-string:not(:last-child) {
+    border-bottom: 1px solid rgb(var(--body-text-color));
+}
+
+.delivery-string:nth-child(even) {
+    background-color: #7FC8C1;
+}
+
+.additional-info__text > p {
+    line-height: 1.5;
+}
+
+.additional-info__text .text--with-icon {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    font-style: normal;
+    margin-right: 15px;
+    margin-left: 10px;
+}
+
+.additional-info__text .text--with-icon .additional-info__image {
+    position: absolute;
+    left: -10px;
+    min-width: calc(100% + 20px);
+    width: calc(100% + 20px);
+    height: auto;
+    object-fit: contain;
+}

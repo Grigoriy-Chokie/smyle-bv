@@ -1,0 +1,94 @@
+{%- liquid 
+    assign heading_text = block.settings.heading_text
+    assign heading_highlighted_text = block.settings.heading_highlighted_text
+    assign heading_badge = block.settings.heading_badge
+    assign delivery_title = block.settings.delivery_title
+    assign delivery_info_1 = block.settings.delivery_info_1
+    assign delivery_info_2 = block.settings.delivery_info_2
+    assign delivery_info_3 = block.settings.delivery_info_3
+    assign additional_info = block.settings.additional_info
+    assign show_on_variants = block.settings.show_on_variants | split: ','
+
+    assign has_heading = false
+    assign has_delivery_info = false
+    assign has_additional_info = false
+
+    if heading_text != blank or heading_highlighted_text != blank or heading_badge != blank
+        assign has_heading = true
+    endif
+
+    if delivery_info_1 != blank or delivery_info_2 != blank or delivery_info_3 != blank
+        assign has_delivery_info = true
+    endif
+
+    if additional_info != blank
+        assign has_additional_info = true
+    endif
+
+    assign is_show_on_this_variant = false
+    for variant_title in show_on_variants
+        if product.selected_or_first_available_variant.title contains variant_title
+            assign is_show_on_this_variant = true
+        endif
+    endfor
+-%}
+
+{% if heading_text or has_delivery_info or has_delivery_info %}
+    {{ 'component-product-delivery-dates.css' | asset_url | stylesheet_tag }}
+
+    <delivery-dates class="product__delivery-dates" 
+        data-show-on-variants="{{ show_on_variants | join: ',' }}"
+        {% unless is_show_on_this_variant %}
+            style="display: none;"
+        {% endunless %}
+    >
+    {% if has_heading %}
+        <div class="delivery-dates__heading">
+        {% if heading_text != blank %}
+            <div class="delivery-dates__heading-text">{{ heading_text }}</div>
+        {% endif %}
+        {% if heading_highlighted_text != blank %}
+            <div class="delivery-dates__heading-highlighted-text">{{ heading_highlighted_text }}</div>
+        {% endif %}
+        {% if heading_badge != blank %}
+            <div class="delivery-dates__heading-badge">
+            <span class="heading-badge__text">{{ heading_badge }}</span>
+            </div>
+        {% endif %}
+        </div>
+    {% endif %}
+
+    {% if has_delivery_info %}
+        <div class="delivery-dates__info">
+        <div class="delivery-dates__info-title">
+            <img src="{{ 'icon-delivery-dates.svg' | asset_url }}" alt="{{ delivery_title | append: '-icon' }}" class="info-title__image">
+            <span class="info-title__text">{{ delivery_title }}</span>
+        </div>
+
+        <div class="delivery-dates__delivery-strings">
+            {% for key_value in (1..3) %}
+            {% assign key = 'delivery_info_' | append: key_value %}
+            {% assign delivery_info = block.settings[key] %}
+
+            {% if delivery_info != blank %}
+                <div class="delivery-string delivery-string--{{ key_value }}">{{ delivery_info }}</div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        </div>
+    {% endif %}
+
+    {% if has_additional_info %}
+        <div class="delivery-dates__additional-info">
+        {% capture delivery_text_with_icon %}
+            <em class="text--with-icon">
+            <img src="{{ 'icon-delivery-dates-text.svg' | asset_url }}" alt="icon-delivery-dates-text" class="additional-info__image">
+        {% endcapture %}
+        
+        <div class="additional-info__text">
+            {{ additional_info | replace: '<em>', delivery_text_with_icon }}
+        </div>
+        </div>
+    {% endif %}
+    </delivery-dates>
+{% endif %}

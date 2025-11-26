@@ -1,0 +1,87 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "cross-page-promos": {
+      "type": "cross-page-promos",
+      "disabled": true,
+      "settings": {
+        "cross_page_promo_bg": "#ffffff",
+        "cross_page_promo_color": "#454564",
+        "show_on_home_page": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "1601308671932": {
+          "type": "menu",
+          "settings": {
+            "title": "About",
+            "menu": "footer"
+          }
+        },
+        "menu_MTEga9": {
+          "type": "menu",
+          "settings": {
+            "title": "Our collection",
+            "menu": "footer-menu-2"
+          }
+        },
+        "1601308717434": {
+          "type": "text",
+          "settings": {
+            "title": "Help",
+            "text": "<p>Most asked questions are already answered in our <a href=\"/pages/faq\" title=\"FAQ\">FAQ</a>. If you can't find the answer to your questions, please check our <a href=\"https://smyle.customerdesk.io/\" title=\"https://smyle.customerdesk.io/\">self-service section</a>. You'll find the answer to most questions there! Don't see your answer there? You can chat with us directly and we'll respond within 4 hours.</p><p>For more information on public relations, send us an email <a href=\"mailto:pr@wesmyle.com\">here.</a></p>",
+            "image_width": 150,
+            "show_social_icons": false,
+            "soc_icons_large": false,
+            "enable_follow_on_shop": false
+          }
+        },
+        "1601308656020": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Stay in touch",
+            "text": "",
+            "klaviyoid": "U2ysBM",
+            "image_certification": "shopify://shop_images/certifications.png",
+            "image_certification_width": 300,
+            "show_social_icons": true,
+            "soc_icons_large": true
+          }
+        }
+      },
+      "block_order": [
+        "1601308671932",
+        "menu_MTEga9",
+        "1601308717434",
+        "1601308656020"
+      ],
+      "settings": {
+        "lower_menu": "footer-menu-3",
+        "show_powered_by": false,
+        "show_payment_icons": true,
+        "payment_icons_style": "default",
+        "enable_country_selector": true,
+        "hide_on_templates_footer": "page.starter-kit-ebrush-sub,page.starter-kit-premium,page.01-start-eb-de-01,page.02-panter-lander-sold-out,page.starter-kit-single,page.01-start-eb-reo-single-01,page.01-start-eb-de-01-cross,page.starter-kit-whitening-tab,page.starter-kit-eb-back-routi,page.de-back-to-routine,page.bfcm25-starter-kit,page.start-k-eb-back-rout-test,page.5-reasons-page,page.single-pdp-page-01,page.10-reasons-why,page.starter-kit-ebrush-sub-bk,page.02-start-eb-reo-single-02,page.ebrush-whitening-kit",
+        "hide_blocks": true,
+        "hide_country_selector": true,
+        "hide_payments_methods": true
+      }
+    }
+  },
+  "order": [
+    "cross-page-promos",
+    "footer"
+  ]
+}

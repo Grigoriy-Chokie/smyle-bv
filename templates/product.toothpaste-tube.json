@@ -1,0 +1,1096 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_MrRpNF": {
+      "type": "custom-liquid",
+      "name": "TIJDELIJKE QUANTITY CODE",
+      "settings": {
+        "full_width": true,
+        "show_space": true,
+        "code": "<style>\n.quanity-buttons {\nmargin-bottom: 40px;\n}\n</style>\n<script>\ndocument.addEventListener(\"DOMContentLoaded\", function() {\n  const run = () => {\n    const subscriptionForm = document.querySelector(\"subscription-form\");\n    const productForm = document.querySelector('form.js-product-form[id^=\"product-form-\"]') || document.querySelector(\"form.js-product-form\");\n    const quantityFieldset = document.querySelector(\".quantity-submit-row fieldset\");\n    const legend = quantityFieldset ? quantityFieldset.querySelector(\"legend.label.justify-center.items-center\") : null;\n\n    if (!subscriptionForm || !productForm || !quantityFieldset) return;\n    if (quantityFieldset.dataset.moved === \"true\") return;\n\n    // Add the step header styling if not already present\n    if (legend && !legend.querySelector(\".label__order-number\")) {\n      const badge = document.createElement(\"span\");\n      badge.className = \"label__order-number inline-flex justify-center items-center\";\n      badge.textContent = \"1\";\n      legend.insertBefore(badge, legend.firstChild);\n    }\n    if (legend && !legend.querySelector(\".h4.no-text-transform\")) {\n      const textWrapper = document.createElement(\"span\");\n      textWrapper.className = \"h4 no-text-transform\";\n      const nodesToMove = [];\n      legend.childNodes.forEach(function(node) {\n        if (!(node.nodeType === 1 && node.classList && node.classList.contains(\"label__order-number\"))) {\n          nodesToMove.push(node);\n        }\n      });\n      nodesToMove.forEach(function(node) { textWrapper.appendChild(node); });\n      legend.appendChild(textWrapper);\n    }\n\n    // Ensure inputs stay part of product form submission\n    const formId = productForm.getAttribute(\"id\");\n    quantityFieldset.querySelectorAll('input[name=\"quantity\"]').forEach(function(input){\n      input.setAttribute(\"form\", formId);\n    });\n\n    // Move quantity block above subscription\n    subscriptionForm.parentNode.insertBefore(quantityFieldset, subscriptionForm);\n    quantityFieldset.dataset.moved = \"true\";\n\n    clearInterval(t);\n  };\n\n  const t = setInterval(run, 200);\n});\n</script>"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "review_widget_VtmRh7": {
+          "type": "review_widget",
+          "settings": {
+            "show_in_quickbuy": true
+          }
+        },
+        "text_f43Bdw": {
+          "type": "text",
+          "settings": {
+            "text": "Recommended by 1500+ dentists",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/Frame123123.svg",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#00a676",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": false,
+            "save_pattern": "Save [amount] + 2nd brush 50% off"
+          }
+        },
+        "text_hNNMKT": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
+            "icon": "star",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#000000",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_DnBmXq": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>(Price per tube)</strong>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_m3NMkf": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>🌊</strong> No Microplastics",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_yxP7MU": {
+          "type": "text",
+          "settings": {
+            "text": "🌿 Best sourced ingredients in the world",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_kJTXNt": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>✨</strong>  Worlds first aluminum body and bamboo cap",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_tCx6Lf": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Feel the clean. Trust the care. </strong>Smyle’s Fresh Mint Toothpaste gives you everything you need for a clean, healthy, naturally beautiful smile — with a burst of minty freshness.",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "divider_UmKhM9": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant_picker_M8PUCE": {
+          "type": "variant-picker",
+          "settings": {
+            "order_number": "1",
+            "custom_title": "Select type",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "subscription_form_g6yKnp": {
+          "type": "subscription-form",
+          "settings": {
+            "product": "toothpaste-tube-freshmint-fluoride",
+            "selling_plan": "per 2-pack / per month",
+            "enable_prices": false,
+            "discounted_price": "",
+            "option_number": 2,
+            "option_title": "Select with our without subscription",
+            "option_guide_text": "How does it work?",
+            "option_guide_page": "",
+            "enable_sale_badge": true,
+            "enable_shipping_badge": true,
+            "sale_badge_text": "Save 10%",
+            "shipping_badge_text": "+ Free Shipping",
+            "subscription_text": "Delivered to your home every 4 months"
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false,
+            "show_quantity_selector": true,
+            "quantity_selector_type": "buttons",
+            "quantity_buttons_default": "2--2 Pack;4--4 Pack;",
+            "additional_product": ""
+          }
+        },
+        "shipping_notice_VjQxVL": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €29.99"
+          }
+        },
+        "payment_icons_tXdYww": {
+          "type": "payment_icons",
+          "settings": {
+            "show_payment_icons": true,
+            "payment_icons_style": "default"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "review_widget_VtmRh7",
+        "text_f43Bdw",
+        "price",
+        "text_hNNMKT",
+        "text_DnBmXq",
+        "text_m3NMkf",
+        "text_yxP7MU",
+        "text_kJTXNt",
+        "text_tCx6Lf",
+        "divider_UmKhM9",
+        "variant_picker_M8PUCE",
+        "subscription_form_g6yKnp",
+        "buy-buttons",
+        "shipping_notice_VjQxVL",
+        "payment_icons_tXdYww"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "scroll",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "set_variant_media": false,
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "scrolling_banner_y7GFDC": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_pQkFaz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-08.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "text_KR3AEb": {
+          "type": "text",
+          "settings": {
+            "text": "FAST DELIVERY",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_VxLgaX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-25.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "text_D7UaRt": {
+          "type": "text",
+          "settings": {
+            "text": "FREE LIFETIME GUARANTEE",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_qUVdja": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-24.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "text_dDmYfi": {
+          "type": "text",
+          "settings": {
+            "text": "60-DAYS RISK-FREE TRIAL",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_ytPwAq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-28.svg",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "text_q9n99a": {
+          "type": "text",
+          "settings": {
+            "text": "120 DAYS BATTERY LIFE",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pQkFaz",
+        "text_KR3AEb",
+        "image_VxLgaX",
+        "text_D7UaRt",
+        "image_qUVdja",
+        "text_dDmYfi",
+        "image_ytPwAq",
+        "text_q9n99a"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "color_scheme": "3",
+        "text_size": 20,
+        "vertical_padding": 7,
+        "speed": 30,
+        "direction": "left",
+        "font": "heading",
+        "space": 10
+      }
+    },
+    "faq_collapsible_rows_7UVE8R": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_L4GYXh": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>INGREDIENTS</p>",
+            "answer": "<p><strong>SMYLE FRESH MINT - WITH FLUORIDE </strong></p><p>Aqua, Hydrated Silica, Xanthan Gum, Potassium Nitrate, Charcoal Powder, Sorbitol, Glycerin, Sodium C12-18 Alkyl Sulfate, Aroma, Mentha Arvensis Leaf Oil, Sodium Saccharin, Menthol, Sodium Benzoate, Sodium Fluoride (1450 ppm), Citric Acid, Calcium Peroxide, Erythritol, Simmondsia Chinensis Seed Oil, Zinc Acetate, Sodium Hyaluronate, Dicalcium Phosphate, Calcium Hydroxide, Ascorbic Acid, Limonene</p>"
+          }
+        },
+        "faq_item_niFYxr": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>HOW TO USE?</p>",
+            "answer": "<p>1. <strong>Keep it dry</strong></p><p>Don’t wet your toothbrush before applying — water can dilute the formula and reduce its power.</p><p>2. <strong>Less is more</strong></p><p>Add a small, <strong>pea-sized amount</strong> of toothpaste. That’s all you need for a fresh, effective clean.</p><p>3. <strong>Brush with care</strong></p><p>Brush gently for about 2 minutes, twice a day. The <strong>Smyle eBrush timer</strong> gives a soft buzz every 30 seconds, reminding you to switch sides.</p><p>4. <strong>Smyle smart</strong></p><p>Wait around 30 minutes after meals or coffee before brushing — it keeps your enamel strong and happy.</p>"
+          }
+        },
+        "faq_item_pqGUpe": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>FAST & FREE SHIPPING</p>",
+            "answer": "<p>Free shipping from €29.99 – or always free with a subscription.</p><p>Delivered in 3–5 business days, anywhere in Europe.</p>"
+          }
+        },
+        "faq_item_LTTVCr": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>PRODUCT DETAILS</p>",
+            "answer": "<ul><li><strong>Tube size:</strong> 80 ml<br/></li><li><strong>Lasts around:</strong> 2 months with regular use (brushing twice a day)<br/></li><li><strong>Packaging:</strong> Recyclable aluminum tube with renewable bamboo cap<br/></li><li><strong>Made with:</strong> Natural ingredients, no microplastics, no plastic packaging</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_L4GYXh",
+        "faq_item_niFYxr",
+        "faq_item_pqGUpe",
+        "faq_item_LTTVCr"
+      ],
+      "settings": {
+        "color_scheme": "1",
+        "heading_text": "",
+        "use_metaobject": false,
+        "metaobjects": []
+      }
+    },
+    "image_with_text_tpPTKf": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4m3eXp": {
+          "type": "heading",
+          "settings": {
+            "title": "WHY IT WORKS",
+            "use_h1": false
+          }
+        },
+        "text_DfPMg6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>🔬 Cavity protection & remineralization<br/></strong>Formulated with <strong>Sodium Fluoride (1450 ppm)</strong>, <strong>Calcium Hydroxide</strong>, and <strong>Dicalcium Phosphate</strong> to protect and strengthen enamel daily.</p><p><strong>🧼 Natural cleaning & polish<br/>Hydrated Silica</strong> and <strong>Charcoal Powder</strong> gently remove stains and plaque for visibly cleaner teeth.</p><p><strong>🛡️ Gum care boost<br/></strong>With <strong>Zinc Acetate</strong>, <strong>Sodium Hyaluronate</strong>, and <strong>Jojoba Seed Oil</strong> to help maintain gum comfort and hydration.</p><p><strong>🌿 Crisp mint experience<br/></strong>A refreshing blend of <strong>Menthol</strong>, <strong>Mentha Arvensis Leaf Oil</strong>, and <strong>natural citrus notes</strong> leaves your breath clean and your mouth feeling revitalized.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_4m3eXp",
+        "text_DfPMg6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/02_5bc0df48-0d5b-4bcc-931e-7e8b81201783.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_hDAMdz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_iEjcbA": {
+          "type": "heading",
+          "settings": {
+            "title": "🌿 One Fresh Mint, Three Ways to Smyle",
+            "use_h1": false
+          }
+        },
+        "text_D8m9w3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All Smyle liquid toothpastes share our signature <strong>Fresh Mint flavour</strong> — crisp, clean, and naturally refreshing.</p><p>Choose the one that fits your routine best:</p><ul><li><strong>With Fluoride</strong> for daily cavity protection and strong enamel,<br/></li><li><strong>Whitening (with Fluoride)</strong> for a brighter, stain-free smile,<br/></li><li><strong>Fluoride-Free Repair + Gum Care</strong> for gentle, mineral-powered repair.<br/></li></ul><p>Each delivers the same Smyle freshness, clean formula, and planet-friendly design — and this is just the beginning.</p><p><strong>More flavours and innovations are on the way.</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iEjcbA",
+        "text_D8m9w3"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/17.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "multi_column_GY7dHa": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_YDwGkb": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🦷 96%",
+            "text": "<p>have cleaner and smoother teeth </p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_WKVdkM": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🪥 95%",
+            "text": "<p>recommends Smyle to friends</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_mTWdFp": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "😄 94%",
+            "text": "<p>experience more effective brushing </p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_8EkJWV": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "✨ 92%",
+            "text": "<p>bleeding gums decreases or disappears within 2 weeks</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_cRQMWb": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_awVMmk": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_RWej6c": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_YDwGkb",
+        "text_block_WKVdkM",
+        "text_block_mTWdFp",
+        "text_block_8EkJWV",
+        "text_block_cRQMWb",
+        "text_block_awVMmk",
+        "text_block_RWej6c"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "✨ Extraordinary Ingredients for Extraordinary Smiles",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_MxhA4K": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zqnqem": {
+          "type": "heading",
+          "settings": {
+            "title": "Thoughtful Design. Real Impact.",
+            "use_h1": false
+          }
+        },
+        "text_FpQaid": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At Smyle, sustainability is part of every choice we make — from the formula to the finish.</p><p>Our <strong>aluminum tubes</strong> are infinitely recyclable, and <strong>75% of all aluminum ever made is still in use today</strong>.</p><p>Each one is topped with a <strong>renewable bamboo cap</strong>, replacing plastic with something natural and beautiful.</p><p>We never use <strong>plastic packaging or microplastics</strong> in our formulas — just clean, effective care that’s <strong>good for you and better for the planet</strong>.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_zqnqem",
+        "text_FpQaid"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle-toothpaste-fluoride.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_QnMkFy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bDX9rr": {
+          "type": "heading",
+          "settings": {
+            "title": "What you’ll love",
+            "use_h1": false
+          }
+        },
+        "text_fbNAgU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✔ Naturally whiter-looking teeth<br/>✔ Long-lasting fresh breath<br/>✔ Strong enamel & cavity protection<br/>✔ Clean, non-foamy feel — no SLS<br/>✔ Vegan, plastic-free, planet-friendly</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_bDX9rr",
+        "text_fbNAgU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/06_f93042cc-f4df-4bb8-8171-f33d48d13c54.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_jVXwnK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qTzCB9": {
+          "type": "heading",
+          "settings": {
+            "title": "Good looks. Even better ingredients.",
+            "use_h1": false
+          }
+        },
+        "text_HPVUVy": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_qTzCB9",
+        "text_HPVUVy"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "hotspots_ztfLC4": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_6ApMVc": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 28,
+            "hotspot_y": 38,
+            "hotspot_x_mobile": 28,
+            "hotspot_y_mobile": 38,
+            "heading": "Hyaluronic Acid",
+            "text": "<p>Hydrates and protects gums for all-day comfort.</p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "hotspot_qbqyJ3": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 23,
+            "hotspot_x_mobile": 60,
+            "hotspot_y_mobile": 23,
+            "heading": "Vitamin Blend",
+            "text": "<p>Supports stronger teeth and healthy mouth balance.</p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "hotspot_rkcaMe": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 73,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 73,
+            "hotspot_y_mobile": 54,
+            "heading": "Antioxidants",
+            "text": "<p>Defend gums and reduce sensitivity.</p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "hotspot_C3fa4e": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 33,
+            "hotspot_y": 50,
+            "hotspot_x_mobile": 50,
+            "hotspot_y_mobile": 50,
+            "heading": "Balanced Oral Microbiome ➕",
+            "text": "<p>Promotes healthy bacteria for fresher breath and gum health.</p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "hotspot_6Y9NP6": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 40,
+            "hotspot_y": 70,
+            "hotspot_x_mobile": 50,
+            "hotspot_y_mobile": 50,
+            "heading": "PLASTIC-FREE TUBE",
+            "text": "<p>Recyclable aluminum tube with bamboo cap</p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_6ApMVc",
+        "hotspot_qbqyJ3",
+        "hotspot_rkcaMe",
+        "hotspot_C3fa4e",
+        "hotspot_6Y9NP6"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/12_58763f95-0eea-4d72-9ad1-79b6ff85c856.jpg",
+        "hotspot_color": "#070707",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": false,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "media_carousel_bwy7N6": {
+      "type": "media-carousel",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "title_alignment": "start",
+        "metaobject": "ugc-e-brush",
+        "has_bottom_splitter": false,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": true,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "comparison_table_DBEGJW": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_hxwMTj": {
+          "type": "row",
+          "settings": {
+            "title": "DENTIST-BACKED FORMULAS",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_6DRhgC": {
+          "type": "row",
+          "settings": {
+            "title": "NO MICROPLASTICS",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_yP6ViC": {
+          "type": "row",
+          "settings": {
+            "title": "NO SLS (Harsh Foaming Agents)",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_fDGMQJ": {
+          "type": "row",
+          "settings": {
+            "title": "VEGAN & CRUELTY-FREE",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_J3e4dn": {
+          "type": "row",
+          "settings": {
+            "title": "ENAMEL-SAFE WHITENING",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_tDTtpc": {
+          "type": "row",
+          "settings": {
+            "title": "RECYCLABLE ALUMINUM TUBE",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_hCwTkm": {
+          "type": "row",
+          "settings": {
+            "title": "BAMBOO CAP",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_ApVikD": {
+          "type": "row",
+          "settings": {
+            "title": "PLASTIC-FREE PACKAGING",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_hxwMTj",
+        "row_6DRhgC",
+        "row_yP6ViC",
+        "row_fDGMQJ",
+        "row_J3e4dn",
+        "row_tDTtpc",
+        "row_hCwTkm",
+        "row_ApVikD"
+      ],
+      "settings": {
+        "title": "HOW WE COMPARE",
+        "subtitle": "",
+        "logo": "shopify://shop_images/unnamed_5_de35292c-aa0c-4bf7-96d7-de05fe3e10451.png",
+        "icon_true": "shopify://shop_images/right_round1.png",
+        "icon_false": "shopify://shop_images/close1.png",
+        "button_text": "",
+        "button_url": "",
+        "button_background": "#f46365"
+      }
+    },
+    "multi_column_jfB37Q": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_6kTbNe": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/Dentist_1.png",
+            "title": "",
+            "text": "<p>\"Smyle has developed innovative products that are environmentally friendly and effective, aligning with targeted preventive care.\"</p><p><strong>Hero Abdullah, Five25 Dental Hygienists</strong></p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_6kTbNe"
+      ],
+      "settings": {
+        "title": "DENTISTS LOVE SMYLE",
+        "media_aspect_ratio": "s",
+        "media_width": 350,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "1"
+      }
+    },
+    "logos_cbLmgT": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    },
+    "multi_column_RyUWYL": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_pWdqc9": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/05_ad77ea71-8349-480e-8bb5-fb6fdc3de38d.jpg",
+            "title": "1. Keep it dry",
+            "text": "<p>Don’t wet your toothbrush before applying — water can dilute the formula and reduce its power.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_RxAdfn": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/01_808404d8-558b-428e-afac-8f69eb7bd204.jpg",
+            "title": "2. Less is more",
+            "text": "<p>Add a small, <strong>pea-sized amount</strong> of toothpaste. That’s all you need for a fresh, effective clean.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_7kFUCQ": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/09_6ff7ce9a-f859-4595-b7de-2fddcf6949c8.jpg",
+            "title": "3. Brush with care",
+            "text": "<p>Brush gently for about 2 minutes, twice a day. The <strong>Smyle eBrush timer</strong> gives a soft buzz every 30 seconds, reminding you to switch sides.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_fLibHP": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/04_7b892074-1567-4f09-ad86-0a8b1471e819.jpg",
+            "title": "4. Smyle smart",
+            "text": "<p>Wait around 30 minutes after meals or coffee before brushing — it keeps your enamel strong and happy.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_pWdqc9",
+        "text_block_RxAdfn",
+        "text_block_7kFUCQ",
+        "text_block_fLibHP"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "title": "HOW TO USE",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "1"
+      }
+    },
+    "certifications_txrXfz": {
+      "type": "certifications",
+      "name": "Certifications",
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    },
+    "image_with_text_FJ9CeM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XXawBE": {
+          "type": "heading",
+          "settings": {
+            "title": "JOIN THOUSANDS WHO SUBSCRIBE TO SMYLE BRUSH HEADS TODAY!",
+            "use_h1": false
+          }
+        },
+        "text_FG87r4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Replacing toothbrush heads is essential, but it’s easy to forget.  With the Smyle Brush Head Subscription, get fresh, eco-friendly bamboo heads delivered every 4 months for just €6 per head.<br/><br/>Enjoy lifetime guarantee, and pause or cancel anytime. Save money, stay sustainable, and never worry about running out!</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XXawBE",
+        "text_FG87r4"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/smyle-kannietkiezen.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_xQMfbE": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_p3weHy": {
+          "type": "heading",
+          "settings": {
+            "title": "60 DAYS FREE RETURNS",
+            "use_h1": false
+          }
+        },
+        "subheading_FUiQT4": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "NO QUESTIONS ASKED"
+          }
+        },
+        "text_r74UQU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BRUSHING IS TESTING!</strong></p><p>“Do test our E-brush! Try it for up to 60 days to find out if there’s a click between you and our E-Brush. 99.98% of our customers develop a long-lasting love affair with our E-Brush, there’s good chance you’ll find a brushing-buddy for life!</p><p>If not, we won't ask any difficult questions, you'll get your money back.*<br/><br/><strong>FREE & FAST SHIPPING</strong></p><p>“Of course, your brand-new E-brush will travel to you free of charge and CO2 neutral.<br/>Your fresh new E-Brush will be delivered in 2-5 business days to you anywhere in Europe.”<br/><br/>Discover the Future of Brushing with the Smyle E-Brush</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_p3weHy",
+        "subheading_FUiQT4",
+        "text_r74UQU"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/10.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "certifications_VBaTtE": {
+      "type": "certifications",
+      "disabled": true,
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    },
+    "faq_collapsible_rows_N3YThf": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_z9eMUM": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_HkPgtq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_z9eMUM",
+        "faq_item_HkPgtq"
+      ],
+      "settings": {
+        "color_scheme": "2",
+        "heading_text": "<p>We’re happy to answer your questions!</p>",
+        "use_metaobject": false,
+        "metaobjects": [
+          "toothpaste-tubes"
+        ]
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_MrRpNF",
+    "main",
+    "related-products",
+    "scrolling_banner_y7GFDC",
+    "faq_collapsible_rows_7UVE8R",
+    "image_with_text_tpPTKf",
+    "image_with_text_hDAMdz",
+    "multi_column_GY7dHa",
+    "image_with_text_MxhA4K",
+    "image_with_text_QnMkFy",
+    "rich_text_jVXwnK",
+    "hotspots_ztfLC4",
+    "media_carousel_bwy7N6",
+    "comparison_table_DBEGJW",
+    "multi_column_jfB37Q",
+    "logos_cbLmgT",
+    "multi_column_RyUWYL",
+    "certifications_txrXfz",
+    "image_with_text_FJ9CeM",
+    "image_with_text_xQMfbE",
+    "certifications_VBaTtE",
+    "faq_collapsible_rows_N3YThf"
+  ]
+}

@@ -1,0 +1,503 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_f43Bdw": {
+          "type": "text",
+          "settings": {
+            "text": "Available in 3500+ stores",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/Frame123123.svg",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#00a676",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true,
+            "save_pattern": "Save [amount] + FREE Whitening Kit"
+          }
+        },
+        "text_WFWjBN": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
+            "icon": "star",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#000000",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_tCx6Lf": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>🦷  </strong>Say goodbye to tooth sensitivity in 5 days",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_yxP7MU": {
+          "type": "text",
+          "settings": {
+            "text": "🌟 Fast noticeable relief",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_kJTXNt": {
+          "type": "text",
+          "settings": {
+            "text": "⏳ Long-lasting results",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_AgE6Xi": {
+          "type": "text",
+          "settings": {
+            "text": "🍃 Natural ingredients, powerful relief",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "benefits_F8fVjx": {
+          "type": "benefits",
+          "disabled": true,
+          "settings": {
+            "text_1": "4 months battery",
+            "icon_1": "shopify://shop_images/Frame.svg",
+            "text_2": "Try for 60 days",
+            "icon_2": "shopify://shop_images/Frame-clock.svg",
+            "text_3": "Lifetime Warranty",
+            "icon_3": "shopify://shop_images/Frame-ss.svg"
+          }
+        },
+        "variant_picker_9QqWX8": {
+          "type": "variant-picker",
+          "settings": {
+            "order_number": "",
+            "custom_title": "",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "subscription_form_iPMaCj": {
+          "type": "subscription-form",
+          "settings": {
+            "product": "{{ product }}",
+            "selling_plan": "3 months",
+            "enable_prices": true,
+            "discounted_price": "",
+            "option_number": 1,
+            "option_title": "Select a subscription",
+            "option_guide_text": "How does it work?",
+            "option_guide_page": "",
+            "enable_sale_badge": true,
+            "enable_shipping_badge": false,
+            "sale_badge_text": "10% discount",
+            "shipping_badge_text": "",
+            "subscription_text": "Every 3 months, [quantity] replacement brushes"
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false,
+            "show_quantity_selector": false,
+            "quantity_selector_type": "selector",
+            "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
+            "additional_product": ""
+          }
+        },
+        "shipping_notice_cDmyLN": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Fast & Free CO2-neutral shipping"
+          }
+        },
+        "shipping_notice_JmJtD3": {
+          "type": "shipping_notice",
+          "disabled": true,
+          "settings": {
+            "text": "Fast & Free CO2-neutral shipping"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_f43Bdw",
+        "price",
+        "text_WFWjBN",
+        "text_tCx6Lf",
+        "text_yxP7MU",
+        "text_kJTXNt",
+        "text_AgE6Xi",
+        "benefits_F8fVjx",
+        "variant_picker_9QqWX8",
+        "subscription_form_iPMaCj",
+        "buy-buttons",
+        "shipping_notice_cDmyLN",
+        "shipping_notice_JmJtD3"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "set_variant_media": false,
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "collapsible_tabs_wMjF8e": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_334eHL": {
+          "type": "question",
+          "settings": {
+            "title": "KEY FEATURES",
+            "answer": "<ul><li>No sensitive teeth Pap+ technology </li><li>No plastic packaging</li></ul>"
+          }
+        },
+        "question_KbiB6j": {
+          "type": "question",
+          "settings": {
+            "title": "BENEFITS",
+            "answer": "<p>No more sensitive teeth in a few days after using Smyle's snsitivity gel.</p>"
+          }
+        },
+        "question_zNCVVc": {
+          "type": "question",
+          "settings": {
+            "title": "INGREDIENTS",
+            "answer": "<p>Aqua, Glycerin, Sorbitol, Calcium Hydroxyapatite, Aloe Barbadensis Leaf Juice, Cocos Nucifera Oil, Sodium Coco-Sulfate, Carbomer, Tetrasodium Pyrophosphate, Sodium monofluorophosphate, Sodium Benzoate, CI 42090, Petrolatum, Sodium Saccharin, Xanthan Gum, Mentha Piperita Oil, Mentha Spicata Herb Oil, Tocopheryl Acetate, Citric Acid, Potassium sorbate, Menthol, Limonene, Carvone, Beta-Caryophyllene, Pinene, Terpinol</p>"
+          }
+        },
+        "question_yEC9qN": {
+          "type": "question",
+          "settings": {
+            "title": "FAST & FREE SHIPPING",
+            "answer": "<p><strong>Your pain-free solution is coming!</strong> And who likes paying for shipping? No one! We’ll deliver your Sensitive Teeth Kit within 3-8 business days anywhere in Europe—<strong>with free shipping</strong>!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_334eHL",
+        "question_KbiB6j",
+        "question_zNCVVc",
+        "question_yEC9qN"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "certifications_fzdd4e": {
+      "type": "certifications",
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    },
+    "comparison_table_QqarQb": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_FEF9L6": {
+          "type": "row",
+          "settings": {
+            "title": "BAMBOE OPZETBORSTELS",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_QADdjj": {
+          "type": "row",
+          "settings": {
+            "title": "3 KEER PER JAAR LADEN",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_rLq9N8": {
+          "type": "row",
+          "settings": {
+            "title": "5 POETSMODI",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_rnb6jb": {
+          "type": "row",
+          "settings": {
+            "title": "NIET TEVREDEN? GELD TERUG",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_mc3DKd": {
+          "type": "row",
+          "settings": {
+            "title": "BETAALBAAR",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_GK8Dt8": {
+          "type": "row",
+          "settings": {
+            "title": "PLASTICVRIJE VERPAKKING",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_XfR87C": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>PRIJS</strong>",
+            "icon_1": "true",
+            "text_1": "€76.50",
+            "icon_2": "true",
+            "text_2": "<strong>€99</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "row_FEF9L6",
+        "row_QADdjj",
+        "row_rLq9N8",
+        "row_rnb6jb",
+        "row_mc3DKd",
+        "row_GK8Dt8",
+        "row_XfR87C"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "SMYLE VS. DE REST",
+        "subtitle": "DÉ TOEKOMST VAN MONDVERZORGING IS BETER VOOR JE GEZONDHEID ÉN DE PLANEET",
+        "logo": "shopify://shop_images/unnamed_5_de35292c-aa0c-4bf7-96d7-de05fe3e10451.png",
+        "icon_true": "shopify://shop_images/right_round1.png",
+        "icon_false": "shopify://shop_images/close1.png",
+        "button_text": "",
+        "button_url": "#main",
+        "button_background": "#f46365"
+      }
+    },
+    "image_with_text_BUrj73": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_p3tDcx": {
+          "type": "heading",
+          "settings": {
+            "title": "FEARLESS BIT, CONFIDENT SMYLE",
+            "use_h1": false
+          }
+        },
+        "text_eBn37T": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>FAST NOTICEABLE RELIEF</strong></p><p>Experience less tooth sensitivity within a few days, allowing you to enjoy your favorite meals and drinks pain-free again.<br/></p><p><strong>LONG-LASTING RESULTS</strong></p><p>The effects of the treatment are not only noticeable quickly, but also long-lasting, helping you maintain lasting comfort and confidence in your smile.</p><p><br/><strong>EASY TO USE</strong></p><p>With just a few minutes of treatment per day for a week, the kit easily fits into your daily routine, hassle-free.</p><p></p><p><strong>NATURAL INGREDIENTS, POWERFUL RELIEF</strong></p><p>Our Sensitive Teeth Kit is formulated with premium ingredients, including the active ingredient hydroxyapatite. Proven effective, our formula provides gentle yet powerful relief, so you can enjoy a pain-free smile with confidence.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_p3tDcx",
+        "text_eBn37T"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle-model-yes.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_Lgpwzy": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yLUikL": {
+          "type": "heading",
+          "settings": {
+            "title": "HOW TO USE",
+            "use_h1": false
+          }
+        },
+        "text_8P3jPQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>APPLY GEL</strong> – Fill the mouthpiece with the sensitive gel.<br/></p><p><strong>RELAX</strong> – Place the mouthpiece in your mouth and relax for 5 minutes.<br/></p><p><strong>REMOVE, RINSE & SMYLE</strong> – Rinse your mouth and the mouthpiece for a radiant smile!</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yLUikL",
+        "text_8P3jPQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/07_417ccf84-a5a6-413b-b338-118ab3f643c6.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_RnwnUb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_7eC98L": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT'S IN THE KIT",
+            "use_h1": false
+          }
+        },
+        "text_J674p7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>- Glass Bottle with Sensitivity Gel<br/>- Wooden Applicator<br/>- Reusable Mouthguard</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7eC98L",
+        "text_J674p7"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/05_7426c7be-276a-4df5-a4ef-3c65489e1e2d.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "logos_BF6Kze": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    },
+    "faq_collapsible_rows_dkw8fD": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_96Aitt": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_nREkyq": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_96Aitt",
+        "faq_item_nREkyq"
+      ],
+      "settings": {
+        "color_scheme": "default",
+        "heading_text": "<p>We’re happy to answer your questions!</p>",
+        "use_metaobject": true,
+        "metaobjects": []
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "collapsible_tabs_wMjF8e",
+    "certifications_fzdd4e",
+    "comparison_table_QqarQb",
+    "image_with_text_BUrj73",
+    "image_with_text_Lgpwzy",
+    "image_with_text_RnwnUb",
+    "logos_BF6Kze",
+    "faq_collapsible_rows_dkw8fD"
+  ]
+}

@@ -1,0 +1,480 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "text_f43Bdw": {
+          "type": "text",
+          "settings": {
+            "text": "Available in 3500+ stores",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/Frame123123.svg",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#00a676",
+            "show_in_quickbuy": false
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true,
+            "save_pattern": "Save [amount] + FREE Whitening Kit"
+          }
+        },
+        "text_tCx6Lf": {
+          "type": "text",
+          "settings": {
+            "text": "🦷  <strong>Sonic power</strong> for healthier & stronger teeth",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_yxP7MU": {
+          "type": "text",
+          "settings": {
+            "text": "🌿  <strong>Lifetime warranty</strong> “Never buy a replacement again”",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_kJTXNt": {
+          "type": "text",
+          "settings": {
+            "text": "♻️  <strong>Sustainable</strong> Bamboo brush heads, only charge once every 16 weeks",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_AgE6Xi": {
+          "type": "text",
+          "settings": {
+            "text": "💚  <strong>Free whitening</strong> kit worth €59.99 for a limited time",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "benefits_F8fVjx": {
+          "type": "benefits",
+          "settings": {
+            "text_1": "4 months battery",
+            "icon_1": "shopify://shop_images/Frame.svg",
+            "text_2": "Try for 60 days",
+            "icon_2": "shopify://shop_images/Frame-clock.svg",
+            "text_3": "Lifetime Warranty",
+            "icon_3": "shopify://shop_images/Frame-ss.svg"
+          }
+        },
+        "variant_picker_9QqWX8": {
+          "type": "variant-picker",
+          "settings": {
+            "order_number": "",
+            "custom_title": "Select a preference",
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "subscription_form_9PBPBF": {
+          "type": "subscription-form",
+          "settings": {
+            "product": "{{ product }}",
+            "selling_plan": "4 months",
+            "enable_prices": false,
+            "discounted_price": "",
+            "option_number": 1,
+            "option_title": "Select subscription",
+            "option_guide_text": "How does it work?",
+            "option_guide_page": "sharefund-investment-pitchdeck-smyle",
+            "enable_sale_badge": false,
+            "enable_shipping_badge": true,
+            "sale_badge_text": "",
+            "shipping_badge_text": "+ Free Shipping",
+            "subscription_text": "Delivered to your home every 4 months"
+          }
+        },
+        "divider_nRVBGx": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "quantity_rules_RxqEmB": {
+          "type": "quantity_rules",
+          "settings": {
+            "position": "3",
+            "heading": "Select amount",
+            "first_preselected": "subscribe",
+            "prefix_price": "per month",
+            "badge_text_disable": "#c0c0c0",
+            "badge_bg_disable": "#fcfcfc",
+            "badge_bg_shipping": "#00a676",
+            "multiplied_value": 4,
+            "best_option": "12 months",
+            "best_text": "Best Deal",
+            "best_icon": "shopify://shop_images/Frame_4.svg",
+            "popular_option": "8 months",
+            "popular_text": "Most Popular",
+            "popular_icon": "shopify://shop_images/Frame_5.svg",
+            "shipping_list": "12 months,8 months"
+          }
+        },
+        "divider_nCGmGt": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "upsells_hMf4TV": {
+          "type": "upsells",
+          "settings": {
+            "title": "Mix & save",
+            "products": [
+              "develop-main-cdp-template-test",
+              "sonic-electric-toothbrush"
+            ]
+          }
+        },
+        "buy-buttons": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text_f43Bdw",
+        "price",
+        "text_tCx6Lf",
+        "text_yxP7MU",
+        "text_kJTXNt",
+        "text_AgE6Xi",
+        "benefits_F8fVjx",
+        "variant_picker_9QqWX8",
+        "subscription_form_9PBPBF",
+        "divider_nRVBGx",
+        "quantity_rules_RxqEmB",
+        "divider_nCGmGt",
+        "upsells_hMf4TV",
+        "buy-buttons",
+        "description"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "collapsible_tabs_37MtLj": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_YUAUCK": {
+          "type": "question",
+          "settings": {
+            "title": "KEY FEATURES",
+            "answer": "<p>✔ <strong>Best natural ingredients -</strong>Made from the finest ingredients from nature.<br/><br/>✔ <strong>No nasty chemicals -</strong>No SLS, no microplastics, no nonsense like with other brands. Because it's not necessary!<br/><br/>✔ <strong>Plastic-free packaging -</strong>Paper refill sachets and shipping boxes, plus a glass storage bottle. Say no to plastic!<br/><br/>✔ <strong>Recommended by dentists -</strong>1300+ dentists support Smyle and recommend us to their patients.<br/><br/>✔ <strong>Scientifically tested and approved -</strong>Our tabs are independently tested, quality-approved, and proven effective.<br/><br/>✔ <strong>Environmentally friendly -</strong>Smyle is the best for and of the world. From production to packaging and shipping, we do everything environmentally friendly!<br/><br/>✔ <strong>Social -</strong>We're a B-Corp and act consciously. The whole world deserves premium sustainable oral care!</p>"
+          }
+        },
+        "question_PAbjcG": {
+          "type": "question",
+          "settings": {
+            "title": "BENEFITS",
+            "answer": "<p>Brighter, Whiter Smile<br/>Strengthens Teeth for Longevity<br/>Enhances Natural Tooth Radiance<br/>Guards Against Cavities<br/>Breathes Freshness into Every Breath<br/>Combats Plaque Build-up</p>"
+          }
+        },
+        "question_E7TcC8": {
+          "type": "question",
+          "settings": {
+            "title": "SHIPPING",
+            "answer": "<p>To minimize our environmental impact, we have recently adjusted our shipping times. We now offer fast shipping via bulk mail, allowing you to expect your order within 5-10 days.<br/><br/>Products will be daily shipped from our warehouse in The Netherlands. </p><p>For any questions regarding your current or upcoming shipment, do not hesitate to reach out to <a href=\"mailto:hello@wesmyle.com\" target=\"_blank\">hello@wesmyle.com</a> </p>"
+          }
+        },
+        "question_UxrmMh": {
+          "type": "question",
+          "settings": {
+            "title": "INGREDIENTS",
+            "answer": "<p><strong>Sorbitol:</strong> Makes brushing healthy and sweet</p><p><strong>Calcium carbonate:</strong> Kind to your teeth, but unrelenting for plaque, food remains and stains</p><p><strong>Yeast</strong> : One of the ingredients that give the tablets their unique Smyle flavor</p><p><strong>Acacia Senegal Gum extract:</strong> Helps to remineralize, super important for keeping your teeth healthy and strong</p><p><strong>Sodium Coco Sulfate:</strong> Provides just enough foam to clean your teeth perfectly</p><p><strong>Hydrated silica:</strong> Do you like white teeth without stains? Then this is really something for you!</p><p><strong>Mentha Arvensis Leaf Oil:</strong> All-natural mint flavor</p><p><strong>Sodium monofluorophosphate (fluoride):</strong> Remineralizes, helps against cavities and weak spots, counteracts receding gums and prevents the first stages of tooth decay: a real all-rounder!</p><p><strong>Magnesium stearate:</strong> This plant-based ingredient makes our tablets just firm enough for the perfect crush, brush, Smyle moment.</p><p><strong>Limonene:</strong> One of the (now no longer so) secret ingredients that provide the Smyle taste experience.</p><p><strong>Mentha Viridis Leaf Oil:</strong> Can You Ever Have Enough Mint?</p><p><strong>Stevioside:</strong> All-natural sweetener</p><p><strong>Menthol:</strong> For that wonderful aftertaste and fresh breath that we all love</p><p><strong>Mentha Piperita Oil:</strong> Who doesn't love extra fresh peppermint flavor?<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_YUAUCK",
+        "question_PAbjcG",
+        "question_E7TcC8",
+        "question_UxrmMh"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "logos_xdiE3J": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    },
+    "image_with_text_t9GgjL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_8Jxkfd": {
+          "type": "heading",
+          "settings": {
+            "title": "HOW TO USE?",
+            "use_h1": false
+          }
+        },
+        "text_rJyANX": {
+          "type": "text",
+          "settings": {
+            "text": "<ol><li><strong>CRUSH:</strong> Take one Smyle toothpaste tab and place it in your mouth. Crush gently he tab until it starts to foam.<br/><br/></li><li><strong>BRUSH: </strong>Start brushing like you normally do<br/><br/></li><li><strong>SMYLE: </strong>After 2 min of brushing you ready and Smyle. </li></ol>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8Jxkfd",
+        "text_rJyANX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/how-itworks.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "testimonials_wLcpVC": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_7mxPKq": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "author": "Author's name",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_rKPxGL": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Add customer reviews and testimonials to showcase your store’s happy customers.",
+            "author": "Author's name",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_7mxPKq",
+        "testimonial_rKPxGL"
+      ],
+      "settings": {
+        "title": "Customer reviews",
+        "layout": "image-right",
+        "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
+        "image_shape": "square",
+        "color_scheme": "default",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "comparison_table_XEY3eh": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_TnUnGy": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>PLASTIC-FREE</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_nitXaW": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>SATISFYING FOAM</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_yBxG9Y": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>HYDROXYAPETITE</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_TfhX3e": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>PREMIUM INGREDIENTS</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_fTn3pF": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>3RD PARTY TESTED</strong>",
+            "icon_1": "false",
+            "text_1": "",
+            "icon_2": "true",
+            "text_2": ""
+          }
+        },
+        "row_FRNnMK": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>VEGAN & CRUELTY-FREE</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "true",
+            "text_2": ""
+          }
+        },
+        "row_F8J3kA": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>WITH & WITHOUT FLUORIDE</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "true",
+            "text_2": ""
+          }
+        },
+        "row_V9XhrK": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>PRICE</strong>",
+            "icon_1": "true",
+            "text_1": "FROM €4",
+            "icon_2": "true",
+            "text_2": "€4 -€9"
+          }
+        }
+      },
+      "block_order": [
+        "row_TnUnGy",
+        "row_nitXaW",
+        "row_yBxG9Y",
+        "row_TfhX3e",
+        "row_fTn3pF",
+        "row_FRNnMK",
+        "row_F8J3kA",
+        "row_V9XhrK"
+      ],
+      "settings": {
+        "title": "HOW WE COMPARE",
+        "subtitle": "THE FUTURE OF ORAL CARE IS BETTER FOR YOUR HEALTH AND THE PLANET",
+        "logo": "shopify://shop_images/unnamed_5_de35292c-aa0c-4bf7-96d7-de05fe3e1045.webp",
+        "icon_true": "shopify://shop_images/right_round1.png",
+        "icon_false": "shopify://shop_images/close1.png",
+        "button_text": "NU BESTELLEN",
+        "button_url": "",
+        "button_background": "#f46365"
+      }
+    },
+    "certifications_H7GnMC": {
+      "type": "certifications",
+      "settings": {
+        "color": "#a6d3eb"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "collapsible_tabs_37MtLj",
+    "logos_xdiE3J",
+    "image_with_text_t9GgjL",
+    "testimonials_wLcpVC",
+    "comparison_table_XEY3eh",
+    "certifications_H7GnMC"
+  ]
+}

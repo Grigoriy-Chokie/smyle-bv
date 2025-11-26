@@ -1,0 +1,1490 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "hero_Hcwdrn": {
+      "type": "hero",
+      "blocks": {
+        "advantage_VfQMjF": {
+          "type": "advantage",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icon-01-small.svg",
+            "text": "LIFETIME GUARANTEE"
+          }
+        },
+        "advantage_RKK7Y4": {
+          "type": "advantage",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icon-02-small.svg",
+            "text": "Fast & Free Shipping"
+          }
+        },
+        "advantage_FH7JUF": {
+          "type": "advantage",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icon-03-small.svg",
+            "text": "60 DAY Risk-free trial"
+          }
+        }
+      },
+      "block_order": [
+        "advantage_VfQMjF",
+        "advantage_RKK7Y4",
+        "advantage_FH7JUF"
+      ],
+      "disabled": true,
+      "settings": {
+        "background_color": "#b8e0f8",
+        "image": "shopify://shop_images/Ebrush_whiteningkit_02.jpg",
+        "title": "<h6>CLEAN & SMOOTH TEETH</h6>",
+        "highlight_color": "#ffffff",
+        "text": "✓ 10x less plaque ✓ 2 min timer ✓ 10 x less plaque  ✓ pressure sensor  ✓ 120 Day Battery life",
+        "cta_text": "GET UP TO 50% OFF",
+        "cta_link": "#product-info",
+        "rating_image": "shopify://shop_images/Frame_64.svg",
+        "rating_text": "4.6/5.0",
+        "reviews_text": "100,000+ happy customers",
+        "padding_top": 100,
+        "padding_bottom": 20,
+        "padding_top_mobile": 100,
+        "padding_bottom_mobile": 20,
+        "use_header_height": true
+      }
+    },
+    "image_with_text_overlay_Aak8L8": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/whiteningkit_desktop_0525_eng.jpg",
+        "mobile_image": "shopify://shop_images/whiteningkit_mobile_0525_eng.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "#product-info",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "logos_7nPDBX": {
+      "type": "logos",
+      "settings": {
+        "color": "#ffffff",
+        "background": "#182d4d"
+      }
+    },
+    "hotspots_p4eV3b": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_6jhaBR": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 62,
+            "hotspot_y": 23,
+            "hotspot_x_mobile": 38,
+            "hotspot_y_mobile": 31,
+            "heading": "BAMBOO BRUSHEAD",
+            "text": "<p>Saving tons of plastic</p>",
+            "icon": "box",
+            "custom_icon": "shopify://shop_images/smyle_icons-05.svg",
+            "icon_width": 84
+          }
+        },
+        "hotspot_L4czLG": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 80,
+            "hotspot_y": 56,
+            "hotspot_x_mobile": 73,
+            "hotspot_y_mobile": 54,
+            "heading": "PRESSURE SENSOR",
+            "text": "<p>Prevents brushing too hard</p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "hotspot_7CbfCt": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 73,
+            "hotspot_y": 77,
+            "hotspot_x_mobile": 73,
+            "hotspot_y_mobile": 54,
+            "heading": "2 MINUTE",
+            "text": "<p>Brushing timer</p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        },
+        "hotspot_nTFNPb": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 33,
+            "hotspot_y": 28,
+            "hotspot_x_mobile": 28,
+            "hotspot_y_mobile": 38,
+            "heading": "UP TO 38.000 VIBRATIONS PER MINUTE",
+            "text": "<p>Highly effective cleaning, always leaving teeth clean and smooth</p>",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/smyle_icons-06.svg",
+            "icon_width": 68
+          }
+        },
+        "hotspot_9gtk6g": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 31,
+            "hotspot_y": 51,
+            "hotspot_x_mobile": 50,
+            "hotspot_y_mobile": 50,
+            "heading": "EXTREME LONG BATTERY LIFE",
+            "text": "<p>Only needs to charge 3 times a year</p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_6jhaBR",
+        "hotspot_L4czLG",
+        "hotspot_7CbfCt",
+        "hotspot_nTFNPb",
+        "hotspot_9gtk6g"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/ebrushes.jpg",
+        "hotspot_color": "#070707",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "rich_text_3wBjPC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8xTrjP": {
+          "type": "heading",
+          "settings": {
+            "title": "BEST ALL-IN ONE WHITENING KIT TO UNLOCK YOUR BEST SMYLE",
+            "use_h1": false
+          }
+        },
+        "image_AMpUVp": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/01_a3be5a07-cc31-446e-8088-9ad73233edcf.webp",
+            "image_width": 260,
+            "url": ""
+          }
+        },
+        "text_P9QRmn": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>\"I was skeptical at first, but after 10 days of use I really see a big difference. The ease of home use makes it absolutely perfect.”</em></p>",
+            "enlarge_text": true
+          }
+        },
+        "button_CqQVby": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET UP TO 15% OFF",
+            "button_link": "#product-info",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8xTrjP",
+        "image_AMpUVp",
+        "text_P9QRmn",
+        "button_CqQVby"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_YDkpgX": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_z6ACT4": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>UP TO 7 SHADES WHITER TEETH IN 10 DAYS</h5><p>Fast and effective results, visibly transforming the brightness of your teeth.</p><h5>NO SENSITIVITY</h5><p>A gentle formula that avoids the common issue of tooth sensitivity often associated with teeth whitening products.</p><h5>NATURAL INGREDIENTS</h5><p>Safe and high-quality natural components, free from harmful chemicals, microplastics, or artificial flavours.</p><h5>CLINICALLY TESTED AND PROVEN EFFECTIVE</h5><p>Backed by clinical studies, providing users with confidence in the product’s effectiveness and safety.</p><h5>PAP+ TECHNOLOGY</h5><p>The key whitening component in our formula is PAP (Phthalimidoperoxycaproic Acid), a secure and efficient substitute for peroxide.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_GDFjh9": {
+          "type": "button",
+          "settings": {
+            "button_label": "CLAIM YOUR OFFER NOW",
+            "button_link": "#product-info",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_z6ACT4",
+        "button_GDFjh9"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle-teeth-whitening-kit-5_d11bda2f-38f7-4e7f-bba0-49d4de4c3dd2.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "media_carousel_hTRrmT": {
+      "type": "media-carousel",
+      "settings": {
+        "title": "OUR CUSTOMERS ARE OUR BEST AMBASSADORS!",
+        "title_alignment": "start",
+        "metaobject": "ucg-whitening-kit",
+        "has_bottom_splitter": false,
+        "grid": 4,
+        "color_scheme": "1",
+        "full_width": true,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "testimonials_bxEwae": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_P4kPDD": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "WHAT A GREAT PRODUCT. As a coffee lover, my teeth needed some TLC. Smyle's kit did the trick. No more embarrassing stains, and it's so convenient to use.",
+            "author": "Hannah C",
+            "image": "shopify://shop_images/UGC-whitening-3.webp",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_xRcyWH": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "HIGHLY RECOMMEND. Smyle's Teeth Whitening Kit has worked wonders for me! It's easy to use and gave me visible results in just a week. I'm loving my brighter smile!",
+            "author": "Alice S",
+            "image": "shopify://shop_images/Whitening_Kit_UGC_4.jpg",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_mEtjmn": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "5 SHADES WHITER. I was skeptical at first, but after using Smyle's whitening kit, I'm a believer! No more coffee stains, and it's so much cheaper than professional treatments",
+            "author": "James P",
+            "image": "shopify://shop_images/IMG_2098.jpg",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_NwJBYr": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "ALSO FOR SENSITIVE TEETH. My sensitive teeth usually stopped me from using whitening products, but Smyle's kit was so gentle. No discomfort, just a whiter smile!",
+            "author": "Sophie L",
+            "image": "shopify://shop_images/WhatsApp_Image_2025-05-14_at_14.41.13.jpg",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "testimonial_iJwX9p": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "BEST YET. I've tried other kits before, but Smyle's is the best. It's eco-friendly, easy to apply, and the results are fantastic. Highly recommend!",
+            "author": "Emily B",
+            "image": "shopify://shop_images/UGC-whitening-1.webp",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_P4kPDD",
+        "testimonial_xRcyWH",
+        "testimonial_mEtjmn",
+        "testimonial_NwJBYr",
+        "testimonial_iJwX9p"
+      ],
+      "settings": {
+        "title": "Customer reviews",
+        "layout": "image-right",
+        "text_caps": false,
+        "quote_text_size": 20,
+        "quote_text_size_mobile": 20,
+        "image_shape": "square",
+        "color_scheme": "1",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "scrolling_banner_z974nM": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_3GakwR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-08.png",
+            "image_width": 75,
+            "link": ""
+          }
+        },
+        "text_TeHAfg": {
+          "type": "text",
+          "settings": {
+            "text": "FREE DELIVERY",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_kDxprc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-25.png",
+            "image_width": 75,
+            "link": ""
+          }
+        },
+        "text_eCegKg": {
+          "type": "text",
+          "settings": {
+            "text": "60-DAY RISK-FREE TRIAL",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_d3M7kp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-28.png",
+            "image_width": 75,
+            "link": ""
+          }
+        },
+        "text_GqWVjL": {
+          "type": "text",
+          "settings": {
+            "text": "FAST SHIPPING",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3GakwR",
+        "text_TeHAfg",
+        "image_kDxprc",
+        "text_eCegKg",
+        "image_d3M7kp",
+        "text_GqWVjL"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 20,
+        "vertical_padding": 7,
+        "speed": 30.5,
+        "direction": "left",
+        "font": "heading",
+        "space": 10
+      }
+    },
+    "featured_main_product_RNnmUG": {
+      "type": "featured-main-product",
+      "blocks": {
+        "title_BRKnH9": {
+          "type": "title",
+          "settings": {}
+        },
+        "price_YfF9r4": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true,
+            "save_pattern": "Save [amount] + 50% off 2nd brush"
+          }
+        },
+        "text_WY7tB3": {
+          "type": "text",
+          "settings": {
+            "text": "🦷 <strong>7 shades whiter</strong> <strong>teeth</strong> in 10 days",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_QGMCeE": {
+          "type": "text",
+          "settings": {
+            "text": "✨  <strong>Pap + technology</strong>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_wTDMQw": {
+          "type": "text",
+          "settings": {
+            "text": "🌿 <strong>No plastic packaging</strong>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_a8EqUw": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>💚 No sensitive teeth</strong>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_wnHqTi": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>👩🏻‍🔬 Without</strong> harmful <strong>hydrogen peroxide </strong>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "benefits_fTg6xm": {
+          "type": "benefits",
+          "settings": {
+            "text_1": "PAP+ Technology",
+            "icon_1": "shopify://shop_images/Frame.svg",
+            "text_2": "Try for 60 days",
+            "icon_2": "shopify://shop_images/Frame-clock.svg",
+            "text_3": "Without harmful ingredients",
+            "icon_3": "shopify://shop_images/Frame-ss.svg"
+          }
+        },
+        "text_wXrha8": {
+          "type": "text",
+          "settings": {
+            "text": " 🎉 <strong>LIMITED TIME OFFER: </strong> 🎉<strong> </strong>15% OFF Whitenig Kit with code: WHITE15",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
+            "show_in_quickbuy": false
+          }
+        },
+        "color_quantity_selector_6QQRtc": {
+          "type": "color-quantity-selector",
+          "settings": {
+            "option_number": 1,
+            "option_title": "Choose Your E-brush color and Quantity"
+          }
+        },
+        "subscription_form_Xm7qTR": {
+          "type": "subscription-form",
+          "disabled": true,
+          "settings": {
+            "product": "electric-brush-heads-first-order",
+            "selling_plan": "4 months",
+            "enable_prices": true,
+            "discounted_price": "67.50",
+            "option_number": 2,
+            "option_title": "Select Replacements Heads:",
+            "option_guide_text": "How does it work?",
+            "option_guide_page": "how-does-our-subscription-work",
+            "enable_sale_badge": true,
+            "enable_shipping_badge": true,
+            "sale_badge_text": "25% Discount",
+            "shipping_badge_text": "+ Lifetime warranty",
+            "subscription_text": "Every 4 months, 2 replacement brushes"
+          }
+        },
+        "buy_buttons_kLgqMG": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": false,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false,
+            "additional_product": ""
+          }
+        },
+        "payment_icons_qjy9BM": {
+          "type": "payment_icons",
+          "settings": {
+            "show_payment_icons": true,
+            "payment_icons_style": "default"
+          }
+        },
+        "inventory_level_C4aqE8": {
+          "type": "inventory-level",
+          "settings": {
+            "show_inventory_notice": "always",
+            "show_inventory_count": "low",
+            "inventory_threshold": 10,
+            "enable_box": false,
+            "enable_pulse": true,
+            "show_in_quickbuy": true
+          }
+        },
+        "shipping_notice_JBxKpG": {
+          "type": "shipping_notice",
+          "settings": {
+            "text": "Fast & free CO2 Neutral shipping"
+          }
+        }
+      },
+      "block_order": [
+        "title_BRKnH9",
+        "price_YfF9r4",
+        "text_WY7tB3",
+        "text_QGMCeE",
+        "text_wTDMQw",
+        "text_a8EqUw",
+        "text_wnHqTi",
+        "benefits_fTg6xm",
+        "text_wXrha8",
+        "color_quantity_selector_6QQRtc",
+        "subscription_form_Xm7qTR",
+        "buy_buttons_kLgqMG",
+        "payment_icons_qjy9BM",
+        "inventory_level_C4aqE8",
+        "shipping_notice_JBxKpG"
+      ],
+      "settings": {
+        "product": "teeth-whitening-kit",
+        "show_breadcrumbs": false,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": true,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "set_variant_media": false,
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "box_background_color": "#edf6fb",
+        "atc_background": "#e8412c"
+      }
+    },
+    "scrolling_banner_pNREka": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_YyhxET": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-08.png",
+            "image_width": 100,
+            "link": ""
+          }
+        },
+        "text_CK9qPN": {
+          "type": "text",
+          "settings": {
+            "text": "FREE DELIVERY",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_de9M7D": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-25.png",
+            "image_width": 75,
+            "link": ""
+          }
+        },
+        "text_qfW7Qt": {
+          "type": "text",
+          "settings": {
+            "text": "60-DAY RISK-FREE TRIAL",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_F3By6t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-28.png",
+            "image_width": 75,
+            "link": ""
+          }
+        },
+        "text_hXY63W": {
+          "type": "text",
+          "settings": {
+            "text": "FAST SHIPPING",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YyhxET",
+        "text_CK9qPN",
+        "image_de9M7D",
+        "text_qfW7Qt",
+        "image_F3By6t",
+        "text_hXY63W"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 20,
+        "vertical_padding": 7,
+        "speed": 30.5,
+        "direction": "left",
+        "font": "heading",
+        "space": 10
+      }
+    },
+    "scrolling_banner_HFNP47": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_3RqMdj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-08.png",
+            "image_width": 75,
+            "link": ""
+          }
+        },
+        "text_QVaUKV": {
+          "type": "text",
+          "settings": {
+            "text": "FREE DELIVERY",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_4qNj9Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-25.png",
+            "image_width": 75,
+            "link": ""
+          }
+        },
+        "text_T3Nnqy": {
+          "type": "text",
+          "settings": {
+            "text": "fast shipping",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_9TGTrX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-24.png",
+            "image_width": 75,
+            "link": ""
+          }
+        },
+        "text_kW6jTW": {
+          "type": "text",
+          "settings": {
+            "text": "60-DAY RISK-FREE TRIAL",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_HqQXmt": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/smyle_icons-28.png",
+            "image_width": 75,
+            "link": ""
+          }
+        },
+        "text_fgxQQV": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "120 DAYS BATTERY LIFE",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "text_FLJTG8": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "color": "rgba(0,0,0,0)",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3RqMdj",
+        "text_QVaUKV",
+        "image_4qNj9Y",
+        "text_T3Nnqy",
+        "image_9TGTrX",
+        "text_kW6jTW",
+        "image_HqQXmt",
+        "text_fgxQQV",
+        "text_FLJTG8"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "color_scheme": "1",
+        "text_size": 20,
+        "vertical_padding": 7,
+        "speed": 30.5,
+        "direction": "left",
+        "font": "heading",
+        "space": 10
+      }
+    },
+    "faq_collapsible_rows_jmapVE": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_39NmGP": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>WHAT'S INCLUDED IN THE BOX ?</p>",
+            "answer": "<ul><li>Glass Bottle with Whitening Gel</li><li>Wooden Applicator</li><li>Reusable mouthguard</li></ul>"
+          }
+        },
+        "faq_item_j3HAfw": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>FAST & FREE SHIPPING</p>",
+            "answer": "<p>Your ultimate cleaning experience is coming! And who likes shipping costs? No one! We deliver your package within 3-5 business days anywhere in Europe.</p>"
+          }
+        },
+        "faq_item_GMQypw": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>60 DAYS FREE RETURNS, NO QUESTIONS ASKED</p>",
+            "answer": "<p>You can use Smyle E-Brush for two months and return it without questions asked and you will get your money back! We promise, you’ll be hooked and keep it instead.</p>"
+          }
+        },
+        "faq_item_CxyQEJ": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p><strong>HOW MANY TIMES SHOULD I WHITEN MY TEETH?</strong></p>",
+            "answer": "<p>People often notice improvement after their first treatment. The number of treatments needed varies depending on your teeth. Usually 1 to 10 treatments are sufficient to achieve a whiter smile. Factors that play a role in this are how white you want your teeth and how strong the discoloration was before the treatment started.</p>"
+          }
+        },
+        "faq_item_e4PT4A": {
+          "type": "faq_item",
+          "disabled": true,
+          "settings": {
+            "question": "<p>HOW DOES THE SUBSCRIPTION WORK?</p>",
+            "answer": "<p>Replacing toothbrush heads is essential, but it’s easy to forget.  With the Smyle Brush Head Subscription, get fresh, eco-friendly bamboo heads delivered every 4 months for just €6 per head. <br/><br/>Enjoy lifetime guarantee, and pause or cancel anytime. Save money, stay sustainable, and never worry about running out!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_39NmGP",
+        "faq_item_j3HAfw",
+        "faq_item_GMQypw",
+        "faq_item_CxyQEJ",
+        "faq_item_e4PT4A"
+      ],
+      "settings": {
+        "color_scheme": "1",
+        "heading_text": "",
+        "use_metaobject": false,
+        "metaobjects": []
+      }
+    },
+    "multi_column_B4xFbb": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_xdYyUi": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🦷 96%",
+            "text": "<p>have cleaner and smoother teeth </p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_VyFKy9": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "🪥 95%",
+            "text": "<p>recommends Smyle to friends</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_kPgzfA": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "😄 94%",
+            "text": "<p>Experience more effective brushing </p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_NmR7Fr": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": false,
+            "title": "✨ 92%",
+            "text": "<p>Bleeding gums decreases or disappears within 2 weeks</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_xdYyUi",
+        "text_block_VyFKy9",
+        "text_block_kPgzfA",
+        "text_block_NmR7Fr"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "WHAT IS OUR COMMUNITY SAYING",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "2"
+      }
+    },
+    "comparison_table_NFXhX4": {
+      "type": "comparison-table",
+      "blocks": {
+        "row_tnEP9A": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>PREMIUM INGREDIENTS</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_R37wgW": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>PEROXIDE-FREE</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_fDFBbY": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>NO MICROPLASTICS</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_eEixbV": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>NOT SATISFIED? GETYOUR MONEY BACK(NO QUESTIONS ASKED)</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_p3RaqP": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>PLASTIC-FREE PACKAGING</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_qAqCCq": {
+          "type": "row",
+          "settings": {
+            "title": "<strong>NO SENSITIVE TEETH</strong>",
+            "icon_1": "true",
+            "text_1": "",
+            "icon_2": "false",
+            "text_2": ""
+          }
+        },
+        "row_AjV6QT": {
+          "type": "row",
+          "settings": {
+            "title": "Price",
+            "icon_1": "true",
+            "text_1": "<strong>€ 59</strong>",
+            "icon_2": "true",
+            "text_2": "<strong>€ 99</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "row_tnEP9A",
+        "row_R37wgW",
+        "row_fDFBbY",
+        "row_eEixbV",
+        "row_p3RaqP",
+        "row_qAqCCq",
+        "row_AjV6QT"
+      ],
+      "settings": {
+        "title": "HOW WE COMPARE",
+        "subtitle": "THE FUTURE OF ORAL CARE IS BETTER FOR YOUR HEALTH AND THE PLANET",
+        "logo": "shopify://shop_images/unnamed_5_de35292c-aa0c-4bf7-96d7-de05fe3e10451.png",
+        "icon_true": "shopify://shop_images/right_round1.png",
+        "icon_false": "shopify://shop_images/close1.png",
+        "button_text": "",
+        "button_url": "",
+        "button_background": "#f46365"
+      }
+    },
+    "image_with_text_KVCqgc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_f4tRDJ": {
+          "type": "heading",
+          "settings": {
+            "title": "IS THE SMYLE WHITENING KIT EFFECTIVE?",
+            "use_h1": false
+          }
+        },
+        "text_Aiphhh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our confidence in our product is backed by science, and we believe you shouldn't just take our word for it!</p><p>Clinically proven, the Smyle Whitening Kit not only delivers results but is also safe for your teeth. In as little as 10 days, you can achieve up to 7 shades whiter teeth. Experience the difference for yourself and see why we're so excited about it!</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_DGzf3k": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW THE CLINICAL REPORT HERE",
+            "button_link": "https://cdn.shopify.com/s/files/1/0265/4758/5081/files/Smyle_teeth_Whitening_Gel_v1_Study_9-13.pdf?v=1706935114",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_f4tRDJ",
+        "text_Aiphhh",
+        "button_DGzf3k"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/02_7.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "gallery_GTzPiR": {
+      "type": "gallery",
+      "blocks": {
+        "media_AN83HT": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/beforeandafter1_1_8f3e87eb-6317-4777-8382-542ad2a9ad10.webp",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_pMeAY3": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/whiteningkit_BeforeAfter_v2_6c90f987-48bf-45c2-987b-ca55f027e3f4.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_jk3676": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/unnamed_6.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_AN83HT",
+        "media_pMeAY3",
+        "media_jk3676"
+      ],
+      "name": "Gallery",
+      "settings": {
+        "grid_desktop": 3,
+        "grid_mobile": "1",
+        "height": "adapt",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "key_features_4Hiw8k": {
+      "type": "key-features",
+      "blocks": {
+        "feature_efThAX": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/03_2_9180000b-6abf-4023-947b-dbc87e5eea75.jpg",
+            "bg_color": "#b8e0f8",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "1. Up to 7 Shades Whiter Teeth in 10 Days",
+            "text": "<p>Fast and effective results, visibly transforming the brightness of your teeth.</p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_yJ7q3h": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/smyle-teeth-whitening-kit-4_d9681093-d178-44fa-8924-5f2ea2431d05.webp",
+            "bg_color": "#b8e0f8",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "2. No Sensitivity",
+            "text": "<p>A gentle formula that avoids the common issue of tooth sensitivity often associated with teeth whitening products.</p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_x9hX9p": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/smyle-teeth-whitening-kit-2_94323fed-c25c-46ac-98f9-a49f87ed4640.webp",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "3. Natural Ingredients",
+            "text": "<p>Safe and high-quality natural components, free from harmful chemicals, microplastics, or artificial flavours.</p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_mHkQKe": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/smyle-teeth-whitening-gel_d8fd1d0c-e487-4a1e-b768-1fa29ccc61a2.webp",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "4. Clinically Proven",
+            "text": "<p>Backed by clinical studies, providing users with confidence in the product’s effectiveness and safety.</p>",
+            "show_segments": true,
+            "segments": 5,
+            "active_segment": "4",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "feature_efThAX",
+        "feature_yJ7q3h",
+        "feature_x9hX9p",
+        "feature_mHkQKe"
+      ],
+      "name": "Key features",
+      "settings": {
+        "heading": "4 REASONS WHY PEOPLE SWITCH TO SMYLE",
+        "image_max_width": 700,
+        "media_aspect_ratio": "1",
+        "image_position": "left",
+        "segment_position": "over-text"
+      }
+    },
+    "multi_column_RYzL3x": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_4c79WN": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/Dentist_1.png",
+            "title": "",
+            "text": "<p>\"Smyle has developed innovative products that are environmentally friendly and effective, aligning with targeted preventive care.\"</p><p><strong>Hero Abdullah, Five25 Dental Hygienists</strong></p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_4c79WN"
+      ],
+      "settings": {
+        "title": "DENTISTS LOVE SMYLE",
+        "media_aspect_ratio": "s",
+        "media_width": 350,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "1"
+      }
+    },
+    "image_with_text_jWVKQC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yDrrWp": {
+          "type": "heading",
+          "settings": {
+            "title": "HOW TO USE",
+            "use_h1": false
+          }
+        },
+        "text_anYgtG": {
+          "type": "text",
+          "settings": {
+            "text": "<h3><strong>APPLY WHITENING GEL</strong></h3><p>After brushing your teeth, fill the mouthguard with the whitening gel.</p><h3><strong>BLEACH & RELAX</strong></h3><p>Place the mouthguard in your mouth and relax for 15 minutes.</p><h3><strong>REMOVE, RINSE & SMYLE</strong></h3><p>Rinse your mouth and mouthguard for a radiant smile!</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_qgeJKK": {
+          "type": "button",
+          "settings": {
+            "button_label": "START SMYLE NOW",
+            "button_link": "#product-info",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yDrrWp",
+        "text_anYgtG",
+        "button_qgeJKK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/smyle-teeth-whitening-pack_442ae13c-7400-4bb6-8768-3c2a0dcd9b39.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_yz9nV7": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GJgxmc": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT'S IN THE KIT?",
+            "use_h1": false
+          }
+        },
+        "text_jmrqW6": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li> Glass Bottle with Whitening Gel</li><li>Wooden Applicator</li><li>Reusable mouthguard</li></ul>",
+            "enlarge_text": false
+          }
+        },
+        "button_tXfDJm": {
+          "type": "button",
+          "settings": {
+            "button_label": "START BRUSHING WITH SMYLE",
+            "button_link": "#product-info",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GJgxmc",
+        "text_jmrqW6",
+        "button_tXfDJm"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/06_2.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_pcW9KC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mtJjTE": {
+          "type": "heading",
+          "settings": {
+            "title": "PAP+, THE LATEST WHITENING INNOVATION",
+            "use_h1": false
+          }
+        },
+        "text_TeMpf6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our advanced whitening solution, and the PAP+ whitening formula, guarantees a comfortable whitening experience without any sensitivity.</p><p>The key whitening ingredient in our formula is PAP (Phthalimidoperoxycaproic Acid), a safe and efficient alternative to peroxide.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_WjekgG": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET STARTED",
+            "button_link": "#product-info",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mtJjTE",
+        "text_TeMpf6",
+        "button_WjekgG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/11_1.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_fawx7p": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hi4gcF": {
+          "type": "heading",
+          "settings": {
+            "title": "BRIGHTER SMYLE, CLEANER PLANET",
+            "use_h1": false
+          }
+        },
+        "text_K6A6FM": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>UP TO 7 SHADES WHITER TEETH</h4><p>Our whitening kit has been clinically tested and proven effective in achieving up to 7 shades whiter teeth.</p><h4>ENVIRONMENTALLY CONSCIOUS AND PLASTIC-FREE PACKAGING</h4><p>We are dedicated to being environmentally friendly with plastic-free packaging and mouthguard that's reusable up to 100 times.</p><h4>PREMIUM NATURAL INGREDIENTS</h4><p>Our formula contains no microplastics, harmful chemicals or artificial flavors, just high-quality natural ingredients.</p><h4>WITHOUT HARMFUL HYDROGEN PEROXIDE</h4><p>Unlike many other brands, we avoid hydrogen peroxide, an ingredient that is often used to whiten teeth, but has potential disadvantages such as sensitivity, irritation and damage to tooth enamel.</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_f3QDxb": {
+          "type": "button",
+          "settings": {
+            "button_label": "GET YOUR BRIGHTER SMYLE",
+            "button_link": "#product-info",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hi4gcF",
+        "text_K6A6FM",
+        "button_f3QDxb"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Slider-311_74b07eac-fd2b-43ac-9c0b-f94ae01020c4.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "faq_collapsible_rows_NUjqe9": {
+      "type": "faq-collapsible-rows",
+      "settings": {
+        "color_scheme": "2",
+        "heading_text": "<p>We’re happy to answer your questions!</p>",
+        "use_metaobject": false,
+        "metaobjects": [
+          "teeth-whitening-kit-pdp-eng"
+        ]
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_Hcwdrn",
+    "image_with_text_overlay_Aak8L8",
+    "logos_7nPDBX",
+    "hotspots_p4eV3b",
+    "rich_text_3wBjPC",
+    "image_with_text_YDkpgX",
+    "media_carousel_hTRrmT",
+    "testimonials_bxEwae",
+    "scrolling_banner_z974nM",
+    "featured_main_product_RNnmUG",
+    "scrolling_banner_pNREka",
+    "scrolling_banner_HFNP47",
+    "faq_collapsible_rows_jmapVE",
+    "multi_column_B4xFbb",
+    "comparison_table_NFXhX4",
+    "image_with_text_KVCqgc",
+    "gallery_GTzPiR",
+    "key_features_4Hiw8k",
+    "multi_column_RYzL3x",
+    "image_with_text_jWVKQC",
+    "image_with_text_yz9nV7",
+    "image_with_text_pcW9KC",
+    "image_with_text_fawx7p",
+    "faq_collapsible_rows_NUjqe9"
+  ]
+}

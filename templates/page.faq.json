@@ -1,0 +1,263 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_jiDbMe": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DL7WxN": {
+          "type": "heading",
+          "settings": {
+            "title": "Customer Help",
+            "use_h1": false
+          }
+        },
+        "text_TCP7GP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If talking to a real-life human is more your thing, you can reach our Customer Happiness Team via email (below).</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_DL7WxN",
+        "text_TCP7GP"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    },
+    "heading": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Customer Help",
+            "heading_max_width": 15,
+            "title_size": 52,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If talking to a real-life human is more your thing, you can reach our Customer Happiness Team via email (below).</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 300,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "main": {
+      "type": "faq-header",
+      "settings": {
+        "title": "FAQ",
+        "use_h1": false,
+        "text": "",
+        "show_search": true,
+        "show_index": true,
+        "index_heading": "How can we help?"
+      }
+    },
+    "faq_collapsible_rows_hHCKKx": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_zy7CNG": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_xpCyGK": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_zy7CNG",
+        "faq_item_xpCyGK"
+      ],
+      "name": "FAQ Collapsible Rows",
+      "settings": {
+        "color_scheme": "default",
+        "heading_text": "<p>Our service & shipping policy</p>",
+        "use_metaobject": false,
+        "metaobjects": [
+          "our-service-shipping-return-and-refund-policies"
+        ]
+      }
+    },
+    "faq-content-1": {
+      "type": "collapsible-tabs",
+      "settings": {
+        "title": "Ordering"
+      }
+    },
+    "faq-content-2": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "para-1": {
+          "type": "content",
+          "settings": {
+            "content": "<p>We use all major carriers, and local courier partners. You’ll be asked to select a delivery method during checkout.</p>"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is the shipping policy?",
+            "answer": "<p>Once your order is placed, you will receive a confirmation email letting you know that our fulfillment team has received your order. Once your order is fulfilled, you will receive an email notification with your tracking information. Shipping fees are non-refundable in the case of returns.</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "para-1",
+        "question-1",
+        "question-2"
+      ],
+      "settings": {
+        "title": "Shipping, Returns & Exchanges"
+      }
+    },
+    "faq_collapsible_rows_nxHPwm": {
+      "type": "faq-collapsible-rows",
+      "name": "FAQ Collapsible Rows",
+      "settings": {
+        "color_scheme": "default",
+        "heading_text": "<p>Sonic Electric Toothbrush</p>",
+        "use_metaobject": false,
+        "metaobjects": [
+          "smyle-sonic-electric-toothbrush"
+        ]
+      }
+    },
+    "faq_collapsible_rows_9enaLA": {
+      "type": "faq-collapsible-rows",
+      "blocks": {
+        "faq_item_WDMkBn": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "faq_item_YXtzVF": {
+          "type": "faq_item",
+          "settings": {
+            "question": "<p>Question</p>",
+            "answer": "<p>Answer</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_item_WDMkBn",
+        "faq_item_YXtzVF"
+      ],
+      "name": "FAQ Collapsible Rows",
+      "settings": {
+        "color_scheme": "default",
+        "heading_text": "<p>Toothpaste Tabs</p>",
+        "use_metaobject": false,
+        "metaobjects": [
+          "toothpaste-tablets-freshmint-pdp-eng"
+        ]
+      }
+    },
+    "contact": {
+      "type": "rich-text",
+      "blocks": {
+        "icon": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Get in touch",
+            "use_h1": false
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have questions about your order, or a general enquiry?</p>",
+            "enlarge_text": true
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us",
+            "button_link": "https://smyle.customerdesk.io/",
+            "button_width": "full",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "icon",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "rich_text_jiDbMe",
+    "heading",
+    "main",
+    "faq_collapsible_rows_hHCKKx",
+    "faq-content-1",
+    "faq-content-2",
+    "faq_collapsible_rows_nxHPwm",
+    "faq_collapsible_rows_9enaLA",
+    "contact"
+  ]
+}
