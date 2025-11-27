@@ -1246,6 +1246,10 @@
             <div class="input-row" {{ block.shopify_attributes }}>
               {% render 'upsells-multiselect', block: block, product_form_id: product_form_id, option_index: forloop.index %}
             </div>
+          {% when "upsells_multiselect_v" %}
+            <div class="input-row" {{ block.shopify_attributes }}>
+              {% render 'upsells-multiselect-variants', block: block, product_form_id: product_form_id, option_index: forloop.index %}
+            </div>
           {% endcase %}
       {% endfor %}
 
@@ -2409,6 +2413,45 @@
     {
       "type": "upsells_multiselect",
       "name": "Upsells (Multiselect)",
+      "settings": [
+        {
+          "type": "text",
+          "id": "order_number",
+          "label": "Option order number (Custom)"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "text",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "product_list",
+          "id": "upsells",
+          "label": "Products",
+          "limit": 10
+        },
+        {
+          "type": "text",
+          "id": "option_guide_text",
+          "label": "Guide link text",
+          "default": "How does it work?"
+        },
+        {
+          "type": "page",
+          "id": "option_guide_page",
+          "label": "Page containing guide"
+        }
+      ],
+      "limit": 10
+    },
+    {
+      "type": "upsells_multiselect_v",
+      "name": "Upsells (Variants)",
       "settings": [
         {
           "type": "text",

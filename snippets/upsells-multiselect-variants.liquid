@@ -1,0 +1,188 @@
+{%- liquid
+  assign upsells = block.settings.upsells | where: 'available', true
+  assign first_upsell_id = upsells.first.id
+  assign option_number = block.settings.order_number | default: 0 | times: 1
+  assign title = block.settings.title
+  assign description = block.settings.description
+
+  assign has_guide_page = false
+  assign option_guide_text = block.settings.option_guide_text
+  assign option_guide_page = block.settings.option_guide_page
+
+  if option_guide_text != blank and option_guide_page != blank
+    assign has_guide_page = true 
+  endif
+-%}
+
+{%- if has_guide_page -%}
+  {%- capture option_guide_link -%}
+    <modal-opener class="no-js-hidden" data-modal="option-guide-upsell-variants-{{ first_upsell_id }}-{{ section.id }}">
+      <button type="button" class="link block text-sm option-guide-link h5 no-text-transform" aria-haspopup="dialog">
+        <span class="option-guide-link__icon flex">{%- render 'icon', icon: 'tooltip', size: 'small' -%}</span>
+        <span class="option-guide-link__text">{{- option_guide_text -}}</span>
+      </button>
+    </modal-opener>
+    <noscript>
+      <a href="{{ option_guide_page.url }}" class="link">{{ option_guide_text }}</a>
+    </noscript>
+  {%- endcapture -%}
+{%- endif -%}
+
+{% if upsells.size > 0 %}
+  {{ 'component-product-bundles.css' | asset_url | stylesheet_tag }}
+
+  <product-bundles class="product-bundles upsells-multiselect upsells-multiselect--variants upsell-{{ first_upsell_id }}">
+    <fieldset class="option-selector" data-selector-type="listed">
+      <div class="label-heading flex justify-between items-center flex-wrap">
+        <legend class="label items-center">
+          {% if option_number > 0 %}
+            <span class="label__order-number inline-flex justify-center items-center">
+                {{ option_number }}
+            </span>
+          {% endif %}
+
+          <span class="no-text-transform">{{ title }}</span>
+          {{ option_guide_link }}
+        </legend>
+        <div class="option-selector__btns flex flex-wrap w-full">
+          {%- for upsell in upsells -%}
+            {% liquid
+              assign upsell_form_index = option_index | times: 100 | plus: forloop.index
+              assign variant = upsell.selected_or_first_available_variant
+
+              assign price = variant.price
+              assign compare_at_price = variant.compare_at_price
+              assign discount_percent = ''
+              if compare_at_price > price
+                assign discount_percent = compare_at_price | minus: price | times: 100 | divided_by: compare_at_price
+              endif
+            %}
+
+            <div class="bundle-product upsell-card" data-upsell-card data-product-id="{{ upsell.id }}" data-form-index="{{ upsell_form_index }}" data-variants="{{ upsell.variants | json | escape }}" data-product-title="{{ upsell.title | escape }}">
+              <input
+                form="{{ product_form_id }}"
+                id="upsells-variant-{{ upsell.id }}-opt-{{ forloop.index0 }}"
+                type="checkbox"
+                class="opt-btn visually-hidden focus-label js-option upsell-card__checkbox"
+                name="items[{{ upsell_form_index }}][id]"
+                value="{{ variant.id }}"
+                {% unless variant.available %}disabled{% endunless %}
+              >
+
+              <label class="opt-label opt-label--preference opt-label--btn btn relative text-center bundle-item" for="upsells-variant-{{ upsell.id }}-opt-{{ forloop.index0 }}">
+                <div class="bundle-item__media">
+                  {{ upsell.featured_image | image_url: width: 300 | image_tag: loading: 'lazy', fetchpriority: 'low', data-upsell-image: true, alt: upsell.title }}
+                </div>
+
+                <div class="bundle-item__content">
+                  <div class="bundle-item__heading">
+                    <div class="bundle-item__title heading-font">{{ upsell.title }}</div>
+                    <span class="bundle-item__discount price-label price-label--sale price-label--desktop" data-upsell-discount>{%- if discount_percent != '' -%}{{- discount_percent -}}%{%- endif -%}</span>
+                  </div>
+
+                  {% if description %}
+                    <div class="product-description-upsell text-md">{{ description }}</div>
+                  {% endif %}
+
+                  <div class="bundle-item__prices price-container">
+                    <div class="product-price">
+                      <div class="product-price">
+                        <div class="price font-semibold flex items-center price--on-sale">
+                          <div class="price__default">
+                            <div class="price__was" data-upsell-compare-at>{{ compare_at_price | money }}</div>
+                            <div class="price__current" data-upsell-price>{{ price | money }}</div>
+                            <span class="bundle-item__discount price-label price-label--sale price-label--mobile" data-upsell-discount>
+                              {% if discount_percent != '' %}{{ discount_percent }}%{% endif %}
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {% unless upsell.has_only_default_variant %}
+                    <div class="bundle-item__variant-picker">
+                      {% for option in upsell.options_with_values %}
+                        {%- liquid 
+                          assign option_name = option.name
+                          assign option_position = option.position
+                          assign option_index_inner = forloop.index0
+                          assign option_values = option.values
+
+                          assign is_color_selector = false
+                          if settings.swatch_source == 'theme' and settings.swatch_option_name contains option.name and settings.swatch_method == 'variant-images'
+                            assign is_color_selector = true
+                          elsif settings.swatch_source == 'theme' and settings.swatch_option_name contains option.name and settings.swatch_method == 'swatches'
+                            assign is_color_selector = true
+                          else
+                            assign native_swatch_options = option.values | where: 'swatch'
+                            if settings.swatch_source == 'native' and native_swatch_options.size > 0
+                              assign is_color_selector = true
+                            endif
+                          endif
+
+                          if is_color_selector
+                            continue
+                          endif
+                        -%}
+
+                        <fieldset class="bundle-item__option variant-option">
+                          <span class="variant-option__name">
+                            {{ 'products.product.bundles.select_option_label' | t: option_name: option_name }}
+                          </span>
+
+                          <div class="variant-option__values">
+                            {% for value in option_values %}
+                              <input 
+                                id="upsell-option-{{ upsell.id }}-opt-{{ option_position }}-{{ forloop.index0 }}" 
+                                type="radio" 
+                                class="bundle-option opt-btn visually-hidden focus-label js-option" 
+                                name="upsell_{{ upsell.id }}_option{{ option_position }}" 
+                                value="{{ value }}"
+                                {% if variant.options[option_index_inner] == value %}
+                                  checked
+                                {% endif %}
+                                data-option-position="{{ option_position }}"
+                              >
+                              <label class="opt-label opt-label--btn btn relative text-center"
+                                for="upsell-option-{{ upsell.id }}-opt-{{ option_position }}-{{ forloop.index0 }}">
+                                {{ value }}
+                              </label>
+                            {% endfor %}
+                          </div>
+
+                        </fieldset>
+                      {% endfor %}
+                    </div>
+                  {% endunless %}
+                </div>
+              </label>
+
+              <input 
+                form="{{ product_form_id }}"
+                type="hidden"
+                name="items[{{ upsell_form_index }}][selling_plan]"
+                class="upsell-card__selling-plan"
+                {% if variant.requires_selling_plan %}
+                  {% liquid
+                    assign selling_plan_id = ''
+                    for selling_plan_allocation in variant.selling_plan_allocations
+                      if selling_plan_allocation.selling_plan.id
+                        assign selling_plan_id = selling_plan_allocation.selling_plan.id
+                        break
+                      endif
+                    endfor
+                  %}
+                  {% if selling_plan_id != blank %}value="{{ selling_plan_id }}"{% endif %}
+                {% endif %}
+                disabled
+              >
+            </div>
+          {%- endfor -%}
+        </div>
+      </div>
+    </fieldset>
+  </product-bundles>
+
+  <script src="{{ 'component-upsells-multiselect-variants.js' | asset_url }}" defer></script>
+{% endif %}
