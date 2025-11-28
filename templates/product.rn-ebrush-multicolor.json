@@ -130,6 +130,7 @@
         "variant_picker_M8PUCE": {
           "type": "variant-picker",
           "settings": {
+            "show_price_difference_badge": true,
             "order_number": "1",
             "custom_title": "Select a color",
             "show_single": false,
@@ -240,7 +241,8 @@
             "title": "Popular add-ons",
             "description": "",
             "upsells": [
-              "4-pack-of-smyle-bush-heads-save-30"
+              "4-pack-of-smyle-bush-heads-save-30",
+              "e-brush-2-brusheads-2-toothpaste"
             ],
             "option_guide_text": "How does it work?",
             "option_guide_page": ""

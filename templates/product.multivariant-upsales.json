@@ -37,6 +37,17 @@
             "save_pattern": "Save [amount] + FREE Whitening Kit"
           }
         },
+        "text_fNNMe9": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
+            "icon": "star",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#000000",
+            "show_in_quickbuy": false
+          }
+        },
         "text_tCx6Lf": {
           "type": "text",
           "settings": {
@@ -74,7 +85,7 @@
         "variant_picker_9QqWX8": {
           "type": "variant-picker",
           "settings": {
-            "show_price_difference_badge": true,
+            "show_price_difference_badge": false,
             "order_number": "",
             "custom_title": "",
             "show_single": false,
@@ -84,6 +95,30 @@
             "size_chart_label": "Size guide",
             "size_chart_variant": "Size",
             "size_chart_page": ""
+          }
+        },
+        "upsells_multiselect_v_PyA8xh": {
+          "type": "upsells_multiselect_v",
+          "settings": {
+            "order_number": "",
+            "title": "",
+            "description": "",
+            "upsells": [
+              "e-brush-brush-heads-whitening-kit-dev",
+              "e-brush-brush-heads-dev",
+              "whitening-kit-whitening-tubes-tounge-cleaner"
+            ],
+            "option_guide_text": "How does it work?",
+            "option_guide_page": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
           }
         },
         "buy-buttons": {
@@ -104,28 +139,21 @@
           "settings": {
             "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €29.99"
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "show_in_tab": false,
-            "open_tab": false,
-            "icon": "",
-            "show_in_quickbuy": false
-          }
         }
       },
       "block_order": [
         "title",
         "text_f43Bdw",
         "price",
+        "text_fNNMe9",
         "text_tCx6Lf",
         "text_yxP7MU",
         "benefits_F8fVjx",
         "variant_picker_9QqWX8",
+        "upsells_multiselect_v_PyA8xh",
+        "description",
         "buy-buttons",
-        "shipping_notice_cDmyLN",
-        "description"
+        "shipping_notice_cDmyLN"
       ],
       "settings": {
         "show_breadcrumbs": false,
