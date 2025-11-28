@@ -98,7 +98,7 @@
           }
         },
         "upsells_multiselect_v_PyA8xh": {
-          "type": "upsells_multiselect_v",
+          "type": "upsells_multiselect",
           "settings": {
             "order_number": "",
             "title": "",
