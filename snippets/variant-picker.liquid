@@ -292,16 +292,16 @@
 
                             for other_variant in product.variants
                               if other_variant.options[option_index0] != value
-                                assign same_options = true
+                                assign has_same_options = true
 
                                 for option_value in variant.options
-                                  assign option_idx = forloop.index0
-                                  if option_idx != option_index0 and option_value != other_variant.options[option_idx]
-                                    assign same_options = false
+                                  assign option_index = forloop.index0
+                                  if option_index != option_index0 and option_value != other_variant.options[option_index]
+                                    assign has_same_options = false
                                   endif
                                 endfor
 
-                                if same_options
+                                if has_same_options
                                   if matching_color_price == nil or other_variant.price < matching_color_price
                                     assign matching_color_price = other_variant.price
                                   endif
