@@ -110,19 +110,31 @@
                           assign option_values = option.values
 
                           assign is_color_selector = false
+                          assign is_variant_image_style = false
+                          assign is_native_swatch_style = false
                           if settings.swatch_source == 'theme' and settings.swatch_option_name contains option.name and settings.swatch_method == 'variant-images'
                             assign is_color_selector = true
+                            assign is_variant_image_style = true
                           elsif settings.swatch_source == 'theme' and settings.swatch_option_name contains option.name and settings.swatch_method == 'swatches'
                             assign is_color_selector = true
                           else
                             assign native_swatch_options = option.values | where: 'swatch'
                             if settings.swatch_source == 'native' and native_swatch_options.size > 0
                               assign is_color_selector = true
+                              assign is_native_swatch_style = true
                             endif
                           endif
 
-                          if is_color_selector
-                            continue
+                          if is_variant_image_style or is_native_swatch_style
+                            assign img_sizes = settings.swatch_picker_image_size | append: 'px'
+                            assign img_widths = settings.swatch_picker_image_size | times: 2 | append: ', ' | append: settings.swatch_picker_image_size
+                            if settings.swatch_style == 'icon_square'
+                              assign img_aspect_ratio = null
+                              assign img_crop_align = null
+                            else
+                              assign img_aspect_ratio = 1
+                              assign img_crop_align = settings.swatch_crop_align
+                            endif
                           endif
                         -%}
 
@@ -133,8 +145,9 @@
 
                           <div class="variant-option__values">
                             {% for value in option_values %}
+                              {%- assign value_index0 = forloop.index0 -%}
                               <input 
-                                id="upsell-option-{{ upsell.id }}-opt-{{ option_position }}-{{ forloop.index0 }}" 
+                                id="upsell-option-{{ upsell.id }}-opt-{{ option_position }}-{{ value_index0 }}" 
                                 type="radio" 
                                 class="bundle-option opt-btn visually-hidden focus-label js-option" 
                                 name="upsell_{{ upsell.id }}_option{{ option_position }}" 
@@ -144,10 +157,60 @@
                                 {% endif %}
                                 data-option-position="{{ option_position }}"
                               >
-                              <label class="opt-label opt-label--btn btn relative text-center"
-                                for="upsell-option-{{ upsell.id }}-opt-{{ option_position }}-{{ forloop.index0 }}">
-                                {{ value }}
-                              </label>
+                              {% if is_color_selector %}
+                                {%- if is_variant_image_style -%}
+                                  {%- for option_variant in upsell.variants -%}
+                                    {%- if option_variant.options[option_index_inner] == value -%}
+                                      <label class="opt-label opt-label--image"
+                                        for="upsell-option-{{ upsell.id }}-opt-{{ option_position }}-{{ value_index0 }}">
+                                        <div class="opt-label__media media">
+                                          {%- render 'image',
+                                            image: option_variant.featured_media,
+                                            sizes: img_sizes,
+                                            widths: img_widths,
+                                            custom_aspect_ratio: img_aspect_ratio,
+                                            custom_crop: img_crop_align
+                                          -%}
+                                        </div>
+                                        <span class="{% if settings.swatch_style != 'listed' %}visually-hidden {% endif %}js-value">{{ value }}</span>
+                                      </label>
+                                      {%- break -%}
+                                    {%- endif -%}
+                                  {%- endfor -%}
+                                {%- elsif is_native_swatch_style and value.swatch.image -%}
+                                  <label class="opt-label opt-label--image"
+                                    for="upsell-option-{{ upsell.id }}-opt-{{ option_position }}-{{ value_index0 }}">
+                                    <div class="opt-label__media media">
+                                      {%- render 'image',
+                                        image: value.swatch.image,
+                                        sizes: img_sizes,
+                                        widths: img_widths,
+                                        custom_aspect_ratio: img_aspect_ratio,
+                                        custom_crop: img_crop_align
+                                      -%}
+                                    </div>
+                                    <span class="{% if settings.swatch_style != 'listed' %}visually-hidden {% endif %}js-value">{{ value }}</span>
+                                  </label>
+                                {%- elsif is_native_swatch_style and value.swatch.color -%}
+                                  <label class="opt-label opt-label--swatch btn relative"
+                                    data-swatch="{{ value | replace: '"', '' | downcase }}"
+                                    for="upsell-option-{{ upsell.id }}-opt-{{ option_position }}-{{ value_index0 }}"
+                                    style="--swatch-background-color: rgb({{ value.swatch.color.rgb }});">
+                                    <span class="{% if settings.swatch_style != 'listed' %}visually-hidden {% endif %}js-value">{{ value }}</span>
+                                  </label>
+                                {%- else -%}
+                                  <label class="opt-label opt-label--swatch btn relative text-center"
+                                    data-swatch="{{ value | replace: '"', '' | downcase }}"
+                                    for="upsell-option-{{ upsell.id }}-opt-{{ option_position }}-{{ value_index0 }}">
+                                    <span class="{% if settings.swatch_style != 'listed' %}visually-hidden {% endif %}js-value">{{ value }}</span>
+                                  </label>
+                                {%- endif -%}
+                              {% else %}
+                                <label class="opt-label opt-label--btn btn relative text-center"
+                                  for="upsell-option-{{ upsell.id }}-opt-{{ option_position }}-{{ value_index0 }}">
+                                  {{ value }}
+                                </label>
+                              {% endif %}
                             {% endfor %}
                           </div>
 
