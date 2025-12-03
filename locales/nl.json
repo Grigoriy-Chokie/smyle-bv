@@ -137,7 +137,8 @@
       "subscription_form": {
         "subscription": "Met abonnement",
         "no_subscription": "Zonder abonnement",
-        "cancel_info": "Skip, pauzeer, of annuleer op elk moment"
+        "cancel_info": "Skip, pauzeer, of annuleer op elk moment",
+        "delivery_label": "Bezorgopties"
       },
       "select_a_option": "Selecteer",
       "shop": "Shop",

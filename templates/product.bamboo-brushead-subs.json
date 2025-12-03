@@ -165,7 +165,7 @@
             "enable_shipping_badge": true,
             "sale_badge_text": "10% Discount",
             "shipping_badge_text": "+Lifetime guarantee on eBrush",
-            "subscription_text": "Every 4 months, 2 replacement brush heads"
+            "subscription_text": "Every [delivery_option], 2 replacement brush heads"
           }
         },
         "buy-buttons": {

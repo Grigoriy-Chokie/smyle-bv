@@ -135,7 +135,8 @@
       "subscription_form": {
         "subscription": "Abonnement",
         "no_subscription": "Kein Abonnement",
-        "cancel_info": "Überspringen, pausieren oder jederzeit abbrechen"
+        "cancel_info": "Überspringen, pausieren oder jederzeit abbrechen",
+        "delivery_label": "Lieferoptionen"
       },
       "select_a_option": "Wählen Sie eine {{ option }}",
       "shop": "JETZT KAUFEN",
