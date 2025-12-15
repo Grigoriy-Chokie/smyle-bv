@@ -200,7 +200,7 @@
         "shipping_notice_3JzFgC": {
           "type": "shipping_notice",
           "settings": {
-            "text": "Fast & free CO2-neutral shipping from €29.99"
+            "text": "Fast & free CO2-neutral shipping from €59.99"
           }
         },
         "payment_icons_VFwNqi": {
@@ -300,7 +300,7 @@
           "type": "faq_item",
           "settings": {
             "question": "<p>FAST SHIPPING</p>",
-            "answer": "<p>Your ultimate cleaning experience is coming! And who likes shipping costs? No one! We deliver your package within 3-5 business days anywhere in Europe. <br/><br/>Free shipping for all subscription orders and above €29.99</p>"
+            "answer": "<p>Your ultimate cleaning experience is coming! And who likes shipping costs? No one! We deliver your package within 3-5 business days anywhere in Europe. <br/><br/>Free shipping for all subscription orders and above €59.99</p>"
           }
         },
         "faq_item_9reNcE": {

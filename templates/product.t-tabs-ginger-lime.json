@@ -18,6 +18,7 @@
         },
         "text_f43Bdw": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Available in 3500+ stores",
             "icon": "",
@@ -38,6 +39,7 @@
         },
         "text_VpKizt": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
             "icon": "star",
@@ -263,7 +265,7 @@
           "type": "faq_item",
           "settings": {
             "question": "<p>FAST SHIPPING</p>",
-            "answer": "<p>Your ultimate cleaning experience is coming! And who likes shipping costs? No one! We deliver your package within 3-8 business days anywhere in Europe. <br/><br/>Free shipping for all subscription orders and above €29.99</p>"
+            "answer": "<p>Your ultimate cleaning experience is coming! And who likes shipping costs? No one! We deliver your package within 3-8 business days anywhere in Europe. <br/><br/>Free shipping for all subscription orders and above €59.99</p>"
           }
         }
       },

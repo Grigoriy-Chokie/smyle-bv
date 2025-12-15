@@ -303,12 +303,9 @@
     class SubscriptionForm extends HTMLElement {
         constructor() {
             super();
-            this.inputs = Array.from(this.querySelectorAll('input:not([data-delivery-option])'));
+            this.inputs = Array.from(this.querySelectorAll('input'));
             this.idInputs = Array.from(this.querySelectorAll('[name="items[0][id]"]'));
-            this.sellingPlanInputs = Array.from(this.querySelectorAll('[name="selling_plan"], [name="items[0][selling_plan]"]'));
-            this.deliveryOptions = Array.from(this.querySelectorAll('input[data-delivery-option]'));
-            this.planValueInputs = Array.from(this.querySelectorAll('[data-selling-plan-input]'));
-            this.deliveryLabels = Array.from(this.querySelectorAll('[data-selected-delivery-label]'));
+            this.sellingPlanInputs = Array.from(this.querySelectorAll('[name="selling_plan"]'));
             
             this.productForm = this.closest('product-form');
             this.quantityRules = this.productForm?.querySelector('quantity-rules') || null;
@@ -318,7 +315,6 @@
             this.price = this.querySelector('.option-price');
 
             this.attachEventListeners();
-            this.syncSellingPlanValue();
         }
 
         attachEventListeners() {
@@ -329,10 +325,6 @@
             this.sellingPlanInputs.forEach(input => {
                 input.addEventListener('change', () => this.handleSellingPlanInputChange(input));
             })
-
-            this.deliveryOptions.forEach(option => {
-                option.addEventListener('change', () => this.updateSellingPlan(option));
-            });
 
             if(!this.price) return
             document.querySelector('variant-picker')?.addEventListener('on:variant:change', this.updatePrice.bind(this));
@@ -345,14 +337,12 @@
             this.inputs.forEach(input => input.disabled = false);
 
             const wrapper = input.closest('[data-option]');
-            const currentInputs = Array.from(wrapper.querySelectorAll('input:not([data-delivery-option])'));
+            const currentInputs = Array.from(wrapper.querySelectorAll('input'));
 
             currentInputs.forEach(currentInput => {
                 currentInput.checked = true;
                 currentInput.disabled = isNoSubsButton;
             });
-
-            this.toggleDeliveryOptions(isNoSubsButton);
 
             if (this.quantityRules) this.quantityRules.quantityTypeSelector = isNoSubsButton ? 'onetime' : 'subscribe'
             if (this.colorQuantitySelector) {
@@ -380,56 +370,17 @@
                 purchaseOptions.purchase_type = isNoSubsButton ? 'onetime' : 'subscription';
                 window.dispatchEvent(new CustomEvent('on:price:changed'));
             }
-
-            if (!isNoSubsButton) this.syncSellingPlanValue();
         }
 
         handleSellingPlanInputChange(input) {
             if (!input) return;
 
             const isNoSubsButton = input.value === '';
-            this.toggleDeliveryOptions(isNoSubsButton);
-            if (!isNoSubsButton) this.syncSellingPlanValue();
             if (this.quantityRules) this.quantityRules.quantityTypeSelector = isNoSubsButton ? 'onetime' : 'subscribe';
             if (purchaseOptions) {
                 purchaseOptions.purchase_type = isNoSubsButton ? 'onetime' : 'subscription';
                 window.dispatchEvent(new CustomEvent('on:price:changed'));
             }
-        }
-
-        toggleDeliveryOptions(isDisabled) {
-            if (!this.deliveryOptions) return;
-            this.deliveryOptions.forEach(option => option.disabled = isDisabled);
-        }
-
-        getSelectedDeliveryOption() {
-            if (!this.deliveryOptions) return null;
-            return this.deliveryOptions.find(option => option.checked) || this.deliveryOptions[0] || null;
-        }
-
-        syncSellingPlanValue() {
-            const selectedOption = this.getSelectedDeliveryOption();
-            if (!selectedOption) return;
-
-            if (!selectedOption.checked) selectedOption.checked = true;
-            this.updateSellingPlan(selectedOption);
-        }
-
-        updateSellingPlan(optionInput) {
-            if (!optionInput) return;
-
-            const planId = optionInput.value;
-            if (!planId) return;
-
-            this.planValueInputs?.forEach(input => {
-                input.value = planId;
-                if (input.type === 'radio') input.checked = true;
-            });
-
-            const label = optionInput.dataset.planLabel;
-            if (!label) return;
-
-            this.deliveryLabels?.forEach(labelEl => labelEl.textContent = label);
         }
 
         updatePrice(event) {

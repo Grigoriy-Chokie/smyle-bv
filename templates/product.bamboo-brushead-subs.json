@@ -39,6 +39,7 @@
         },
         "text_ireRDC": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
             "icon": "star",
@@ -165,7 +166,13 @@
             "enable_shipping_badge": true,
             "sale_badge_text": "10% Discount",
             "shipping_badge_text": "+Lifetime guarantee on eBrush",
-            "subscription_text": "Every [delivery_option], 2 replacement brush heads"
+            "subscription_text": "Every 4 months, 2 replacement brush heads"
+          }
+        },
+        "divider_pKynCD": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
           }
         },
         "buy-buttons": {
@@ -175,7 +182,7 @@
             "show_backorder_text": false,
             "show_pickup_availability": true,
             "show_gift_card_recipient": false,
-            "show_quantity_selector": true,
+            "show_quantity_selector": false,
             "quantity_selector_type": "selector",
             "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
             "additional_product": ""
@@ -184,7 +191,7 @@
         "shipping_notice_cDmyLN": {
           "type": "shipping_notice",
           "settings": {
-            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €29.99"
+            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €59.99"
           }
         },
         "shipping_notice_JmJtD3": {
@@ -220,6 +227,7 @@
         "delivery_dates_K3h9Vc",
         "divider_BCE4PQ",
         "subscription_form_Nwin76",
+        "divider_pKynCD",
         "buy-buttons",
         "shipping_notice_cDmyLN",
         "shipping_notice_JmJtD3",

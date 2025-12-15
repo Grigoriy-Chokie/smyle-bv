@@ -61,12 +61,12 @@
     "image_with_text_overlay_rBLJaM": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/Banner_BF_25_no_code-01.jpg",
-        "mobile_image": "shopify://shop_images/Banner_BF_Mobile_25_EN.jpg",
+        "image": "shopify://shop_images/Banner_Gifting_Desktop_EN.jpg",
+        "mobile_image": "shopify://shop_images/Banner_Gifting_Mobile_EN_1.jpg",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 400,
-        "image_link": "/collections/all-products",
+        "image_link": "shopify://collections/holiday-gifting",
         "full_width": true,
         "text_alignment": "center center",
         "mobile_overlay_under": false,
@@ -160,6 +160,7 @@
     },
     "featured_collection_eMAQQY": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "Featured collection",
       "settings": {
         "title": "BLACK FRIDAY favorites",
@@ -190,7 +191,7 @@
         "enable_carousel": false,
         "grid": 4,
         "rows": 1,
-        "color_scheme": "1",
+        "color_scheme": "default",
         "show_view_all": false,
         "full_width": true,
         "show_variants": false,
@@ -237,7 +238,7 @@
         "image_position": "left",
         "text_alignment": "center",
         "title_alignment": "center",
-        "color_scheme": "default"
+        "color_scheme": "1"
       }
     },
     "logos_7A3KmA": {

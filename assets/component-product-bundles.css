@@ -52,8 +52,7 @@ product-bundles.product-bundles {
           margin-bottom: 0;
         }
 
-        .bundle-item__discount:has(.discount_percent:empty),
-        .bundle-item__discount:empty {
+        .bundle-item__discount:has(.discount_percent:empty) {
           display: none;
         }
       }

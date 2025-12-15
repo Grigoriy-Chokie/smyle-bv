@@ -94,7 +94,7 @@
         "text_AgE6Xi": {
           "type": "text",
           "settings": {
-            "text": "Better Together – Get a Second eBrush for 50% Off. Double the smiles, half the price. Grab two E-Brushes — get <strong>20% off your first one</strong> and <strong>50% off your second! </strong>With colours and patterns to match every vibe and every personality, there’s literally one for everyone. Keep one for yourself, gift one to your partner-in-crime! Twice the fun. Twice the clean. Zero boring brushing.",
+            "text": "Better Together – Get a Second eBrush for 50% Off. Double the smiles, half the price. Grab two E-Brushes or more. <strong> </strong>With colours and patterns to match every vibe and every personality, there’s literally one for everyone. Keep one for yourself, gift one to your partner-in-crime! Twice the fun. Twice the clean. Zero boring brushing.",
             "icon": "",
             "icon_size": "small",
             "enable_box": false,
@@ -125,6 +125,17 @@
         "divider_XHXyNe": {
           "type": "divider",
           "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "richtext_bmHR7i": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p><strong>Holiday update:Purple, Black & Baby Blue</strong>E-Brush are sold out. You can still order it as a pre-order. Delivery: December 28–31. <strong>Other colors are still in stock for now — order quickly while supplies last. Free fast shipping included.</strong></p>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#000000",
             "show_in_quickbuy": false
           }
         },
@@ -222,6 +233,7 @@
         "text_eYwVay",
         "toggle_info_r8KEcD",
         "divider_XHXyNe",
+        "richtext_bmHR7i",
         "color_quantity_selector_KTzFwh",
         "upsells_multiselect_xyytkg",
         "upsells_hMf4TV",

@@ -114,11 +114,13 @@
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
-            "show_quantity_selector": true,
             "enable_payment_button": false,
             "show_backorder_text": false,
             "show_pickup_availability": true,
             "show_gift_card_recipient": false,
+            "show_quantity_selector": true,
+            "quantity_selector_type": "selector",
+            "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
             "additional_product": ""
           }
         },

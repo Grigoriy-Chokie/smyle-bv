@@ -46,7 +46,7 @@
         "text_rLQkFK": {
           "type": "text",
           "settings": {
-            "text": "<strong>BLACK FRIDAY: 20% OFF + 50% OFF EXTRA BRUSHES</strong>",
+            "text": "<strong>HOLIDAY OFFER: + FREE TOOTHPASTE TUBE</strong>",
             "icon": "star",
             "icon_size": "small",
             "enable_box": true,
@@ -118,13 +118,24 @@
           "type": "toggle_info",
           "settings": {
             "title": "50% OFF every additional e-brush",
-            "badge_text": "BLACK FRIDAY BUNDLE OFFER",
+            "badge_text": "BUNDLE OFFER",
             "image": "shopify://shop_images/ExtraBrush_Offer_ENG.jpg"
           }
         },
         "divider_UmKhM9": {
           "type": "divider",
           "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "text_8xnifw": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>NOTE:</strong> <strong>Purple, Black & Baby Blue</strong> E-Brush are sold out. You can still order it as a pre-order. Delivery: December 28–31. <strong>Other colors are still in stock for now — order quickly while supplies last. Free fast shipping included.</strong>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#000000",
             "show_in_quickbuy": false
           }
         },
@@ -168,15 +179,14 @@
         },
         "delivery_dates_RUh4J6": {
           "type": "delivery_dates",
-          "disabled": true,
           "settings": {
-            "show_on_variants": "Pink,Black,Heinen Delfts Blauw",
-            "heading_text": "<p><strong>NOTE:</strong>The Black, Heinen Delfts Blauw and Pink E-brush are currently sold out. Due to extreme demand, we are working with pre-orders.</p>",
+            "show_on_variants": "Purple",
+            "heading_text": "<p><strong>NOTE:</strong>The Purple E-brush is currently sold out. Due to extreme demand, we are working with pre-orders.</p>",
             "heading_highlighted_text": "Order now to secure your spot for the next delivery. only 500 pieces per batch.",
             "heading_badge": "",
             "delivery_title": "Delivery dates",
-            "delivery_info_1": "<p>24 – 30 november – 400 of 500 beschikbaar</p>",
-            "delivery_info_2": "<p>02 – 10 december – 500 beschikbaar</p>",
+            "delivery_info_1": "<p>22 - 30 December – 400 of 500 available</p>",
+            "delivery_info_2": "<p>02 - 10 January – 500 available</p>",
             "delivery_info_3": "",
             "additional_info": "<p>All other colors: Fast & Free Shipping</p>"
           }
@@ -266,7 +276,7 @@
             "show_quantity_selector": false,
             "quantity_selector_type": "selector",
             "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
-            "additional_product": ""
+            "additional_product": "smyle-whitening-toothpaste-with-fluoride"
           }
         },
         "text_K3p93x": {
@@ -340,6 +350,7 @@
         "text_AgE6Xi",
         "toggle_info_p9LN3U",
         "divider_UmKhM9",
+        "text_8xnifw",
         "text_A8XPrz",
         "text_eYwVay",
         "variant_picker_MmT4py",

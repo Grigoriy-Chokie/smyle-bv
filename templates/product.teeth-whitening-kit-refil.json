@@ -39,6 +39,7 @@
         },
         "text_wzTFgG": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
             "icon": "star",

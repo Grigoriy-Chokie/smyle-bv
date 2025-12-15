@@ -74,7 +74,6 @@
         "variant_picker_9QqWX8": {
           "type": "variant-picker",
           "settings": {
-            "show_price_difference_badge": true,
             "order_number": "",
             "custom_title": "",
             "show_single": false,

@@ -1,0 +1,32 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "parent": "page.01-start-eb-reo-single-01.json",
+  "context": {
+    "market": "uk"
+  },
+  "sections": {
+    "image_with_text_overlay_Aak8L8": {
+      "settings": {
+        "image": "shopify://shop_images/Banner_desktop_EN_Pounds.jpg",
+        "mobile_image": "shopify://shop_images/Banner_mobile_EN_pounds.jpg"
+      }
+    },
+    "featured_main_product_RNnmUG": {
+      "blocks": {
+        "text_wXrha8": {
+          "settings": {
+            "text": "<strong>CHRISTMAS OFFER:</strong> FREE ORAL CARE KIT (WORTH £31)"
+          }
+        }
+      }
+    }
+  }
+}

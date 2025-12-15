@@ -53,6 +53,7 @@
         },
         "text_hNNMKT": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
             "icon": "star",
@@ -171,7 +172,7 @@
         "shipping_notice_VjQxVL": {
           "type": "shipping_notice",
           "settings": {
-            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €29.99"
+            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €59.99"
           }
         },
         "payment_icons_tXdYww": {
@@ -357,7 +358,7 @@
           "type": "faq_item",
           "settings": {
             "question": "<p>FAST & FREE SHIPPING</p>",
-            "answer": "<p>Free shipping from €29.99 – or always free with a subscription.</p><p>Delivered in 3–5 business days, anywhere in Europe.</p>"
+            "answer": "<p>Free shipping from €59.99 – or always free with a subscription.</p><p>Delivered in 3–5 business days, anywhere in Europe.</p>"
           }
         },
         "faq_item_LTTVCr": {

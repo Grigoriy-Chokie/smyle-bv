@@ -133,6 +133,7 @@
         },
         "delivery_dates_RthtXx": {
           "type": "delivery_dates",
+          "disabled": true,
           "settings": {
             "show_on_variants": "Medium",
             "heading_text": "<p><strong>NOTE: </strong>Medium brush heads currently out of stock.<br/><br/>Delivery date: 16 - 20 September</p>",

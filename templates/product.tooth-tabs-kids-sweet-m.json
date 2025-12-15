@@ -49,6 +49,7 @@
         },
         "text_Mfqa6F": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>BLACK FRIDAY: 20% OFF WITH CODE: BF20 (</strong>MIN. ORDER VALUE €49.99)",
             "icon": "star",
@@ -228,7 +229,7 @@
         "shipping_notice_GX9zNa": {
           "type": "shipping_notice",
           "settings": {
-            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €29.99"
+            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €59.99"
           }
         },
         "description": {

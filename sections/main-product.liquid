@@ -499,7 +499,7 @@
           
           {% when 'subscription-form' %}
             <div class="input-row" {{ block.shopify_attributes }}>
-              {% render 'subscription-form-multivariant', block: block, original_product: product, product_form_id: product_form_id %}
+              {% render 'subscription-form', block: block, original_product: product, product_form_id: product_form_id %}
             </div>
 
           {% when 'color-quantity-selector' %}
@@ -1244,7 +1244,7 @@
             <script src="{{ 'component-toggle-info.js' | asset_url }}" defer></script>
           {% when "upsells_multiselect" %}
             <div class="input-row" {{ block.shopify_attributes }}>
-              {% render 'upsells-multiselect-variants', block: block, product_form_id: product_form_id, option_index: forloop.index %}
+              {% render 'upsells-multiselect', block: block, product_form_id: product_form_id, option_index: forloop.index %}
             </div>
           {% endcase %}
       {% endfor %}
@@ -2285,8 +2285,8 @@
           "type": "textarea",
           "id": "subscription_text",
           "label": "Subscription text",
-          "info": "Use [quantity] to add changeable quantity element, and [delivery_option] to add selected fraquancy",
-          "default": "Every [delivery_option], [quantity] replacement brushes"
+          "info": "Use [quantity] to add changeable quantity element",
+          "default": "Every 4 months, [quantity] replacement brushes"
         }
       ]
     },
@@ -2315,13 +2315,6 @@
       "type": "variant-picker",
       "name": "Variant picker",
       "settings": [
-        {
-          "type": "checkbox",
-          "id": "show_price_difference_badge",
-          "label": "Show price difference badge",
-          "info": "If variant price is highter than others then badge with difference would be shown.",
-          "default": true
-        },
         {
           "type": "text",
           "id": "order_number",

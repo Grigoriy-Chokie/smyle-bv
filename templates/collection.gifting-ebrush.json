@@ -1,0 +1,699 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_overlay_8Extfp": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_tkymfw": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Tell your story"
+          }
+        },
+        "heading_W66EmE": {
+          "type": "heading",
+          "settings": {
+            "title": "CHRISTMASS GIFTSETS",
+            "heading_max_width": 15,
+            "title_size": 54,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_NmMLhL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Gifting, Upgraded – Premium Oral Care Starts Here</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_tkymfw",
+        "heading_W66EmE",
+        "text_NmMLhL"
+      ],
+      "disabled": true,
+      "name": "Image with text overlay",
+      "settings": {
+        "image": "shopify://shop_images/Fluoride_PDP_03_1.jpg",
+        "height": "fixed",
+        "height_desktop": 520,
+        "height_mobile": 460,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "banner": {
+      "type": "collection-banner",
+      "settings": {
+        "height": "small",
+        "color_scheme": "2",
+        "title": "🎁 Holiday Gift Sets",
+        "description": "<p><em>Who knew oral care could be gift-worthy?</em><br/>Well… we did. Smyle gift sets are made for the TikTok-crowd, the eco-freaks and that one sibling who tracks their REM sleep.<br/></p>"
+      }
+    },
+    "collection_navbar_rKaiR7": {
+      "type": "collection-navbar",
+      "blocks": {
+        "collection_rfAYrh": {
+          "type": "collection",
+          "settings": {
+            "collection": "all-products",
+            "title": ""
+          }
+        },
+        "collection_X6ffU8": {
+          "type": "collection",
+          "settings": {
+            "collection": "black-friday",
+            "title": ""
+          }
+        },
+        "collection_9KL3hk": {
+          "type": "collection",
+          "settings": {
+            "collection": "holiday-gifting",
+            "title": ""
+          }
+        },
+        "collection_yPmE96": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-under-21",
+            "title": "Gifts Under €20"
+          }
+        },
+        "collection_NNyDn7": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-under-51",
+            "title": "Gifts Under €50"
+          }
+        },
+        "collection_XUJxDp": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-under-81",
+            "title": "Gifts Under €80"
+          }
+        },
+        "collection_rMM7ni": {
+          "type": "collection",
+          "settings": {
+            "collection": "luxury-gifts-1",
+            "title": ""
+          }
+        },
+        "collection_X8QFp6": {
+          "type": "collection",
+          "settings": {
+            "collection": "electric-toothbrush",
+            "title": ""
+          }
+        },
+        "collection_et7gwE": {
+          "type": "collection",
+          "settings": {
+            "collection": "brush-heads",
+            "title": ""
+          }
+        },
+        "collection_dyhWL4": {
+          "type": "collection",
+          "settings": {
+            "collection": "toothpaste-tablets",
+            "title": ""
+          }
+        },
+        "collection_cJ83Hp": {
+          "type": "collection",
+          "settings": {
+            "collection": "whitening",
+            "title": ""
+          }
+        },
+        "collection_jKiXU3": {
+          "type": "collection",
+          "settings": {
+            "collection": "sensitive-teeth",
+            "title": ""
+          }
+        },
+        "collection_7rhqMX": {
+          "type": "collection",
+          "settings": {
+            "collection": "bundles-packages",
+            "title": ""
+          }
+        },
+        "collection_wBzPxP": {
+          "type": "collection",
+          "settings": {
+            "collection": "best-sellers",
+            "title": ""
+          }
+        },
+        "collection_Hght8k": {
+          "type": "collection",
+          "settings": {
+            "collection": "mouthwash-tablets",
+            "title": "Mouthwash Tablets"
+          }
+        },
+        "collection_XdWazG": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessories",
+            "title": "Accessories"
+          }
+        },
+        "collection_B6g6kE": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_rfAYrh",
+        "collection_X6ffU8",
+        "collection_9KL3hk",
+        "collection_yPmE96",
+        "collection_NNyDn7",
+        "collection_XUJxDp",
+        "collection_rMM7ni",
+        "collection_X8QFp6",
+        "collection_et7gwE",
+        "collection_dyhWL4",
+        "collection_cJ83Hp",
+        "collection_jKiXU3",
+        "collection_7rhqMX",
+        "collection_wBzPxP",
+        "collection_Hght8k",
+        "collection_XdWazG",
+        "collection_B6g6kE"
+      ],
+      "settings": {}
+    },
+    "featured_collection_bqe7iQ": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "GIFTING BUNDLES",
+        "title_alignment": "start",
+        "collection": "best-deal",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "image_with_text_HaczYa": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xzTDNP": {
+          "type": "heading",
+          "settings": {
+            "title": "Big smiles, every budget",
+            "use_h1": false
+          }
+        },
+        "text_TTtAaJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Browse gifts under €20, €50, €80 or go all out with our luxury picks. Spoil smart <em>and</em> sustainably.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xzTDNP",
+        "text_TTtAaJ"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/02_1da898c9-4a23-4273-a99d-06323cd54686.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_MPqna3": {
+      "type": "rich-text",
+      "blocks": {
+        "text_YzGizr": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_YzGizr"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_CxhgXP": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Gifts under €20",
+        "title_alignment": "start",
+        "collection": "gifts-under-21",
+        "has_bottom_splitter": true,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": true,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_F3m9dj": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Gifts under €50",
+        "title_alignment": "start",
+        "collection": "gifts-under-51",
+        "has_bottom_splitter": true,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": true,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_iVWzUK": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Gifts under €80",
+        "title_alignment": "start",
+        "collection": "gifts-under-81",
+        "has_bottom_splitter": true,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": true,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "featured_collection_LK3Qj8": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "luxury gifts",
+        "title_alignment": "start",
+        "collection": "luxury-gifts-1",
+        "has_bottom_splitter": true,
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": true,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "collection_list_CPTHnM": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_KxDipJ": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "toothpaste-tubes",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_Je7B7e": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-under-21",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_CARMYe": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-under-51",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_RmmEBY": {
+          "type": "collection",
+          "settings": {
+            "collection": "gifts-under-81",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_4biXGV": {
+          "type": "collection",
+          "settings": {
+            "collection": "luxury-gifts-1",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_Ddhgkf": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_KxDipJ",
+        "collection_Je7B7e",
+        "collection_CARMYe",
+        "collection_RmmEBY",
+        "collection_4biXGV",
+        "collection_Ddhgkf"
+      ],
+      "disabled": true,
+      "name": "Collection list",
+      "settings": {
+        "title": "Gifts by Budget",
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "image_with_text_NpaNWK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rR7baq": {
+          "type": "heading",
+          "settings": {
+            "title": "Unwrap smarter brushing this Christmas",
+            "use_h1": false
+          }
+        },
+        "text_CVYrEr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stronger teeth, healthier gums, fresher breath — powered by 38,000 sonic vibrations per minute and zero plastic waste.</p><ul><li>Deep-clean tech = fewer cavities<br/></li><li>Bamboo brush heads = no plastic guilt<br/></li><li>120-day battery = charge 3× a year<br/></li><li>Dentist-approved & planet-loved<br/></li></ul><p></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rR7baq",
+        "text_CVYrEr"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/01_83a249b0-723d-49e7-a626-86041734c576.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "title_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "featured_collection_BkrqAm": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "title": "Gifts by Persona",
+        "title_alignment": "start",
+        "collection": "personas",
+        "has_bottom_splitter": false,
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true,
+        "show_variants": false,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": true,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 24,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": false,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": false,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "collection_list_UA4PFW": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_FYYdqd": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_FYYdqd"
+      ],
+      "disabled": true,
+      "name": "Collection list",
+      "settings": {
+        "title": "personality",
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "collection_list_ajGUA4": {
+      "type": "collection-list",
+      "disabled": true,
+      "name": "Collection list",
+      "settings": {
+        "title": "best deal",
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "media_carousel_RFXeDF": {
+      "type": "media-carousel",
+      "disabled": true,
+      "name": "Media Carousel (Metaobj)",
+      "settings": {
+        "title": "100.000+ CUSTOMERS LOVE SMYLE",
+        "title_alignment": "start",
+        "metaobject": "ugc-ebrush-all-colours-panther",
+        "has_bottom_splitter": true,
+        "grid": 4,
+        "color_scheme": "1",
+        "full_width": true,
+        "padding_top": false,
+        "padding_bottom": false
+      }
+    },
+    "multi_column_qYpCKR": {
+      "type": "multi-column",
+      "blocks": {
+        "text_block_8nRVwB": {
+          "type": "text_block",
+          "settings": {
+            "enable_media": true,
+            "image": "shopify://shop_images/Dentist_1.png",
+            "title": "",
+            "text": "<p>\"Smyle has developed innovative products that are environmentally friendly and effective, aligning with targeted preventive care.\"</p><p><strong>Hero Abdullah, Five25 Dental Hygienists</strong></p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_DCpgk9": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_media": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_YkHyeD": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_media": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        },
+        "text_block_CDPQHX": {
+          "type": "text_block",
+          "disabled": true,
+          "settings": {
+            "enable_media": true,
+            "title": "Add a title or tagline",
+            "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>",
+            "button_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_block_8nRVwB",
+        "text_block_DCpgk9",
+        "text_block_YkHyeD",
+        "text_block_CDPQHX"
+      ],
+      "disabled": true,
+      "name": "Multi-column",
+      "settings": {
+        "title": "DENTISTS LOVE SMYLE",
+        "media_aspect_ratio": "s",
+        "media_width": 350,
+        "text_alignment": "center",
+        "button_style": "primary",
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_8Extfp",
+    "banner",
+    "collection_navbar_rKaiR7",
+    "featured_collection_bqe7iQ",
+    "image_with_text_HaczYa",
+    "rich_text_MPqna3",
+    "featured_collection_CxhgXP",
+    "featured_collection_F3m9dj",
+    "featured_collection_iVWzUK",
+    "featured_collection_LK3Qj8",
+    "collection_list_CPTHnM",
+    "image_with_text_NpaNWK",
+    "featured_collection_BkrqAm",
+    "main",
+    "collection_list_UA4PFW",
+    "collection_list_ajGUA4",
+    "media_carousel_RFXeDF",
+    "multi_column_qYpCKR"
+  ]
+}

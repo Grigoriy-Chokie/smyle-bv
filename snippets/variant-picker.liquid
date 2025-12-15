@@ -281,43 +281,14 @@
                     endif
 
                     assign has_badge = false
-                    assign price_difference = nil
                     assign hide_price_difference_badge = product.metafields.price_difference_badge.hidden | default: false
 
-                    if is_swatch and block.settings.show_price_difference_badge
+                    if is_swatch and settings.show_price_difference_badge
                       unless hide_price_difference_badge
                         for variant in product.variants
-                          if variant.options[option_index0] == value
-                            assign matching_color_price = nil
-
-                            for other_variant in product.variants
-                              if other_variant.options[option_index0] != value
-                                assign has_same_options = true
-
-                                for option_value in variant.options
-                                  assign option_index = forloop.index0
-                                  if option_index != option_index0 and option_value != other_variant.options[option_index]
-                                    assign has_same_options = false
-                                  endif
-                                endfor
-
-                                if has_same_options
-                                  if matching_color_price == nil or other_variant.price < matching_color_price
-                                    assign matching_color_price = other_variant.price
-                                  endif
-                                endif
-                              endif
-                            endfor
-
-                            if matching_color_price and variant.price > matching_color_price
-                              assign variant_difference = variant.price | minus: matching_color_price
-
-                              if price_difference == nil or variant_difference < price_difference
-                                assign price_difference = variant_difference
-                              endif
-
-                              assign has_badge = true
-                            endif
+                          if variant.options[option_index0] == value and variant.price > product.price_min
+                            assign has_badge = true
+                            assign price_difference = variant.price | minus: product.price_min
                           endif
                         endfor
                       endunless

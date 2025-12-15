@@ -43,58 +43,10 @@
             "save_pattern": "Save 25% + 2nd brush 50% off"
           }
         },
-        "text_tCx6Lf": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "🦷  <strong>Healthier & stronger teeth</strong> through <strong>sonic power</strong>",
-            "icon": "",
-            "icon_size": "small",
-            "enable_box": false,
-            "box_color": "#e0f4d5",
-            "show_in_quickbuy": false
-          }
-        },
-        "text_mUy8Vr": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "✅ <strong>99.9% removal </strong>of plaque bacteria (tested by CTI)",
-            "icon": "",
-            "icon_size": "small",
-            "enable_box": false,
-            "box_color": "#e0f4d5",
-            "show_in_quickbuy": false
-          }
-        },
-        "text_yxP7MU": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "🌿  <strong>Free</strong> <strong>Lifetime warranty</strong> “Never buy a new one again”",
-            "icon": "",
-            "icon_size": "small",
-            "enable_box": false,
-            "box_color": "#e0f4d5",
-            "show_in_quickbuy": false
-          }
-        },
-        "text_kJTXNt": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "♻️  <strong>Sustainable</strong> <strong>bamboo</strong> brush heads",
-            "icon": "",
-            "icon_size": "small",
-            "enable_box": false,
-            "box_color": "#e0f4d5",
-            "show_in_quickbuy": false
-          }
-        },
         "text_AgE6Xi": {
           "type": "text",
           "settings": {
-            "text": "Meet the bundle that<strong> keeps everyone grinning </strong>— Get <strong>20% off your first E-Brush</strong> and <strong>50% off each extra one! </strong>Perfect for families, flatmates, or friends who are done with boring brushing. Mix & match colours and patterns to fit every personality.",
+            "text": "Meet the bundle that<strong> keeps everyone grinning </strong>— Get <strong>50% off each extra E_Brush! </strong>Perfect for families, flatmates, or friends who are done with boring brushing. Mix & match colours and patterns to fit every personality.",
             "icon": "",
             "icon_size": "small",
             "enable_box": false,
@@ -119,12 +71,23 @@
           "settings": {
             "title": "50% OFF every additional e-brush",
             "badge_text": "Bundle Offer!",
-            "image": "shopify://shop_images/Screenshot_2025-05-21_at_15.55.16.png"
+            "image": "shopify://shop_images/ExtraBrush_Offer_ENG.jpg"
           }
         },
         "divider_XHXyNe": {
           "type": "divider",
           "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "richtext_Cyx9We": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p><strong>Holiday update: Purple, Black & Baby Blue</strong>E-Brush are sold out. You can still order it as a pre-order. Delivery: December 28–31. <strong>Other colors are still in stock for now — order quickly while supplies last. Free fast shipping included.</strong></p>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#000000",
             "show_in_quickbuy": false
           }
         },
@@ -214,14 +177,11 @@
         "text_f43Bdw",
         "custom_liquid_XkieCz",
         "price",
-        "text_tCx6Lf",
-        "text_mUy8Vr",
-        "text_yxP7MU",
-        "text_kJTXNt",
         "text_AgE6Xi",
         "text_eYwVay",
         "toggle_info_r8KEcD",
         "divider_XHXyNe",
+        "richtext_Cyx9We",
         "color_quantity_selector_KTzFwh",
         "upsells_multiselect_xyytkg",
         "upsells_hMf4TV",

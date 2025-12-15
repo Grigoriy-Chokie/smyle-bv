@@ -99,9 +99,7 @@
       "subscription_form": {
         "subscription": "Subscription",
         "no_subscription": "No Subscription",
-        "cancel_info": "Skip, pause, or cancel anytime",
-        "delivery_label": "Delivery options",
-        "frequency": "Select frequency:"
+        "cancel_info": "Skip, pause, or cancel anytime"
       },
       "select_a_option": "Select a {{ option }}",
       "more_swatches": "+ {{ count }} more",

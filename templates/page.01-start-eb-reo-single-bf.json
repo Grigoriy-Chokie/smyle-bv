@@ -38,8 +38,8 @@
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
       "settings": {
-        "image": "shopify://shop_images/Banner_desktop_EN.jpg",
-        "mobile_image": "shopify://shop_images/Banner_mobile_EN.jpg",
+        "image": "shopify://shop_images/Landing_Page_EN_c0b3a91d-5749-40bd-adfa-37c2728b10ad.jpg",
+        "mobile_image": "shopify://shop_images/Mobile_EN_941def65-2655-454d-a0ca-19e84c2cdaab.jpg",
         "height": "adapt",
         "height_desktop": 600,
         "height_mobile": 460,
@@ -132,7 +132,7 @@
         "button_GDFjh9"
       ],
       "settings": {
-        "image": "shopify://shop_images/panther_model_pantherebrush__1.jpg",
+        "image": "shopify://shop_images/3_9_ebrushes.jpg",
         "image_width": 700,
         "image_link": "",
         "image_position": "left",
@@ -347,33 +347,46 @@
         "text_wXrha8": {
           "type": "text",
           "settings": {
-            "text": "<strong>CHRISTMAS OFFER:</strong> FREE ORAL CARE KIT (WORTH €34.97)",
+            "text": "<strong>BLACK FRIDAY: 20% OFF + 50% OFF EXTRA BRUSHES</strong>",
             "icon": "star",
             "icon_size": "small",
             "enable_box": true,
-            "box_color": "#c20000",
+            "box_color": "#000000",
+            "show_in_quickbuy": false
+          }
+        },
+        "text_kjij3D": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>+ LIMITED-TIME OFFER: FREE TOOTHPASTE (T.W.V. €6.99)</strong>",
+            "icon": "star",
+            "icon_size": "small",
+            "enable_box": true,
+            "box_color": "#09728c",
             "show_in_quickbuy": false
           }
         },
         "text_WY7tB3": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "GET 2 FREE SMYLE TOOTHPASTE TUBES + A FREE TOILETRY BAG",
-            "icon": "box",
+            "text": "🦷 <strong>Sonic power</strong> for healthier & stronger teeth",
+            "icon": "",
             "icon_size": "small",
-            "enable_box": true,
-            "box_color": "#b8e0f8",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
             "show_in_quickbuy": false
           }
         },
         "text_wTDMQw": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "+ 2ND E-BRUSH 50% OFF",
-            "icon": "check_mark",
+            "text": "🌿 <strong>Lifetime warranty</strong> “Never buy a replacement again”",
+            "icon": "",
             "icon_size": "small",
-            "enable_box": true,
-            "box_color": "#000000",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
             "show_in_quickbuy": false
           }
         },
@@ -405,7 +418,7 @@
           "type": "toggle_info",
           "settings": {
             "title": "50% OFF every additional e-brush",
-            "badge_text": "Christmas Bundle Offer!",
+            "badge_text": "Black Friday Bundle Offer!",
             "image": "shopify://shop_images/ExtraBrush_Offer_ENG.jpg"
           }
         },
@@ -418,7 +431,7 @@
         "richtext_fpHgwB": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><strong>Holiday update:</strong> <strong>Purple, Black & Baby Blue</strong> E-Brush are sold out. You can still order it as a pre-order. Delivery: December 28–31. Other colors are available immediately with free fast shipping.</p>",
+            "richtext": "<p><strong>Black Friday update:</strong> The purple eBrush is sold out. You can still order it as a pre-order. Delivery: December 28–31. Other colors are available immediately with free fast shipping.</p>",
             "icon": "",
             "icon_size": "small",
             "enable_box": true,
@@ -492,7 +505,7 @@
             "show_quantity_selector": false,
             "quantity_selector_type": "selector",
             "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
-            "additional_product": "oral-care-bundle-free"
+            "additional_product": "toothpaste-tube-freshmint-fluoride"
           }
         },
         "text_cYbmzR": {
@@ -547,6 +560,7 @@
         "custom_liquid_TC6f6a",
         "price_YfF9r4",
         "text_wXrha8",
+        "text_kjij3D",
         "text_WY7tB3",
         "text_wTDMQw",
         "text_QGMCeE",

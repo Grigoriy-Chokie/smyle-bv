@@ -99,18 +99,20 @@
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
-            "show_quantity_selector": false,
             "enable_payment_button": false,
             "show_backorder_text": false,
             "show_pickup_availability": true,
             "show_gift_card_recipient": false,
+            "show_quantity_selector": false,
+            "quantity_selector_type": "selector",
+            "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
             "additional_product": ""
           }
         },
         "shipping_notice_cDmyLN": {
           "type": "shipping_notice",
           "settings": {
-            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €29.99"
+            "text": "Fast & free CO₂-neutral shipping on all subscriptions or orders from €59.99"
           }
         },
         "shipping_notice_JmJtD3": {

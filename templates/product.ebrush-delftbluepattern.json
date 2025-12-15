@@ -46,7 +46,7 @@
         "text_N6CkKj": {
           "type": "text",
           "settings": {
-            "text": "<strong>BLACK FRIDAY: 20% OFF + 50% OFF EXTRA BRUSHES</strong>",
+            "text": "<strong>HOLIDAY OFFER: + FREE TOOTHPASTE TUBE</strong>",
             "icon": "star",
             "icon_size": "small",
             "enable_box": true,
@@ -118,7 +118,7 @@
           "type": "toggle_info",
           "settings": {
             "title": "50% OFF every additional e-brush",
-            "badge_text": "BLACK FRIDAY BUNDLE OFFER",
+            "badge_text": "BUNDLE OFFER",
             "image": "shopify://shop_images/ExtraBrush_Offer_ENG.jpg"
           }
         },
@@ -128,27 +128,14 @@
             "show_in_quickbuy": false
           }
         },
-        "text_A8XPrz": {
+        "text_4BmrgV": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "✨ EXTRA 15% OFF Code: LENTE15",
+            "text": "<strong>Black Friday update:</strong> <strong>Purple, Black & Baby Blue</strong> E-Brush are sold out. You can still order it as a pre-order. Delivery: December 28–31. <strong>Other colors are still in stock for now — order quickly while supplies last. Free fast shipping included.</strong>",
             "icon": "",
             "icon_size": "small",
             "enable_box": true,
-            "box_color": "#f5a179",
-            "show_in_quickbuy": false
-          }
-        },
-        "text_eYwVay": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>🎉 </strong>LIMITED OFFER: <strong>each extra EBRUSH 50% off 🍀</strong>",
-            "icon": "",
-            "icon_size": "small",
-            "enable_box": false,
-            "box_color": "#e0f4d5",
+            "box_color": "#000000",
             "show_in_quickbuy": false
           }
         },
@@ -166,40 +153,6 @@
             "size_chart_page": ""
           }
         },
-        "delivery_dates_nYqKqa": {
-          "type": "delivery_dates",
-          "disabled": true,
-          "settings": {
-            "show_on_variants": "Pink,Black,Heinen Delfts Blauw",
-            "heading_text": "<p><strong>NOTE:</strong>The Black, Heinen Delfts Blauw and Pink E-brush are currently sold out. Due to extreme demand, we are working with pre-orders.</p>",
-            "heading_highlighted_text": "Order now to secure your spot for the next delivery — only 500 pieces per batch.",
-            "heading_badge": "",
-            "delivery_title": "Delivery dates",
-            "delivery_info_1": "<p>24 - 30 november – 400 of 500 available</p>",
-            "delivery_info_2": "<p>02 - 10 december – 500 available</p>",
-            "delivery_info_3": "",
-            "additional_info": "<p>All other colors: Fast & Free Shipping</p>"
-          }
-        },
-        "subscription_form_r8knzW": {
-          "type": "subscription-form",
-          "disabled": true,
-          "settings": {
-            "product": "electric-brush-heads-first-order",
-            "selling_plan": "4 months",
-            "enable_prices": true,
-            "discounted_price": "67.50",
-            "option_number": 2,
-            "option_title": "Select with or without subscription",
-            "option_guide_text": "How does it work?",
-            "option_guide_page": "how-does-our-subscription-work",
-            "enable_sale_badge": true,
-            "enable_shipping_badge": true,
-            "sale_badge_text": "12,5% Discount",
-            "shipping_badge_text": "+ Free Lifetime Warranty",
-            "subscription_text": "Every 4 months, 2 replacement brushes"
-          }
-        },
         "upsells_multiselect_UmTwwD": {
           "type": "upsells_multiselect",
           "settings": {
@@ -213,37 +166,6 @@
             "option_guide_page": ""
           }
         },
-        "upsells_multiselect_jnmHxq": {
-          "type": "upsells_multiselect",
-          "disabled": true,
-          "settings": {
-            "order_number": "2",
-            "title": "Popular add-ons",
-            "description": "Enjoy a lifetime warranty & always fresh brush heads. Receive 4 brush heads every 8 months. Pause or cancel anytime.",
-            "upsells": [
-              "4-pack-of-smyle-brush-heads-save-30-copy"
-            ],
-            "option_guide_text": "How does it work?",
-            "option_guide_page": "how-does-our-subscription-work"
-          }
-        },
-        "divider_XHXyNe": {
-          "type": "divider",
-          "disabled": true,
-          "settings": {
-            "show_in_quickbuy": false
-          }
-        },
-        "upsells_hMf4TV": {
-          "type": "upsells",
-          "disabled": true,
-          "settings": {
-            "title": "Mix & save",
-            "products": [
-              "travel-toiletry-bag"
-            ]
-          }
-        },
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
@@ -254,7 +176,7 @@
             "show_quantity_selector": false,
             "quantity_selector_type": "selector",
             "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
-            "additional_product": ""
+            "additional_product": "smyle-whitening-toothpaste-with-fluoride"
           }
         },
         "text_K3p93x": {
@@ -291,28 +213,6 @@
             "text_3": "Lifetime Warranty",
             "icon_3": "shopify://shop_images/Frame-ss.svg"
           }
-        },
-        "text_bBTPin": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<strong>Each extra eBrush </strong>for family & friends <strong>= 50% off </strong>",
-            "icon": "",
-            "icon_size": "small",
-            "enable_box": false,
-            "box_color": "#e0f4d5",
-            "show_in_quickbuy": false
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-            "show_in_tab": false,
-            "open_tab": false,
-            "icon": "",
-            "show_in_quickbuy": false
-          }
         }
       },
       "block_order": [
@@ -328,22 +228,14 @@
         "text_AgE6Xi",
         "toggle_info_p9LN3U",
         "divider_UmKhM9",
-        "text_A8XPrz",
-        "text_eYwVay",
+        "text_4BmrgV",
         "variant_picker_MmT4py",
-        "delivery_dates_nYqKqa",
-        "subscription_form_r8knzW",
         "upsells_multiselect_UmTwwD",
-        "upsells_multiselect_jnmHxq",
-        "divider_XHXyNe",
-        "upsells_hMf4TV",
         "buy-buttons",
         "text_K3p93x",
         "shipping_notice_VjQxVL",
         "payment_icons_tXdYww",
-        "benefits_F8fVjx",
-        "text_bBTPin",
-        "description"
+        "benefits_F8fVjx"
       ],
       "settings": {
         "show_breadcrumbs": false,

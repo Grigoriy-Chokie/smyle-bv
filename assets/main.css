@@ -485,6 +485,12 @@ table {
   margin-bottom: 32px;
 }
 
+@media (max-width: 767.98px) {
+.product-info__text{
+  margin-bottom: 12px;
+}
+}
+
 .product-info__text:has(+ .product-info__text){
   margin-bottom: 8px;
 }
@@ -1737,6 +1743,12 @@ h1,
   font-size: var(--larger-text-size);
 }
 
+@media (max-width: 767.98px) {
+  h1.product-title {
+  font-size: 26px;
+  }
+}
+
 h2,
 .h2 {
   font-size: calc(5 * var(--font-scale) + var(--base-text-size));
@@ -1772,7 +1784,7 @@ h6,
   }
 
   hr {
-    margin: 48px 0;
+    margin: 24px 0;
   }
 }
 h1,
@@ -7943,7 +7955,7 @@ input:checked + .opt-label--subscription .option-name::after {
   font-weight: var(--base-heading-font-weight);
 }
 
-.opt-info__item {
+.opt-info__item.info-item--recycle {
   margin-bottom: 12px;
 }
 
@@ -7952,55 +7964,6 @@ input:checked + .opt-label--subscription .option-name::after {
   height: 24px;
   min-width: 24px;
   margin-right: 8px;
-}
-
-.subscription-delivery {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 100%;
-  margin: 0;
-  padding-top: 12px;
-  border-top: 1px solid #EDEDED;
-}
-
-.subscription-delivery__title {
-  font-weight: 700;
-}
-
-.subscription-delivery__options {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  justify-content: flex-end;
-  width: 100%;
-}
-
-.subscription-delivery__option {
-  display: flex;
-}
-
-.subscription-delivery__pill {
-  display: inline-flex;
-  align-items: center;
-  padding: 6px 12px;
-  border-radius: 999px;
-  border: 1px solid #E1E1E1;
-  font-weight: 600;
-}
-
-.subscription-delivery__option input:focus-visible + .subscription-delivery__pill {
-  outline: 2px solid currentColor;
-  outline-offset: 2px;
-}
-
-.subscription-delivery__option input:checked + .subscription-delivery__pill {
-  border-color: rgb(var(--btn-bg-color));
-  background: rgba(var(--btn-bg-color), 0.08);
-}
-
-.subscription-delivery__single {
-  font-weight: 600;
 }
 
 .option-prices {
@@ -12885,4 +12848,13 @@ color-quantity-selector.swatch-style-with-quantity .opt-label--swatch quantity-s
   border-radius: unset !important;
   animation: none !important;
   width: unset !important;
+}
+
+
+
+
+@media (max-width: 767.98px) {
+.reviewwwidgetpdp img {
+  max-width: 110px!important;
+  height: auto!important;
 }

@@ -30,6 +30,7 @@
         },
         "text_tCx6Lf": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<strong>€4.95 PER MONTH</strong>",
             "icon": "",
@@ -122,7 +123,7 @@
           "type": "subscription-form",
           "settings": {
             "product": "{{ product }}",
-            "selling_plan": "4 months",
+            "selling_plan": "months",
             "enable_prices": true,
             "discounted_price": "",
             "option_number": 2,
@@ -188,12 +189,14 @@
         "buy-buttons": {
           "type": "buy-buttons",
           "settings": {
-            "show_quantity_selector": false,
             "enable_payment_button": false,
             "show_backorder_text": false,
             "show_pickup_availability": true,
             "show_gift_card_recipient": false,
-            "additional_product": "welcome-kit-bamboo-toothbrush-travel-tin"
+            "show_quantity_selector": false,
+            "quantity_selector_type": "selector",
+            "quantity_buttons_default": "1--1 Pack;2--2 Pack;3--3 Pack;",
+            "additional_product": ""
           }
         },
         "shipping_notice_3JzFgC": {

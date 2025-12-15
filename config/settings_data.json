@@ -492,6 +492,7 @@
     "prod_sold_out_show": true,
     "enable_product_reviews_collection": false,
     "swatch_source": "theme",
+    "show_price_difference_badge": true,
     "swatch_option_name": "Color, Sonic Electric Toothbrush (Color),Kleur,Farbe,Select Sonic Electric Toothbrush - LP single A (Color)",
     "swatch_method": "swatches",
     "swatch_value_list": "Green: #B5E6B4\nBlue: #A6D3EB\nBlack: #000000\nPurple: #CEB7EF\nPink: #FFC0CB\nWhite: #FFFFFF\nPanther: panther.png\nGroen: #B5E6B4\nBlauw: #A6D3EB\nZwart: #000000\nPaars: #CEB7EF\nRoze: #FFC0CB\nWit: #FFFFFF\nGrün: #B5E6B4\nBlau: #A6D3EB\nSchwarz: #000000\nLila: #CEB7EF\nRosa: #FFC0CB\nWeiß: #FFFFFF\nDelft Blue: Delfts_Icon_Delfts_2.png\nheinen delfts blauw: Delfts_Icon_Delfts_2.png\nHeinen Delfts Blauw: Delfts_Icon_Delfts_2.png\nJungle: Jungle_Icon_3b00c19f-a980-4ab0-aeca-ea60f955fdb1.jpg\nZebra: Zebra_Icon-10.png",
@@ -581,9 +582,9 @@
           "announcement-1": {
             "type": "announcement",
             "settings": {
-              "text": "<strong>🎉 BLACK FRIDAY: 20% OFF EVERYTHING </strong>(min<strong> </strong>€49.99)",
+              "text": "<strong>🎄 Perfect Christmas Gifts </strong>— Bundle & Save Up to 50% 🎁 ",
               "show_countdown": false,
-              "hide_on_end": true,
+              "hide_on_end": false,
               "end_date": "",
               "end_time": "",
               "number_font": "base",
@@ -592,8 +593,8 @@
               "bg_color": "#202020",
               "bg_gradient": "",
               "text_color": "#ffffff",
-              "text_alt": "✨  <strong>BLACK FRIDAY SALE</strong>✨UP TO 50% OFF + FREE SHIPPING",
-              "show_countdown_alt": false,
+              "text_alt": "<strong>🎄 CHRISTMAS OFFER:</strong> FREE ORAL CARE KIT (WORTH €34.97) + 2ND E-BRUSH 50% OFF & FREE SHIPPING",
+              "show_countdown_alt": true,
               "hide_on_end_alt": false,
               "end_date_alt": "",
               "end_time_alt": "",
@@ -690,6 +691,11 @@
       },
       "16216491870256628967": {
         "type": "shopify://apps/ta-labels-badges/blocks/bss-pl-config-data/91bfe765-b604-49a1-805e-3599fa600b24",
+        "disabled": false,
+        "settings": {}
+      },
+      "17676059084223943535": {
+        "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
         "disabled": false,
         "settings": {}
       }
